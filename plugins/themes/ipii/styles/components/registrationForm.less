@@ -1,0 +1,189 @@
+/**
+ * @file styles/components/registrationForm.less
+ * IPII Theme — registration page & form
+ */
+
+// ============================================================
+// PAGE WRAPPER
+// ============================================================
+.ipii-register-page {
+	padding: @space-10 0 @space-14;
+	background: @light-grey;
+	flex: 1;
+}
+
+// ============================================================
+// CARD
+// ============================================================
+.ipii-register-card {
+	background: @white;
+	border-radius: @radius-lg;
+	box-shadow: @shadow-md;
+	overflow: hidden;
+	animation: ipii-fadeInUp 0.4s ease both;
+}
+
+.ipii-register-card-header {
+	padding: 2.25rem @space-9 @space-7;
+	border-bottom: 1px solid @faded-grey;
+}
+
+.ipii-register-title {
+	font-size: @font-xl;
+	font-weight: 800;
+	color: @dark-grey;
+	letter-spacing: -0.03em;
+	margin: 0 0 @space-2;
+}
+
+.ipii-register-subtitle {
+	font-size: @font-sm;
+	color: @mid-grey;
+	margin: 0;
+
+	a {
+		font-weight: 600;
+		color: @primary-link;
+		&:hover { color: @primary; }
+	}
+}
+
+.ipii-register-card-body {
+	padding: @space-8 @space-9 @space-9;
+}
+
+// ============================================================
+// FIELDS
+// ============================================================
+.ipii-field {
+	display: flex;
+	flex-direction: column;
+	gap: @space-2;
+}
+
+.ipii-label {
+	font-size: @font-xs;
+	font-weight: 600;
+	color: @dark-grey;
+	letter-spacing: 0;
+	margin: 0;
+}
+
+.ipii-required {
+	color: @warning;
+	margin-left: 2px;
+}
+
+.ipii-input {
+	border: 1.5px solid @faded-grey;
+	border-radius: @radius-sm;
+	font-size: @font-sm;
+	padding: @space-2 @space-3;
+	transition: border-color @transition-fast, box-shadow @transition-fast;
+	background: @white;
+	color: @dark-grey;
+
+	&:focus {
+		border-color: @primary;
+		box-shadow: 0 0 0 3px rgba(27, 58, 107, 0.1);
+		outline: none;
+	}
+
+	&::placeholder {
+		color: @mid-grey;
+		opacity: 0.6;
+	}
+}
+
+// ============================================================
+// CONSENT CHECKBOXES
+// ============================================================
+.ipii-reg-consent {
+	margin-top: @space-7;
+	padding-top: @space-6;
+	border-top: 1px solid @faded-grey;
+	display: flex;
+	flex-direction: column;
+	gap: @space-3;
+}
+
+.ipii-check {
+	display: flex;
+	align-items: flex-start;
+	gap: @space-3;
+
+	.form-check-input {
+		margin-top: 3px;
+		flex-shrink: 0;
+		width: 16px;
+		height: 16px;
+		border: 1.5px solid @faded-grey;
+		border-radius: 4px;
+		cursor: pointer;
+		transition: border-color @transition-fast, background @transition-fast;
+
+		&:checked {
+			background-color: @primary;
+			border-color: @primary;
+			background-image: @check-image-url;
+		}
+
+		&:focus {
+			box-shadow: 0 0 0 3px rgba(27, 58, 107, 0.12);
+			outline: none;
+		}
+	}
+
+	.form-check-label {
+		font-size: @font-sm;
+		color: @dark-grey;
+		line-height: 1.55;
+		cursor: pointer;
+
+		a {
+			color: @primary-link;
+			font-weight: 500;
+			&:hover { color: @primary; }
+		}
+	}
+}
+
+// ============================================================
+// SUBMIT BUTTON
+// ============================================================
+.ipii-register-submit {
+	margin-top: @space-8;
+}
+
+.ipii-register-btn {
+	width: 100%;
+	padding: @space-3;
+	font-size: @font-sm;
+	font-weight: 700;
+	letter-spacing: 0.01em;
+	border-radius: @radius-sm;
+	background: @primary;
+	border-color: @primary;
+	transition: background @transition-fast, box-shadow @transition-fast, transform @transition-fast;
+
+	&:hover, &:focus {
+		background: lighten(@primary, 8%);
+		border-color: lighten(@primary, 8%);
+		box-shadow: 0 4px 16px rgba(27, 58, 107, 0.35);
+	}
+
+	&:active {
+		transform: translateY(1px);
+	}
+}
+
+// ============================================================
+// RESPONSIVE
+// ============================================================
+@media (max-width: 575px) {
+	.ipii-register-card-header,
+	.ipii-register-card-body {
+		padding-left: @space-5;
+		padding-right: @space-5;
+	}
+}

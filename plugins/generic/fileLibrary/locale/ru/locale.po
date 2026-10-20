@@ -1,0 +1,60 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-09-22T00:00:00+00:00\n"
+"PO-Revision-Date: 2026-09-22T00:00:00+00:00\n"
+"Language: ru\n"
+
+msgid "plugins.generic.fileLibrary.displayName"
+msgstr "Библиотека файлов"
+
+msgid "plugins.generic.fileLibrary.description"
+msgstr "Позволяет загружать документы (PDF, DOCX и т.д.) в публичные файлы журнала и получать прямую ссылку для вставки на страницы."
+
+msgid "plugins.generic.fileLibrary.manage"
+msgstr "Управление файлами"
+
+msgid "plugins.generic.fileLibrary.intro"
+msgstr "Загрузите файл ниже, затем скопируйте ссылку на него и вставьте, куда нужно — например, на статичную страницу или в произвольный пункт меню."
+
+msgid "plugins.generic.fileLibrary.upload"
+msgstr "Загрузить"
+
+msgid "plugins.generic.fileLibrary.column.name"
+msgstr "Файл"
+
+msgid "plugins.generic.fileLibrary.column.size"
+msgstr "Размер"
+
+msgid "plugins.generic.fileLibrary.column.date"
+msgstr "Загружен"
+
+msgid "plugins.generic.fileLibrary.column.link"
+msgstr "Ссылка"
+
+msgid "plugins.generic.fileLibrary.copyLink"
+msgstr "Скопировать"
+
+msgid "plugins.generic.fileLibrary.noFiles"
+msgstr "Пока нет загруженных файлов."
+
+msgid "plugins.generic.fileLibrary.confirmDelete"
+msgstr "Удалить этот файл? Все ссылки на него в других местах перестанут работать."
+
+msgid "plugins.generic.fileLibrary.upload.noFile"
+msgstr "Выберите файл для загрузки."
+
+msgid "plugins.generic.fileLibrary.upload.invalidType"
+msgstr "Такой тип файла не разрешён. Разрешённые типы: {$extensions}."
+
+msgid "plugins.generic.fileLibrary.upload.success"
+msgstr "Файл «{$fileName}» загружен."
+
+msgid "plugins.generic.fileLibrary.upload.failed"
+msgstr "Не удалось загрузить файл. Попробуйте ещё раз."

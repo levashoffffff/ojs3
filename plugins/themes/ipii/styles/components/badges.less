@@ -1,0 +1,22 @@
+/**
+ * @file styles/components/badges.less
+ */
+
+.badge {
+	font-family: @font-sans;
+	font-size: @font-2xs;
+	font-weight: 600;
+	letter-spacing: 0.04em;
+	border-radius: 20px;
+	padding: 0.3em 0.75em;
+
+	&.bg-primary, &.badge-primary {
+		background: @primary !important;
+		color: @white;
+	}
+
+	&.bg-secondary, &.badge-secondary {
+		background: @faded-grey !important;
+		color: @dark-grey;
+	}
+}

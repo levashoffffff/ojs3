@@ -1,0 +1,743 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-27T09:47:20-07:00\n"
+"PO-Revision-Date: 2019-09-27T09:47:20-07:00\n"
+"Last-Translator: \n"
+"Language-Team: Russian\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "grid.noItems"
+msgstr "Нет элементов"
+
+msgid "grid.settings"
+msgstr "Настройки"
+
+msgid "grid.noAuditors"
+msgstr "Нет аудиторов"
+
+msgid "grid.remotelyHostedItem"
+msgstr "Этот элемент размещен удаленно."
+
+msgid "grid.action.uninstall"
+msgstr "Удалить"
+
+msgid "grid.action.manageAccess"
+msgstr "Управление доступом"
+
+msgid "grid.action.sort"
+msgstr "Сортировать"
+
+msgid "grid.action.addItem"
+msgstr "Добавить элемент"
+
+msgid "grid.action.addNote"
+msgstr "Добавить заметку"
+
+msgid "grid.action.addQuery"
+msgstr "Добавить обсуждение"
+
+msgid "grid.action.readQuery"
+msgstr "Прочитать обсуждение"
+
+msgid "grid.action.deleteQuery"
+msgstr "Удалить обсуждение"
+
+msgid "grid.action.updateQuery"
+msgstr "Обновить обсуждение"
+
+msgid "grid.action.addUser"
+msgstr "Добавить пользователя"
+
+msgid "grid.action.unassignReviewer"
+msgstr "Снять назначение этого рецензента"
+
+msgid "grid.action.approveCopyedit"
+msgstr "Утвердить этот вычитанный файл для отправки на следующий этап"
+
+msgid "grid.action.reload"
+msgstr "Перезагрузить"
+
+msgid "grid.action.delete"
+msgstr "Удалить"
+
+msgid "grid.action.deleteFile"
+msgstr "Удалить файл"
+
+msgid "grid.action.deleteMedia"
+msgstr "Удалить медиафайл"
+
+msgid "grid.action.editMedia"
+msgstr "Редактировать медиафайл"
+
+msgid "grid.action.editSection"
+msgstr "Редактировать раздел"
+
+msgid "grid.action.export"
+msgstr "Экспорт"
+
+msgid "grid.action.deleteSection"
+msgstr "Удалить раздел"
+
+msgid "grid.action.editorialHistory"
+msgstr "История редактирования"
+
+msgid "grid.action.remove"
+msgstr "Удалить"
+
+msgid "grid.action.edit"
+msgstr "Редактировать"
+
+msgid "grid.action.approve"
+msgstr "Утвердить"
+
+msgid "grid.action.disapprove"
+msgstr "Отклонить"
+
+msgid "grid.action.setApproval"
+msgstr "Установить статус утверждения"
+
+msgid "grid.action.moreInformation"
+msgstr "Дополнительная информация"
+
+msgid "grid.action.restoreDefaults"
+msgstr "Восстановить значения по умолчанию"
+
+msgid "grid.action.restoreDefaults.confirm"
+msgstr "Вы уверены, что хотите восстановить значения по умолчанию?"
+
+msgid "grid.action.addAuthor"
+msgstr "Добавить автора"
+
+msgid "grid.action.editAuthor"
+msgstr "Редактировать автора"
+
+msgid "grid.action.deleteAuthor"
+msgstr "Удалить автора"
+
+msgid "grid.action.addAuditor"
+msgstr "Добавить аудитора"
+
+msgid "grid.action.upgrade"
+msgstr "Обновить"
+
+msgid "grid.action.order"
+msgstr "Порядок"
+
+msgid "grid.action.saveOrdering"
+msgstr "Сохранить порядок"
+
+msgid "grid.action.cancelOrdering"
+msgstr "Отменить сортировку"
+
+msgid "grid.action.extendAll"
+msgstr "Развернуть все"
+
+msgid "grid.action.collapse"
+msgstr "Свернуть"
+
+msgid "grid.action.collapseAll"
+msgstr "Свернуть все"
+
+msgid "grid.action.wizard"
+msgstr "Мастер настроек"
+
+msgid "grid.action.moveItem"
+msgstr "Переместить элемент"
+
+msgid "grid.action.downloadAll"
+msgstr "Скачать все файлы одним архивом"
+
+msgid "grid.action.readReview"
+msgstr "Прочитать эту рецензию"
+
+msgid "grid.action.email"
+msgstr "Отправить письмо"
+
+msgid "grid.action.addReviewer"
+msgstr "Добавить рецензента"
+
+msgid "grid.action.addFile"
+msgstr "Добавить файл"
+
+msgid "grid.action.editFile"
+msgstr "Редактировать файл"
+
+msgid "grid.action.selectFiles"
+msgstr "Выбрать файлы для управления"
+
+msgid "grid.action.requestRevisions"
+msgstr "Запросить исправления для этой подачи"
+
+msgid "grid.action.accept"
+msgstr "Принять эту подачу"
+
+msgid "grid.action.decline"
+msgstr "Отклонить эту подачу"
+
+msgid "grid.action.internalReview"
+msgstr "Отправить эту подачу на внутреннее рецензирование"
+
+msgid "grid.action.externalReview"
+msgstr "Отправить эту подачу на внешнее рецензирование"
+
+msgid "grid.action.sendToProduction"
+msgstr "Отправить эту подачу на производство"
+
+msgid "grid.action.settings"
+msgstr "Настройки"
+
+msgid "grid.action.importexport"
+msgstr "Импорт или экспорт контента или данных сайта"
+
+msgid "grid.action.orderItems"
+msgstr "Включить режим сортировки"
+
+msgid "grid.action.resetAll"
+msgstr "Сбросить все элементы к значениям по умолчанию"
+
+msgid "grid.action.addPreparedEmail"
+msgstr "Добавить новый шаблон письма"
+
+msgid "grid.action.editPreparedEmail"
+msgstr "Редактировать этот шаблон письма"
+
+msgid "grid.action.disableEmail"
+msgstr "Отключить этот шаблон письма"
+
+msgid "grid.action.resetEmail"
+msgstr "Сбросить этот шаблон письма к версии по умолчанию"
+
+msgid "grid.action.expandAll"
+msgstr "Развернуть все"
+
+msgid "grid.action.requestAccount"
+msgstr "Добавить участника"
+
+msgid "grid.action.expand"
+msgstr "Развернуть"
+
+msgid "grid.action.notify"
+msgstr "Уведомить этого пользователя"
+
+msgid "grid.action.addUserGroup"
+msgstr "Добавить новую группу пользователей"
+
+msgid "grid.action.editUserGroup"
+msgstr "Редактировать эту группу пользователей"
+
+msgid "grid.action.removeUserGroup"
+msgstr "Удалить эту группу пользователей"
+
+msgid "grid.action.disable"
+msgstr "Отключить"
+
+msgid "grid.action.details"
+msgstr "Просмотреть этот элемент"
+
+msgid "grid.action.enrolExisting"
+msgstr "Зарегистрировать существующего пользователя как рецензента"
+
+msgid "grid.action.selectCreate"
+msgstr "Создать нового рецензента"
+
+msgid "grid.action.search"
+msgstr "Поиск"
+
+msgid "grid.action.advancedSearch"
+msgstr "Расширенный поиск"
+
+msgid "grid.action.viewLibrary"
+msgstr "Просмотреть библиотеку документов"
+
+msgid "grid.action.viewMetadata"
+msgstr "Просмотреть метаданные этой подачи"
+
+msgid "grid.action.sendReminder"
+msgstr "Отправить напоминание о задаче этому пользователю"
+
+msgid "grid.action.newRound"
+msgstr "Создать новый раунд"
+
+msgid "grid.action.viewReviewGuidelines"
+msgstr "Просмотреть рекомендации по рецензированию"
+
+msgid "grid.action.viewCompetingInterestGuidelines"
+msgstr "Просмотреть политику в отношении конфликта интересов"
+
+msgid "grid.action.thankReviewer"
+msgstr "Отправить благодарность этому рецензенту"
+
+msgid "grid.action.uploadFile"
+msgstr "Загрузить файл"
+
+msgid "grid.action.addAnnouncementType"
+msgstr "Добавить тип объявления"
+
+msgid "grid.action.addAnnouncement"
+msgstr "Добавить объявление"
+
+msgid "grid.action.addInstitution"
+msgstr "Добавить учреждение"
+
+msgid "grid.action.mergeUser"
+msgstr "Объединить пользователя"
+
+msgid "grid.action.unassignUser"
+msgstr "Снять назначение пользователя"
+
+msgid "grid.action.history"
+msgstr "Просмотреть историю"
+
+msgid "grid.action.unconsiderReview"
+msgstr "Эта рецензия завершена, но вы можете не учитывать её"
+
+msgid "grid.action.enable"
+msgstr "Включить"
+
+msgid "grid.action.bookInfo"
+msgstr "Информация о подаче"
+
+msgid "grid.action.logInAs"
+msgstr "Войти как"
+
+msgid "grid.action.exportAllUsers"
+msgstr "Экспортировать всех пользователей"
+
+msgid "grid.users.confirmExportAllUsers"
+msgstr "Вы уверены, что хотите экспортировать всех пользователей?"
+
+msgid "grid.action.activate"
+msgstr "Активировать"
+
+msgid "grid.action.deactivate"
+msgstr "Деактивировать"
+
+msgid "grid.action.copy"
+msgstr "Копировать"
+
+msgid "grid.action.preview"
+msgstr "Предпросмотр"
+
+msgid "grid.action.install"
+msgstr "Установить"
+
+msgid "grid.action.moreItems"
+msgstr "Загрузить еще"
+
+msgid "grid.action.users"
+msgstr "Просмотреть/Выбрать пользователей"
+
+msgid "grid.task.status.completed"
+msgstr "Эта задача выполнена"
+
+msgid "grid.task.status.new"
+msgstr "Отмечено при рассмотрении"
+
+msgid "grid.task.status.uploaded"
+msgstr "Заголовок столбца указывает, кто загрузил этот файл"
+
+msgid "grid.task.status.unfinished"
+msgstr "Задача не завершена"
+
+msgid "grid.task.status.reviewReady"
+msgstr "Эта рецензия готова. Нажмите значок заметки слева, чтобы прочитать её."
+
+msgid "grid.columns.actions"
+msgstr "Действия"
+
+msgid "grid.columns.institution"
+msgstr "Учреждение"
+
+msgid "grid.columns.url"
+msgstr "URL"
+
+msgid "grid.columns.auditor"
+msgstr "Аудитор"
+
+msgid "grid.columns.locale"
+msgstr "Локаль"
+
+msgid "grid.columns.locale.code"
+msgstr "Код"
+
+msgid "grid.sponsor.title"
+msgstr "Спонсирующие организации"
+
+msgid "grid.action.addSponsor"
+msgstr "Добавить спонсора"
+
+msgid "grid.action.deleteSponsor"
+msgstr "Удалить спонсора"
+
+msgid "grid.action.editSponsor"
+msgstr "Редактировать спонсора"
+
+msgid "grid.action.addSeries"
+msgstr "Добавить серию"
+
+msgid "grid.action.editSeries"
+msgstr "Редактировать серию"
+
+msgid "grid.action.deleteSeries"
+msgstr "Удалить серию"
+
+msgid "grid.action.addCategory"
+msgstr "Добавить категорию"
+
+msgid "grid.action.editCategory"
+msgstr "Редактировать категорию"
+
+msgid "grid.action.deleteCategory"
+msgstr "Удалить категорию"
+
+msgid "grid.contributor.title"
+msgstr "Источники поддержки"
+
+msgid "grid.action.addContributor"
+msgstr "Добавить участника"
+
+msgid "grid.action.deleteContributor"
+msgstr "Удалить участника"
+
+msgid "grid.action.deleteContributor.confirmationMessage"
+msgstr ""
+"Вы уверены, что хотите удалить {$name} из числа участников? Это действие "
+"нельзя отменить."
+
+msgid "grid.action.addReviewerSuggestion"
+msgstr "Добавить предложение рецензента"
+
+msgid "grid.action.deleteReviewerSuggestion"
+msgstr "Удалить предложение рецензента"
+
+msgid "grid.action.deleteReviewerSuggestion.confirmationMessage"
+msgstr ""
+"Вы уверены, что хотите удалить это предложение? Это действие "
+"нельзя отменить."
+
+msgid "grid.action.newVersion"
+msgstr "Создать новую версию"
+
+msgid "grid.reviewForm.title"
+msgstr "Формы рецензирования"
+
+msgid "grid.reviewFormElement.responseItems"
+msgstr "Варианты ответов"
+
+msgid "grid.noFiles"
+msgstr "Нет файлов"
+
+msgid "grid.libraryFiles.column.files"
+msgstr "Файлы"
+
+msgid "grid.libraryFiles.submission.title"
+msgstr "Библиотека подачи"
+
+msgid "grid.libraryFiles.editorial.title"
+msgstr "Редакционная библиотека"
+
+msgid "grid.libraryFiles.review.title"
+msgstr "Библиотека рецензий"
+
+msgid "grid.libraryFiles.production.title"
+msgstr "Производственная библиотека"
+
+msgid "grid.libraryFiles.productionTemplate.title"
+msgstr "Библиотека шаблонов производства"
+
+msgid "grid.submissionChecklist.title"
+msgstr "Контрольный список подачи"
+
+msgid "grid.submissionChecklist.column.checklistItem"
+msgstr "Пункт контрольного списка"
+
+msgid "author.users.contributor.principalContact"
+msgstr "Основной контакт"
+
+msgid "author.users.contributor.setPrincipalContact"
+msgstr "Установить как основной контакт"
+
+msgid "contributor.listPanel.preview"
+msgstr "Предпросмотр"
+
+msgid "contributor.listPanel.preview.description"
+msgstr ""
+"Участники этой публикации будут идентифицированы в "
+"следующих форматах."
+
+msgid "contributor.listPanel.preview.format"
+msgstr "Формат"
+
+msgid "contributor.listPanel.preview.display"
+msgstr "Отображение"
+
+msgid "contributor.listPanel.preview.abbreviated"
+msgstr "Сокращенный"
+
+msgid "contributor.listPanel.preview.publicationLists"
+msgstr "Списки публикаций"
+
+msgid "contributor.listPanel.preview.full"
+msgstr "Полный"
+
+msgid "grid.roles.currentRoles"
+msgstr "Текущие роли"
+
+msgid "grid.roles.add"
+msgstr "Создать новую роль"
+
+msgid "grid.roles.stageAssignment"
+msgstr "Назначение на этап"
+
+msgid "grid.user.currentUsers"
+msgstr "Текущие пользователи"
+
+msgid "grid.user.currentEnrollment"
+msgstr "Текущая регистрация"
+
+msgid "grid.user.allRoles"
+msgstr "Все роли"
+
+msgid "grid.user.allPermissionLevels"
+msgstr "Все уровни разрешений"
+
+msgid "grid.user.add"
+msgstr "Добавить пользователя"
+
+msgid "grid.user.enroll"
+msgstr "Зарегистрировать пользователя"
+
+msgid "grid.user.edit"
+msgstr "Редактировать пользователя"
+
+msgid "grid.user.email"
+msgstr "Эл. почта"
+
+msgid "grid.user.enable"
+msgstr "Включить пользователя"
+
+msgid "grid.user.disable"
+msgstr "Отключить пользователя"
+
+msgid "grid.user.disableReason"
+msgstr "Причина отключения пользователя"
+
+msgid "grid.user.enableReason"
+msgstr "Причина включения пользователя"
+
+msgid "grid.user.error"
+msgstr "При администрировании этого пользователя произошла ошибка. Пожалуйста, попробуйте снова."
+
+msgid "grid.user.errorEmail"
+msgstr ""
+"При отправке этого письма произошла ошибка. Пожалуйста, убедитесь, что конфигурация вашего почтового сервера "
+"работает, и/или свяжитесь с администратором системы."
+
+msgid "grid.user.cannotAdminister"
+msgstr ""
+"У вас недостаточно прав для администрирования этого пользователя. Для администрирования пользователя вы должны "
+"либо быть администратором сайта, либо администрировать все контексты, в которых этот пользователь зарегистрирован."
+
+msgid "grid.user.mustProvideName"
+msgstr "Пожалуйста, укажите хотя бы фамилию пользователя."
+
+msgid "grid.user.generatePassword"
+msgstr "Сгенерировать пароль"
+
+msgid "grid.user.generatePasswordDescription"
+msgstr "Сгенерировать случайный пароль для этого пользователя."
+
+msgid "grid.user.notifyUser"
+msgstr "Уведомить пользователя"
+
+msgid "grid.user.notifyUserDescription"
+msgstr "Отправить пользователю приветственное письмо."
+
+msgid "grid.user.mustChangePassword"
+msgstr "Изменить пароль"
+
+msgid "grid.user.mustChangePasswordDescription"
+msgstr "Пользователь должен изменить пароль при следующем входе."
+
+msgid "grid.user.mustChangePasswordDescriptionOld"
+msgstr "Требовать от пользователя изменить пароль при следующем входе."
+
+msgid "grid.user.moreDetails"
+msgstr "Дополнительные сведения о пользователе"
+
+msgid "grid.user.lessDetails"
+msgstr "Меньше сведений о пользователе"
+
+msgid "grid.user.userDetails"
+msgstr "Сведения о пользователе"
+
+msgid "grid.user.userRoles"
+msgstr "Роли пользователя"
+
+msgid "grid.user.userRoles.masthead"
+msgstr "Отображать в редакционной коллегии"
+
+msgid "grid.user.userNoRoles"
+msgstr "У этого пользователя нет ролей."
+
+msgid "grid.user.step1"
+msgstr "Шаг №1: Заполните сведения о пользователе"
+
+msgid "grid.user.step2"
+msgstr "Шаг №2: Добавьте роли для {$userFullName}"
+
+msgid "grid.user.addRoles"
+msgstr "Добавить роли"
+
+msgid "grid.user.addRole"
+msgstr "Добавить роль"
+
+msgid "grid.user.selectUser"
+msgstr "Выбрать пользователя"
+
+msgid "grid.user.pleaseSelectUser"
+msgstr "Пожалуйста, выберите пользователя"
+
+msgid "grid.user.confirmLogInAs"
+msgstr ""
+"Войти как этот пользователь? Все выполняемые вами действия будут приписаны этому пользователю."
+
+msgid "grid.user.mergeUsers"
+msgstr "Объединить пользователей"
+
+msgid "grid.user.mergeUsers.mergeUser"
+msgstr "Объединить пользователя"
+
+msgid "grid.user.mergeUsers.mergeIntoUser"
+msgstr "Объединить с этим пользователем"
+
+msgid "grid.user.mergeUsers.allUsers"
+msgstr "Все зарегистрированные пользователи"
+
+msgid "grid.user.mergeUsers.confirm"
+msgstr ""
+"Вы уверены, что хотите объединить учетную запись с именем пользователя "
+"«{$oldUsername}» в учетную запись с именем пользователя «{$newUsername}»? "
+"Учетная запись с именем пользователя «{$oldUsername}» после этого перестанет существовать. "
+"Это действие необратимо."
+
+msgid "grid.preparedEmails.title"
+msgstr "Подготовленные шаблоны писем"
+
+msgid "grid.preparedEmails.currentList"
+msgstr "Текущий список"
+
+msgid "grid.plugin.allCategories"
+msgstr "Все категории"
+
+msgid "grid.plugin.disable"
+msgstr "Вы уверены, что хотите отключить этот плагин?"
+
+msgid "grid.action.fileUnconsider"
+msgstr "Внесены корректорские правки. Вы можете не учитывать эту задачу"
+
+msgid "grid.artworkFile.caption"
+msgstr "Подпись"
+
+msgid "grid.artworkFile.credit"
+msgstr "Авторство"
+
+msgid "grid.artworkFile.copyrightOwner"
+msgstr "Владелец авторских прав"
+
+msgid "grid.artworkFile.copyrightContact"
+msgstr "Контактная информация (если не автор/издатель)"
+
+msgid "grid.artworkFile.permissionTerms"
+msgstr "Условия разрешения"
+
+msgid "grid.artworkFile.placement"
+msgstr "Размещение в подаче"
+
+msgid "grid.userGroup.assignStage"
+msgstr "Назначить на этап"
+
+msgid "grid.userGroup.unassignStage"
+msgstr "Снять назначение с этапа"
+
+msgid "grid.userGroup.allStages"
+msgstr "Все этапы рабочего процесса"
+
+msgid "grid.userGroup.filter.listRoles"
+msgstr "Перечислить роли, назначенные"
+
+msgid "grid.userGroup.filter.permissionLevel"
+msgstr "С уровнем разрешений, установленным на"
+
+msgid "grid.userGroup.cantRemoveDefaultUserGroup"
+msgstr "Роль {$userGroupName} является ролью по умолчанию и не может быть удалена."
+
+msgid "grid.userGroup.cantRemoveUserGroup"
+msgstr ""
+"Невозможно удалить роль {$userGroupName}. В настоящее время ей назначено {$usersCount} пользователь(ей)."
+
+msgid "grid.userGroup.removed"
+msgstr "Роль {$userGroupName} удалена."
+
+msgid "grid.userGroup.assignedStage"
+msgstr "Роль {$userGroupName} назначена на этап {$stageName}."
+
+msgid "grid.userGroup.unassignedStage"
+msgstr "Роль {$userGroupName} снята с этапа {$stageName}."
+
+msgid "grid.submission.itemTitle"
+msgstr "Автор; Название"
+
+msgid "grid.submission.active.selectOrphaned"
+msgstr "Включить незавершенные подачи, не отправленные автором."
+
+msgid "grid.action.addNavigationMenu"
+msgstr "Добавить меню"
+
+msgid "grid.action.addNavigationMenuItem"
+msgstr "Добавить элемент"
+
+msgid "grid.navigationMenus.navigationMenuItems.noneExist"
+msgstr "Нет элементов меню навигации"
+
+msgid "grid.navigationMenus.navigationMenu.noneExist"
+msgstr "Нет меню навигации"
+
+msgid "grid.navigationMenus.navigationMenu.selectType"
+msgstr "Выберите тип..."
+
+msgid "grid.action.view"
+msgstr "Просмотр"
+
+msgid "author.users.contributor.name"
+msgstr "Имя"
+
+msgid "author.users.contributor.email"
+msgstr "Эл. почта"
+
+msgid "author.users.contributor.role"
+msgstr "Роль"
+
+msgid "author.users.contributor.includeInBrowse"
+msgstr "В списках для просмотра"
+
+msgid "grid.action.editContributor"
+msgstr "Редактировать участника"
+
+msgid "grid.user.remove"
+msgstr "Удалить пользователя"
+
+msgid "grid.user.logInAs"
+msgstr "Войти как"
+
+msgid "grid.user.enableReasonDescription"
+msgstr "После включения пользователь снова получит доступ к сайту, и вы сможете при необходимости приглашать его на роли."
+
+msgid "grid.user.disableReasonDescription"
+msgstr "Обратите внимание: после отключения пользователя вы не сможете добавлять его в какие-либо роли, пока пользователь не будет снова включен."

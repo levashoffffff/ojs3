@@ -1,0 +1,243 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-27T09:47:20-07:00\n"
+"PO-Revision-Date: 2019-09-27T09:47:20-07:00\n"
+"Last-Translator: \n"
+"Language-Team: Russian\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "installer.additionalLocales"
+msgstr "Дополнительные локали"
+
+msgid "installer.administratorAccount"
+msgstr "Учетная запись администратора"
+
+msgid "installer.administratorAccountInstructions"
+msgstr ""
+"Эта учетная запись станет администратором сайта и будет иметь полный "
+"доступ к системе. Дополнительные учетные записи могут быть созданы после "
+"установки."
+
+msgid "installer.checkNo"
+msgstr "<span class=\"pkp_form_error formError\">НЕТ</span>"
+
+msgid "installer.checkYes"
+msgstr "Да"
+
+msgid "installer.configFileError"
+msgstr ""
+"Конфигурационный файл <tt>config.inc.php</tt> не существует или недоступен для чтения."
+
+msgid "installer.connectionCharset"
+msgstr "Кодировка соединения"
+
+msgid "installer.contentsOfConfigFile"
+msgstr "Содержимое конфигурационного файла"
+
+msgid "installer.databaseDriver"
+msgstr "Драйвер базы данных"
+
+msgid "installer.databaseDriverInstructions"
+msgstr ""
+"<strong>Система в настоящее время поддерживает MySQL и PostgreSQL. Если вы не можете выбрать один из этих вариантов ниже, свяжитесь с администратором системы, чтобы убедиться, что на вашем сервере установлены необходимые расширения PHP.</strong>"
+
+msgid "installer.databaseHost"
+msgstr "Хост"
+
+msgid "installer.databaseHostInstructions"
+msgstr ""
+"Оставьте имя хоста пустым для подключения через доменные сокеты вместо TCP/IP. Это не обязательно для MySQL, который будет автоматически использовать сокеты, если введено «localhost», но требуется для некоторых других серверов баз данных, таких как PostgreSQL."
+
+msgid "installer.databaseName"
+msgstr "Имя базы данных"
+
+msgid "installer.databasePassword"
+msgstr "Пароль"
+
+msgid "installer.databaseSettings"
+msgstr "Настройки базы данных"
+
+msgid "installer.databaseUsername"
+msgstr "Имя пользователя"
+
+msgid "installer.filesDir"
+msgstr "Каталог для загрузок"
+
+msgid "installer.fileSettings"
+msgstr "Настройки файлов"
+
+msgid "installer.form.clientCharsetRequired"
+msgstr "Необходимо выбрать кодировку клиента."
+
+msgid "installer.form.databaseDriverRequired"
+msgstr "Необходимо выбрать драйвер базы данных."
+
+msgid "installer.form.databaseNameRequired"
+msgstr "Требуется указать имя базы данных."
+
+msgid "installer.form.emailRequired"
+msgstr "Требуется указать действительный адрес электронной почты для учетной записи администратора."
+
+msgid "installer.form.filesDirRequired"
+msgstr "Требуется указать каталог для хранения загруженных файлов."
+
+msgid "installer.form.localeRequired"
+msgstr "Необходимо выбрать локаль."
+
+msgid "installer.form.passwordRequired"
+msgstr "Требуется указать пароль для учетной записи администратора."
+
+msgid "installer.form.passwordsDoNotMatch"
+msgstr "Пароли администратора не совпадают."
+
+msgid "installer.form.separateMultiple"
+msgstr "Разделяйте несколько значений запятыми"
+
+msgid "installer.form.usernameAlphaNumeric"
+msgstr ""
+"Имя пользователя администратора может содержать только буквенно-цифровые символы, "
+"знаки подчеркивания и дефисы, а также должно начинаться и заканчиваться буквенно-цифровым символом."
+
+msgid "installer.form.usernameRequired"
+msgstr "Требуется указать имя пользователя для учетной записи администратора."
+
+msgid "installer.form.timeZoneRequired"
+msgstr "Необходимо выбрать часовой пояс."
+
+msgid "installer.installationWrongPhp"
+msgstr ""
+"<br/><strong>ВНИМАНИЕ: Ваша текущая версия PHP не соответствует минимальным требованиям для установки. Рекомендуется обновиться до более новой версии PHP.</strong>"
+
+msgid "installer.installErrorsOccurred"
+msgstr "Во время установки произошли ошибки"
+
+msgid "installer.installerSQLStatements"
+msgstr "SQL-запросы для установки"
+
+msgid "installer.installFileError"
+msgstr ""
+"Файл установки <tt>dbscripts/xml/install.xml</tt> не существует или недоступен для чтения."
+
+msgid "installer.installFilesDirError"
+msgstr ""
+"Указанный каталог для загруженных файлов не существует или недоступен для записи."
+
+msgid "installer.installParseDBFileError"
+msgstr "Ошибка разбора файла установки базы данных <tt>{$file}</tt>."
+
+msgid "installer.installMigrationError"
+msgstr ""
+"Было вызвано исключение при выполнении класса миграции <tt>{$class}</tt>. Исключение: {$message}."
+
+msgid "installer.installParseEmailTemplatesFileError"
+msgstr "Ошибка разбора файла шаблонов электронных писем <tt>{$file}</tt>."
+
+msgid "installer.installParseFilterConfigFileError"
+msgstr "Ошибка разбора файла конфигурации фильтра <tt>{$file}</tt>."
+
+msgid "installer.unsupportedUpgradeError"
+msgstr "Обновление не поддерживается. Подробности см. в Руководстве по обновлению (https://docs.pkp.sfu.ca/dev/upgrade-guide)."
+
+msgid "installer.timezoneInstructions"
+msgstr "Часовой пояс, используемый для этой системы."
+
+msgid "installer.additionalLocalesInstructions"
+msgstr ""
+"Выберите любые дополнительные языки для поддержки в этой системе. Дополнительные "
+"языки также могут быть установлены в любое время из интерфейса администратора сайта.<br>* = Обозначает языки, которые переведены не полностью (> 90% терминов переведены)"
+
+msgid "installer.locale"
+msgstr "Локаль"
+
+msgid "installer.locale.maybeIncomplete"
+msgstr "Отмеченные локали могут быть неполными."
+
+msgid "installer.localeSettings"
+msgstr "Настройки локали"
+
+msgid "installer.oaiSettings"
+msgstr "Настройки OAI"
+
+msgid "installer.oaiRepositoryIdInstructions"
+msgstr ""
+"Уникальный идентификатор, используемый для идентификации записей метаданных, индексируемых с этого сайта "
+"с использованием Протокола <a href=\"https://www.openarchives.org/\" target=\"_blank\">Open Archives Initiative</a> для сбора метаданных."
+
+msgid "installer.oaiRepositoryId"
+msgstr "Идентификатор репозитория"
+
+msgid "installer.publicFilesDirError"
+msgstr "Каталог общедоступных файлов не существует или недоступен для записи."
+
+msgid "installer.releaseNotes"
+msgstr "Примечания к выпуску"
+
+msgid "installer.preInstallationInstructionsTitle"
+msgstr "Предварительные шаги установки"
+
+msgid "installer.preInstallationInstructions"
+msgstr ""
+"\n"
+"\t\t<p>1. Следующие файлы и каталоги (и их содержимое) должны быть доступны для записи:</p>\n"
+"\t\t<ul>\n"
+"\t\t\t<li><tt>config.inc.php</tt> доступен для записи (опционально): {$writable_config}</li>\n"
+"\t\t\t<li><tt>public/</tt> доступен для записи: {$writable_public}</li>\n"
+"\t\t\t<li><tt>cache/</tt> доступен для записи: {$writable_cache}</li>\n"
+"\t\t\t<li><tt>cache/t_cache/</tt> доступен для записи: {$writable_templates_cache}</li>\n"
+"\t\t\t<li><tt>cache/t_compile/</tt> доступен для записи: {$writable_templates_compile}</li>\n"
+"\t\t\t<li><tt>cache/_db</tt> доступен для записи: {$writable_db_cache}</li>\n"
+"\t\t</ul>\n"
+"\n"
+"\t\t<p>2. Должен быть создан каталог для хранения загруженных файлов и он должен быть доступен для записи (см. «Настройки файлов» ниже).</p>\n"
+"\t"
+
+msgid "installer.configureXSLMessage"
+msgstr ""
+"<p>В вашей установке PHP не включен модуль XSL. Включите его или настройте параметр xslt_command в файле config.inc.php.</p>"
+
+msgid "installer.beacon"
+msgstr "Сигнальный маяк (Beacon)"
+
+msgid "installer.beacon.enable"
+msgstr ""
+"Предоставьте PKP уникальный идентификатор сайта и базовый URL OAI только для целей статистики и оповещений безопасности."
+
+msgid "installer.miscSettings"
+msgstr "Прочие настройки"
+
+msgid "installer.unsupportedPhpError"
+msgstr ""
+"Версия PHP вашего сервера не поддерживается этим программным обеспечением. Перепроверьте требования к установке в docs/README."
+
+msgid "installer.appKey.keyVariable.missing.instruction"
+msgstr "Пожалуйста, добавьте переменную конфигурации с именем `app_key` в раздел `general` вручную или выполните команду `php lib/pkp/tools/appKey.php configure`, чтобы установить её из командной строки."
+
+msgid "installer.appKey.keyVariable.missing.error"
+msgstr "Переменная конфигурации с именем `app_key` не определена в разделе `general`."
+
+msgid "installer.appKey.keyVariable.alreadyExist.notice"
+msgstr "Переменная конфигурации с именем `app_key` уже определена в разделе `general`."
+
+msgid "installer.appKey.keyVariable.configFile.read.error"
+msgstr "Не удалось прочитать конфигурационный файл, или файл не существует по ожидаемому пути."
+
+msgid "installer.appKey.keyVariable.configFile.parse.error"
+msgstr "Не удалось разобрать конфигурационный файл."
+
+msgid "installer.appKey.keyVariable.configFile.write.error"
+msgstr "Не удалось записать переменную ключа приложения в конфигурационный файл."
+
+msgid "installer.appKey.validate.error"
+msgstr "Неподдерживаемый шифр или неверная длина ключа. Поддерживаемые шифры: {$ciphers}."
+
+msgid "installer.appKey.write.error"
+msgstr "Не удалось записать ключ приложения в конфигурационный файл."
+
+msgid "installer.appKey.set.value"
+msgstr "Установите значение `app_key` в разделе `general` файла `config.inc.php` на {$key}."

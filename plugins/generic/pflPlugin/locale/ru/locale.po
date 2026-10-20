@@ -1,0 +1,164 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-02-13T00:55:57+00:00\n"
+"PO-Revision-Date: 2020-02-13T00:55:57+00:00\n"
+"Language: ru\n"
+
+msgid "plugins.generic.pfl.displayName"
+msgstr "Модуль «Карточка сведений о публикации»"
+
+msgid "plugins.generic.pfl.description"
+msgstr "Добавляет блок на боковую панель со статистикой, показывающей читателям добросовестность и надёжность журнала."
+
+msgid "plugins.generic.pfl.metric"
+msgstr "Показатель"
+
+msgid "plugins.generic.pflPlugin.settings.journal"
+msgstr "Информация о журнале"
+
+msgid "plugins.generic.pflPlugin.settings.excludePrior"
+msgstr "Исключить по дате"
+
+msgid "plugins.generic.pflPlugin.settings.dateStart"
+msgstr "Дата начала"
+
+msgid "plugins.generic.pflPlugin.settings.dateStart.description"
+msgstr ""
+"Если ваш журнал не использовал редакционный процесс OJS до определённой "
+"даты, укажите её здесь, чтобы исключить более ранние материалы из сбора "
+"статистики. Карточка сведений о публикации не будет показываться для "
+"материалов, поданных раньше этой даты."
+
+msgid "plugins.generic.pflPlugin.settings.dateStart.invalid"
+msgstr "Пожалуйста, проверьте, что указанная дата начала корректна."
+
+msgid "plugins.generic.pflPlugin.settings.academicSocietyUrl"
+msgstr "URL"
+
+msgid "plugins.generic.pflPlugin.settings.academicSocietyUrl.invalid"
+msgstr ""
+"URL научного общества указан неверно. Убедитесь, что ссылка полная и "
+"правильно оформлена."
+
+msgid "plugins.generic.pflPlugin.fundingPluginMissing"
+msgstr "Модуль «Финансирование» не установлен"
+
+msgid "plugins.generic.pflPlugin.fundingPluginMissing.description"
+msgstr ""
+"Модуль «Финансирование» не установлен или отключён. Чтобы данные о "
+"финансировании отображались в карточке сведений о публикации, этот модуль "
+"нужно установить, включить и заполнить соответствующими данными для "
+"каждого материала. Найдите его в Галерее плагинов."
+
+msgid "plugins.generic.pflPlugin.settings.indexes"
+msgstr "Индексация журнала"
+
+msgid "plugins.generic.pflPlugin.settings.indexes.description"
+msgstr ""
+"В разделе «Индексируется» карточки сведений о публикации (PFL) читателям "
+"будет показано до четырёх баз, в которых индексируется журнал. Четыре "
+"указанные ниже базы обеспечивают широкое покрытие, а MEDLINE охватывает "
+"науки о здоровье, Latindex — Латинскую Америку (см. описание ниже). Эти "
+"базы позволяют публично отображать факт индексации журнала (даже если "
+"сама база закрытая). Две базы проверяются автоматически, остальные "
+"четыре требуют самостоятельно найти журнал в базе и, если он найден, "
+"добавить её в PFL."
+
+msgid "plugins.generic.pflPlugin.settings.indexes.automatic"
+msgstr "Автоматически проверяемые базы в PFL"
+
+msgid "plugins.generic.pflPlugin.settings.indexes.automatic.doaj"
+msgstr "Directory of Open Access Journals"
+
+msgid "plugins.generic.pflPlugin.settings.indexes.automatic.doaj.validationFailed"
+msgstr ""
+"Не удалось подтвердить индексацию журнала в DOAJ. Убедитесь, что журнал "
+"проиндексирован и в настройках журнала указан правильный ISSN."
+
+msgid "plugins.generic.pflPlugin.settings.indexes.automatic.scholar"
+msgstr "Google Scholar"
+
+msgid "plugins.generic.pflPlugin.settings.indexes.automatic.medline"
+msgstr "MEDLINE"
+
+msgid "plugins.generic.pflPlugin.settings.indexes.automatic.medline.validationFailed"
+msgstr ""
+"Не удалось подтвердить индексацию журнала в MEDLINE. Убедитесь, что "
+"журнал проиндексирован и в настройках журнала указан правильный ISSN."
+
+msgid "plugins.generic.pflPlugin.settings.indexes.automatic.latindex"
+msgstr "Latindex"
+
+msgid "plugins.generic.pflPlugin.settings.indexes.automatic.latindex.validationFailed"
+msgstr ""
+"Не удалось подтвердить индексацию журнала в Latindex. Убедитесь, что "
+"журнал проиндексирован и в настройках журнала указан правильный ISSN."
+
+msgid "plugins.generic.pflPlugin.settings.indexes.manual"
+msgstr "Базы, добавляемые в PFL вручную"
+
+msgid "plugins.generic.pflPlugin.settings.indexes.manual.scopus"
+msgstr "<strong>Scopus</strong> (<a target=\"_new\" href=\"https://en.wikipedia.org/wiki/Scopus\">инфо</a>)"
+
+msgid "plugins.generic.pflPlugin.settings.indexes.manual.scopus.urlInvalid"
+msgstr "Указанный URL Scopus некорректен. Проверьте инструкцию и попробуйте снова."
+
+msgid "plugins.generic.pflPlugin.settings.indexes.manual.scopus.step1"
+msgstr ""
+"Перейдите на страницу <a href=\"https://www.scopus.com/sources.uri?"
+"zone=TopNavBar&origin=\" target=\"_new\">Sources</a> в Scopus и выберите "
+"«Title» в выпадающем списке."
+
+msgid "plugins.generic.pflPlugin.settings.indexes.manual.scopus.step2"
+msgstr "Введите название журнала — если он проиндексирован, он появится в результатах."
+
+msgid "plugins.generic.pflPlugin.settings.indexes.manual.scopus.step3"
+msgstr "Кликните по названию и вставьте сюда URL открывшейся страницы:"
+
+msgid "plugins.generic.pflPlugin.settings.indexes.manual.scopus.step4"
+msgstr ""
+"Если журнал не проиндексирован, вот <a target=\"_new\" href=\"https://www."
+"elsevier.com/solutions/scopus/how-scopus-works/content/content-policy-and-"
+"selection\">процесс</a> включения в базу."
+
+msgid "plugins.generic.pflPlugin.settings.indexes.manual.wos"
+msgstr "<strong>Web of Science</strong> (<a target=\"_new\" href=\"https://en.wikipedia.org/wiki/Web_of_Science\">инфо</a>)"
+
+msgid "plugins.generic.pflPlugin.settings.indexes.manual.wos.urlInvalid"
+msgstr "Указанный URL Web of Science некорректен. Проверьте инструкцию и попробуйте снова."
+
+msgid "plugins.generic.pflPlugin.settings.indexes.manual.wos.step1"
+msgstr ""
+"Перейдите на сайт <a href=\"https://mjl.clarivate.com/search-results\" "
+"target=\"_new\">Web of Science</a> и введите название журнала в строку "
+"поиска."
+
+msgid "plugins.generic.pflPlugin.settings.indexes.manual.wos.step2"
+msgstr "Если журнал индексируется в Web of Science, он появится в результатах."
+
+msgid "plugins.generic.pflPlugin.settings.indexes.manual.wos.step3"
+msgstr "Скопируйте ссылку через «Share This Journal» и вставьте её сюда:"
+
+msgid "plugins.generic.pflPlugin.settings.indexes.manual.wos.step4"
+msgstr ""
+"Если журнал не индексируется, вот <a target=\"_new\" href=\"https://"
+"clarivate.com/products/scientific-and-academic-research/research-"
+"discovery-and-workflow-solutions/webofscience-platform/web-of-science-"
+"core-collection/editorial-selection-process/\">процесс</a> включения в "
+"базу."
+
+msgid "plugins.generic.pfl.percentage"
+msgstr "{$num}%"
+
+msgid "plugins.generic.pfl.academicSociety"
+msgstr "Общество"
+
+msgid "plugins.generic.pfl.academicSociety.fieldLabel"
+msgstr "Название или аббревиатура общества"

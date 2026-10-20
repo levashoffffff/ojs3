@@ -1,0 +1,108 @@
+/**
+ * @file styles/pages/page-contact.less
+ * IPII Theme — contact page
+ */
+
+.page-contact {
+	padding-top: @space-10;
+}
+
+.ipii-contact-body {
+	width: 100%;
+}
+
+// ── Mailing address ───────────────────────────────────────────
+.ipii-contact-address {
+	margin-bottom: @space-9;
+	padding: @space-5 @space-6;
+	background: @light-grey;
+	border: 1px solid @faded-grey;
+	border-left: 4px solid @primary;
+	border-radius: 0 @radius-md @radius-md 0;
+	font-size: @font-sm;
+	line-height: 1.75;
+	color: @dark-grey;
+}
+
+.ipii-contact-address-label {
+	font-size: @font-2xs;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.12em;
+	color: @mid-grey;
+	margin-bottom: @space-2;
+}
+
+.ipii-contact-address-text {
+	color: @dark-grey;
+}
+
+// ── Cards grid ────────────────────────────────────────────────
+.ipii-contact-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	gap: @space-5;
+}
+
+// ── Contact card ──────────────────────────────────────────────
+.ipii-contact-card {
+	background: @white;
+	border: 1px solid @faded-grey;
+	border-radius: @radius-md;
+	padding: @space-6;
+	box-shadow: @shadow-xs;
+	transition: box-shadow @transition-fast;
+
+	&:hover {
+		box-shadow: @shadow-md;
+	}
+}
+
+.ipii-contact-card-label {
+	font-size: @font-2xs;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.12em;
+	color: @mid-grey;
+	margin-bottom: @space-4;
+	padding-bottom: @space-2;
+	border-bottom: 2px solid @faded-grey;
+}
+
+.ipii-contact-card-name {
+	font-size: @font-md;
+	font-weight: 700;
+	color: @dark-grey;
+	margin-bottom: @space-1;
+}
+
+.ipii-contact-card-title {
+	font-size: @font-sm;
+	color: @mid-grey;
+	margin-bottom: @space-1;
+}
+
+.ipii-contact-card-affil {
+	font-size: @font-sm;
+	color: @mid-grey;
+	margin-bottom: @space-4;
+	line-height: 1.5;
+}
+
+.ipii-contact-card-row {
+	display: flex;
+	align-items: baseline;
+	gap: @space-2;
+	font-size: @font-sm;
+	color: @dark-grey;
+	margin-top: @space-2;
+
+	a { color: @primary-link; &:hover { text-decoration: underline; } }
+}
+
+.ipii-contact-card-row-label {
+	font-size: @font-2xs;
+	font-weight: 600;
+	color: @mid-grey;
+	flex-shrink: 0;
+}

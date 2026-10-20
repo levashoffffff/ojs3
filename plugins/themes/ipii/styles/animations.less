@@ -1,0 +1,37 @@
+/**
+ * @file styles/animations.less
+ * IPII Theme — keyframes & transition utilities
+ */
+
+@keyframes ipii-fadeInUp {
+	from {
+		opacity: 0;
+		transform: translateY(18px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+@keyframes ipii-fadeIn {
+	from { opacity: 0; }
+	to   { opacity: 1; }
+}
+
+@keyframes ipii-shimmer {
+	0%   { background-position: -400px 0; }
+	100% { background-position: 400px 0; }
+}
+
+// Utility: apply entry animation to key sections
+.ipii-animate-in {
+	animation: ipii-fadeInUp 0.5s @transition-slow both;
+}
+
+// Stagger helpers
+.ipii-animate-in-1 { animation-delay: 0.05s; }
+.ipii-animate-in-2 { animation-delay: 0.12s; }
+.ipii-animate-in-3 { animation-delay: 0.20s; }
+.ipii-animate-in-4 { animation-delay: 0.28s; }
+.ipii-animate-in-5 { animation-delay: 0.36s; }

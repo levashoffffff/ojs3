@@ -1,0 +1,4182 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-27T09:47:20-07:00\n"
+"PO-Revision-Date: 2023-04-21 03:49+0000\n"
+"Last-Translator: \n"
+"Language-Team: Russian\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: \n"
+
+msgid "manager.website.information"
+msgstr "Информация"
+
+msgid "manager.website.appearance"
+msgstr "Внешний вид"
+
+msgid "manager.website.imageFileRequired"
+msgstr ""
+"Требуется файл изображения. Пожалуйста, убедитесь, что вы выбрали и загрузили "
+"файл."
+
+msgid "manager.announcements"
+msgstr "Объявления"
+
+msgid "manager.announcements.confirmDelete"
+msgstr "Вы уверены, что хотите безвозвратно удалить объявление «{$title}»?"
+
+msgid "manager.announcements.create"
+msgstr "Создать новое объявление"
+
+msgid "manager.announcements.createTitle"
+msgstr "Создать"
+
+msgid "manager.announcements.dateExpire"
+msgstr "Срок действия"
+
+msgid "manager.announcements.datePublish"
+msgstr "Опубликовано"
+
+msgid "manager.announcements.deleteAnnouncement"
+msgstr "Удалить объявление"
+
+msgid "manager.announcements.edit"
+msgstr "Редактировать объявление"
+
+msgid "manager.announcements.editTitle"
+msgstr "Редактировать"
+
+msgid "manager.announcements.form.dateExpireDayIncompleteDate"
+msgstr "Пожалуйста, выберите год и/или месяц в дополнение к дню истечения срока действия."
+
+msgid "manager.announcements.form.dateExpire"
+msgstr "Дата истечения срока"
+
+msgid "manager.announcements.form.dateExpireInstructions"
+msgstr ""
+"Объявление будет отображаться для читателей до этой даты. Оставьте поле пустым, "
+"если объявление должно отображаться бессрочно."
+
+msgid "manager.announcements.form.dateExpireMonthIncompleteDate"
+msgstr "Пожалуйста, выберите год и/или день в дополнение к месяцу истечения срока действия."
+
+msgid "manager.announcements.form.dateExpireValid"
+msgstr "Пожалуйста, выберите действительную дату истечения срока действия объявления."
+
+msgid "manager.announcements.form.dateExpireYearIncompleteDate"
+msgstr "Пожалуйста, выберите месяц и/или день в дополнение к году истечения срока действия."
+
+msgid "manager.announcements.form.description"
+msgstr "Объявление"
+
+msgid "manager.announcements.form.descriptionInstructions"
+msgstr "Полный текст объявления."
+
+msgid "manager.announcements.form.descriptionRequired"
+msgstr "Требуется описание объявления."
+
+msgid "manager.announcements.form.descriptionShortInstructions"
+msgstr "Краткое описание, которое будет отображаться вместе с заголовком объявления."
+
+msgid "manager.announcements.form.descriptionShortRequired"
+msgstr "Требуется краткое описание объявления."
+
+msgid "manager.announcements.form.descriptionShort"
+msgstr "Краткое описание"
+
+msgid "manager.announcements.form.saveAndCreateAnother"
+msgstr "Сохранить и создать еще"
+
+msgid "manager.announcements.form.titleRequired"
+msgstr "Требуется заголовок объявления."
+
+msgid "manager.announcements.form.title"
+msgstr "Заголовок"
+
+msgid "manager.announcements.form.typeId"
+msgstr "Тип"
+
+msgid "manager.announcements.form.typeIdValid"
+msgstr "Пожалуйста, выберите допустимый тип объявления."
+
+msgid "manager.announcements.notEnabled"
+msgstr "Вы должны <a href=\"#announcements/announcement-settings\">включить объявления</a>."
+
+msgid "manager.announcements.noneCreated"
+msgstr "Объявления не созданы."
+
+msgid "manager.announcements.title"
+msgstr "Заголовок"
+
+msgid "manager.announcements.type"
+msgstr "Тип"
+
+msgid "manager.announcementTypes"
+msgstr "Типы объявлений"
+
+msgid "manager.announcementTypes.confirmDelete"
+msgstr ""
+"Предупреждение! Все объявления с этим типом также будут удалены. "
+"Вы уверены, что хотите продолжить и удалить этот тип объявления?"
+
+msgid "manager.announcementTypes.create"
+msgstr "Создать тип объявления"
+
+msgid "manager.announcementTypes.createTitle"
+msgstr "Создать"
+
+msgid "manager.announcementTypes.edit"
+msgstr "Редактировать тип объявления"
+
+msgid "manager.announcementTypes.editTitle"
+msgstr "Редактировать"
+
+msgid "manager.announcementTypes.form.saveAndCreateAnother"
+msgstr "Сохранить и создать еще"
+
+msgid "manager.announcementTypes.form.typeNameExists"
+msgstr "Тип объявления с таким именем уже существует."
+
+msgid "manager.announcementTypes.form.typeName"
+msgstr "Имя"
+
+msgid "manager.announcementTypes.form.typeNameRequired"
+msgstr "Требуется имя типа объявления."
+
+msgid "manager.announcementTypes.noneCreated"
+msgstr "Типы объявлений не созданы."
+
+msgid "manager.announcementTypes.typeName"
+msgstr "Тип объявления"
+
+msgid "manager.dois.actions.deposit.all"
+msgstr "Депонировать все"
+
+msgid "manager.dois.actions.deposit.label"
+msgstr "Депонировать DOI"
+
+msgid "manager.dois.actions.deposit.prompt"
+msgstr ""
+"Вы собираетесь отправить записи метаданных DOI для {$count} элемента(ов) в "
+"{$registrationAgency}. Вы уверены, что хотите депонировать эти записи?"
+
+msgid "manager.dois.actions.markRegistered.label"
+msgstr "Отметить DOI как зарегистрированные"
+
+msgid "manager.dois.actions.markRegistered.prompt"
+msgstr ""
+"Вы собираетесь отметить записи метаданных DOI для {$count} элемента(ов) как "
+"зарегистрированные. Вы уверены, что хотите отметить эти записи как зарегистрированные?"
+
+msgid "manager.dois.actions.markUnregistered.label"
+msgstr "Отметить DOI как незарегистрированные"
+
+msgid "manager.dois.actions.markUnregistered.prompt"
+msgstr ""
+"Вы собираетесь отметить записи метаданных DOI для {$count} элемента(ов) как "
+"незарегистрированные. Вы уверены, что хотите отметить эти записи как незарегистрированные?"
+
+msgid "manager.dois.actions.markStale.label"
+msgstr "Отметить DOI как требующие синхронизации"
+
+msgid "manager.dois.actions.markStale.prompt"
+msgstr ""
+"Вы собираетесь отметить записи метаданных DOI для {$count} элемента(ов) как требующие синхронизации. "
+"Статус «Требуется синхронизация» может быть применен только к ранее отправленным DOI. Вы "
+"уверены, что хотите отметить эти записи как устаревшие?"
+
+msgid "manager.dois.actions.export.label"
+msgstr "Экспортировать DOI"
+
+msgid "manager.dois.actions.export.prompt"
+msgstr ""
+"Вы собираетесь экспортировать записи метаданных DOI для {$count} элемента(ов) для "
+"{$registrationAgency}. Вы уверены, что хотите экспортировать эти записи?"
+
+msgid "manager.dois.actions.assign.label"
+msgstr "Назначить DOI"
+
+msgid "manager.dois.actions.assign.prompt"
+msgstr ""
+"Вы собираетесь назначить новые DOI для {$count} элемента(ов) для любого подходящего элемента, "
+"у которого еще нет назначенного DOI. Вы уверены, что хотите назначить DOI этим элементам?"
+
+msgid "manager.dois.actions.depositAll.label"
+msgstr "Депонировать все DOI"
+
+msgid "manager.dois.actions.depositAll.prompt"
+msgstr ""
+"Вы собираетесь запланировать депонирование всех ожидающих записей метаданных DOI в "
+"{$registrationAgency}. Будут депонированы только опубликованные элементы с DOI. "
+"Статус каждого элемента будет обновлен после получения ответа. Вы уверены, что хотите "
+"запланировать депонирование для всех этих элементов?"
+
+msgid "manager.dois.actions.description"
+msgstr "Выполнить действие с {$count} выбранным(и) элементом(ами)."
+
+msgid "manager.dois.actions.bulkActions"
+msgstr "Массовые действия"
+
+msgid "manager.dois.depositStatus"
+msgstr "Статус депонирования"
+
+msgid "manager.dois.publicationStatus"
+msgstr "Статус публикации"
+
+msgid "manager.dois.registration.submittedDescription"
+msgstr ""
+"Метаданные для этого элемента были отправлены в {$registrationAgency}."
+
+msgid "manager.dois.registration.manuallyMarkedRegistered"
+msgstr ""
+"Этот элемент был зарегистрирован вручную в регистрационном агентстве."
+
+msgid "manager.dois.registration.notSubmittedDescription"
+msgstr ""
+"Метаданные для этого элемента не были отправлены в {$registrationAgency}."
+
+msgid "manager.dois.registration.notPublishedDescription"
+msgstr "Этот элемент не может быть депонирован, пока не будет опубликован."
+
+msgid "manager.dois.registration.viewError"
+msgstr "Просмотреть ошибку"
+
+msgid "manager.dois.registration.viewError.title"
+msgstr "Сообщение об ошибке регистрации"
+
+msgid "manager.dois.registration.viewRecord"
+msgstr "Просмотреть запись"
+
+msgid "manager.dois.registration.viewRecord.title"
+msgstr "Сообщение об успешной регистрации"
+
+msgid "manager.dois.update.success"
+msgstr "DOI успешно обновлены"
+
+msgid "manager.dois.registration.depositDois"
+msgstr "Депонировать DOI"
+
+msgid "manager.dois.status.needsDoi"
+msgstr "Требуется DOI"
+
+msgid "manager.dois.status.unregistered"
+msgstr "Не зарегистрирован"
+
+msgid "manager.dois.status.submitted"
+msgstr "Отправлен"
+
+msgid "manager.dois.status.registered"
+msgstr "Зарегистрирован"
+
+msgid "manager.dois.status.error"
+msgstr "Ошибка"
+
+msgid "manager.dois.status.error.filterTitle"
+msgstr "Имеет ошибку"
+
+msgid "manager.dois.status.stale"
+msgstr "Требуется синхронизация"
+
+msgid "manager.dois.filters.doiAssigned"
+msgstr "DOI назначен"
+
+msgid "manager.dois.status.needsDoi.description"
+msgstr "Все элементы, у которых отсутствует DOI."
+
+msgid "manager.dois.filters.doiAssigned.description"
+msgstr "Все элементы, которым назначен DOI."
+
+msgid "manager.dois.status.unregistered.description"
+msgstr "Все элементы с DOI, которые были опубликованы, но еще не депонированы в регистрационном агентстве."
+
+msgid "manager.dois.status.submitted.description"
+msgstr "Все элементы, которые были отправлены в регистрационное агентство."
+
+msgid "manager.dois.status.registered.description"
+msgstr "Все элементы, которые были зарегистрированы в регистрационном агентстве или вручную отмечены как зарегистрированные."
+
+msgid "manager.dois.status.error.description"
+msgstr "Все элементы, в процессе регистрации которых произошла ошибка."
+
+msgid "manager.dois.status.stale.description"
+msgstr "Все элементы, которые были переизданы после их последнего депонирования в регистрационном агентстве. Их необходимо повторно отправить в регистрационное агентство для обновления записей метаданных."
+
+msgid "manager.dois.update.failedCreation"
+msgstr "Не удалось обновить DOI"
+
+msgid "manager.dois.update.partialFailure"
+msgstr "Некоторые DOI не удалось обновить"
+
+msgid "manager.dois.notification.exportSuccess"
+msgstr "Элементы успешно экспортированы"
+
+msgid "manager.dois.notification.markRegisteredSuccess"
+msgstr "Элементы успешно отмечены как зарегистрированные"
+
+msgid "manager.dois.notification.markUnregisteredSuccess"
+msgstr "Элементы успешно отмечены как незарегистрированные"
+
+msgid "manager.dois.notification.markStaleSuccess"
+msgstr "Элементы успешно отмечены как требующие синхронизации"
+
+msgid "manager.dois.notification.assignDoisSuccess"
+msgstr "Элементам успешно назначены новые DOI"
+
+msgid "manager.dois.notification.depositQueuedSuccess"
+msgstr "Элементы успешно отправлены на депонирование"
+
+msgid "manager.dois.help.statuses.title"
+msgstr "Статусы DOI"
+
+msgid "manager.dois.settings.relocated"
+msgstr "Управление DOI перемещено. Пожалуйста, перейдите на страницы <a href=\"{$doiManagementUrl}\">управления DOI</a> и <a href=\"{$doiSettingsUrl}\">настроек DOI</a>."
+
+msgid "manager.dois.settings.prefixRequired"
+msgstr "DOI не могут быть назначены, если вы не укажете назначенный вам префикс DOI. <a href=\"{$doiSettingsUrl}\">Добавьте префикс DOI</a>."
+
+msgid "doi.exceptions.missingPrefix"
+msgstr "Попытка создать DOI, но для создания требуется префикс DOI в контексте."
+
+msgid "manager.genres.alertDelete"
+msgstr ""
+"Прежде чем этот компонент может быть удален, вы должны связать все связанные "
+"файлы подачи с другим компонентом."
+
+msgid "manager.highlights.add"
+msgstr "Добавить выделенный материал"
+
+msgid "manager.highlights.confirmDelete"
+msgstr "Вы уверены, что хотите удалить {$title}? Это действие нельзя отменить."
+
+msgid "manager.highlights.delete"
+msgstr "Удалить выделенный материал"
+
+msgid "manager.highlights.edit"
+msgstr "Редактировать выделенный материал"
+
+msgid "manager.highlights.image"
+msgstr "Изображение"
+
+msgid "manager.highlights.url.description"
+msgstr "Полный URL, включая https://, для кнопки в выделенном материале."
+
+msgid "manager.highlights.urlText"
+msgstr "Текст кнопки"
+
+msgid "manager.highlights.urlText.description"
+msgstr "Надпись на кнопке в выделенном материале, например «Читать дальше»."
+
+msgid "manager.institutions.edit"
+msgstr "Редактировать учреждение"
+
+msgid "manager.institutions.form.ror"
+msgstr "ROR"
+
+msgid "manager.institutions.form.ror.description"
+msgstr "Идентификатор Research Organization Registry для этого учреждения."
+
+msgid "manager.institutions.form.ipRanges"
+msgstr "Диапазоны IP"
+
+msgid "manager.institutions.form.ipRangesInstructions"
+msgstr ""
+"Допустимые значения включают IP-адрес (например, 142.58.103.1), диапазон IP (например, "
+"142.58.103.1 - 142.58.103.4), диапазон IP с подстановочным знаком '*' (например, 142.58.*.*), "
+"и диапазон IP с CIDR (например, 142.58.100.0/24)."
+
+msgid "manager.institutions.deleteInstitution"
+msgstr "Удалить учреждение"
+
+msgid "manager.institutions.confirmDelete"
+msgstr "Вы уверены, что хотите продолжить и удалить это учреждение?"
+
+msgid "manager.institutions.invalidIPRange"
+msgstr "Неверный диапазон IP"
+
+msgid "manager.publication.submissionStage"
+msgstr "Подача"
+
+msgid "manager.publication.reviewStage"
+msgstr "Рецензирование"
+
+msgid "manager.publication.editorialStage"
+msgstr "Редактирование"
+
+msgid "manager.publication.productionStage"
+msgstr "Производство"
+
+msgid "manager.publication.emails"
+msgstr "Письма"
+
+msgid "manager.publication.reviewerGuidance"
+msgstr "Рекомендации рецензентам"
+
+msgid "manager.publication.reviewReminders.success"
+msgstr "Детали напоминаний о рецензировании обновлены."
+
+msgid "manager.dois.title"
+msgstr "DOI"
+
+msgid "manager.dois.registrationAgency.errorMessagePreamble"
+msgstr ""
+"Следующая ошибка была возвращена {$registrationAgency} и содержит "
+"подробности о причине ошибки:"
+
+msgid "manager.dois.registrationAgency.registeredMessagePreamble"
+msgstr ""
+"Следующее сообщение было возвращено {$registrationAgency} и содержит "
+"подробности о регистрации:"
+
+msgid "manager.emails.addEmail"
+msgstr "Добавить шаблон"
+
+msgid "manager.emails.createEmail"
+msgstr "Создать письмо"
+
+msgid "manager.emails.data"
+msgstr "Данные сообщения шаблона"
+
+msgid "manager.emails.details"
+msgstr "Детали шаблона"
+
+msgid "manager.emails.disable"
+msgstr "Отключить"
+
+msgid "manager.emails.disable.message"
+msgstr ""
+"Вы собираетесь отключить этот шаблон письма. Если были системные "
+"процессы, использующие этот шаблон, они больше не будут его использовать. "
+"Вы хотите подтвердить эту операцию?"
+
+msgid "manager.emails.editTestExample"
+msgstr "Редактировать тестовый пример письма"
+
+msgid "manager.emails.emailTemplate"
+msgstr "Шаблон письма"
+
+msgid "manager.emails.emailTemplates"
+msgstr "Шаблоны писем"
+
+msgid "manager.emails.otherTemplates"
+msgstr "Другие шаблоны"
+
+msgid "manager.emails.emailTemplate.contextRequired"
+msgstr "Вы должны указать идентификатор контекста при добавлении шаблона письма."
+
+msgid "manager.emails.enabled"
+msgstr "Включить этот шаблон письма"
+
+msgid "manager.emails.enable"
+msgstr "Включить"
+
+msgid "manager.emails.enable.message"
+msgstr ""
+"Вы собираетесь включить это письмо. Вы хотите подтвердить эту операцию?"
+
+msgid "manager.emails.form.emailKeyRequired"
+msgstr ""
+"Требуется уникальный ключ письма, не содержащий пробелов или специальных символов."
+
+msgid "manager.emails.form.bodyRequired"
+msgstr "Требуется текст письма."
+
+msgid "manager.emails.form.subjectRequired"
+msgstr "Требуется тема письма."
+
+msgid "manager.emails"
+msgstr "Подготовленные письма"
+
+msgid "manager.emails.resetAll"
+msgstr "Сбросить все"
+
+msgid "manager.emails.resetAll.message"
+msgstr ""
+"Если вы сбросите все шаблоны, все изменения в шаблонах писем будут потеряны. "
+"Вы хотите подтвердить эту операцию?"
+
+msgid "manager.emails.reset.message"
+msgstr ""
+"Если вы сбросите этот шаблон, все данные сообщения будут сброшены до значения по умолчанию, "
+"и все изменения будут потеряны. Вы хотите подтвердить эту операцию?"
+
+msgid "manager.emails.resetToDefault"
+msgstr "Сбросить к значению по умолчанию"
+
+msgid "manager.emails.sentFrom"
+msgstr "Отправлено от"
+
+msgid "manager.emails.sentTo"
+msgstr "Отправлено кому"
+
+msgid "manager.export.usersToCsv.label"
+msgstr "Экспорт в Excel/CSV"
+
+msgid "manager.export.usersToCsv.description"
+msgstr "Выберите пользователей для экспорта в файл Excel/CSV."
+
+msgid "manager.filesBrowser"
+msgstr "Обозреватель файлов"
+
+msgid "manager.files.confirmDelete"
+msgstr ""
+"Удалить этот файл или каталог? Обратите внимание, что каталог должен быть пустым, "
+"прежде чем его можно будет удалить."
+
+msgid "manager.files.createDir"
+msgstr "Создать каталог"
+
+msgid "manager.files.emptyDir"
+msgstr "В этом каталоге файлы не найдены."
+
+msgid "manager.files.indexOfDir"
+msgstr "Содержимое {$dir}"
+
+msgid "manager.files.parentDir"
+msgstr "Родительский каталог"
+
+msgid "manager.files.uploadedFiles"
+msgstr "Загруженные файлы"
+
+msgid "manager.files.uploadFile"
+msgstr "Загрузить файл"
+
+msgid "manager.groups.confirmDelete"
+msgstr "Вы уверены, что хотите удалить эту группу?"
+
+msgid "manager.groups.createTitle"
+msgstr "Создать заголовок"
+
+msgid "manager.groups.editTitle"
+msgstr "Редактировать заголовок"
+
+msgid "manager.groups.form.groupTitleRequired"
+msgstr "Требуется заголовок группы."
+
+msgid "manager.groups.membership.addMember"
+msgstr "Добавить участника"
+
+msgid "manager.groups.membership.confirmDelete"
+msgstr "Вы уверены, что хотите удалить это членство в группе?"
+
+msgid "manager.groups.membership"
+msgstr "Членство"
+
+msgid "manager.groups.membership.noneCreated"
+msgstr "В этой группе нет участников."
+
+msgid "manager.groups.membership.noUsers"
+msgstr "Пользователи не найдены."
+
+msgid "manager.groups.title"
+msgstr "Заголовок"
+
+msgid "manager.image"
+msgstr "Изображение"
+
+msgid "manager.importExport"
+msgstr "Импорт/Экспорт данных"
+
+msgid "manager.language.websiteLanguages"
+msgstr "Языки сайта"
+
+msgid "manager.language.submissionLanguages"
+msgstr "Языки подач"
+
+msgid "manager.language.ui"
+msgstr "Интерфейс"
+
+msgid "manager.language.submissions"
+msgstr "Подачи"
+
+msgid "manager.language.gridAction.addLangauage"
+msgstr "Добавить/Удалить языки"
+
+msgid "manager.language.forms"
+msgstr "Формы"
+
+msgid "manager.language.submissionMetadata"
+msgstr "Метаданные"
+
+msgid "manager.language.submission.form.description"
+msgstr "Выберите языки для подач и метаданных."
+
+msgid "manager.language.submission.from.error"
+msgstr "Необходимо выбрать хотя бы одну локаль."
+
+msgid "manager.language.reloadLocalizedDefaultSettings"
+msgstr "Перезагрузить настройки по умолчанию"
+
+msgid "manager.languages.alternateLocaleInstructions"
+msgstr ""
+"Эта система опционально позволяет вводить определенную критическую информацию "
+"на нескольких дополнительных языках. Чтобы использовать эту функцию, выберите "
+"альтернативные локали и выберите параметры из списка ниже."
+
+msgid "manager.languages.supportedLocalesInstructions"
+msgstr ""
+"Выберите все локали для поддержки на сайте через меню выбора языка, которое будет "
+"отображаться на каждой странице. Меню будет отображаться только в том случае, если "
+"выбрано более одной локали."
+
+msgid "manager.payment.timestamp"
+msgstr "Отметка времени"
+
+msgid "manager.people.existingUserRequired"
+msgstr "Необходимо ввести существующего пользователя."
+
+msgid "manager.people.confirmUnenroll"
+msgstr "Отменить регистрацию этого пользователя?"
+
+msgid "manager.people.createUser"
+msgstr "Создать нового пользователя"
+
+msgid "manager.people.createUserGeneratePassword"
+msgstr "Сгенерировать случайный пароль."
+
+msgid "manager.people.createUserSendNotify"
+msgstr "Отправить пользователю приветственное письмо с именем пользователя и паролем."
+
+msgid "manager.people.disable"
+msgstr "Отключить"
+
+msgid "manager.people.doNotEnroll"
+msgstr "Без роли"
+
+msgid "manager.people.editProfile"
+msgstr "Редактировать профиль"
+
+msgid "manager.people.editUser"
+msgstr "Редактировать пользователя"
+
+msgid "manager.people.emailUsers.emailSelectedUsers"
+msgstr "Отправить письмо выбранным пользователям"
+
+msgid "manager.people.emailUsers.emailUsersEnrolledAs"
+msgstr "Отправить письмо пользователям, зарегистрированным как"
+
+msgid "manager.people.emailUsers"
+msgstr "Отправить письмо пользователям"
+
+msgid "manager.people.emailUsers.selectLocale"
+msgstr "Выберите локаль"
+
+msgid "manager.people.emailUsers.selectUsers"
+msgstr ""
+"Выберите пользователей, которым вы хотите отправить письмо, установив флажки рядом с их именами"
+
+msgid "manager.people.enable"
+msgstr "Включить"
+
+msgid "manager.people.enroll"
+msgstr "Зарегистрировать пользователя"
+
+msgid "manager.people.enrollment"
+msgstr "Регистрация"
+
+msgid "manager.people.enrollSelected"
+msgstr "Зарегистрировать выбранных пользователей"
+
+msgid "manager.people.enrollSyncRole"
+msgstr "Синхронизировать роль"
+
+msgid "manager.people.enrollSync"
+msgstr "Синхронизировать регистрацию"
+
+msgid "manager.people.enrollUserAsDescription"
+msgstr "Пользователи могут быть назначены на роль или удалены с нее в любой момент."
+
+msgid "manager.people.enrollUserAs"
+msgstr "Зарегистрировать пользователя как"
+
+msgid "manager.people.invalidUser"
+msgstr "Извините, запрошенный пользователь не существует."
+
+msgid "manager.people.mergeUser"
+msgstr "Объединить пользователя"
+
+msgid "manager.people.mergeUsers.confirm"
+msgstr ""
+"Вы уверены, что хотите объединить выбранную(ые) {$oldAccountCount} учетную(ые) запись(и) "
+"в учетную запись с именем пользователя «{$newUsername}»? Выбранные "
+"{$oldAccountCount} учетные записи после этого перестанут существовать. Это действие необратимо."
+
+msgid "manager.people.mergeUsers"
+msgstr "Объединить пользователей"
+
+msgid "manager.people.mustChooseRole"
+msgstr ""
+"Пожалуйста, выберите роль в верхней части страницы, прежде чем нажимать «Зарегистрировать пользователя»."
+
+msgid "manager.people.mustProvideName"
+msgstr "Пожалуйста, сначала укажите хотя бы фамилию пользователя."
+
+msgid "manager.people.noMatchingUsers"
+msgstr "Нет подходящих пользователей."
+
+msgid "manager.people.noneEnrolled"
+msgstr "Нет зарегистрированных пользователей."
+
+msgid "manager.people"
+msgstr "Пользователи"
+
+msgid "manager.people.remove"
+msgstr "Удалить"
+
+msgid "manager.people.saveAndCreateAnotherUser"
+msgstr "Сохранить и создать другого"
+
+msgid "manager.people.signedInAs"
+msgstr "Вы вошли как {$username}"
+
+msgid "manager.people.signInAs"
+msgstr "Войти как"
+
+msgid "manager.people.signInAsUser"
+msgstr "Войти как пользователь"
+
+msgid "manager.people.syncUsers"
+msgstr "Синхронизировать регистрацию пользователей"
+
+msgid "manager.people.unenroll"
+msgstr "Отменить регистрацию"
+
+msgid "manager.people.userCreatedSuccessfully"
+msgstr "Пользователь успешно создан."
+
+msgid "manager.people.userMustChangePassword"
+msgstr "Требовать от пользователя изменить пароль при следующем входе."
+
+msgid "manager.plugins.action"
+msgstr "Действие:"
+
+msgid "manager.plugins.disable"
+msgstr "Отключить"
+
+msgid "manager.plugins.enable"
+msgstr "Включить"
+
+msgid "manager.plugins.pluginManagement"
+msgstr "Управление плагинами"
+
+msgid "manager.plugins.sitePlugin"
+msgstr ""
+"Это общесайтовый плагин. Только администратор сайта может управлять этим плагином."
+
+msgid "manager.plugins"
+msgstr "Системные плагины"
+
+msgid "manager.readingTools"
+msgstr "Инструменты чтения"
+
+msgid "manager.userSearch.searchByName"
+msgstr "Поиск пользователя по имени"
+
+msgid "manager.representative.inUse"
+msgstr ""
+"Вы не можете удалить этого представителя, так как он назначен на рыночные "
+"метаданные для одного или нескольких форматов публикации этой подачи."
+
+msgid "manager.reviewerSearch.change"
+msgstr "Изменить"
+
+msgid "manager.reviewerSearch.searchByName"
+msgstr "Поиск рецензентов по имени"
+
+msgid "manager.reviewerSearch.searchByName.short"
+msgstr "Поиск по имени"
+
+msgid "manager.reviewerSearch.interests"
+msgstr "Области интересов для рецензирования"
+
+msgid "manager.reviewerSearch.form.instructions"
+msgstr ""
+"Используйте форму ниже, чтобы установить максимальные значения для условий, которые вы "
+"хотите найти. Форма предварительно заполнена вычисленными средними значениями этих полей."
+
+msgid "manager.roles"
+msgstr "Роли"
+
+msgid "manager.setup.statistics"
+msgstr "Статистика"
+
+msgid "manager.settings.statistics.geoUsageStats"
+msgstr "Географическая статистика"
+
+msgid "manager.settings.statistics.geoUsageStats.description"
+msgstr "Выберите тип географической статистики использования для сбора. Более детальная географическая статистика может значительно увеличить размер вашей базы данных и в редких случаях может нарушить анонимность ваших посетителей."
+
+msgid "manager.settings.statistics.geoUsageStats.disabled"
+msgstr "Не собирать никаких географических данных"
+
+msgid "manager.settings.statistics.geoUsageStats.countryLevel"
+msgstr "Собирать страну посетителя"
+
+msgid "manager.settings.statistics.geoUsageStats.regionLevel"
+msgstr "Собирать страну и регион посетителя"
+
+msgid "manager.settings.statistics.geoUsageStats.cityLevel"
+msgstr "Собирать страну, регион и город посетителя"
+
+msgid "manager.settings.statistics.institutionUsageStats"
+msgstr "Статистика по учреждениям"
+
+msgid "manager.settings.statistics.institutionUsageStats.description"
+msgstr "Включите статистику по учреждениям, если вы хотите собирать статистику использования по учреждениям. Если включено, вам нужно будет настроить диапазоны IP для каждого учреждения, которое вы хотите отслеживать."
+
+msgid "manager.settings.statistics.institutionUsageStats.enable"
+msgstr "Включить статистику по учреждениям"
+
+msgid "manager.settings.statistics.publicSushiApi"
+msgstr "Публичный API"
+
+msgid "manager.settings.statistics.publicSushiApi.description"
+msgstr "Ограничивать ли доступ к конечным точкам API для статистики COUNTER SUSHI. Если флажок не установлен, API будет доступен только пользователям с ролью администратора или менеджера."
+
+msgid "manager.settings.statistics.publicSushiApi.public"
+msgstr "Сделать статистику COUNTER SUSHI общедоступной"
+
+msgid "manager.statistics.counterR5"
+msgstr "Counter R5"
+
+msgid "manager.statistics.counterR5Reports"
+msgstr "Отчеты Counter R5"
+
+msgid "manager.statistics.counterR5Reports.description"
+msgstr "См. <a href=\"https://cop5.projectcounter.org/en/5.0.3/04-reports/index.html\" target=\"_new\">документацию COUNTER 5.0.3</a> для получения дополнительной информации о каждом отчете."
+
+msgid "manager.statistics.counterR5Reports.usageNotPossible"
+msgstr "Статистика использования COUNTER R5 пока недоступна."
+
+msgid "manager.statistics.counterR5Report.settings"
+msgstr "Настройки отчета"
+
+msgid "manager.statistics.counterR5Report.settings.startDate"
+msgstr "Дата начала"
+
+msgid "manager.statistics.counterR5Report.settings.date.startDate.description"
+msgstr "Дата должна быть в формате ГГГГ-ММ-ДД или ГГГГ-ММ. Самая ранняя возможная дата: {$earliestDate}."
+
+msgid "manager.statistics.counterR5Report.settings.endDate"
+msgstr "Дата окончания"
+
+msgid "manager.statistics.counterR5Report.settings.date.endDate.description"
+msgstr "Дата должна быть в формате ГГГГ-ММ-ДД или ГГГГ-ММ. Последняя возможная дата: {$lastDate}."
+
+msgid "manager.statistics.counterR5Report.settings.wrongDateFormat"
+msgstr "Неверный формат даты."
+
+msgid "manager.statistics.counterR5Report.settings.customerId"
+msgstr "ID клиента"
+
+msgid "manager.statistics.counterR5Report.settings.metricType"
+msgstr "Тип метрики"
+
+msgid "manager.statistics.counterR5Report.settings.attributesToShow"
+msgstr "Атрибуты для отображения"
+
+msgid "manager.statistics.counterR5Report.settings.yop"
+msgstr "Год публикации"
+
+msgid "manager.statistics.counterR5Report.settings.date.yop.description"
+msgstr "Список или диапазон годов публикации для возврата в ответе в формате гггг|гггг|гггг-гггг."
+
+msgid "manager.statistics.counterR5Report.settings.wrongYOPFormat"
+msgstr "Неверный формат YOP."
+
+msgid "manager.statistics.counterR5Report.settings.itemId"
+msgstr "ID подачи"
+
+msgid "manager.statistics.counterR5Report.settings.wrongItemId"
+msgstr "ID подачи не существует."
+
+msgid "manager.statistics.counterR5Report.settings.includeParentDetails"
+msgstr "Включить детали родительского элемента"
+
+msgid "manager.statistics.counterR5Report.settings.excludeMonthlyDetails"
+msgstr "Исключить помесячные детали"
+
+msgid "manager.statistics.reports"
+msgstr "Отчеты"
+
+msgid "manager.statistics.reports.description"
+msgstr ""
+"Система генерирует отчеты, которые отслеживают детали, связанные с использованием "
+"сайта и подачами за определенный период времени. Отчеты генерируются в формате CSV, "
+"для просмотра которого требуется приложение для работы с электронными таблицами."
+
+msgid "manager.statistics.reports.month.label"
+msgstr "Используйте формат ГГГГММ."
+
+msgid "manager.statistics.reports.day.label"
+msgstr "Используйте формат ГГГГММДД."
+
+msgid "manager.affiliationAndSupport"
+msgstr "Спонсор"
+
+msgid "manager.setup.dois"
+msgstr "DOI"
+
+msgid "manager.setup.dois.setup"
+msgstr "Настройка"
+
+msgid "manager.setup.dois.registration"
+msgstr "Регистрация"
+
+msgid "doi.manager.settings.doiPrefix"
+msgstr "Префикс DOI"
+
+msgid "doi.manager.setup.automaticDeposit"
+msgstr "Автоматическое депонирование"
+
+msgid "doi.manager.setup.automaticDeposit.enable"
+msgstr "Включить автоматическое депонирование"
+
+msgid "doi.manager.setup.automaticDeposit.description"
+msgstr ""
+"Регистрация DOI и метаданные могут автоматически депонироваться в выбранном "
+"регистрационном агентстве всякий раз, когда элемент с DOI публикуется. "
+"Автоматическое депонирование будет происходить через запланированные интервалы, и статус "
+"регистрации каждого DOI можно отслеживать на странице управления DOI."
+
+msgid "doi.manager.settings.doiPrefix.description"
+msgstr ""
+"Префикс DOI назначается регистрационным агентством, таким как <a href="
+"\"https://www.crossref.org\" target=\"_new\">Crossref</a> или <a href="
+"\"https://datacite.org/\" target=\"new\">DataCite</a>. Пример: 10.xxxx"
+
+msgid "doi.manager.settings.doiPrefixPattern"
+msgstr ""
+"Префикс DOI обязателен и должен быть в следующем формате: 10.xxxx."
+
+msgid "doi.manager.settings.doiCreationTime.label"
+msgstr "Автоматическое назначение DOI"
+
+msgid "doi.manager.settings.doiCreationTime.description"
+msgstr "Когда подаче должен быть назначен DOI?"
+
+msgid "doi.manager.settings.doiCreationTime.publication"
+msgstr "При публикации"
+
+msgid "doi.manager.settings.doiCreationTime.never"
+msgstr "Никогда"
+
+msgid "manager.setup.doiPrefix"
+msgstr "Префикс DOI"
+
+msgid "doi.manager.settings.doiObjects"
+msgstr "Элементы с DOI"
+
+msgid "doi.manager.settings.doiPrefix.required"
+msgstr "Префикс DOI обязателен"
+
+msgid "doi.manager.settings.doiSuffix"
+msgstr "Формат DOI"
+
+msgid "doi.manager.settings.doiSuffix.pattern"
+msgstr "Суффикс DOI"
+
+msgid "doi.manager.settings.doiSuffix.custom"
+msgstr "Пользовательский шаблон суффикса DOI"
+
+msgid "doi.manager.settings.enabledDoiTypes.error"
+msgstr "Один или несколько выбранных типов DOI не разрешены для настроенного регистрационного агентства DOI."
+
+msgid "doi.manager.settings.doiSuffix.description"
+msgstr "Выберите формат, используемый при генерации DOI приложением."
+
+msgid "doi.manager.settings.doiSuffixDefault"
+msgstr "По умолчанию — автоматически генерирует уникальный восьмисимвольный суффикс"
+
+msgid "doi.manager.settings.doiSuffixManual"
+msgstr "Нет — суффиксы должны вводиться вручную на <a href=\"{$doiManagementUrl}\">странице управления DOI</a> и не будут генерироваться автоматически"
+
+msgid "doi.manager.settings.doiSuffixUserDefined"
+msgstr "Пользовательский шаблон — (не рекомендуется)"
+
+msgid "doi.manager.settings.registrationAgency"
+msgstr "Регистрационное агентство"
+
+msgid "doi.manager.settings.registrationAgency.description"
+msgstr ""
+"Пожалуйста, выберите регистрационное агентство, которое вы хотите использовать "
+"при депонировании DOI."
+
+msgid "doi.manager.settings.registrationAgency.noPluginsEnabled.label"
+msgstr "Нет включенного регистрационного агентства"
+
+msgid "doi.manager.settings.registrationAgency.noPluginsEnabled.description"
+msgstr ""
+"DOI могут автоматически создаваться и депонироваться в регистрационном агентстве. "
+"Чтобы использовать эту функцию, найдите и установите плагин от соответствующего "
+"регистрационного агентства."
+
+msgid "doi.manager.settings.registrationAgency.none"
+msgstr "Нет"
+
+msgid "doi.manager.settings.doiVersioning"
+msgstr "Версионность DOI"
+
+msgid "doi.authorization.enabledRequired"
+msgstr "Вы не можете вызвать эту операцию без включенных DOI."
+
+msgid "doi.manager.versions.countStatement"
+msgstr "Всего версий: {$count}."
+
+msgid "doi.manager.versions.view"
+msgstr "Просмотреть все"
+
+msgid "doi.manager.versions.modalTitle"
+msgstr "DOI для всех версий"
+
+msgid "doi.editor.doiSuffixInvalidCharacters"
+msgstr "DOI содержит недопустимые символы."
+
+msgid "manager.setup.publishing"
+msgstr "Детали публикации"
+
+msgid "manager.setup.publishingDescription"
+msgstr ""
+"Эти детали могут быть включены в метаданные, предоставляемые сторонним архивным "
+"организациям."
+
+msgid "manager.setup.additionalContent"
+msgstr "Дополнительный контент"
+
+msgid "manager.setup.additionalContent.description"
+msgstr "Все, что здесь введено, будет отображаться на вашей домашней странице."
+
+msgid "manager.setup.advanced"
+msgstr "Расширенные"
+
+msgid "manager.setup.copyrightNotice"
+msgstr "Уведомление об авторских правах"
+
+msgid "manager.setup.copyrightNotice.description"
+msgstr "Следующее отображается на странице <a href=\"{$url}\">подачи</a>, где авторы узнают о требованиях к подаче. Авторы должны будут подтвердить, что они согласны с уведомлением об авторских правах, прежде чем их подача будет завершена."
+
+msgid "manager.setup.authorGuidelines"
+msgstr "Рекомендации для авторов"
+
+msgid "manager.setup.authorGuidelines.description"
+msgstr "Следующее отображается на странице <a href=\"{$url}\">подачи</a>, где авторы узнают, что они должны сделать для подготовки своей работы к подаче. Предоставьте рекомендации по всему, что им может понадобиться знать, например, по библиографическим стандартам и стандартам форматирования, а также примеры распространенных форматов цитирования, которые следует использовать. Вы также можете указать предпочтительный формат и тематику подач."
+
+msgid "manager.setup.disableSubmissions"
+msgstr "Отключить подачи"
+
+msgid "manager.setup.checklist"
+msgstr "Контрольный список"
+
+msgid "manager.setup.competingInterests"
+msgstr "Конфликты интересов"
+
+msgid "manager.setup.errorDeletingItem"
+msgstr "При удалении этого элемента произошла ошибка."
+
+msgid "manager.setup.favicon"
+msgstr "Favicon"
+
+msgid "manager.setup.homepageImage"
+msgstr "Изображение на главной странице"
+
+msgid "manager.setup.homepageImage.description"
+msgstr "Загрузите изображение для заметного отображения на главной странице."
+
+msgid "manager.setup.homepageImageInvalid"
+msgstr ""
+"Неверный формат изображения для главной страницы или ошибка загрузки. Допустимые форматы: .gif, ."
+"jpg, .png."
+
+msgid "manager.setup.homeTitleImageInvalid"
+msgstr ""
+"Неверный формат изображения заголовка главной страницы или ошибка загрузки. Допустимые "
+"форматы: .gif, .jpg, .png."
+
+msgid "manager.setup.information.descriptionTitle"
+msgstr "Описания"
+
+msgid "manager.setup.layout.sidebar"
+msgstr "Боковая панель"
+
+msgid "manager.setup.layout.sidebar.invalidBlock"
+msgstr ""
+"Блок {$name} не найден. Пожалуйста, убедитесь, что плагин установлен "
+"и включен."
+
+msgid "manager.setup.loggingAndAuditing"
+msgstr "Логирование и аудит"
+
+msgid "manager.setup.logo"
+msgstr "Логотип"
+
+msgid "manager.setup.noTemporaryFile"
+msgstr ""
+"Загруженный вами файл не найден. Пожалуйста, попробуйте загрузить его снова."
+
+msgid "manager.setup.notifications"
+msgstr "Уведомление о подаче автором"
+
+msgid "manager.setup.notifications.copySpecifiedAddress"
+msgstr "Отправить копию на этот адрес электронной почты"
+
+msgid "manager.setup.notifyAllAuthors"
+msgstr "Уведомить всех авторов"
+
+msgid "manager.setup.notifyAllAuthors.description"
+msgstr ""
+"Кто должен получать уведомление по электронной почте, когда редакционное решение зафиксировано?"
+
+msgid "manager.setup.notifyAllAuthors.allAuthors"
+msgstr "Отправить уведомление по электронной почте всем авторам подачи."
+
+msgid "manager.setup.notifyAllAuthors.assignedAuthors"
+msgstr ""
+"Отправлять письмо только авторам, назначенным в рабочий процесс подачи. Обычно "
+"это автор, подавший материал."
+
+msgid "manager.setup.submissionsNotifications"
+msgstr "Уведомления"
+
+msgid "manager.setup.notifications.copySubmissionAckPrimaryContact"
+msgstr "Уведомить основное контактное лицо"
+
+msgid "manager.setup.notifications.copySubmissionAckPrimaryContact.enabled"
+msgstr "Да, отправить копию на {$email}"
+
+msgid "manager.setup.notifications.copySubmissionAckPrimaryContact.disabled"
+msgstr "Нет"
+
+msgid "manager.setup.notifications.copySubmissionAckAddress"
+msgstr "Уведомить любого"
+
+msgid "manager.setup.notifications.copySubmissionAckAddress.description"
+msgstr ""
+"Копия письма с подтверждением подачи будет отправлена на любой из адресов электронной почты, "
+"введенных здесь. Разделяйте несколько адресов запятой. Пример: one@example.com,two@example.com"
+
+msgid "manager.setup.notifications.copySubmissionAckAddress.invalid"
+msgstr "Один или несколько из этих адресов электронной почты недействительны."
+
+msgid "manager.setup.notifications.description"
+msgstr ""
+"Авторам автоматически отправляется письмо с подтверждением подачи. "
+"Вы можете отправлять копии этого письма следующим:"
+
+msgid "manager.setup.notifyUsers"
+msgstr "Уведомить"
+
+msgid "manager.setup.notifyUsers.description"
+msgstr "Выберите пользователей, которые должны получить ваше уведомление по электронной почте."
+
+msgid "manager.setup.notifyUsers.copyDetails"
+msgstr "Отправить копию этого письма мне на {$email}."
+
+msgid "manager.setup.notifyUsers.send"
+msgstr "Отправить письмо"
+
+msgid "manager.setup.notifyUsers.confirm"
+msgstr ""
+"Вы собираетесь отправить письмо {$total} пользователям. Вы уверены, что хотите "
+"отправить это письмо?"
+
+msgid "manager.setup.notifyUsers.queued"
+msgstr "Письма успешно поставлены в очередь для отправки при первой возможности."
+
+msgid "manager.setup.notifyUsers.sendAnother"
+msgstr "Отправить другое письмо"
+
+msgid "manager.setup.openAccessPolicy"
+msgstr "Политика открытого доступа"
+
+msgid "manager.setup.openAccessPolicy.description"
+msgstr ""
+"Если вы предоставляете немедленный бесплатный доступ ко всему опубликованному контенту, "
+"вы можете ввести описание вашей Политики открытого доступа."
+
+msgid "manager.setup.pageHeaderLogoImageInvalid"
+msgstr ""
+"Неверный формат логотипа заголовка страницы или ошибка загрузки. Допустимые форматы "
+".gif, .jpg, .png."
+
+msgid "manager.setup.pageFooter"
+msgstr "Нижний колонтитул страницы"
+
+msgid "manager.setup.pageFooter.description"
+msgstr ""
+"Введите любые изображения, текст или HTML-код, которые вы хотите видеть внизу вашего сайта."
+
+msgid "manager.setup.peerReview.description"
+msgstr ""
+"Опишите политику и процессы рецензирования для читателей и авторов. Это описание часто "
+"включает количество рецензентов, обычно участвующих в рецензировании подачи, критерии, "
+"по которым рецензентов просят оценивать подачи, ожидаемое время, необходимое для проведения "
+"рецензирования, и принципы, используемые для выбора рецензентов."
+
+msgid "manager.setup.principalContact"
+msgstr "Основное контактное лицо"
+
+msgid "manager.setup.principalContactDescription"
+msgstr ""
+"Введите контактные данные, обычно для главного редактора, управляющего редактора или "
+"административного сотрудника, которые могут отображаться на вашем общедоступном сайте."
+
+msgid "manager.setup.privacyStatement"
+msgstr "Заявление о конфиденциальности"
+
+msgid "manager.setup.dateTime"
+msgstr "Дата и время"
+
+msgid "manager.setup.dateTime.descriptionTitle"
+msgstr "Форматы даты и времени"
+
+msgid "manager.setup.dateTime.description"
+msgstr ""
+"Выберите предпочтительный формат для дат и времени. Пользовательский формат может быть "
+"введен с использованием специальных <a href=\"https://www.php.net/manual/ru/datetime."
+"format.php\">символов форматирования</a>."
+
+msgid "manager.setup.dateTime.longDate"
+msgstr "Дата"
+
+msgid "manager.setup.dateTime.shortDate"
+msgstr "Дата (краткая)"
+
+msgid "manager.setup.dateTime.time"
+msgstr "Время"
+
+msgid "manager.setup.dateTime.longDateTime"
+msgstr "Дата и время"
+
+msgid "manager.setup.dateTime.shortDateTime"
+msgstr "Дата и время (краткие)"
+
+msgid "manager.setup.dateTime.custom"
+msgstr "Пользовательский"
+
+msgid "manager.setup.privacyStatement.description"
+msgstr ""
+"Это заявление будет отображаться во время регистрации пользователя, подачи автором и на "
+"общедоступной странице «Конфиденциальность». В некоторых юрисдикциях вы обязаны по закону "
+"раскрывать в этой политике конфиденциальности, как вы обрабатываете пользовательские данные."
+
+msgid "manager.setup.reviewOptions.defaultReviewResponseTime"
+msgstr "Срок ответа по умолчанию"
+
+msgid "manager.setup.reviewOptions.defaultReviewCompletionTime"
+msgstr "Срок завершения по умолчанию"
+
+msgid "manager.setup.reviewOptions.numWeeksPerResponse"
+msgstr "Количество недель для принятия или отклонения запроса на рецензирование."
+
+msgid "manager.setup.reviewOptions.numWeeksPerReview"
+msgstr "Недель для завершения рецензирования"
+
+msgid "manager.setup.reviewOptions.neverSendReminder"
+msgstr "Никогда не напоминать"
+
+msgid "manager.setup.reviewOptions.noteOnModification"
+msgstr "Значения по умолчанию могут быть изменены для каждой рецензии в процессе редактирования."
+
+msgid "manager.setup.reviewOptions.reminders"
+msgstr "Установить напоминания о рецензировании"
+
+msgid "manager.setup.reviewOptions.reminders.description"
+msgstr ""
+"Отправить напоминание по электронной почте до или после ответа на запрос рецензирования (если рецензент еще не ответил "
+"на запрос о рецензировании) или отправки рецензии (если рецензент еще не отправил рецензию)."
+
+msgid "manager.setup.reviewOptions.reminders.response.before"
+msgstr "Ответ на запрос рецензирования — до даты выполнения"
+
+msgid "manager.setup.reviewOptions.reminders.response.after"
+msgstr "Ответ на запрос рецензирования — после даты выполнения"
+
+msgid "manager.setup.reviewOptions.reminders.submit.before"
+msgstr "Отправка рецензии — до даты выполнения"
+
+msgid "manager.setup.reviewOptions.reminders.submit.after"
+msgstr "Отправка рецензии — после даты выполнения"
+
+msgid "manager.setup.reviewOptions.reminders.label.before.days"
+msgstr "{$value} дней до даты выполнения"
+
+msgid "manager.setup.reviewOptions.reminders.label.after.days"
+msgstr "{$value} дней после даты выполнения"
+
+msgid "manager.setup.reviewOptions.reminders.min.label"
+msgstr "Нет"
+
+msgid "manager.setup.reviewOptions.reminders.disbale.label"
+msgstr "Напоминание не установлено"
+
+msgid "manager.setup.reviewOptions.reviewMode"
+msgstr "Режим рецензирования по умолчанию"
+
+msgid "manager.setup.reviewOptions.showAnonymousReviewLink"
+msgstr ""
+"Показать ссылку на <button type=\"button\">как обеспечить анонимность всех файлов</button> во время загрузки"
+
+msgid "manager.setup.reviewOptions.numReviewsPerSubmission"
+msgstr "Требуемое минимальное количество подтвержденных рецензий"
+
+msgid "manager.setup.reviewOptions.numReviewsPerSubmission.description"
+msgstr "Минимальное количество подтвержденных рецензий, необходимое для подачи"
+
+msgid "manager.setup.reviewOptions.reviewerSuggestionEnabled"
+msgstr "Предложения рецензентов при подаче"
+
+msgid "manager.setup.reviewOptions.reviewerSuggestionEnabled.description"
+msgstr "Автор может предложить несколько потенциальных рецензентов перед завершением подачи, что может оптимизировать процесс рецензирования и предоставить ценные замечания для редакционной команды."
+
+msgid "manager.setup.reviewOptions.reviewerSuggestionEnabled.label"
+msgstr "Разрешить авторам предлагать потенциальных рецензентов в процессе подачи"
+
+msgid "manager.setup.sponsors.note"
+msgstr "Описание отношений со спонсором и политики"
+
+msgid "manager.setup.sponsors.description"
+msgstr ""
+"Примеры: научные ассоциации, университетские кафедры, кооперативы и т.д. "
+"Спонсоры отображаются публично."
+
+msgid "manager.setup.styleSheetDescription"
+msgstr ""
+"Опытные веб-разработчики могут загрузить CSS-файл для дальнейшей настройки "
+"внешнего вида сайта."
+
+msgid "manager.setup.technicalSupportContact"
+msgstr "Контактное лицо технической поддержки"
+
+msgid "manager.setup.technicalSupportContactDescription"
+msgstr ""
+"Контактное лицо, которое может помочь редакторам, авторам и рецензентам с любыми "
+"проблемами при подаче, редактировании, рецензировании или публикации материала."
+
+msgid "manager.setup.theme"
+msgstr "Тема"
+
+msgid "manager.setup.institutions"
+msgstr "Учреждения"
+
+msgid "manager.setup.theme.description"
+msgstr ""
+"Новые темы могут быть установлены из вкладки «Плагины» в верхней части этой страницы."
+
+msgid "manager.setup.theme.notFound"
+msgstr "Выбранная вами тема не установлена или не включена."
+
+msgid "manager.setup.workflow.beginSubmissionHelp.description"
+msgstr "Следующее показывается авторам перед началом подачи. Дайте краткое объяснение процесса подачи, чтобы автор знал, чего ожидать."
+
+msgid "manager.setup.workflow.uploadFilesHelp.description"
+msgstr "Следующее показывается авторам на этапе загрузки файлов. Дайте краткое объяснение того, какие файлы авторы должны предоставить вместе со своей подачей."
+
+msgid "manager.setup.workflow.contributorsHelp.description"
+msgstr "Следующее показывается авторам на этапе добавления участников. Дайте краткое объяснение того, какую информацию автор должен предоставить о себе, соавторах и любых других участниках."
+
+msgid "manager.setup.workflow.reviewerSuggestionsHelp.description"
+msgstr "Следующее показывается авторам на этапе предложения рецензентов. Дайте краткое объяснение того, какую информацию автор должен предоставить о себе, соавторах и любых других участниках."
+
+msgid "manager.setup.workflow.detailsHelp.description"
+msgstr "Следующее показывается авторам на этапе деталей, когда их просят предоставить название, аннотацию и другую ключевую информацию о своей подаче."
+
+msgid "manager.setup.workflow.forTheEditorsHelp.description"
+msgstr "Следующее показывается авторам на этапе «Для редакторов», когда их просят предоставить метаданные, такие как ключевые слова, комментарии для редактора и другие детали для помощи в редакционном рассмотрении."
+
+msgid "manager.setup.workflow.reviewHelp.description"
+msgstr "Следующее показывается авторам на заключительном этапе мастера подачи, когда их просят просмотреть всю предоставленную информацию перед отправкой своей работы."
+
+msgid "manager.setup.workflow.guidance"
+msgstr "Рекомендации для авторов"
+
+msgid "manager.setup.submissionPreparationChecklist"
+msgstr "Контрольный список подачи"
+
+msgid "manager.setup.submissionPreparationChecklistDescription"
+msgstr "Следующее показывается авторам, когда они начинают свою подачу. Авторов просят подтвердить, что их подача соответствует любым требованиям, указанным здесь, перед началом подачи."
+
+msgid "manager.sections.form.deactivateSection"
+msgstr ""
+"Деактивировать этот раздел и не разрешать новые подачи в него."
+
+msgid "manager.sections.confirmDeactivateSection"
+msgstr "Вы уверены, что хотите деактивировать этот раздел?"
+
+msgid "manager.sections.confirmActivateSection"
+msgstr "Вы уверены, что хотите активировать этот раздел?"
+
+msgid "manager.sections.form.assignEditors"
+msgstr "Редакционные назначения"
+
+msgid "manager.sections.form.assignEditors.description"
+msgstr "Выберите редакторов, которые должны автоматически назначаться на все новые подачи в этот раздел."
+
+msgid "manager.sections.form.assignEditorAs"
+msgstr "Назначить {$name} как {$role}"
+
+msgid "manager.categories.form.assignEditors.description"
+msgstr "Выберите редакторов, которые должны автоматически назначаться на все новые подачи в эту категорию."
+
+msgid "manager.categories.form.removeCoverImageOnDifferentContextNowAllowed"
+msgstr ""
+"Категория не существует или принадлежит другому "
+"контексту. Пожалуйста, убедитесь, что вы работаете с правильным контекстом, и повторите попытку."
+
+msgid "manager.categories.form.removeCoverImageFileNotFound"
+msgstr "Файлы обложки и миниатюры не найдены. Возможно, они уже были удалены. Попробуйте перезагрузить страницу."
+
+msgid "manager.siteAccessOptions.siteAccessOptions"
+msgstr "Параметры доступа к сайту"
+
+msgid "manager.statistics.statistics.count.value"
+msgstr "{$count} ({$percentage}%)"
+
+msgid "manager.statistics.statistics.totalNewValue"
+msgstr "{$numTotal} ({$numNew} новых)"
+
+msgid "manager.statistics.statistics.registeredUsers"
+msgstr "Зарегистрированные пользователи"
+
+msgid "manager.users"
+msgstr "Пользователи"
+
+msgid "plugins.categories.metadata"
+msgstr "Плагины метаданных"
+
+msgid "plugins.categories.metadata.description"
+msgstr "Плагины метаданных реализуют дополнительные стандарты метаданных."
+
+msgid "plugins.categories.auth"
+msgstr "Плагины авторизации"
+
+msgid "plugins.categories.blocks"
+msgstr "Блочные плагины"
+
+msgid "plugins.categories.blocks.description"
+msgstr ""
+"Блочные плагины — это подключаемые компоненты пользовательского интерфейса, "
+"такие как различные инструменты боковой панели."
+
+msgid "plugins.categories.gateways.description"
+msgstr "Плагины-шлюзы предоставляют данные в реальном времени внешним системам."
+
+msgid "plugins.categories.gateways"
+msgstr "Плагины-шлюзы"
+
+msgid "plugins.categories.generic"
+msgstr "Общие плагины"
+
+msgid "plugins.categories.importexport.description"
+msgstr ""
+"Плагины импорта/экспорта могут использоваться для передачи контента в другие системы "
+"и из других систем."
+
+msgid "plugins.categories.importexport"
+msgstr "Плагины импорта/экспорта"
+
+msgid "plugins.categories.paymethod.description"
+msgstr ""
+"Плагины способов оплаты реализуют поддержку различных способов обработки "
+"платежей онлайн."
+
+msgid "plugins.categories.paymethod"
+msgstr "Плагины оплаты"
+
+msgid "plugins.categories.reports.description"
+msgstr ""
+"Плагины отчетов используются для реализации различных типов отчетов и "
+"извлечения данных."
+
+msgid "plugins.categories.reports"
+msgstr "Плагины отчетов"
+
+msgid "plugins.categories.themes.description"
+msgstr "Плагины тем могут использоваться для изменения внешнего вида системы."
+
+msgid "plugins.categories.themes"
+msgstr "Плагины тем"
+
+msgid "plugins.categories.oaiMetadataFormats"
+msgstr "Плагины форматов метаданных OAI"
+
+msgid "plugins.categories.oaiMetadataFormats.description"
+msgstr "Эти плагины форматов выражают метаданные в коммуникациях OAI."
+
+msgid "plugins.categories.pubIds"
+msgstr "Плагины общедоступных идентификаторов"
+
+msgid "plugins.categories.pubIds.description"
+msgstr "Эти плагины реализуют поддержку общедоступного идентификатора."
+
+msgid "manager.plugins.copyError"
+msgstr ""
+"Плагин не был успешно скопирован. Это может быть проблемой прав доступа. "
+"Пожалуйста, убедитесь, что веб-сервер может записывать в каталог плагинов "
+"(включая подкаталоги), но не забудьте позже снова ограничить доступ."
+
+msgid "manager.plugins.delete"
+msgstr "Удалить плагин"
+
+msgid "manager.plugins.installConfirm"
+msgstr "Вы уверены, что хотите установить этот плагин?"
+
+msgid "manager.plugins.upgradeConfirm"
+msgstr "Вы уверены, что хотите обновить этот плагин?"
+
+msgid "grid.action.installPlugin"
+msgstr "Установить или обновить этот плагин"
+
+msgid "manager.plugins.deleteConfirm"
+msgstr "Вы уверены, что хотите удалить этот плагин из системы?"
+
+msgid "manager.plugins.deleteDescription"
+msgstr ""
+"Нажав «Удалить», вы удалите плагин из файловой системы сервера."
+
+msgid "manager.plugins.deleteError"
+msgstr ""
+"Плагин «{$pluginName}» не может быть удален из файловой системы. Это может "
+"быть проблемой прав доступа. Пожалуйста, убедитесь, что веб-сервер может "
+"записывать в каталог плагинов (включая подкаталоги), но не забудьте позже "
+"снова ограничить доступ."
+
+msgid "manager.plugins.deleteSuccess"
+msgstr "Плагин «{$pluginName}» успешно удален"
+
+msgid "manager.plugins.description"
+msgstr ""
+"Эта страница позволяет менеджеру просматривать и, возможно, настраивать плагины, "
+"которые в настоящее время установлены. Плагины разделены на категории в соответствии с их "
+"функцией. Категории перечислены ниже, а внутри каждой категории — ее текущий набор плагинов."
+
+msgid "manager.plugins.doesNotExist"
+msgstr "Плагин «{$pluginName}» не существует"
+
+msgid "manager.plugins.fileSelectError"
+msgstr "Сначала выберите файл"
+
+msgid "manager.plugins.upload"
+msgstr "Загрузить новый плагин"
+
+msgid "manager.plugins.uploadDescription"
+msgstr ""
+"Эта форма позволяет вам загрузить и установить новый плагин. Пожалуйста, убедитесь, что плагин "
+"упакован в файл .tar.gz."
+
+msgid "manager.plugins.uploadFailed"
+msgstr "Пожалуйста, убедитесь, что файл был выбран для загрузки."
+
+msgid "manager.plugins.installed"
+msgstr "Установленные плагины"
+
+msgid "manager.plugins.pluginGallery"
+msgstr "Галерея плагинов"
+
+msgid "manager.plugins.pluginGallery.overview"
+msgstr "Обзор"
+
+msgid "manager.plugins.pluginGallery.installation"
+msgstr "Установка"
+
+msgid "manager.plugins.pluginGallery.latestCompatible"
+msgstr "Последний совместимый релиз"
+
+msgid "manager.plugins.pluginGallery.certifications.official"
+msgstr "Официальный"
+
+msgid "manager.plugins.pluginGallery.certifications.official.description"
+msgstr ""
+"Этот плагин разрабатывается и поддерживается командой Public Knowledge Project."
+
+msgid "manager.plugins.pluginGallery.certifications.reviewed"
+msgstr "Проверенный"
+
+msgid "manager.plugins.pluginGallery.certifications.reviewed.description"
+msgstr ""
+"Этот плагин был проверен и одобрен командой Public Knowledge Project."
+
+msgid "manager.plugins.pluginGallery.certifications.partner"
+msgstr "Партнерский"
+
+msgid "manager.plugins.pluginGallery.certifications.partner.description"
+msgstr "Этот плагин предоставлен одним из наших партнеров по разработке."
+
+msgid "manager.plugins.pluginGallery.maintainer"
+msgstr "Разработчик"
+
+msgid "manager.plugins.pluginGallery.version"
+msgstr "v{$version}, выпущена {$date}"
+
+msgid "manager.plugins.pluginGallery.installed"
+msgstr "Установленная версия: {$version}"
+
+msgid "manager.plugins.pluginGallery.homepage"
+msgstr "Домашняя страница"
+
+msgid "manager.plugins.pluginGallery.summary"
+msgstr "Краткое описание"
+
+msgid "manager.plugins.pluginGallery.status"
+msgstr "Статус"
+
+msgid "manager.plugins.noInstalledVersion"
+msgstr "Плагин еще не установлен."
+
+msgid "manager.plugins.noCompatibleVersion"
+msgstr "В настоящее время нет доступной совместимой версии этого плагина."
+
+msgid "manager.plugins.installedVersionNewer"
+msgstr ""
+"Плагин уже установлен и его версия новее, чем версия, доступная в галерее."
+
+msgid "manager.plugins.installedVersionOlder"
+msgstr "Плагин уже установлен, но может быть обновлен до более новой версии."
+
+msgid "manager.plugins.installedVersionNewest"
+msgstr "Плагин уже установлен и актуален."
+
+msgid "manager.plugins.installedVersionNewer.short"
+msgstr "Новее доступной версии"
+
+msgid "manager.plugins.installedVersionOlder.short"
+msgstr "Может быть обновлен"
+
+msgid "manager.plugins.installedVersionNewest.short"
+msgstr "Актуален"
+
+msgid "manager.plugins.noCompatibleVersion.short"
+msgstr "Недоступен"
+
+msgid "manager.plugins.installFailed"
+msgstr "Установка не удалась. {$errorString}"
+
+msgid "manager.plugins.installSuccessful"
+msgstr "Версия {$versionNumber} успешно установлена"
+
+msgid "manager.plugins.invalidPluginArchive"
+msgstr ""
+"Загруженный архив плагина не содержит папку, соответствующую имени плагина."
+
+msgid "manager.plugins.wrongCategory"
+msgstr "Загруженный плагин не соответствует категории обновляемого плагина."
+
+msgid "manager.plugins.wrongName"
+msgstr ""
+"Файл version.xml в загруженном плагине содержит имя плагина, которое не соответствует "
+"имени обновляемого плагина."
+
+msgid "manager.plugins.pleaseInstall"
+msgstr "Плагин не существует. Пожалуйста, выполните установку."
+
+msgid "manager.plugins.pleaseUpgrade"
+msgstr ""
+"Плагин уже существует, но его версия новее установленной. Пожалуйста, выполните обновление."
+
+msgid "manager.plugins.settings"
+msgstr "Настройки"
+
+msgid "manager.plugins.upgrade"
+msgstr "Обновить плагин"
+
+msgid "manager.plugins.upgradeDescription"
+msgstr ""
+"Эта форма позволяет вам обновить плагин. Пожалуйста, убедитесь, что плагин "
+"упакован в файл .tar.gz."
+
+msgid "manager.plugins.upgradeFailed"
+msgstr "Обновление не удалось. {$errorString}"
+
+msgid "manager.plugins.upgradeSuccessful"
+msgstr "Успешно обновлено до версии {$versionString}"
+
+msgid "manager.plugins.uploadError"
+msgstr "Ошибка загрузки файла"
+
+msgid "manager.plugins.uploadPluginDir"
+msgstr "Выберите файл плагина"
+
+msgid "manager.plugins.versionFileInvalid"
+msgstr "Файл version.xml в каталоге плагина содержит неверные данные."
+
+msgid "manager.plugins.versionFileNotFound"
+msgstr "Файл version.xml не найден в каталоге плагина"
+
+msgid "notification.localeEnabled"
+msgstr "Локаль включена."
+
+msgid "notification.localeDisabled"
+msgstr "Локаль отключена."
+
+msgid "notification.primaryLocaleDefined"
+msgstr "{$locale} определена как основная локаль."
+
+msgid "notification.localeInstalled"
+msgstr "Все выбранные локали установлены и активированы."
+
+msgid "notification.localeUninstalled"
+msgstr "Локаль {$locale} удалена."
+
+msgid "notification.localeReloaded"
+msgstr "Локаль {$locale} перезагружена для {$contextName}."
+
+msgid "notification.localeSettingsSaved"
+msgstr "Настройки локали сохранены."
+
+msgid "notification.localeSettingsCannotBeSaved"
+msgstr ""
+"Не удалось сохранить настройки языка. Должен быть включен хотя бы один язык "
+"для каждой опции."
+
+msgid "notification.defaultLocaleSettingsCannotBeSaved"
+msgstr "Не удалось сохранить настройки языка. Все опции должны быть включены."
+
+msgid "notification.submissionLocales"
+msgstr "Локали подач обновлены."
+
+msgid "notification.editedUser"
+msgstr "Пользователь отредактирован."
+
+msgid "manager.distribution.license"
+msgstr "Лицензия"
+
+msgid "manager.distribution.license.other"
+msgstr "URL другой лицензии"
+
+msgid "manager.distribution.licenseTerms"
+msgstr "Условия лицензии"
+
+msgid "manager.distribution.licenseTerms.description"
+msgstr ""
+"Введите условия публичной лицензии, которые вы хотите отображать вместе с опубликованной работой."
+
+msgid "manager.distribution.customHeaders"
+msgstr "Пользовательские теги"
+
+msgid "manager.distribution.customHeaders.description"
+msgstr ""
+"Добавьте пользовательские HTML-теги, также известные как мета-теги, которые вы хотите "
+"вставить в заголовок каждой страницы. Проконсультируйтесь с техническим специалистом, "
+"прежде чем добавлять теги здесь."
+
+msgid "manager.paymentMethod"
+msgstr "Платежи"
+
+msgid "manager.paymentMethod.title"
+msgstr "Способы оплаты"
+
+msgid "manager.paymentMethod.none"
+msgstr "Не выбран способ оплаты"
+
+msgid "manager.paymentMethod.method"
+msgstr "Способ оплаты"
+
+msgid "manager.paymentMethod.currency"
+msgstr "Валюта"
+
+msgid "settings.roles.masthead"
+msgstr "Учитывать роль в списке редакционной коллегии"
+
+msgid "settings.roles.roleOptions"
+msgstr "Параметры роли"
+
+msgid "settings.roles.showTitles"
+msgstr "Показывать название роли в списке авторов"
+
+msgid "settings.roles.permitSelfRegistration"
+msgstr "Разрешить самостоятельную регистрацию пользователей"
+
+msgid "settings.roles.permitSettings"
+msgstr "Разрешить изменения в настройках"
+
+msgid "settings.roles.recommendOnly"
+msgstr ""
+"Эта роль может только рекомендовать решение по рецензированию, и для фиксации окончательного решения потребуется уполномоченный редактор."
+
+msgid "settings.roles.roleName"
+msgstr "Название роли"
+
+msgid "settings.roles.roleAbbrev"
+msgstr "Аббревиатура"
+
+msgid "settings.roles.assignedStages"
+msgstr "Назначенные этапы"
+
+msgid "settings.roles.stages"
+msgstr "Этапы"
+
+msgid "settings.roles.roleDetails"
+msgstr "Детали роли"
+
+msgid "settings.roles.from"
+msgstr "Уровень разрешений"
+
+msgid "settings.roles.removeText"
+msgstr ""
+"Вы собираетесь удалить эту роль из этого контекста. Эта операция также "
+"удалит связанные настройки и все назначения пользователей на эту роль. "
+"Вы хотите продолжить?"
+
+msgid "settings.roles.nameRequired"
+msgstr "Вам необходимо определить название роли."
+
+msgid "settings.roles.abbrevRequired"
+msgstr "Вам необходимо определить аббревиатуру роли."
+
+msgid "settings.roles.uniqueName"
+msgstr "Вам необходимо определить уникальное название роли."
+
+msgid "settings.roles.uniqueAbbrev"
+msgstr "Вам необходимо определить уникальную аббревиатуру роли."
+
+msgid "settings.roles.roleIdRequired"
+msgstr "Вам необходимо определить уровень разрешений роли."
+
+msgid "settings.roles.stageIdRequired"
+msgstr "Вам необходимо определить этап для назначения."
+
+msgid "settings.roles.permitMetadataEdit"
+msgstr "Разрешить редактирование метаданных подачи."
+
+msgid "settings.libraryFiles.fileRequired"
+msgstr ""
+"Требуется файл библиотеки. Пожалуйста, убедитесь, что вы выбрали и загрузили "
+"файл."
+
+msgid "settings.libraryFiles.nameRequired"
+msgstr "Требуется имя для этого файла библиотеки."
+
+msgid "settings.libraryFiles.typeRequired"
+msgstr "Требуется тип файла для этого файла библиотеки."
+
+msgid "settings.libraryFiles.category.contracts"
+msgstr "Контракты"
+
+msgid "settings.libraryFiles.category.marketing"
+msgstr "Маркетинг"
+
+msgid "settings.libraryFiles.category.permissions"
+msgstr "Разрешения"
+
+msgid "settings.libraryFiles.category.reports"
+msgstr "Отчеты"
+
+msgid "settings.libraryFiles.category.other"
+msgstr "Другое"
+
+msgid "settings.libraryFiles.public.viewInstructions"
+msgstr ""
+"<p>Этот файл библиотеки может быть доступен для скачивания, если включен «Публичный доступ», "
+"по адресу: <blockquote>{$downloadUrl}</blockquote></p>"
+
+msgid "settings.libraryFiles.public.selectLibraryFiles"
+msgstr "Выберите файлы библиотеки для прикрепления"
+
+msgid "grid.action.addGenre"
+msgstr "Добавить компонент"
+
+msgid "grid.action.editGenre"
+msgstr "Редактировать этот компонент"
+
+msgid "grid.action.deleteGenre"
+msgstr "Удалить этот компонент"
+
+msgid "grid.action.restoreGenres"
+msgstr "Восстановить компоненты до настроек по умолчанию"
+
+msgid "manager.setup.genres.label"
+msgstr "Тип файла"
+
+msgid "manager.setup.genres.dependent"
+msgstr ""
+"Это зависимые файлы, такие как изображения, отображаемые HTML-файлом, и они не будут "
+"отображаться с опубликованным контентом."
+
+msgid "manager.setup.genres.supplementary"
+msgstr ""
+"Это дополнительные файлы, такие как наборы данных и исследовательские материалы, и они "
+"будут отображаться отдельно от основных файлов публикации."
+
+msgid "manager.setup.genres.key"
+msgstr "Ключ"
+
+msgid "manager.setup.genres.key.description"
+msgstr "Необязательный короткий символьный идентификатор для этого жанра."
+
+msgid "manager.setup.genres.key.exists"
+msgstr "Ключ уже существует."
+
+msgid "manager.setup.genres.key.alphaNumeric"
+msgstr ""
+"Ключ может содержать только буквенно-цифровые символы, знаки подчеркивания и дефисы, "
+"и должен начинаться и заканчиваться буквенно-цифровым символом."
+
+msgid "manager.setup.genres.metatadata"
+msgstr "Метаданные файла"
+
+msgid "manager.setup.genres.metatadata.description"
+msgstr ""
+"Выберите тип метаданных, которые могут получать эти файлы. Для основных файлов публикации, "
+"таких как загружаемый PDF, следует выбрать «Документ», чтобы эти файлы наследовали свои "
+"метаданные от публикации. В противном случае для большинства типов файлов выберите "
+"«Дополнительный контент». «Иллюстрация» подходит для файлов, требующих отдельных метаданных "
+"об авторстве, подписи и лицензировании."
+
+msgid "manager.setup.genres.submitRequired.label"
+msgstr "Требовать при подаче"
+
+msgid "manager.setup.genres.submitRequired.description"
+msgstr "Должен ли хотя бы один из этих файлов требоваться при каждой новой подаче? Если вы выберете «Да», авторам не будет разрешено подавать материал, пока они не загрузят хотя бы один файл этого типа."
+
+msgid "manager.setup.genres.submitRequired.yes"
+msgstr "Да, требовать от авторов загрузки одного или нескольких таких файлов."
+
+msgid "manager.setup.genres.submitRequired.no"
+msgstr "Нет, разрешить новые подачи без этих файлов."
+
+msgid "manager.setup.appearance.editorialMasthead.description"
+msgstr "Определите порядок отображения ролей в редакционной коллегии для публичного просмотра."
+
+msgid "manager.settings.wizard"
+msgstr "Мастер настроек"
+
+msgid "manager.users.roleRequired"
+msgstr "Вам необходимо выбрать хотя бы одну роль для связи с этим пользователем."
+
+msgid "manager.website"
+msgstr "Сайт"
+
+msgid "manager.website.title"
+msgstr "Настройки сайта"
+
+msgid "manager.workflow"
+msgstr "Рабочий процесс"
+
+msgid "manager.workflow.title"
+msgstr "Настройки рабочего процесса"
+
+msgid "manager.distribution"
+msgstr "Распространение"
+
+msgid "manager.distribution.title"
+msgstr "Настройки распространения"
+
+msgid "manager.reviewForms"
+msgstr "Формы рецензирования"
+
+msgid "manager.reviewForms.confirmActivate"
+msgstr ""
+"Вы уверены, что хотите активировать эту форму рецензирования? После того как она будет "
+"назначена на рецензию, вы больше не сможете ее деактивировать."
+
+msgid "manager.reviewForms.confirmDeactivate"
+msgstr ""
+"Вы уверены, что хотите деактивировать эту форму рецензирования? Она больше не будет "
+"доступна для новых назначений на рецензирование."
+
+msgid "manager.reviewForms.confirmCopy"
+msgstr "Вы уверены, что хотите создать копию этой формы рецензирования?"
+
+msgid "manager.reviewForms.completed"
+msgstr "Завершено"
+
+msgid "manager.reviewForms.confirmDelete"
+msgstr "Вы уверены, что хотите удалить эту форму рецензирования?"
+
+msgid "manager.reviewForms.create"
+msgstr "Создать форму рецензирования"
+
+msgid "manager.reviewForms.description"
+msgstr "Описание и инструкции"
+
+msgid "manager.reviewForms.edit"
+msgstr "Форма рецензирования"
+
+msgid "manager.reviewForms.form.titleRequired"
+msgstr "Требуется заголовок для формы рецензирования."
+
+msgid "manager.reviewForms.inReview"
+msgstr "На рецензировании"
+
+msgid "manager.reviewForms.list.description"
+msgstr ""
+"Созданные здесь формы рецензирования будут предлагаться рецензентам для заполнения вместо "
+"формы по умолчанию, которая состоит из двух открытых текстовых полей: первое «для автора и "
+"редактора», второе «для редактора». Формы рецензирования могут быть назначены для конкретного "
+"раздела прессы, и у редакторов будет возможность выбрать, какую форму использовать при "
+"назначении рецензии. Во всех случаях у редакторов будет возможность включать рецензии в "
+"переписку с автором."
+
+msgid "manager.reviewForms.noneChosen"
+msgstr "Нет / Свободная форма рецензии"
+
+msgid "manager.reviewForms.noneCreated"
+msgstr "Формы рецензирования не созданы."
+
+msgid "manager.reviewForms.noneUsed"
+msgstr "Формы рецензирования не использовались."
+
+msgid "manager.reviewForms.preview"
+msgstr "Предпросмотр формы"
+
+msgid "manager.reviewForms.reviewFormData"
+msgstr "Данные формы рецензирования"
+
+msgid "manager.reviewForms.title"
+msgstr "Заголовок"
+
+msgid "manager.reviewFormElement.changeType"
+msgstr "Изменение типа элемента формы..."
+
+msgid "manager.reviewFormElements"
+msgstr "Элементы формы"
+
+msgid "manager.reviewFormElements.addResponseItem"
+msgstr "Добавить вариант выбора"
+
+msgid "manager.reviewFormElements.checkboxes"
+msgstr "Флажки (можно выбрать один или несколько)"
+
+msgid "manager.reviewFormElements.chooseType"
+msgstr "Выберите тип элемента"
+
+msgid "manager.reviewFormElements.confirmDelete"
+msgstr "Подтвердите удаление опубликованного элемента формы..."
+
+msgid "manager.reviewFormElements.copyTo"
+msgstr "Копировать в:"
+
+msgid "manager.reviewFormElements.create"
+msgstr "Создать новый элемент"
+
+msgid "manager.reviewFormElements.dropdownbox"
+msgstr "Раскрывающийся список"
+
+msgid "manager.reviewFormElements.edit"
+msgstr "Редактировать элемент формы"
+
+msgid "manager.reviewFormElements.elementType"
+msgstr "Тип элемента"
+
+msgid "manager.reviewFormElements.form.elementTypeRequired"
+msgstr "Для элемента формы требуется тип."
+
+msgid "manager.reviewFormElements.form.questionRequired"
+msgstr "Для элемента формы требуется вопрос."
+
+msgid "manager.reviewFormElements.noneCreated"
+msgstr "Элементы формы не созданы."
+
+msgid "manager.reviewFormElements.possibleResponse"
+msgstr "Выбор"
+
+msgid "manager.reviewFormElements.question"
+msgstr "Элемент"
+
+msgid "manager.reviewFormElements.description"
+msgstr "Описание"
+
+msgid "manager.reviewFormElements.radiobuttons"
+msgstr "Переключатели (можно выбрать только один)"
+
+msgid "manager.reviewFormElements.required"
+msgstr "Требовать от рецензентов заполнения элемента"
+
+msgid "manager.reviewFormElements.included"
+msgstr "Включено в сообщение автору"
+
+msgid "manager.reviewFormElements.smalltextfield"
+msgstr "Поле для одного слова"
+
+msgid "manager.reviewFormElements.textarea"
+msgstr "Расширенное текстовое поле"
+
+msgid "manager.reviewFormElements.textfield"
+msgstr "Однострочное текстовое поле"
+
+msgid "manager.reviewFormElements.viewable"
+msgstr "Просматриваемый (для авторов)"
+
+msgid "grid.action.createReviewForm"
+msgstr "Создать новую форму рецензирования"
+
+msgid "manager.setup.competingInterests.required"
+msgstr "Запрашивать заявление о конфликте интересов во время рецензирования."
+
+msgid "manager.setup.licenseURLDescription"
+msgstr "URL веб-страницы с описанием лицензии, если доступно."
+
+msgid "manager.setup.metadata.submission"
+msgstr "Форма подачи"
+
+msgid "manager.setup.metadata.coverage"
+msgstr "Охват"
+
+msgid "manager.setup.metadata.coverage.description"
+msgstr ""
+"Охват обычно указывает на пространственное местоположение работы (название места или "
+"географические координаты), временной период (название периода, дата или диапазон дат) "
+"или юрисдикцию (например, именованная административная единица)."
+
+msgid "manager.setup.metadata.coverage.enable"
+msgstr "Включить метаданные об охвате"
+
+msgid "manager.setup.metadata.coverage.noRequest"
+msgstr "Не запрашивать метаданные об охвате у автора во время подачи."
+
+msgid "manager.setup.metadata.coverage.request"
+msgstr "Попросить автора предложить метаданные об охвате во время подачи."
+
+msgid "manager.setup.metadata.coverage.require"
+msgstr ""
+"Требовать от автора предложить метаданные об охвате перед принятием его подачи."
+
+msgid "manager.setup.metadata.keywords.description"
+msgstr ""
+"Ключевые слова — это обычно фразы из одного-трех слов, которые используются для указания "
+"основных тем подачи."
+
+msgid "manager.setup.metadata.keywords.enable"
+msgstr "Включить метаданные ключевых слов"
+
+msgid "manager.setup.metadata.keywords.noRequest"
+msgstr "Не запрашивать ключевые слова у автора во время подачи."
+
+msgid "manager.setup.metadata.keywords.request"
+msgstr "Попросить автора предложить ключевые слова во время подачи."
+
+msgid "manager.setup.metadata.keywords.require"
+msgstr ""
+"Требовать от автора предложить ключевые слова перед принятием его подачи."
+
+msgid "manager.setup.metadata.rights.description"
+msgstr ""
+"Любые права на подачу, которые могут включать права интеллектуальной собственности, "
+"авторские права и различные имущественные права."
+
+msgid "manager.setup.metadata.rights.enable"
+msgstr "Включить метаданные о правах"
+
+msgid "manager.setup.metadata.rights.noRequest"
+msgstr "Не запрашивать раскрытие прав у автора во время подачи."
+
+msgid "manager.setup.metadata.rights.request"
+msgstr "Попросить автора раскрыть любые предварительные права доступа во время подачи."
+
+msgid "manager.setup.metadata.rights.require"
+msgstr ""
+"Требовать от автора раскрыть любые предварительные права доступа перед принятием его подачи."
+
+msgid "manager.setup.metadata.source.description"
+msgstr ""
+"Источником может быть идентификатор, такой как DOI, другой работы или ресурса, из которого "
+"происходит подача."
+
+msgid "manager.setup.metadata.source.enable"
+msgstr "Включить метаданные об источнике"
+
+msgid "manager.setup.metadata.source.noRequest"
+msgstr "Не запрашивать URL источника у автора во время подачи."
+
+msgid "manager.setup.metadata.source.request"
+msgstr "Попросить автора предоставить URL источника во время подачи."
+
+msgid "manager.setup.metadata.source.require"
+msgstr ""
+"Требовать от автора предоставить URL источника перед принятием его подачи."
+
+msgid "manager.setup.metadata.subjects.description"
+msgstr ""
+"Предметы будут ключевыми словами, ключевыми фразами или классификационными кодами, "
+"которые описывают тему подачи."
+
+msgid "manager.setup.metadata.subjects.enable"
+msgstr "Включить метаданные о предметах"
+
+msgid "manager.setup.metadata.subjects.noRequest"
+msgstr "Не запрашивать предметы у автора во время подачи."
+
+msgid "manager.setup.metadata.subjects.request"
+msgstr "Попросить автора указать предметы во время подачи."
+
+msgid "manager.setup.metadata.subjects.require"
+msgstr ""
+"Требовать от автора указать предметы перед принятием его подачи."
+
+msgid "manager.setup.metadata.type.description"
+msgstr ""
+"Природа или жанр основного содержания подачи. Тип обычно «Текст», но также может быть "
+"«Набор данных», «Изображение» или любой из <a target=\"_blank\" href=\"https://www.dublincore.org/specifications/dublin-"
+"core/dcmi-terms/\">типов Dublin Core</a>."
+
+msgid "manager.setup.metadata.type.enable"
+msgstr "Включить метаданные о типе"
+
+msgid "manager.setup.metadata.type.noRequest"
+msgstr "Не запрашивать тип у автора во время подачи."
+
+msgid "manager.setup.metadata.type.request"
+msgstr "Попросить автора указать тип во время подачи."
+
+msgid "manager.setup.metadata.type.require"
+msgstr ""
+"Требовать от автора указать тип перед принятием его подачи."
+
+msgid "manager.setup.metadata.disciplines.description"
+msgstr ""
+"Дисциплины — это виды исследований или области знаний, описываемые университетскими "
+"факультетами и научными обществами."
+
+msgid "manager.setup.metadata.disciplines.enable"
+msgstr "Включить метаданные о дисциплинах"
+
+msgid "manager.setup.metadata.disciplines.noRequest"
+msgstr "Не запрашивать дисциплины у автора во время подачи."
+
+msgid "manager.setup.metadata.disciplines.request"
+msgstr "Попросить автора указать дисциплины во время подачи."
+
+msgid "manager.setup.metadata.disciplines.require"
+msgstr ""
+"Требовать от автора указать дисциплины перед принятием его подачи."
+
+msgid "manager.setup.metadata.agencies.description"
+msgstr ""
+"Поддерживающие агентства могут указывать на источник финансирования исследований или "
+"другую институциональную поддержку, которая способствовала проведению исследования."
+
+msgid "manager.setup.metadata.agencies.enable"
+msgstr "Включить метаданные о поддерживающих агентствах"
+
+msgid "manager.setup.metadata.agencies.noRequest"
+msgstr "Не запрашивать поддерживающие агентства у автора во время подачи."
+
+msgid "manager.setup.metadata.agencies.request"
+msgstr "Попросить автора раскрыть любые поддерживающие агентства во время подачи."
+
+msgid "manager.setup.metadata.agencies.require"
+msgstr ""
+"Требовать от автора раскрыть любые поддерживающие агентства перед принятием его подачи."
+
+msgid "manager.setup.metadata.citations.description"
+msgstr ""
+"Собирать ссылки подачи в отдельном поле. Это может потребоваться для соблюдения требований "
+"сервисов отслеживания цитирований, таких как Crossref."
+
+msgid "manager.setup.metadata.citations.enable"
+msgstr "Включить метаданные о ссылках"
+
+msgid "manager.setup.metadata.citations.noRequest"
+msgstr "Не запрашивать ссылки у автора во время подачи."
+
+msgid "manager.setup.metadata.citations.request"
+msgstr "Попросить автора предоставить ссылки во время подачи."
+
+msgid "manager.setup.metadata.citations.require"
+msgstr ""
+"Требовать от автора предоставить ссылки перед принятием его подачи."
+
+msgid "manager.setup.metadata.dataAvailability.description"
+msgstr ""
+"Краткое заявление, описывающее, сделали ли авторы свои исследовательские данные общедоступными и, если да, где читатели могут получить к ним доступ."
+
+msgid "manager.setup.metadata.dataAvailability.enable"
+msgstr "Включить метаданные о доступности данных"
+
+msgid "manager.setup.metadata.dataAvailability.noRequest"
+msgstr "Не запрашивать заявление о доступности данных у автора во время подачи."
+
+msgid "manager.setup.metadata.dataAvailability.request"
+msgstr "Попросить автора предоставить заявление о доступности данных во время подачи."
+
+msgid "manager.setup.metadata.dataAvailability.require"
+msgstr ""
+"Требовать от автора предоставить заявление о доступности данных перед принятием его подачи."
+
+msgid "plugins.importexport.common.validationErrors"
+msgstr "Ошибки валидации:"
+
+msgid "plugins.importexport.common.warningsEncountered"
+msgstr "Обнаружены предупреждения:"
+
+msgid "plugins.importexport.common.errorsOccured"
+msgstr "Произошли ошибки:"
+
+msgid "plugins.importexport.common.id"
+msgstr "Id: {$id}"
+
+msgid "plugins.importexport.common.error.unknownElement"
+msgstr "Неизвестный элемент {$param}"
+
+msgid "plugins.importexport.common.error.unknownGenre"
+msgstr "Неизвестный жанр {$param}"
+
+msgid "plugins.importexport.common.error.unknownEncoding"
+msgstr "Неизвестная кодировка {$param}"
+
+msgid "plugins.importexport.common.error.encodingError"
+msgstr "Содержимое не закодировано как {$param}"
+
+msgid "plugins.importexport.common.error.unknownUserGroup"
+msgstr ""
+"Импортируемый файл включает автора «{$authorName}» с группой пользователей "
+"«{$userGroupName}». В целевой установке не определена группа пользователей с таким именем."
+
+msgid "plugins.importexport.common.error.userGroupMissing"
+msgstr "Отсутствует группа пользователей для автора {$param}"
+
+msgid "plugins.importexport.common.error.missingGivenName"
+msgstr ""
+"У автора {$authorName} отсутствует имя на языке подачи {$localeName}. Подача не может быть "
+"импортирована без этой информации."
+
+msgid "plugins.importexport.common.error.missingAffiliationName"
+msgstr ""
+"У автора {$authorName} отсутствует affiliation (место работы/учёбы) на языке подачи {$localeName}. Подача не может быть "
+"импортирована без этой информации."
+
+msgid "plugins.importexport.common.error.unknownUploader"
+msgstr "Неизвестный загрузчик {$param}"
+
+msgid "plugins.importexport.common.error.temporaryFileFailed"
+msgstr "Не удалось создать временный файл {$dest} из {$source}"
+
+msgid "plugins.importexport.common.error.filesizeMismatch"
+msgstr ""
+"Предоставленный размер файла «{$expected}» и фактический размер файла «{$actual}» "
+"не совпадают"
+
+msgid "plugins.importexport.common.error.duplicateRevisionForSubmission"
+msgstr ""
+"Редакция «{$revisionId}» для файла подачи «{$fileId}» создаст дублирующуюся запись"
+
+msgid "plugins.importexport.native.error.submissionFileImportFailed"
+msgstr "Не удалось импортировать файл подачи"
+
+msgid "plugins.importexport.native.error.submissionFileSkipped"
+msgstr ""
+"Файл подачи {$id} был пропущен, так как он прикреплен к записи, которая не будет "
+"импортирована, например, к назначению на рецензирование или обсуждению."
+
+msgid "plugins.importexport.native.error.submissionFileWithoutRevision"
+msgstr "Файл подачи {$id} был пропущен, так как у него нет действительной редакции."
+
+msgid "plugins.importexport.native.error.submissionFileInvalidFileStage"
+msgstr "Файл подачи {$id} был пропущен, так как у него нет действительного этапа файла."
+
+msgid "plugins.importexport.native.error.submissionFileRevisionMissing"
+msgstr "Редакция {$revision} файла подачи {$id} была пропущена, так как файл не найден по пути «{$path}»."
+
+msgid "plugins.importexport.common.error.publicationCoverImageMissing"
+msgstr "Изображение обложки публикации {$id} не было экспортировано, его файл не найден по пути «{$path}»."
+
+msgid "plugins.importexport.user.importExportErrors"
+msgstr "Ошибки импорта/экспорта:"
+
+msgid "plugins.importexport.user.error.userHasNoPassword"
+msgstr ""
+"У импортированного пользователя «{$username}» нет пароля. Проверьте формат вашего XML для импорта. "
+"Пользователь не был импортирован."
+
+msgid "plugins.importexport.user.error.passwordHasBeenChanged"
+msgstr ""
+"Пароль импортированного пользователя «{$username}» не может быть импортирован как есть. "
+"Новый пароль отправлен на электронную почту пользователя. Пользователь был импортирован."
+
+msgid "plugins.importexport.user.error.plainPasswordNotValid"
+msgstr ""
+"Импортированный пользователь «{$username}» имеет простой пароль, который недействителен. "
+"Пользователь не был импортирован."
+
+msgid "plugins.importexport.user.error.usernameEmailMismatch"
+msgstr ""
+"Имя пользователя «{$username}» и адрес электронной почты «{$email}» не соответствуют одному и тому же существующему пользователю."
+
+msgid "plugins.importexport.common.settings.form.testMode.label"
+msgstr "Тестирование"
+
+msgid "manager.navigationMenus.form.title"
+msgstr "Заголовок"
+
+msgid "manager.navigationMenus.form.path"
+msgstr "Путь"
+
+msgid "manager.navigationMenus.form.viewInstructions"
+msgstr ""
+"<p>Эта страница будет доступна по адресу: <blockquote>{$pagesPath}</blockquote>..."
+"где %PATH% — это путь, введенный выше. <strong>Примечание:</strong> Никакие две страницы "
+"не могут иметь одинаковый путь. Использование путей, встроенных в систему, может привести "
+"к потере доступа к важным функциям.</p>"
+
+msgid "manager.navigationMenus.form.content"
+msgstr "Содержание"
+
+msgid "manager.navigationMenus.form.pathRegEx"
+msgstr ""
+"Поле пути должно содержать только буквенно-цифровые символы, а также '.', '/', '-', "
+"и '_'."
+
+msgid "manager.navigationMenus.form.duplicatePath"
+msgstr "Этот путь уже существует для другого элемента меню навигации."
+
+msgid "manager.navigationMenus.form.duplicateTitles"
+msgstr "Этот заголовок уже существует для другого меню навигации."
+
+msgid "manager.navigationMenus.form.titleRequired"
+msgstr "Заголовок обязателен"
+
+msgid "manager.navigationMenuItems"
+msgstr "Элементы меню навигации"
+
+msgid "manager.navigationMenus.assignedMenuItems"
+msgstr "Назначенные элементы меню"
+
+msgid "manager.navigationMenus.unassignedMenuItems"
+msgstr "Неназначенные элементы меню"
+
+msgid "manager.navigationMenus.form.navigationMenuArea"
+msgstr "Области навигации активной темы"
+
+msgid "manager.navigationMenus.form.navigationMenuAreaMessage"
+msgstr "Выберите область навигации"
+
+msgid "manager.navigationMenus.form.menuAssigned"
+msgstr "Меню навигации уже назначено для этой области."
+
+msgid "manager.navigationMenus.form.url"
+msgstr "URL"
+
+msgid "manager.navigationMenus.form.customUrlError"
+msgstr "Необходимо указать URL"
+
+msgid "manager.navigationMenus.form.conditionalDisplay"
+msgstr "Узнайте больше о том, когда этот элемент меню будет отображаться или скрыт."
+
+msgid "manager.navigationMenus.form.submenuWarning"
+msgstr ""
+"Когда элемент меню открывает подменю, его ссылка не может быть использована на всех устройствах. "
+"Например, если у вас есть элемент «О нас», который открывает подменю с «Контактами» и "
+"«Редакционной коллегией», ссылка «О нас» может быть недоступна на всех устройствах. В меню по "
+"умолчанию это решается созданием второго элемента меню, «О журнале», который отображается в подменю."
+
+msgid "manager.navigationMenus.form.navigationMenuItemType"
+msgstr "Тип меню навигации"
+
+msgid "manager.navigationMenus.form.navigationMenuItemTypeMessage"
+msgstr "Выберите тип меню навигации или «Пользовательский», чтобы создать свой собственный"
+
+msgid "manager.navigationMenus.customPage"
+msgstr "Пользовательская страница"
+
+msgid "manager.navigationMenus.customPage.description"
+msgstr ""
+"Создайте пользовательскую страницу на своем сайте и дайте на нее ссылку из меню навигации."
+
+msgid "manager.navigationMenus.remoteUrl"
+msgstr "Внешний URL"
+
+msgid "manager.navigationMenus.remoteUrl.description"
+msgstr "Ссылка на любой URL на другом сайте, например https://pkp.sfu.ca."
+
+msgid "manager.navigationMenus.about.description"
+msgstr ""
+"Ссылка на страницу, отображающую контент «О журнале» в Настройках > Журнал"
+
+msgid "manager.navigationMenus.about.conditionalWarning"
+msgstr ""
+"Эта ссылка будет отображаться только в том случае, если вы заполнили раздел "
+"«О журнале» в Настройках > Журнал."
+
+msgid "manager.navigationMenus.editorialMasthead.description"
+msgstr "Ссылка на страницу, отображающую все активные должности в редакционной коллегии."
+
+msgid "manager.navigationMenus.submissions.description"
+msgstr "Ссылка на страницу с инструкциями по подаче."
+
+msgid "manager.navigationMenus.current.description"
+msgstr "Ссылка на ваш текущий выпуск."
+
+msgid "manager.navigationMenus.archives.description"
+msgstr "Ссылка на ваш архив выпусков."
+
+msgid "manager.navigationMenus.announcements.description"
+msgstr "Ссылка на страницу с вашими объявлениями."
+
+msgid "manager.navigationMenus.announcements.conditionalWarning"
+msgstr ""
+"Эта ссылка будет отображаться только в том случае, если вы включили объявления в "
+"Настройках > Сайт."
+
+msgid "manager.navigationMenus.login.description"
+msgstr "Ссылка на страницу входа пользователя."
+
+msgid "manager.navigationMenus.register.description"
+msgstr "Ссылка на страницу регистрации пользователя."
+
+msgid "manager.navigationMenus.dashboard.description"
+msgstr "Ссылка на редакционную панель управления."
+
+msgid "manager.navigationMenus.profile.description"
+msgstr "Ссылка на страницу профиля пользователя."
+
+msgid "manager.navigationMenus.administration.description"
+msgstr "Ссылка на общесайтовые инструменты администрирования."
+
+msgid "manager.navigationMenus.administration.conditionalWarning"
+msgstr "Эта ссылка будет отображаться только для административных пользователей."
+
+msgid "manager.navigationMenus.logOut.description"
+msgstr "Ссылка, которая позволит пользователю выйти из системы."
+
+msgid "manager.navigationMenus.loggedOut.conditionalWarning"
+msgstr "Эта ссылка будет отображаться только когда посетитель вошел в систему."
+
+msgid "manager.navigationMenus.loggedIn.conditionalWarning"
+msgstr "Эта ссылка будет отображаться только когда посетитель не вошел в систему."
+
+msgid "manager.navigationMenus.contact.description"
+msgstr "Ссылка на страницу с вашей контактной информацией."
+
+msgid "manager.navigationMenus.contact.conditionalWarning"
+msgstr ""
+"Эта ссылка будет отображаться только в том случае, если вы заполнили контактную "
+"информацию в Настройках > Контакты."
+
+msgid "manager.navigationMenus.form.typeMissing"
+msgstr "Пожалуйста, выберите тип меню навигации."
+
+msgid "manager.navigationMenus.subscriptions.conditionalWarning"
+msgstr ""
+"Эта ссылка будет отображаться только в том случае, если платежи включены в "
+"Настройках > Распространение > Платежи."
+
+msgid "manager.navigationMenus.mySubscriptions.conditionalWarning"
+msgstr ""
+"Эта ссылка будет отображаться только в том случае, если посетитель вошел в систему, платежи включены "
+"в Настройках > Распространение > Платежи и требуется подписка в Настройках > Распространение > Доступ."
+
+msgid "manager.navigationMenus.search.description"
+msgstr "Ссылка на страницу поиска."
+
+msgid "manager.navigationMenus.privacyStatement.description"
+msgstr "Ссылка на страницу с заявлением о конфиденциальности."
+
+msgid "manager.navigationMenus.privacyStatement.conditionalWarning"
+msgstr ""
+"Эта ссылка будет отображаться только в том случае, если вы ввели заявление о конфиденциальности "
+"в Настройках > Рабочий процесс > Подачи."
+
+msgid "manager.navigationMenus.items.form.title.required"
+msgstr "Заголовок элемента меню обязателен."
+
+msgid "grid.category.add"
+msgstr "Добавить категорию"
+
+msgid "grid.category.edit"
+msgstr "Редактировать категорию"
+
+msgid "grid.category.name"
+msgstr "Имя"
+
+msgid "grid.category.path"
+msgstr "Путь"
+
+msgid "grid.category.urlWillBe"
+msgstr "URL категории будет: {$sampleUrl}"
+
+msgid "grid.category.pathAlphaNumeric"
+msgstr "Путь категории должен состоять только из букв и цифр."
+
+msgid "grid.category.pathExists"
+msgstr "Путь категории уже существует. Пожалуйста, введите уникальный путь."
+
+msgid "grid.category.description"
+msgstr "Описание"
+
+msgid "grid.category.parentCategory"
+msgstr "Родительская категория"
+
+msgid "grid.category.removeText"
+msgstr "Вы уверены, что хотите удалить эту категорию?"
+
+msgid "grid.category.nameRequired"
+msgstr "Пожалуйста, введите название категории."
+
+msgid "grid.category.categoryDetails"
+msgstr "Детали категории"
+
+msgid "stats.allUsers"
+msgstr "Все пользователи"
+
+msgid "stats.city"
+msgstr "Город"
+
+msgid "stats.views"
+msgstr "Просмотры"
+
+msgid "stats.downloads"
+msgstr "Скачивания"
+
+msgid "stats.views.timelineInterval"
+msgstr "Всего просмотров по датам"
+
+msgid "stats.downloads.timelineInterval"
+msgstr "Всего скачиваний по датам"
+
+msgid "stats.countWithYearlyAverage"
+msgstr "{$count} ({$average}/год)"
+
+msgid "stats.daily"
+msgstr "Ежедневно"
+
+msgid "stats.dateRange"
+msgstr "Диапазон дат"
+
+msgid "stats.dateRange.allDates"
+msgstr "Все даты"
+
+msgid "stats.dateRange.apply"
+msgstr "Применить"
+
+msgid "stats.dateRange.change"
+msgstr "Изменить диапазон дат"
+
+msgid "stats.dateRange.customRange"
+msgstr "Пользовательский диапазон"
+
+msgid "stats.dateRange.dateDoesNotExist"
+msgstr "Одна из введенных дат не существует."
+
+msgid "stats.dateRange.from"
+msgstr "От"
+
+msgid "stats.dateRange.instructions"
+msgstr ""
+"Введите каждую дату в формате ГГГГ-ММ-ДД. Например, если вам нужна дата "
+"15 января 2019 года, введите 2019-01-15."
+
+msgid "stats.dateRange.invalidDate"
+msgstr ""
+"Неверный формат даты. Введите каждую дату в формате ГГГГ-ММ-ДД."
+
+msgid "stats.dateRange.invalidDateRange"
+msgstr "Дата начала должна быть раньше даты окончания."
+
+msgid "stats.dateRange.invalidEndDateMax"
+msgstr "Дата окончания не может быть позднее {$date}."
+
+msgid "stats.dateRange.invalidStartDateMin"
+msgstr "Дата начала не может быть раньше {$date}."
+
+msgid "stats.dateRange.last12Months"
+msgstr "Последние 12 месяцев"
+
+msgid "stats.dateRange.last30Days"
+msgstr "Последние 30 дней"
+
+msgid "stats.dateRange.last90Days"
+msgstr "Последние 90 дней"
+
+msgid "stats.dateRange.lastTwoYears"
+msgstr "Последние два года"
+
+msgid "stats.dateRange.lastYear"
+msgstr "Прошлый год"
+
+msgid "stats.dateRange.sinceDate"
+msgstr "С {$date}"
+
+msgid "stats.dateRange.thisYear"
+msgstr "С начала года"
+
+msgid "stats.dateRange.to"
+msgstr "До"
+
+msgid "stats.dateRange.untilDate"
+msgstr "До {$date}"
+
+msgid "stats.description.acceptRejectRate"
+msgstr ""
+"Процент за выбранный период рассчитывается для подач, которые были поданы в течение этого периода и по которым было принято окончательное решение.<br><br>Например, рассмотрим случай, когда в течение этого периода было сделано десять подач. Четыре были приняты, четыре отклонены, и две все еще ожидают окончательного решения.<br><br>Процент принятия составит 50% (4 из 8 подач), поскольку две подачи, по которым не было принято окончательного решения, не учитываются."
+
+msgid "stats.description.daysToDecision"
+msgstr ""
+"Количество дней, за которое большинство подач получает первое редакционное решение, такое как отклонение на этапе desk reject или отправка на рецензирование.<br><br>Эти цифры указывают, что 80% подач достигают решения в течение указанного количества дней.<br><br>Эта статистика пытается описать, когда большинство авторов, подающих материал в ваш журнал, могут ожидать решения."
+
+msgid "stats.description.submissionsSkipped"
+msgstr ""
+"Сюда входят подачи, которые не учитываются в других итоговых показателях, например, те, которые все еще находятся в процессе, и те, которые, по-видимому, были импортированы."
+
+msgid "stats.descriptionForStat"
+msgstr "Описание для {$stat}"
+
+msgid "stats.editorialActivity"
+msgstr "Редакционная активность"
+
+msgid "stats.contextStats"
+msgstr "Статистика журнала"
+
+msgid "stats.context.tooltip.text"
+msgstr "Количество посетителей, просмотревших главную страницу журнала."
+
+msgid "stats.context.tooltip.label"
+msgstr "О статистике журнала"
+
+msgid "stats.issueStats"
+msgstr "Статистика выпусков"
+
+msgid "stats.publicationStats"
+msgstr "Статистика статей"
+
+msgid "stats.publications.totalAbstractViews.timelineInterval"
+msgstr "Просмотры аннотаций по датам"
+
+msgid "stats.publications.totalGalleyViews.timelineInterval"
+msgstr "Просмотры файлов по датам"
+
+msgid "stats.file.type.primaryFile"
+msgstr "Основной файл"
+
+msgid "stats.file.type.suppFile"
+msgstr "Дополнительный файл"
+
+msgid "stats.fileViews"
+msgstr "Просмотры файлов"
+
+msgid "stats.html"
+msgstr "HTML"
+
+msgid "stats.monthly"
+msgstr "Ежемесячно"
+
+msgid "stats.pdf"
+msgstr "PDF"
+
+msgid "stats.geographic.ccAttribution"
+msgstr "Геолокация предоставлена <a href='https://db-ip.com'>DB-IP</a>"
+
+msgid "stats.geographic.tooltip.label"
+msgstr "О геолокации"
+
+msgid "stats.downloadReport.betweenDates"
+msgstr "{$startDate} — {$endDate}"
+
+msgid "stats.downloadReport.allFilters"
+msgstr "Все {$filter}"
+
+msgid "stats.publications.downloadReport.downloadFiles"
+msgstr "Скачать файлы"
+
+msgid "stats.publications.downloadReport.downloadFiles.description"
+msgstr "Количество скачиваний каждого файла."
+
+msgid "stats.publications.downloadReport.downloadGeographic"
+msgstr "География скачиваний"
+
+msgid "stats.publications.downloadReport.downloadGeographic.description"
+msgstr "Количество просмотров и скачиваний для каждого города, региона или страны."
+
+msgid "stats.region"
+msgstr "Регион"
+
+msgid "stats.searchSubmissionDescription"
+msgstr "Поиск по названию, автору и ID"
+
+msgid "stats.submissionsActive"
+msgstr "Активные подачи"
+
+msgid "stats.timeline"
+msgstr "Временная шкала"
+
+msgid "stats.timeline.downloadReport.description"
+msgstr "Количество {$type} для каждого {$interval}."
+
+msgid "stats.timeline.downloadReport.downloadTimeline"
+msgstr "Временная шкала скачиваний"
+
+msgid "stats.timelineInterval"
+msgstr "Интервал временной шкалы"
+
+msgid "stats.timelineType"
+msgstr "Тип временной шкалы"
+
+msgid "stats.total"
+msgstr "Всего"
+
+msgid "stats.unique"
+msgstr "Уникальные"
+
+msgid "stats.totalWithinDateRange"
+msgstr "Всего в выбранном диапазоне дат"
+
+msgid "stats.trends"
+msgstr "Тенденции"
+
+msgid "stats.unknown"
+msgstr "неизвестно"
+
+msgid "stats.userStatistics"
+msgstr "Статистика пользователей"
+
+msgid "stats.name.submissionsReceived"
+msgstr "Получено подач"
+
+msgid "stats.name.submissionsSkipped"
+msgstr "Прочие подачи"
+
+msgid "stats.name.submissionsInProgress"
+msgstr "Подачи в процессе"
+
+msgid "stats.name.submissionsImported"
+msgstr "Импортированные подачи"
+
+msgid "stats.name.submissionsAccepted"
+msgstr "Принятые подачи"
+
+msgid "stats.name.submissionsDeclined"
+msgstr "Отклоненные подачи"
+
+msgid "stats.name.submissionsDeclinedDeskReject"
+msgstr "Отклоненные подачи (Desk Reject)"
+
+msgid "stats.name.submissionsDeclinedPostReview"
+msgstr "Отклоненные подачи (после рецензирования)"
+
+msgid "stats.name.submissionsPublished"
+msgstr "Опубликованные подачи"
+
+msgid "stats.name.daysToDecision"
+msgstr "Дней до первого редакционного решения"
+
+msgid "stats.name.daysToAccept"
+msgstr "Дней до принятия"
+
+msgid "stats.name.daysToReject"
+msgstr "Дней до отклонения"
+
+msgid "stats.name.acceptanceRate"
+msgstr "Процент принятия"
+
+msgid "stats.name.declineRate"
+msgstr "Процент отклонения"
+
+msgid "stats.name.declinedDeskRate"
+msgstr "Процент отклонений на этапе Desk Reject"
+
+msgid "stats.name.declinedReviewRate"
+msgstr "Процент отклонений после рецензирования"
+
+msgid "plugins.importexport.native.processFailed"
+msgstr "Процесс не удался. Проверьте ошибки/предупреждения ниже."
+
+msgid "plugins.importexport.native.export.submissions.results"
+msgstr "Результаты экспорта подач"
+
+msgid "plugins.importexport.native.export.download.results"
+msgstr "Скачать экспортированный файл"
+
+msgid "plugins.importexport.native.export.completed"
+msgstr "Экспорт успешно завершен."
+
+msgid "plugins.importexport.native.export.completed.downloadFile"
+msgstr "Скачайте экспортированный файл с помощью кнопки ниже."
+
+msgid "plugins.importexport.native.common.any"
+msgstr "Общие элементы"
+
+msgid "plugins.importexport.native.common.error.filter.configuration.count"
+msgstr ""
+"Неверная конфигурация фильтра [{$filterName}]: {$filterCount} вхождений. "
+"Должно быть только одно."
+
+msgid "plugins.importexport.common.cliError"
+msgstr "ОШИБКА:"
+
+msgid "plugins.importexport.common.error.unknownContext"
+msgstr "Указанный путь журнала «{$contextPath}» не существует."
+
+msgid "plugins.importexport.submission.cli.display"
+msgstr "«{$submissionId}» - «{$submissionTitle}»"
+
+msgid "plugins.importexport.author.exportFailed"
+msgstr "Процесс не смог обработать авторов"
+
+msgid "plugins.importexport.publication.exportFailed"
+msgstr "Процесс не смог обработать публикации"
+
+msgid "emailTemplate.variable.allReviewersComments"
+msgstr ""
+"Все комментарии из завершенных рецензий. Имена рецензентов скрыты для анонимных "
+"рецензий."
+
+msgid "emailTemplate.variable.authorsWithAffiliation"
+msgstr "Имена и affiliation'ы авторов подачи."
+
+msgid "emailTemplate.variable.context.passwordLostUrl"
+msgstr "URL страницы, где пользователь может восстановить забытый пароль."
+
+msgid "emailTemplate.variable.context.submissionsUrl"
+msgstr "URL для просмотра всех назначенных пользователю подач"
+
+msgid "emailTemplate.variable.context.userProfileUrl"
+msgstr "URL для просмотра и редактирования профиля пользователем"
+
+msgid "emailTemplate.variable.decision.name"
+msgstr "Название принятого решения"
+
+msgid "emailTemplate.variable.decision.description"
+msgstr "Описание принятого решения"
+
+msgid "emailTemplate.variable.decision.stage"
+msgstr "Этап редакционного рабочего процесса, на котором было принято это решение"
+
+msgid "emailTemplate.variable.decision.round"
+msgstr ""
+"Раунд рецензирования, в котором было принято это решение, если решение относится "
+"к этапу рецензирования"
+
+msgid "emailTemplate.variable.discussion.subject"
+msgstr "Тема обсуждения"
+
+msgid "emailTemplate.variable.discussion.content"
+msgstr "Содержание нового обсуждения или ответа"
+
+msgid "emailTemplate.variable.editorialReminder.outstandingTasks"
+msgstr "Список подач с незавершенными задачами"
+
+msgid "emailTemplate.variable.editorialReminder.numberOfSubmissions"
+msgstr "Количество подач, назначенных этому редактору"
+
+msgid "emailTemplate.variable.recipient.userFullName"
+msgstr "Полное имя получателя или всех получателей"
+
+msgid "emailTemplate.variable.recipient.username"
+msgstr "Имя пользователя получателя или всех получателей"
+
+msgid "emailTemplate.variable.recipient.reviewDueDate"
+msgstr "Дата, к которой должна быть завершена рецензия"
+
+msgid "emailTemplate.variable.recipient.responseDueDate"
+msgstr "Дата, к которой рецензент должен принять или отклонить назначение"
+
+msgid "emailTemplate.variable.recipient.reviewAssignmentUrl"
+msgstr "URL назначения на рецензирование"
+
+msgid "emailTemplate.variable.recommendation"
+msgstr "Рекомендуемое решение, например, «Принять подачу»"
+
+msgid "emailTemplate.variable.review.assignedDate"
+msgstr "Дата назначения этой рецензии"
+
+msgid "emailTemplate.variable.review.method"
+msgstr "Тип рецензирования, например, анонимное, двойное анонимное или открытое"
+
+msgid "emailTemplate.variable.review.recommendation"
+msgstr "Рекомендация рецензента, например, «Принять подачу» или «Отклонить»"
+
+msgid "emailTemplate.variable.review.round"
+msgstr "Раунд рецензирования, например, Раунд 1 или Раунд 2"
+
+msgid "emailTemplate.variable.review.files"
+msgstr "Файлы, загруженные рецензентом"
+
+msgid "emailTemplate.variable.review.name"
+msgstr "Имя рецензента"
+
+msgid "emailTemplate.variable.reviewType"
+msgstr ""
+"Описание метода рецензирования по умолчанию, например, «двойное анонимное» или «открытое»"
+
+msgid "emailTemplate.variable.reviewType.doubleAnonymous"
+msgstr ""
+"Этот журнал проводит двойное анонимное рецензирование. Рецензенты не увидят никакой "
+"идентифицирующей информации о вас или ваших соавторах. Аналогично, вы не будете знать, "
+"кто рецензировал вашу подачу, и не будете общаться с рецензентами напрямую."
+
+msgid "emailTemplate.variable.reviewType.anonymous"
+msgstr ""
+"Этот журнал проводит рецензирование с анонимными рецензентами. Ваше имя и имена ваших "
+"соавторов будут видны рецензентам; однако личности рецензентов останутся анонимными."
+
+msgid "emailTemplate.variable.reviewType.open"
+msgstr ""
+"Этот журнал проводит открытое рецензирование. Рецензенты увидят ваше имя и affiliation, "
+"а также имена и affiliation'ы ваших соавторов. Аналогично, вы увидите имена и affiliation'ы "
+"рецензентов."
+
+msgid "emailTemplate.variable.sender.senderName"
+msgstr "Полное имя отправителя"
+
+msgid "emailTemplate.variable.sender.senderEmail"
+msgstr "Адрес электронной почты отправителя"
+
+msgid "emailTemplate.variable.sender.signature"
+msgstr "Подпись отправителя в письме"
+
+msgid "emailTemplate.variable.site.siteContactName"
+msgstr "Полное имя основного контактного лица сайта"
+
+msgid "emailTemplate.variable.site.siteContactEmail"
+msgstr "Электронная почта основного контактного лица сайта"
+
+msgid "emailTemplate.variable.site.siteSignature"
+msgstr "Подпись сайта в электронных письмах для автоматических сообщений"
+
+msgid "emailTemplate.variable.stageAssignment.editors"
+msgstr "Редакторы, назначенные на эту подачу, которые могут принимать решение"
+
+msgid "emailTemplate.variable.submission.submissionTitle"
+msgstr "Название подачи"
+
+msgid "emailTemplate.variable.submission.submissionId"
+msgstr "Уникальный идентификационный номер подачи"
+
+msgid "emailTemplate.variable.submission.submissionAbstract"
+msgstr "Аннотация подачи"
+
+msgid "emailTemplate.variable.submission.authorsShort"
+msgstr "Имена авторов в краткой форме, например, «Барнс и др.»"
+
+msgid "emailTemplate.variable.submission.authors"
+msgstr "Полные имена авторов"
+
+msgid "emailTemplate.variable.submission.authorSubmissionUrl"
+msgstr "URL автора для доступа к подаче"
+
+msgid "emailTemplate.variable.submission.submissionUrl"
+msgstr "URL подачи в редакционной панели управления"
+
+msgid "emailTemplate.variable.submission.submissionPublishedUrl"
+msgstr "URL опубликованной подачи"
+
+msgid "emailTemplate.variable.submission.submissionWizardUrl"
+msgstr "URL подачи в мастере подачи"
+
+msgid "emailTemplate.variable.submission.submittingAuthorName"
+msgstr ""
+"Имена авторов, назначенных в рабочий процесс подачи. Обычно это автор, подавший материал"
+
+msgid "emailTemplate.variable.passwordResetUrl"
+msgstr "Хэшированный URL, который отправляется пользователю для подтверждения сброса пароля"
+
+msgid "emailTemplate.variable.password"
+msgstr "Новый случайный пароль пользователя"
+
+msgid "mailable.reviewerReinstate.name"
+msgstr "Восстановление рецензента"
+
+msgid "mailable.reviewerResendRequest.name"
+msgstr "Повторно отправить запрос на рецензирование рецензенту"
+
+msgid "emailTemplate.variable.submitterName"
+msgstr "Полное имя пользователя, который загрузил файл подачи"
+
+msgid "emailTemplate.variable.announcementTitle"
+msgstr "Заголовок объявления"
+
+msgid "emailTemplate.variable.announcementSummary"
+msgstr "Краткое описание объявления"
+
+msgid "emailTemplate.variable.announcementUrl"
+msgstr "URL объявления"
+
+msgid "emailTemplate.variable.statisticsReportNotify.newSubmissions"
+msgstr "Количество подач, полученных за этот месяц"
+
+msgid "emailTemplate.variable.statisticsReportNotify.declinedSubmissions"
+msgstr "Количество отклоненных подач"
+
+msgid "emailTemplate.variable.statisticsReportNotify.acceptedSubmissions"
+msgstr "Количество принятых подач"
+
+msgid "emailTemplate.variable.statisticsReportNotify.otherSubmissions"
+msgstr "Количество подач, не включенных в другие итоги"
+
+msgid "emailTemplate.variable.statisticsReportNotify.totalSubmissions"
+msgstr "Общее количество полученных подач"
+
+msgid "emailTemplate.variable.statisticsReportNotify.month"
+msgstr "Месяц отчета"
+
+msgid "emailTemplate.variable.statisticsReportNotify.year"
+msgstr "Год отчета"
+
+msgid "emailTemplate.variable.issue.issueIdentification"
+msgstr "Идентификация выпуска, включая том, номер, год и название"
+
+msgid "emailTemplate.variable.issue.issuePublishedUrl"
+msgstr "URL опубликованного выпуска"
+
+msgid "mailTemplate.variable.statisticsReportNotify.year"
+msgstr "Год отчета"
+
+msgid "emailTemplate.variable.statisticsReportNotify.editorialStatsLink"
+msgstr "Ссылка на страницу редакционной активности"
+
+msgid "emailTemplate.variable.activateUrl"
+msgstr "Ссылка для подтверждения учетной записи электронной почты"
+
+msgid "mailable.reviewerReinstate.description"
+msgstr ""
+"Это письмо отправляется, когда рецензент, назначение которого было снято, восстанавливается редактором."
+
+msgid "mailable.reviewerResendRequest.description"
+msgstr "Это письмо отправляется редактором рецензенту, который отклонил запрос на рецензирование, когда редактор желает повторно отправить запрос."
+
+msgid "mailable.reviewerUnassign.name"
+msgstr "Снятие назначения рецензента"
+
+msgid "mailable.reviewerUnassign.description"
+msgstr "Это письмо отправляется, когда редактор снимает назначение рецензента."
+
+msgid "mailable.validateEmailSite.name"
+msgstr "Подтверждение электронной почты (Сайт)"
+
+msgid "mailable.validateEmailSite.description"
+msgstr ""
+"Это письмо автоматически отправляется новому пользователю при регистрации на сайте, "
+"когда настройки требуют подтверждения адреса электронной почты."
+
+msgid "mailable.decision.notifyOtherAuthors.name"
+msgstr "Уведомить других авторов"
+
+msgid "mailable.decision.notifyOtherAuthors.description"
+msgstr ""
+"Это письмо отправляется для уведомления авторов подачи, которые не назначены в качестве "
+"участников, о том, что решение было принято. Обычно это все остальные, кроме автора, подавшего материал."
+
+msgid "mailable.decision.notifyOtherAuthors.variable.message.description"
+msgstr "Копия сообщения электронной почты, которое было отправлено автору, подавшему материал"
+
+msgid "mailable.decision.notifyReviewer.name"
+msgstr "Уведомить рецензентов о решении"
+
+msgid "mailable.decision.notifyReviewer.description"
+msgstr ""
+"Это письмо отправляется редактором рецензенту, чтобы уведомить его о том, что было принято решение "
+"относительно поданного материала, который он рецензировал."
+
+msgid "mailable.decision.notifyReviewer.variable.decisionDescription"
+msgstr ""
+"Краткое описание этого решения, предназначенное для включения в уведомление по электронной почте, "
+"отправляемое рецензентам об этом решении"
+
+msgid "mailable.decision.notifyReviewer.variable.decisionDescription.accept"
+msgstr "Мы решили принять эту подачу без исправлений."
+
+msgid "mailable.decision.notifyReviewer.variable.decisionDescription.decline"
+msgstr "Мы решили отклонить эту подачу."
+
+msgid ""
+"mailable.decision.notifyReviewer.variable.decisionDescription."
+"pendingRevisions"
+msgstr "Мы предложили авторам представить исправления."
+
+msgid "mailable.decision.notifyReviewer.variable.decisionDescription.resubmit"
+msgstr ""
+"Мы предложили авторам представить исправленную версию для дальнейшего рецензирования."
+
+msgid ""
+"mailable.decision.notifyReviewer.variable.decisionDescription.unassigned"
+msgstr "Приглашенный рецензент для подачи был снят с назначения."
+
+msgid "mailable.decision.accept.notifyAuthor.name"
+msgstr "Подача принята"
+
+msgid "mailable.decision.accept.notifyAuthor.description"
+msgstr ""
+"Это письмо уведомляет автора о том, что его подача принята к публикации."
+
+msgid "mailable.decision.backToCopyediting.notifyAuthor.name"
+msgstr "Подача возвращена на вычитку"
+
+msgid "mailable.decision.backToCopyediting.notifyAuthor.description"
+msgstr ""
+"Это письмо уведомляет автора о том, что его подача была возвращена на этап вычитки."
+
+msgid "mailable.decision.backFromCopyediting.notifyAuthor.name"
+msgstr "Подача отправлена обратно с вычитки"
+
+msgid "mailable.decision.backFromCopyediting.notifyAuthor.description"
+msgstr ""
+"Это письмо уведомляет автора о том, что его подача была отправлена обратно с этапа вычитки."
+
+msgid "mailable.decision.cancelReviewRound.notifyAuthor.name"
+msgstr "Раунд рецензирования отменен"
+
+msgid "mailable.decision.cancelReviewRound.notifyAuthor.description"
+msgstr ""
+"Это письмо уведомляет автора о том, что раунд рецензирования для его подачи был отменен."
+
+msgid "mailable.decision.decline.notifyAuthor.name"
+msgstr "Подача отклонена"
+
+msgid "mailable.decision.decline.notifyAuthor.description"
+msgstr ""
+"Это письмо уведомляет автора о том, что его подача была отклонена после рецензирования."
+
+msgid "mailable.decision.initialDecline.notifyAuthor.name"
+msgstr "Подача отклонена (до рецензирования)"
+
+msgid "mailable.decision.newReviewRound.notifyAuthor.name"
+msgstr "Начат новый раунд рецензирования"
+
+msgid "mailable.decision.newReviewRound.notifyAuthor.description"
+msgstr ""
+"Это письмо уведомляет автора о том, что для его подачи начинается новый раунд рецензирования."
+
+msgid "mailable.decision.requestRevisions.notifyAuthor.name"
+msgstr "Запрошены исправления"
+
+msgid "mailable.decision.requestRevisions.notifyAuthor.description"
+msgstr ""
+"Это письмо уведомляет автора о решении запросить исправления во время рецензирования."
+
+msgid "mailable.decision.resubmit.notifyAuthor.name"
+msgstr "Повторная подача на рецензирование"
+
+msgid "mailable.decision.resubmit.notifyAuthor.description"
+msgstr ""
+"Это письмо уведомляет автора о решении «доработать и подать заново» в отношении его подачи."
+
+msgid "mailable.decision.revertDecline.notifyAuthor.name"
+msgstr "Восстановить отклоненную подачу"
+
+msgid "mailable.decision.revertDecline.notifyAuthor.description"
+msgstr ""
+"Это письмо уведомляет автора о том, что предыдущее решение об отклонении его подачи "
+"после рецензирования отменяется."
+
+msgid "mailable.decision.revertInitialDecline.notifyAuthor.name"
+msgstr "Восстановить подачу, отклоненную без рецензирования"
+
+msgid "mailable.decision.revertInitialDecline.notifyAuthor.description"
+msgstr ""
+"Это письмо уведомляет автора о том, что предыдущее решение об отклонении его подачи "
+"без рецензирования отменяется."
+
+msgid "mailable.decision.sendExternalReview.notifyAuthor.name"
+msgstr "Отправлено на рецензирование"
+
+msgid "mailable.decision.sendExternalReview.notifyAuthor.description"
+msgstr ""
+"Это письмо уведомляет автора о том, что его подача отправляется на этап рецензирования."
+
+msgid "mailable.decision.sendToProduction.notifyAuthor.name"
+msgstr "Отправлено на производство"
+
+msgid "mailable.decision.sendToProduction.notifyAuthor.description"
+msgstr ""
+"Это письмо уведомляет автора о том, что его подача отправляется на этап производства."
+
+msgid "mailable.decision.skipReview.notifyAuthor.name"
+msgstr "Подача принята (без рецензирования)"
+
+msgid "mailable.decision.skipReview.notifyAuthor.description"
+msgstr ""
+"Это письмо уведомляет автора о том, что его подача отправляется непосредственно на этап вычитки "
+"и не будет подвергнута рецензированию."
+
+msgid "mailable.decision.recommendation.notifyEditors.name"
+msgstr "Сделана рекомендация"
+
+msgid "mailable.decision.recommendation.notifyEditors.description"
+msgstr ""
+"Это сообщение уведомляет главного редактора или редактора раздела о том, что была сделана "
+"редакционная рекомендация по одной из назначенных им подач. Это сообщение используется, когда "
+"редактору разрешено только рекомендовать редакционное решение и требуется уполномоченный редактор "
+"для регистрации редакционных решений. Этот параметр можно выбрать при назначении участников на подачу."
+
+msgid "mailable.reviewConfirm.name"
+msgstr "Подтверждение рецензирования"
+
+msgid "mailable.reviewConfirm.description"
+msgstr ""
+"Это письмо автоматически отправляется, когда рецензент принимает запрос на рецензирование"
+
+msgid "mailable.reviewDecline.name"
+msgstr "Отклонение рецензирования"
+
+msgid "mailable.reviewDecline.description"
+msgstr "Это письмо отправляется рецензентом при отклонении запроса на рецензирование"
+
+msgid "mailable.reviewRemind.name"
+msgstr "Напоминание о рецензировании"
+
+msgid "mailable.reviewRemind.description"
+msgstr ""
+"Это письмо отправляется редактором, чтобы напомнить рецензенту о сроке сдачи рецензии."
+
+msgid "mailable.reviewRemindAuto.name"
+msgstr "Напоминание о рецензировании (автоматическое)"
+
+msgid "mailable.reviewRemindAuto.description"
+msgstr ""
+"Это письмо автоматически отправляется, когда рецензент не завершил свою рецензию к установленному сроку."
+
+msgid "mailable.reviewAcknowledgement.name"
+msgstr "Подтверждение получения рецензии"
+
+msgid "mailable.reviewAcknowledgement.description"
+msgstr ""
+"Это письмо отправляется редактором рецензенту для подтверждения получения его рецензии и благодарности за вклад."
+
+msgid "mailable.reviewResponseOverdueAuto.name"
+msgstr "Просрочен ответ на запрос рецензирования (автоматическое)"
+
+msgid "mailable.reviewResponseOverdueAuto.description"
+msgstr ""
+"Это письмо автоматически отправляется, когда истекает срок для ответа рецензента на запрос о рецензировании."
+
+msgid "mailable.reviewRequest.name"
+msgstr "Запрос на рецензирование"
+
+msgid "mailable.reviewRequest.description"
+msgstr ""
+"Это письмо от редактора раздела рецензенту с просьбой принять или отклонить задачу рецензирования подачи."
+
+msgid "mailable.reviewRequestSubsequent.name"
+msgstr "Повторный запрос на рецензирование"
+
+msgid "mailable.reviewRequestSubsequent.description"
+msgstr ""
+"Это письмо от редактора рецензенту с просьбой принять или отклонить задачу рецензирования подачи для дополнительного раунда рецензирования. Оно предоставляет информацию о подаче, такую как название и аннотация, срок сдачи рецензии и информацию о том, как получить доступ к самой подаче."
+
+msgid "plugins.importexport.common.error.currentPublicationNullOrMissing"
+msgstr "Текущая публикация подачи отсутствует"
+
+msgid "plugins.importexport.common.error.submissionChildFailed"
+msgstr "Не удалось обработать дочерний элемент {$child} подачи"
+
+msgid "mailable.editorialReminder.name"
+msgstr "Редакционное напоминание"
+
+msgid "mailable.editorialReminder.description"
+msgstr "Автоматическое письмо, отправляемое редакторам с незавершенными задачами"
+
+msgid "mailable.passwordResetRequested.name"
+msgstr "Подтверждение сброса пароля"
+
+msgid "mailable.passwordResetRequested.description"
+msgstr ""
+"Это письмо отправляется зарегистрированному пользователю, когда он указывает, что забыл свой пароль или не может войти в систему. Оно содержит URL, по которому он может перейти для сброса пароля."
+
+msgid "mailable.userRegister.name"
+msgstr "Пользователь создан"
+
+msgid "mailable.userRegister.description"
+msgstr ""
+"Это письмо отправляется недавно созданному пользователю, когда редакционный менеджер создал пользователя через настройки пользователей. Письмо должно приветствовать его в системе и предоставлять ему запись его имени пользователя и пароля."
+
+msgid "mailable.reviewerRegister.name"
+msgstr "Регистрация рецензента"
+
+msgid "mailable.reviewerRegister.description"
+msgstr ""
+"Это письмо отправляется недавно зарегистрированному рецензенту, чтобы приветствовать его в "
+"системе и предоставить ему запись его имени пользователя и пароля."
+
+msgid "mailable.submissionSavedForLater.name"
+msgstr "Подача сохранена на потом"
+
+msgid "mailable.submissionSavedForLater.description"
+msgstr "Автоматическое письмо, отправляемое авторам, когда они сохраняют свою подачу для завершения позже"
+
+msgid "mailable.submissionAck.name"
+msgstr "Подтверждение подачи"
+
+msgid "mailable.submissionAck.description"
+msgstr ""
+"Это письмо автоматически отправляется автору, когда он "
+"делает подачу. Оно предоставляет информацию об отслеживании подачи "
+"через редакционный процесс и благодарит автора за подачу."
+
+msgid "mailable.submissionAckNotAuthor.name"
+msgstr "Подтверждение подачи (Другие авторы)"
+
+msgid "mailable.submissionAckNotAuthor.description"
+msgstr ""
+"Это письмо автоматически отправляется авторам, указанным в "
+"подаче, которые не являются автором, подавшим материал."
+
+msgid "mailable.discussionSubmission.name"
+msgstr "Обсуждение (Подача)"
+
+msgid "mailable.discussionSubmission.description"
+msgstr ""
+"Это письмо отправляется, когда создается новое обсуждение или дается ответ на этапе подачи."
+
+msgid "mailable.discussionReview.name"
+msgstr "Обсуждение (Рецензирование)"
+
+msgid "mailable.discussionReview.description"
+msgstr ""
+"Это письмо отправляется, когда создается новое обсуждение или дается ответ на этапе рецензирования."
+
+msgid "mailable.discussionCopyediting.name"
+msgstr "Обсуждение (Вычитка)"
+
+msgid "mailable.discussionCopyediting.description"
+msgstr ""
+"Это письмо отправляется, когда создается новое обсуждение или дается ответ на этапе вычитки."
+
+msgid "mailable.discussionProduction.name"
+msgstr "Обсуждение (Производство)"
+
+msgid "mailable.discussionProduction.description"
+msgstr ""
+"Это письмо отправляется, когда создается новое обсуждение или дается ответ на этапе производства."
+
+msgid "mailable.revisedVersionNotify.name"
+msgstr "Уведомление об исправленной версии"
+
+msgid "mailable.revisedVersionNotify.description"
+msgstr ""
+"Это письмо автоматически отправляется назначенному редактору, когда автор загружает "
+"исправленную версию статьи."
+
+msgid "mailable.announcementNotify.name"
+msgstr "Новое объявление"
+
+msgid "mailable.announcementNotify.description"
+msgstr "Это письмо отправляется, когда создается новое объявление."
+
+msgid "mailable.statisticsReportNotify.name"
+msgstr "Уведомление со статистическим отчетом"
+
+msgid "mailable.editReviewNotify.name"
+msgstr "Уведомление об изменении рецензии"
+
+msgid "mailable.editReviewNotify.description"
+msgstr ""
+"Это письмо автоматически уведомляет рецензента об изменении деталей его назначения на рецензирование."
+
+msgid "mailable.reviewCompleteNotifyEditors.name"
+msgstr "Рецензент оставил комментарий: уведомить редакторов"
+
+msgid "mailable.reviewCompleteNotifyEditors.description"
+msgstr ""
+"Это письмо автоматически отправляется назначенным редакторам, когда рецензент дает "
+"рекомендацию по рецензии"
+
+msgid "manager.people.authSource"
+msgstr "Источник аутентификации"
+
+msgid "mailable.decision.backToReview.notifyAuthor.name"
+msgstr "Подача отправлена обратно на рецензирование"
+
+msgid "mailable.decision.backToReview.notifyAuthor.description"
+msgstr ""
+"Это письмо уведомляет автора о том, что его подача была отправлена обратно на этап рецензирования."
+
+msgid "mailable.decision.backToSubmission.notifyAuthor.name"
+msgstr "Подача отправлена обратно на этап подачи"
+
+msgid "mailable.decision.backToSubmission.notifyAuthor.description"
+msgstr ""
+"Это письмо уведомляет автора о том, что его подача была отправлена обратно на этап подачи."
+
+msgid "manager.manageEmails"
+msgstr "Управление письмами"
+
+msgid "manager.manageEmailTemplates.description"
+msgstr "<p><a href=\"{$url}\">Добавляйте и редактируйте шаблоны</a> для всех писем, отправляемых системой.</p>"
+
+msgid "manager.mailables.addTemplates"
+msgstr "Добавляйте и редактируйте шаблоны, которые вы хотите сделать доступными пользователю при отправке этого письма. Шаблон по умолчанию будет загружен автоматически, и пользователь сможет быстро загрузить любые другие добавленные вами шаблоны."
+
+msgid "manager.mailables.templates"
+msgstr "Шаблоны"
+
+msgid "manager.mailables.editTemplate"
+msgstr "Редактировать шаблон"
+
+msgid "manager.mailables.removeTemplate"
+msgstr "Удалить шаблон"
+
+msgid "manager.mailables.removeTemplate.confirm"
+msgstr "Вы уверены, что хотите удалить шаблон <strong>{$template}</strong>?"
+
+msgid "manager.mailables.resetTemplate"
+msgstr "Сбросить шаблон"
+
+msgid "manager.mailables.resetTemplate.confirm"
+msgstr "Вы уверены, что хотите сбросить тему и текст для шаблона <strong>{$template}</strong> к значениям по умолчанию?"
+
+msgid "manager.mailables.search"
+msgstr "Поиск по имени или описанию"
+
+msgid "manager.emailTemplate.name.description"
+msgstr "Введите краткое название, чтобы помочь вам найти этот шаблон."
+
+msgid "manager.newSubmission"
+msgstr "Новая подача"
+
+msgid "manager.newSubmission.description"
+msgstr "Настройте уведомления по электронной почте, отправляемые при новой подаче."
+
+msgid "manager.submissionAck.description"
+msgstr "Кто должен получать письмо при завершении новой подачи."
+
+msgid "manager.submissionAck.off"
+msgstr "Не отправлять письмо."
+
+msgid "manager.submissionAck.submittingAuthor"
+msgstr "Отправить письмо только автору, подавшему материал."
+
+msgid "manager.submissionAck.allAuthors"
+msgstr "Отправить письмо всем авторам."
+
+msgid "manager.editorialDecisions"
+msgstr "Редакционные решения"
+
+msgid "manager.editorialDecisions.description"
+msgstr "Настройте уведомления по электронной почте, отправляемые авторам при фиксации редакционного решения."
+
+msgid "manager.forEditors"
+msgstr "Для редакторов"
+
+msgid "manager.forEditors.description"
+msgstr "Настройте уведомления по электронной почте, отправляемые редакторам."
+
+msgid "manager.editorialStatistics"
+msgstr "Редакционная статистика"
+
+msgid "manager.editorialStatistics.description"
+msgstr "Отправлять ли ежемесячное письмо редакторам с редакционной статистикой журнала, такой как проценты принятия и отклонения. Редакторы могут отписаться от этого письма в своем профиле пользователя."
+
+msgid "manager.editorialStatistics.on"
+msgstr "Отправлять ежемесячное письмо редакторам."
+
+msgid "manager.editorialStatistics.off"
+msgstr "Не отправлять письмо редакторам."
+
+msgid "manager.submitWithCategories.description"
+msgstr "Должен ли автор, подающий материал, выбирать категорию при создании новой подачи?"
+
+msgid "manager.submitWithCategories.yes"
+msgstr "Да, добавить поле категорий в мастер подачи."
+
+msgid "manager.submitWithCategories.no"
+msgstr "Нет, не показывать авторам это поле."
+
+msgid "mailable.copyeditRequest.name"
+msgstr "Запрос вычитки"
+
+msgid "mailable.editorAssign.name"
+msgstr "Редактор назначен"
+
+msgid "mailable.layoutRequest.name"
+msgstr "Готово к производству"
+
+msgid "mailable.system"
+msgstr "Система"
+
+msgid "mailable.versionCreated.name"
+msgstr "Версия создана"
+
+msgid "mailable.reviewComplete.name"
+msgstr "Рецензирование завершено"
+
+msgid "mailable.reviewEdit.name"
+msgstr "Рецензия отредактирована"
+
+msgid "mailable.submissionAckOtherAuthors.name"
+msgstr "Подтверждение подачи другим авторам"
+
+msgid "mailable.editorAssigned.name"
+msgstr "Редактор назначен (автоматически)"
+
+msgid "mailable.editorAssigned.description"
+msgstr ""
+"Это письмо отправляется редактору, когда он автоматически назначается на подачу."
+
+msgid "mailable.editorAssignedManual.name"
+msgstr "Назначить редактора"
+
+msgid "mailable.submissionNeedsEditor.name"
+msgstr "Подаче требуется редактор"
+
+msgid "manager.setup.competingInterests.requireAuthors"
+msgstr "Требовать от авторов, подающих материал, предоставить заявление о конфликте интересов вместе с подачей."
+
+msgid "manager.setup.masthead"
+msgstr "Редакционная коллегия"
+
+msgid "manager.setup.editorialMasthead.order.description"
+msgstr "Определите порядок отображения ролей в редакционной коллегии для публичного просмотра."
+
+msgid "manager.setup.editorialMasthead.order.reviewers.description"
+msgstr "Рецензенты будут отображаться в стандартизированном формате для поддержания единообразия и обеспечения легкого обнаружения в этом разделе."
+
+msgid "manager.setup.editorialMasthead.editorialHistory.description"
+msgstr "Пожалуйста, предоставьте историю редактирования, включая полное имя, affiliation, а также даты начала и окончания для каждого редактора."
+
+msgid "mailable.changeProfileEmailInvitationNotify.name"
+msgstr "Приглашение на изменение адреса электронной почты"
+
+msgid "plugins.importexport.common.validation"
+msgstr "Проверить XML перед экспортом и регистрацией."
+
+msgid "doi.manager.displayName"
+msgstr "DOI"
+
+msgid "doi.manager.submissionDois"
+msgstr "DOI статей"
+
+msgid "manager.setup"
+msgstr "Настройки журнала"
+
+msgid "manager.setup.identity"
+msgstr "Данные журнала"
+
+msgid "manager.setup.contextTitle"
+msgstr "Название журнала"
+
+msgid "manager.setup.contextInitials"
+msgstr "Аббревиатура названия журнала"
+
+msgid "manager.setup.journalAbbreviation"
+msgstr "Аббревиатура названия журнала"
+
+msgid "manager.setup.selectCountry"
+msgstr ""
+"Выберите страну, в которой располагается данный журнал, или страну почтового "
+"адреса журнала или издателя."
+
+msgid "manager.setup.publisher"
+msgstr "Издатель"
+
+msgid "manager.setup.onlineIssn"
+msgstr "ISSN онлайн-версии"
+
+msgid "manager.setup.printIssn"
+msgstr "ISSN печатной версии"
+
+msgid "manager.setup.contextSummary"
+msgstr "Обзор журнала"
+
+msgid "manager.setup.contextSummary.description"
+msgstr ""
+"Дайте краткое описание вашего журнала, чтобы дать представление о его "
+"содержании и целях."
+
+msgid "manager.setup.contextAbout"
+msgstr "О журнале"
+
+msgid "manager.setup.contextAbout.description"
+msgstr ""
+"Включите сюда любую информацию о журнале, которая может быть интересна "
+"читателям, авторам или рецензентам. Это могут быть правила открытого "
+"доступа, концепция журнала, условия передачи авторских прав, информация о "
+"спонсорах, история журнала, заявление о конфиденциальности и включение "
+"материалов в архивную систему LOCKSS или CLOCKSS."
+
+msgid "manager.sections.create"
+msgstr "Создать раздел"
+
+msgid "manager.sections.policy"
+msgstr "Политика раздела"
+
+msgid "manager.sections.wordCount"
+msgstr "Количество слов"
+
+msgid "manager.sections.wordCountInstructions"
+msgstr "Ограничить количество слов в аннотации для этого раздела (0 — без ограничений)"
+
+msgid "manager.sections.submissionReview"
+msgstr "Не будет рецензироваться"
+
+msgid "manager.sections.abstractsNotRequired"
+msgstr "Аннотация не обязательна"
+
+msgid "manager.sections.submissionIndexing"
+msgstr "Не будет включено в индексирование журнала"
+
+msgid "manager.sections.editorRestriction"
+msgstr "Материалы могут подавать только редакторы и редакторы разделов."
+
+msgid "manager.sections.hideTocTitle"
+msgstr "Не отображать название раздела в содержании выпуска."
+
+msgid "manager.sections.hideTocAuthor"
+msgstr "Не отображать имена авторов в содержании выпуска."
+
+msgid "manager.sections.identifyType"
+msgstr "Определить материалы, опубликованные в этом разделе, как"
+
+msgid "manager.sections.identifyTypeExamples"
+msgstr "(Например, «Рецензируемая статья», «Нерецензируемый обзор книги», «Приглашённый комментарий» и т.д.)"
+
+msgid "manager.setup.journalThumbnail"
+msgstr "Миниатюра журнала"
+
+msgid "manager.setup.useStyleSheet"
+msgstr "Таблица стилей журнала"
+
+msgid "manager.setup.information.forReaders"
+msgstr "Для читателей"
+
+msgid "manager.setup.information.forAuthors"
+msgstr "Для авторов"
+
+msgid "manager.setup.information.forLibrarians"
+msgstr "Для библиотек"
+
+msgid "manager.setup.information.description"
+msgstr ""
+"Краткие описания журнала для библиотек, потенциальных авторов и читателей. "
+"Описания будут доступны в боковой панели сайта, когда будет добавлен блок "
+"«Информация»."
+
+msgid "manager.setup.announcements"
+msgstr "Объявления"
+
+msgid "manager.setup.announcementsIntroduction"
+msgstr "Введение"
+
+msgid "manager.setup.announcementsIntroduction.description"
+msgstr "Введите информацию, которую вы хотите отобразить на странице объявлений."
+
+msgid "manager.setup.numAnnouncementsHomepage"
+msgstr "Показывать на главной странице"
+
+msgid "manager.setup.numAnnouncementsHomepage.description"
+msgstr ""
+"Сколько объявлений показывать на главной странице. Оставьте поле пустым, "
+"чтобы не показывать объявления на главной странице."
+
+msgid "manager.setup.lists"
+msgstr "Списки"
+
+msgid "manager.setup.enableAnnouncements.description"
+msgstr ""
+"Объявления можно публиковать, чтобы информировать читателей о новостях и "
+"событиях журнала. Опубликованные объявления будут появляться на странице "
+"«Объявления»."
+
+msgid "manager.setup.enableAnnouncements.enable"
+msgstr "Включить объявления"
+
+msgid "manager.setup.itemsPerPage.description"
+msgstr ""
+"Ограничение количества элементов (например, материалов, пользователей или "
+"заданий на редактирование), показываемых в списке. Идущие далее элементы "
+"будут показаны на следующей странице."
+
+msgid "manager.setup.numPageLinks"
+msgstr "Ссылки на страницы"
+
+msgid "manager.setup.numPageLinks.description"
+msgstr ""
+"Ограничение числа ссылок, показываемых на последующих страницах в списке."
+
+msgid "manager.setup.disableSubmissions.description"
+msgstr ""
+"Запрещает пользователям отправлять новые статьи в журнал. Отправка "
+"материалов может быть отключена для отдельных разделов журнала на странице "
+"настроек <a href=\"{$url}\">разделов журнала</a>."
+
+msgid "manager.publication.library"
+msgstr "Библиотека издателя"
+
+msgid "grid.genres.title.short"
+msgstr "Компоненты"
+
+msgid "grid.genres.title"
+msgstr "Компоненты статьи"
+
+msgid "manager.setup.reviewOptions.restrictReviewerFileAccess"
+msgstr "Ограничить доступ к файлам"
+
+msgid "manager.setup.reviewOptions.restrictReviewerFileAccess.description"
+msgstr ""
+"Рецензенты не получат доступ к файлам материала до тех пор, пока не "
+"согласятся его рецензировать."
+
+msgid "manager.setup.reviewOptions.reviewerAccessKeysEnabled"
+msgstr "Прямой доступ для рецензента"
+
+msgid "manager.setup.reviewOptions.reviewerAccessKeysEnabled.description"
+msgstr ""
+"Рецензентам может быть отправлена безопасная ссылка в письме-приглашении, "
+"щелкнув по которой они смогут автоматически войти в систему."
+
+msgid "manager.setup.reviewOptions.reviewerAccessKeysEnabled.label"
+msgstr "Добавить безопасную ссылку в письмо-приглашение для рецензентов."
+
+msgid "manager.setup.reviewGuidelines"
+msgstr "Руководство для рецензентов"
+
+msgid "manager.manageEmails.description"
+msgstr ""
+"Редактирование текстов сообщений, отправляемых в электронных письмах из "
+"этого журнала."
+
+msgid "manager.setup.emailSignature"
+msgstr "Подпись"
+
+msgid "manager.setup.emailSignature.description"
+msgstr ""
+"Письма, отправляемые автоматически от имени журнала, будут иметь следующую "
+"подпись."
+
+msgid "manager.setup.notifications.copySubmissionAckPrimaryContact.description"
+msgstr ""
+"Отправить копию письма-подтверждения отправки материала на адрес основного "
+"контактного лица журнала."
+
+msgid "manager.setup.emailBounceAddress"
+msgstr "Адрес для ошибок"
+
+msgid "manager.setup.emailBounceAddress.disabled"
+msgstr ""
+"Чтобы отправлять недоставленные письма на адрес для ошибок, администратор "
+"сайта должен включить параметр <code>allow_envelope_sender</code> в "
+"конфигурационном файле сайта. Также может потребоваться настройка сервера, "
+"описание этой настройки приведено в документации OJS."
+
+msgid "manager.distribution.copyrightYearBasis.description"
+msgstr ""
+"Выберите способ определения по умолчанию даты копирайта для статьи. Это "
+"значение по умолчанию может быть изменено в каждом конкретном случае. Если "
+"вы публикуете статьи «по ходу поступления», не используйте дату публикации "
+"выпуска."
+
+msgid "manager.distribution.copyrightYearBasis.issue"
+msgstr "Использовать дату публикации выпуска"
+
+msgid "manager.distribution.copyrightYearBasis.submission"
+msgstr "Использовать дату публикации статьи"
+
+msgid "manager.website.archiving"
+msgstr "Архивирование"
+
+msgid "manager.setup.searchEngineIndexing"
+msgstr "Индексация для поиска"
+
+msgid "manager.distribution.access"
+msgstr "Доступ"
+
+msgid "manager.website.archiving"
+msgstr "Архивирование"
+
+msgid "manager.setup.enableDois.description"
+msgstr ""
+"Разрешить присваивать цифровые идентификаторы объектов (DOI) материалам, "
+"опубликованным в этом журнале."
+
+msgid "doi.manager.settings.doiObjectsRequired"
+msgstr ""
+"Пожалуйста выберите объекты, которым должны быть присвоены DOI. Большинство "
+"журналов присваивает DOI статьям, но вы можете захотеть присвоить DOI всем "
+"опубликованным материалам."
+
+msgid "doi.manager.settings.galleysWithDescription"
+msgstr "Гранки статей, например, опубликованные в формате PDF"
+
+msgid "doi.manager.settings.doiCreationTime.copyedit"
+msgstr "По достижении этапа литературного редактирования"
+
+msgid "manager.setup.searchEngineIndexing.description"
+msgstr ""
+"Помогите поисковым машинам вроде Google находить и показывать ваш сайт. "
+"Рекомендуется отправить <a href=\"{$sitemapUrl}\" target=\"_blank\">карту "
+"вашего сайта</a>."
+
+msgid "manager.payment.options.enablePayments"
+msgstr ""
+"Платежи будут включены для этого журнала. Обратите внимание, что для "
+"осуществления платежей пользователи должны будут войти на сайт под своей "
+"учетной записью."
+
+msgid "manager.distribution.publishingMode"
+msgstr "Режим публикации"
+
+msgid "manager.distribution.publishingMode.openAccess"
+msgstr "Журнал будет предоставлять открытый доступ к своему контенту."
+
+msgid "manager.distribution.publishingMode.subscription"
+msgstr ""
+"Журнал будет требовать подписки для доступа к части своего контента или ко "
+"всему контенту."
+
+msgid "manager.distribution.publishingMode.none"
+msgstr "OJS не будет использоваться для онлайн-публикации контента журнала."
+
+msgid "manager.setup.enableOai"
+msgstr "Включить OAI"
+
+msgid "manager.setup.enableOai.description"
+msgstr ""
+"Предоставлять метаданные сервисам индексирования сторонних разработчиков "
+"через <a href=\"https://www.openarchives.org/\">Open Archives Initiative</a>."
+
+msgid "manager.setup.plnPluginArchiving"
+msgstr "Сеть архивирования PKP (PKP Preservation Network, PN)"
+
+msgid "manager.setup.plnPluginNotInstalled"
+msgstr ""
+"Сеть архивирования PKP (PKP Preservation Network, PN) предоставляет "
+"бесплатные сервисы архивирования для любых журналов на OJS, удовлетворяющих "
+"нескольким базовым критериям. Для архивирования Вашего журнала в PN "
+"попросите Вашего администратора системы установить модуль «PKP|PN» из "
+"галереи модулей."
+
+msgid "manager.setup.lockssTitle"
+msgstr "LOCKSS"
+
+msgid "manager.setup.lockssLicenseDescription"
+msgstr ""
+"Лицензия LOCKSS появится в разделе «О журнале» под заголовком «Архивация "
+"журнала»: <a href=\"http://www.lockss.org/community/publishers-titles-gln/\" "
+"target=\"_blank\">Лицензия LOCKSS</a>"
+
+msgid "manager.setup.lockssEnable"
+msgstr ""
+"Включить LOCKSS для хранения и распространения контента журнала по "
+"участвующим библиотекам через страницу <a href=\"{$lockssUrl}\" target="
+"\"_blank\">Манифеста издателя</a> LOCKSS."
+
+msgid "manager.setup.clockssTitle"
+msgstr "CLOCKSS"
+
+msgid "manager.setup.clockssLicenseDescription"
+msgstr ""
+"Лицензия CLOCKSS появится в разделе «О журнале» под заголовком «Архивация "
+"журнала»: <a href=\"http://clockss.org/\" target=\"_blank\">лицензия "
+"CLOCKSS</a>"
+
+msgid "manager.setup.clockssEnable"
+msgstr ""
+"Включить CLOCKSS для хранения и распространения контента журнала по "
+"участвующим библиотекам через страницу <a href=\"{$clockssUrl}\" target="
+"\"_blank\">Манифеста издателя</a> CLOCKSS."
+
+msgid "manager.setup.otherLockss"
+msgstr "LOCKSS и CLOCKSS"
+
+msgid "manager.setup.siteAccess.view"
+msgstr "Доступ к сайту"
+
+msgid "manager.setup.restrictSiteAccess"
+msgstr ""
+"Пользователи должны быть зарегистрированы и войти в систему под своей "
+"учетной записью, чтобы просматривать сайт журнала."
+
+msgid "manager.setup.siteAccess.viewContent"
+msgstr "Показывать содержимое статей"
+
+msgid "manager.setup.restrictArticleAccess"
+msgstr ""
+"Пользователи должны быть зарегистрированы и войти в систему под своей "
+"учетной записью, чтобы просмотреть находящийся в открытом доступе контент."
+
+msgid "manager.setup.userRegistration"
+msgstr "Регистрация пользователей"
+
+msgid "manager.setup.enableUserRegistration"
+msgstr "Посетители могут зарегистрировать учетную запись в журнале."
+
+msgid "manager.setup.disableUserRegistration"
+msgstr ""
+"Управляющий журнала будет регистрировать всех пользователей. Редакторы или "
+"редакторы разделов могут регистрировать учетные записи для рецензентов."
+
+msgid "manager.setup.resetPermissions"
+msgstr "Сбросить разрешения для статей"
+
+msgid "manager.setup.resetPermissions.description"
+msgstr ""
+"Удаляет информацию о копирайте и о лицензии для каждой опубликованной "
+"статьи, возвращая их к текущим настройкам по умолчанию для журнала. Это "
+"действие навсегда удаляет всю предыдущую информацию о лицензии и копирайте, "
+"прикрепленную к статьям. В некоторых случаях у вас может не быть юридических "
+"прав изменять лицензию для работы, опубликованной ранее под другой "
+"лицензией. Пожалуйста, будьте осторожны, используя этот инструмент, "
+"проконсультируйтесь с экспертами-юристами, если вы не уверены в тех правах, "
+"которые у вас есть на статьи, опубликованные в вашем журнале."
+
+msgid "stats.publications.details"
+msgstr "Информация о статье"
+
+msgid "stats.publications.countOfTotal"
+msgstr "{$count} из {$total} статей"
+
+msgid "stats.publications.none"
+msgstr ""
+"Не найдено статей со статистикой использования, которая соответствует данным "
+"параметрам."
+
+msgid "stats.publications.abstracts"
+msgstr "Аннотации"
+
+msgid "stats.issues.details"
+msgstr "Просмотры и скачивания"
+
+msgid "stats.issues.countOfTotal"
+msgstr "{$count} из {$total} выпусков"
+
+msgid "stats.issues.none"
+msgstr ""
+"Не найдены выпуски со статистикой использования, соответствующей этим "
+"параметрам."
+
+msgid "stats.issues.searchIssueDescription"
+msgstr "Искать название выпуска, том и номер"
+
+msgid "stats.publications.downloadReport.description"
+msgstr ""
+"Скачать таблицу CSV/Excel со статистикой использования для статей, "
+"соответствующих следующим параметрам."
+
+msgid "stats.publications.downloadReport.downloadSubmissions.description"
+msgstr "Количество просмотров аннотации и скачиваний файлов для каждой статьи."
+
+msgid "stats.publications.downloadReport.downloadSubmissions"
+msgstr "Скачивания статей"
+
+msgid "stats.issues.downloadReport.description"
+msgstr ""
+"Скачать таблицу CSV/Excel со статистикой использования для выпусков, "
+"соответствующих следующим параметрам."
+
+msgid "stats.issues.downloadReport.downloadIssues.description"
+msgstr ""
+"Количество просмотров страницы содержания и скачиваний гранок для каждого "
+"номера."
+
+msgid "stats.issues.downloadReport.downloadIssues"
+msgstr "Скачивания выпусков"
+
+msgid "stats.context.downloadReport.description"
+msgstr ""
+"Скачать таблицу CSV/Excel со статистикой использования данного журнала, "
+"соответствующую следующим параметрам."
+
+msgid "stats.context.downloadReport.downloadContext.description"
+msgstr "Количество просмотров главной страницы журнала."
+
+msgid "stats.context.downloadReport.downloadContext"
+msgstr "Скачаиваний журнала"
+
+msgid "mailable.issuePublishNotify.name"
+msgstr "Уведомление о публикации выпуска"
+
+msgid "mailable.openAccessNotify.name"
+msgstr "Уведомление об открытом доступе"
+
+msgid "mailable.openAccessNotify.description"
+msgstr "Это письмо отправляется зарегистрированным читателям, которые запросили уведомление по электронной почте, когда выпуск становится открытым для доступа."
+
+msgid "mailable.paymentRequest.name"
+msgstr "Запрос на оплату"
+
+msgid "mailable.paymentRequest.description"
+msgstr "Это автоматическое письмо отправляется автору для запроса оплаты публикационного взноса после принятия его материала к публикации."
+
+msgid "mailable.publicationVersionNotify.name"
+msgstr "Создана новая версия"
+
+msgid "mailable.publicationVersionNotify.description"
+msgstr "Это письмо автоматически уведомляет назначенных редакторов о создании новой версии материала."
+
+msgid "mailable.subscriptionExpired.name"
+msgstr "Срок подписки истек"
+
+msgid "mailable.subscriptionExpired.description"
+msgstr "Это письмо отправляется автоматически для уведомления подписчика об истечении срока его подписки."
+
+msgid "mailable.subscriptionExpiredLast.name"
+msgstr "Финальное уведомление об истечении подписки"
+
+msgid "mailable.subscriptionExpiredLast.description"
+msgstr "Это письмо отправляется автоматически для повторного уведомления подписчика об истечении срока его подписки."
+
+msgid "mailable.subscriptionExpiresSoon.name"
+msgstr "Срок подписки скоро истекает"
+
+msgid "mailable.subscriptionExpiresSoon.description"
+msgstr "Это письмо отправляется автоматически для уведомления подписчика о том, что срок его подписки скоро истекает."
+
+msgid "mailable.subscriptionNotify.name"
+msgstr "Уведомление о подписке"
+
+msgid "mailable.subscriptionNotify.description"
+msgstr "Это письмо уведомляет зарегистрированного читателя о том, что менеджер оформил для него подписку. Оно содержит URL журнала и инструкции по доступу."
+
+msgid "mailable.subscriptionPurchaseIndividual.name"
+msgstr "Приобретение индивидуальной подписки"
+
+msgid "mailable.subscriptionPurchaseIndividual.description"
+msgstr "Это письмо уведомляет менеджера по подписке о том, что индивидуальная подписка была приобретена онлайн. Оно содержит краткую информацию о подписке и ссылку для быстрого доступа к приобретенной подписке."
+
+msgid "mailable.subscriptionPurchaseInstitutional.name"
+msgstr "Приобретение институциональной подписки"
+
+msgid "mailable.subscriptionPurchaseInstitutional.description"
+msgstr "Это письмо уведомляет менеджера по подписке о том, что институциональная подписка была приобретена онлайн. Оно содержит краткую информацию о подписке и ссылку для быстрого доступа к приобретенной подписке."
+								
+msgid "mailable.subscriptionRenewIndividual.name"
+msgstr "Продление индивидуальной подписки"
+
+msgid "mailable.subscriptionRenewIndividual.description"
+msgstr "Это письмо уведомляет менеджера по подписке о том, что индивидуальная подписка была продлена онлайн. Оно содержит краткую информацию о подписке и ссылку для быстрого доступа к продленной подписке."
+
+msgid "mailable.subscriptionRenewInstitutional.name"
+msgstr "Продление институциональной подписки"
+
+msgid "mailable.subscriptionRenewInstitutional.description"
+msgstr "Это письмо уведомляет менеджера по подписке о том, что институциональная подписка была продлена онлайн. Оно содержит краткую информацию о подписке и ссылку для быстрого доступа к продленной подписке."
+
+msgid "mailable.validateEmailContext.name"
+msgstr "Подтверждение email (регистрация в журнале)"
+
+msgid "mailable.validateEmailContext.description"
+msgstr "Это письмо автоматически отправляется новому пользователю при регистрации в журнале, если настройки требуют подтверждения адреса электронной почты."
+
+msgid "mailable.decision.initialDecline.notifyAuthor.description"
+msgstr "Это письмо уведомляет автора о том, что его материал отклоняется до этапа рецензирования, поскольку не соответствует требованиям для публикации в журнале."
+
+msgid "mailable.statisticsReportNotify.description"
+msgstr "Это письмо автоматически отправляется ежемесячно редакторам и менеджерам журнала для предоставления общего обзора состояния системы."
+
+msgid "mailable.issuePublishNotify.description"
+msgstr "Это письмо автоматически отправляется зарегистрированным пользователям при публикации нового выпуска."
+
+msgid "emailTemplate.variable.context.contactEmail"
+msgstr "Адрес электронной почты основного контактного лица журнала"
+
+msgid "emailTemplate.variable.context.contactName"
+msgstr "Имя основного контактного лица журнала"
+
+msgid "emailTemplate.variable.context.contextAcronym"
+msgstr "Аббревиатура журнала"
+
+msgid "emailTemplate.variable.context.contextName"
+msgstr "Название журнала"
+
+msgid "emailTemplate.variable.context.contextSignature"
+msgstr "Электронная подпись журнала для автоматических писем"
+
+msgid "emailTemplate.variable.context.contextUrl"
+msgstr "URL-адрес домашней страницы журнала"
+
+msgid "emailTemplate.variable.context.mailingAddress"
+msgstr "Почтовый адрес журнала"
+
+msgid "manager.people.confirmRemove"
+msgstr "Удалить этого пользователя из этого журнала? Это действие отменит регистрацию пользователя во всех ролях в рамках данного журнала."
+
+msgid "manager.people.confirmPermanentlyRemove"
+msgstr "Вы уверены, что хотите безвозвратно удалить пользователя «{$username}»? Это действие нельзя отменить, и все данные, связанные с пользователем, будут удалены из системы."
+
+msgid "grid.action.removePermanently"
+msgstr "Удалить безвозвратно"
+
+msgid "notification.removedUserPermanently"
+msgstr "Пользователь был безвозвратно удален."
+

@@ -1,0 +1,101 @@
+/**
+ * @file styles/pages/page-view-pdf.less
+ * Full-height PDF viewer layout
+ */
+
+// Make the PDF viewer page fill the full viewport height
+.pkp_page_article, .pkp_page_catalog {
+	&:has(#pdfCanvasContainer) {
+		height: 100vh;
+		overflow: hidden;
+	}
+}
+
+// Generic full-height fix — targets any body that has the PDF container
+body:has(#pdfCanvasContainer) {
+	height: 100vh;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+	padding: 0;
+}
+
+// Top header bar — shrinks to its natural height
+header.header_view {
+	flex-shrink: 0;
+	display: flex;
+	align-items: center;
+	gap: @space-4;
+	padding: @space-2 @space-5;
+	background: @primary;
+	color: @white;
+	border-bottom: 1px solid rgba(255,255,255,0.12);
+
+	.return {
+		display: flex;
+		align-items: center;
+		color: rgba(255,255,255,0.75);
+		font-size: @font-md;
+		line-height: 1;
+		text-decoration: none;
+		flex-shrink: 0;
+		transition: color @transition-fast;
+		&::before { content: '←'; }
+		&:hover { color: @white; }
+	}
+
+	.title {
+		flex: 1;
+		font-size: @font-xs;
+		font-weight: 500;
+		color: @white;
+		text-decoration: none;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		&:hover { color: rgba(255,255,255,0.85); }
+	}
+
+	.download {
+		flex-shrink: 0;
+		font-size: @font-xs;
+		font-weight: 600;
+		color: @accent;
+		text-decoration: none;
+		padding: @space-1 @space-3;
+		border: 1px solid @accent;
+		border-radius: @radius-sm;
+		transition: all @transition-fast;
+		&:hover {
+			background: @accent;
+			color: @white;
+		}
+	}
+}
+
+// PDF canvas — fills all remaining space
+#pdfCanvasContainer {
+	flex: 1;
+	min-height: 0;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+
+	.galley_view_notice {
+		flex-shrink: 0;
+		background: #FEF2F2;
+		padding: @space-2 @space-4;
+		font-size: @font-xs;
+		color: @dark-grey;
+	}
+
+	iframe {
+		flex: 1;
+		width: 100%;
+		height: 100% !important;
+		min-height: unset !important;
+		border: none;
+		display: block;
+	}
+}

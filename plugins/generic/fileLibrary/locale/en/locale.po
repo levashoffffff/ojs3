@@ -1,0 +1,60 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-09-22T00:00:00+00:00\n"
+"PO-Revision-Date: 2026-09-22T00:00:00+00:00\n"
+"Language: en\n"
+
+msgid "plugins.generic.fileLibrary.displayName"
+msgstr "File Library"
+
+msgid "plugins.generic.fileLibrary.description"
+msgstr "Upload documents (PDF, DOCX, etc.) to the journal's public files and get a direct link to paste into pages."
+
+msgid "plugins.generic.fileLibrary.manage"
+msgstr "Manage Files"
+
+msgid "plugins.generic.fileLibrary.intro"
+msgstr "Upload a file below, then copy its link and paste it wherever you need — for example, in a static page or a custom menu item."
+
+msgid "plugins.generic.fileLibrary.upload"
+msgstr "Upload"
+
+msgid "plugins.generic.fileLibrary.column.name"
+msgstr "File"
+
+msgid "plugins.generic.fileLibrary.column.size"
+msgstr "Size"
+
+msgid "plugins.generic.fileLibrary.column.date"
+msgstr "Uploaded"
+
+msgid "plugins.generic.fileLibrary.column.link"
+msgstr "Link"
+
+msgid "plugins.generic.fileLibrary.copyLink"
+msgstr "Copy"
+
+msgid "plugins.generic.fileLibrary.noFiles"
+msgstr "No files uploaded yet."
+
+msgid "plugins.generic.fileLibrary.confirmDelete"
+msgstr "Delete this file? Any links to it elsewhere will stop working."
+
+msgid "plugins.generic.fileLibrary.upload.noFile"
+msgstr "Please choose a file to upload."
+
+msgid "plugins.generic.fileLibrary.upload.invalidType"
+msgstr "That file type isn't allowed. Allowed types: {$extensions}."
+
+msgid "plugins.generic.fileLibrary.upload.success"
+msgstr "\"{$fileName}\" was uploaded."
+
+msgid "plugins.generic.fileLibrary.upload.failed"
+msgstr "The file could not be uploaded. Please try again."

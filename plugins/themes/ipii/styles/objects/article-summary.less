@@ -1,0 +1,73 @@
+/**
+ * @file styles/objects/article-summary.less
+ * IPII Theme — article list item
+ */
+
+.ipii-article-item {
+	padding: @space-7 0 @space-2;
+	animation: ipii-fadeInUp 0.45s ease both;
+
+	&:last-child {
+		padding-bottom: @space-1;
+	}
+}
+
+// Authors + pages row
+.ipii-article-item-meta {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	gap: @space-4;
+	margin-bottom: @space-2;
+}
+
+.ipii-article-item-authors {
+	font-size: @font-xs;
+	font-weight: 500;
+	color: @mid-grey;
+	line-height: 1.4;
+}
+
+.ipii-article-item-pages {
+	font-size: @font-2xs;
+	color: @mid-grey;
+	flex-shrink: 0;
+	white-space: nowrap;
+}
+
+// Title — consistent bold across all articles
+.ipii-article-item-title {
+	font-size: @font-md;
+	font-weight: 700;
+	line-height: 1.45;
+	margin: 0 0 0.8rem;
+
+	a {
+		color: @dark-grey;
+		text-decoration: none;
+		transition: color @transition-fast;
+
+		&:hover { color: @primary-link; }
+	}
+}
+
+.ipii-article-item-date {
+	font-size: @font-2xs;
+	color: @mid-grey;
+	margin-bottom: @space-2;
+}
+
+.ipii-article-item-doi {
+	font-size: @font-2xs;
+	color: @mid-grey;
+	margin-bottom: @space-2;
+	word-break: break-all;
+
+	a { color: @primary-link; }
+}
+
+.ipii-article-item-galleys {
+	display: flex;
+	flex-wrap: wrap;
+	gap: @space-2;
+}

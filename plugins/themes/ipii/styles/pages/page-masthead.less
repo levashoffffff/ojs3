@@ -1,0 +1,113 @@
+/**
+ * @file styles/pages/page-masthead.less
+ * IPII Theme — editorial masthead page
+ */
+
+.page-masthead {
+	padding-top: @space-10;
+}
+
+// ── Body wrapper ──────────────────────────────────────────────
+.ipii-masthead-body {
+	width: 100%;
+}
+
+// ── Link to history ───────────────────────────────────────────
+.ipii-masthead-history-link {
+	font-size: @font-sm;
+	color: @mid-grey;
+	margin-bottom: @space-9;
+
+	a {
+		color: @primary-link;
+		&:hover { color: @primary; text-decoration: underline; }
+	}
+}
+
+// ── Role group ────────────────────────────────────────────────
+.ipii-masthead-group {
+	margin-bottom: @space-9;
+	padding-top: @space-8;
+	border-top: 1px solid @faded-grey;
+
+	&:first-of-type {
+		border-top: none;
+		padding-top: 0;
+	}
+}
+
+.ipii-masthead-role {
+	font-size: @font-2xs;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.12em;
+	color: @mid-grey;
+	padding-bottom: @space-3;
+	border-bottom: 2px solid @faded-grey;
+	margin: 0 0 @space-1;
+}
+
+.ipii-masthead-reviewers-desc {
+	font-size: @font-sm;
+	color: @mid-grey;
+	margin: @space-3 0 @space-4;
+}
+
+// ── Members list ──────────────────────────────────────────────
+.ipii-masthead-list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+	gap: @space-3 @space-6;
+}
+
+// Reviewers — more compact, more columns
+.ipii-masthead-list-reviewers {
+	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+// ── Single member ─────────────────────────────────────────────
+.ipii-masthead-member {
+	padding: @space-4 @space-4;
+	background: @light-grey;
+	border: 1px solid @faded-grey;
+	border-radius: @radius-md;
+	transition: box-shadow @transition-fast, border-color @transition-fast;
+
+	&:hover {
+		box-shadow: @shadow-sm;
+		border-color: darken(@faded-grey, 5%);
+	}
+}
+
+.ipii-masthead-member-name {
+	font-size: @font-sm;
+	font-weight: 600;
+	color: @dark-grey;
+	display: flex;
+	align-items: center;
+	gap: @space-1;
+	margin-bottom: @space-1;
+}
+
+.ipii-masthead-orcid {
+	display: inline-flex;
+	align-items: center;
+	flex-shrink: 0;
+
+	img, svg { width: 15px; height: 15px; }
+}
+
+.ipii-masthead-member-affil {
+	font-size: @font-xs;
+	color: @mid-grey;
+	line-height: 1.4;
+	margin-bottom: @space-1;
+}
+
+.ipii-masthead-member-date {
+	font-size: @font-2xs;
+	color: lighten(@mid-grey, 10%);
+}

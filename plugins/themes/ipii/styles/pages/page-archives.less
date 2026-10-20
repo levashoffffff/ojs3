@@ -1,0 +1,74 @@
+/**
+ * @file styles/pages/page-archives.less
+ * IPII Theme — issue archive page
+ */
+
+.page-archives {
+	padding-top: @space-9;
+}
+
+// ── Header: title + year filters ─────────────────────────────
+.ipii-archives-header {
+	margin-bottom: @space-9;
+}
+
+.ipii-archives-title {
+	font-size: @font-2xl;
+	font-weight: 800;
+	color: @dark-grey;
+	letter-spacing: -0.03em;
+	margin: 0 0 @space-6;
+}
+
+// ── Year filter buttons ───────────────────────────────────────
+.ipii-year-filters {
+	display: flex;
+	flex-wrap: wrap;
+	gap: @space-2;
+}
+
+.ipii-year-btn {
+	display: inline-block;
+	padding: 0.35em 1em;
+	border-radius: 20px;
+	font-size: @font-xs;
+	font-weight: 600;
+	cursor: pointer;
+	border: 1.5px solid @faded-grey;
+	background: @white;
+	color: @mid-grey;
+	transition: background @transition-fast, color @transition-fast, border-color @transition-fast;
+
+	&:hover {
+		border-color: @primary;
+		color: @primary;
+		background: @primary-light;
+	}
+
+	&.active {
+		background: @primary;
+		color: @white;
+		border-color: @primary;
+	}
+}
+
+// ── Year section group ────────────────────────────────────────
+.ipii-archive-year {
+	margin-bottom: @space-10;
+}
+
+.ipii-archive-year-label {
+	font-size: @font-2xs;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.14em;
+	color: @mid-grey;
+	padding-bottom: @space-3;
+	border-bottom: 2px solid @faded-grey;
+	margin: 0 0 @space-6;
+}
+
+// ── Empty state ───────────────────────────────────────────────
+.ipii-archives-empty {
+	padding: @space-10 0;
+}

@@ -1,0 +1,53 @@
+/**
+ * @file styles/components/modals.less
+ */
+
+.modal-content {
+	border: none;
+	border-radius: @radius-lg;
+	box-shadow: @shadow-lg;
+	overflow: hidden;
+}
+
+.modal-header {
+	background: @primary;
+	color: @white;
+	border-bottom: none;
+	padding: @space-5 @space-6;
+
+	.modal-title {
+		font-family: @font-serif;
+		font-size: @font-lg;
+		font-weight: 600;
+	}
+
+	.btn-close {
+		filter: invert(1);
+		opacity: 0.7;
+		&:hover { opacity: 1; }
+	}
+}
+
+.modal-body {
+	padding: @space-7;
+}
+
+.modal-footer {
+	border-top: 1px solid @faded-grey;
+	padding: @space-4 @space-6;
+	gap: @space-2;
+}
+
+// Login modal close button (old style)
+.modal-body .close {
+	font-size: @font-xl;
+	color: @mid-grey;
+	background: none;
+	border: none;
+	float: right;
+	line-height: 1;
+	cursor: pointer;
+	transition: color @transition-fast;
+
+	&:hover { color: @warning; }
+}

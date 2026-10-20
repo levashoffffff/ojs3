@@ -1,0 +1,297 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-09-28T00:00:00+00:00\n"
+"PO-Revision-Date: 2026-09-28T00:00:00+00:00\n"
+"Language: en\n"
+
+msgid "plugins.generic.jatsExport.displayName"
+msgstr "JATS XML Export"
+
+msgid "plugins.generic.jatsExport.description"
+msgstr "Lets you pick any number of published articles and download their JATS XML as a single txt file or as separate xml files."
+
+msgid "plugins.generic.jatsExport.manage"
+msgstr "Export JATS XML"
+
+msgid "plugins.generic.jatsExport.intro"
+msgstr "Check articles or select all. 'Download TXT' puts every article into one text file, 'Download XML' gives one .xml or a ZIP for several. The Metafora buttons send articles (JATS XML + PDF galley) to the RCSI Metafora system and show their status there."
+
+msgid "plugins.generic.jatsExport.selectAll"
+msgstr "Select all"
+
+msgid "plugins.generic.jatsExport.selectedCount"
+msgstr "Selected"
+
+msgid "plugins.generic.jatsExport.column.title"
+msgstr "Title"
+
+msgid "plugins.generic.jatsExport.exportTxt"
+msgstr "Download TXT"
+
+msgid "plugins.generic.jatsExport.exportXml"
+msgstr "Download XML"
+
+msgid "plugins.generic.jatsExport.export"
+msgstr "Export"
+
+msgid "plugins.generic.jatsExport.noArticles"
+msgstr "No published articles yet."
+
+msgid "plugins.generic.jatsExport.citationsEn"
+msgstr "References (English)"
+
+msgid "plugins.generic.jatsExport.citationsEn.description"
+msgstr "English version of the reference list, one source per line. Numbering like \"1.\" may stay — it is removed in the JATS XML export and broken lines are joined."
+
+msgid "plugins.generic.jatsExport.city"
+msgstr "City"
+
+msgid "plugins.generic.jatsExport.city.description"
+msgstr "City of the author's affiliation in each language (e.g. Москва / Moscow). Used in the JATS XML for Metafora."
+
+msgid "plugins.generic.jatsExport.column.metafora"
+msgstr "Metafora"
+
+msgid "plugins.generic.jatsExport.metafora.settings"
+msgstr "Metafora (RCSI)"
+
+msgid "plugins.generic.jatsExport.metafora.apiKey"
+msgstr "API key"
+
+msgid "plugins.generic.jatsExport.metafora.keyStored"
+msgstr "key saved ({$hint}) — enter a new one to replace it"
+
+msgid "plugins.generic.jatsExport.metafora.keyPlaceholder"
+msgstr "paste the key from the 'API keys' section in Metafora"
+
+msgid "plugins.generic.jatsExport.metafora.saveAndTest"
+msgstr "Save and test"
+
+msgid "plugins.generic.jatsExport.metafora.removeKey"
+msgstr "Remove key"
+
+msgid "plugins.generic.jatsExport.metafora.confirmRemoveKey"
+msgstr "Remove the Metafora API key from OJS?"
+
+msgid "plugins.generic.jatsExport.metafora.keySaved"
+msgstr "API key saved."
+
+msgid "plugins.generic.jatsExport.metafora.keyRemoved"
+msgstr "API key removed."
+
+msgid "plugins.generic.jatsExport.metafora.connectionOk"
+msgstr "Connected to Metafora, the key was accepted."
+
+msgid "plugins.generic.jatsExport.metafora.connectionFailed"
+msgstr "Metafora did not accept the key."
+
+msgid "plugins.generic.jatsExport.metafora.noKey"
+msgstr "Save the Metafora API key first (box at the top of the page)."
+
+msgid "plugins.generic.jatsExport.metafora.nothingSelected"
+msgstr "No articles selected."
+
+msgid "plugins.generic.jatsExport.metafora.refreshed"
+msgstr "Statuses refreshed."
+
+msgid "plugins.generic.jatsExport.metafora.selected"
+msgstr "Metafora, selected:"
+
+msgid "plugins.generic.jatsExport.metafora.send"
+msgstr "Send"
+
+msgid "plugins.generic.jatsExport.metafora.refresh"
+msgstr "Refresh status"
+
+msgid "plugins.generic.jatsExport.metafora.sign"
+msgstr "Sign"
+
+msgid "plugins.generic.jatsExport.metafora.unsign"
+msgstr "Unsign"
+
+msgid "plugins.generic.jatsExport.metafora.resend"
+msgstr "Resend"
+
+msgid "plugins.generic.jatsExport.metafora.confirmSend"
+msgstr "Send this article to Metafora? A record will be created in Metafora."
+
+msgid "plugins.generic.jatsExport.metafora.confirmSendSelected"
+msgstr "Send all selected articles to Metafora?"
+
+msgid "plugins.generic.jatsExport.metafora.confirmSign"
+msgstr "Sign the publication in Metafora? It can't be changed afterwards without unsigning."
+
+msgid "plugins.generic.jatsExport.metafora.confirmUnsign"
+msgstr "Remove the signature from the publication in Metafora?"
+
+msgid "plugins.generic.jatsExport.metafora.confirmResend"
+msgstr "Delete the article's file in Metafora and upload it again with the current data?"
+
+msgid "plugins.generic.jatsExport.metafora.status.none"
+msgstr "not sent"
+
+msgid "plugins.generic.jatsExport.metafora.status.rejected"
+msgstr "rejected"
+
+msgid "plugins.generic.jatsExport.metafora.status.uploaded"
+msgstr "uploaded, waiting"
+
+msgid "plugins.generic.jatsExport.metafora.status.processing"
+msgstr "processing"
+
+msgid "plugins.generic.jatsExport.metafora.status.processed"
+msgstr "processed"
+
+msgid "plugins.generic.jatsExport.metafora.status.failed"
+msgstr "processing failed"
+
+msgid "plugins.generic.jatsExport.metafora.status.signed"
+msgstr "signed {$date}"
+
+msgid "plugins.generic.jatsExport.pubType"
+msgstr "Publication type (for Metafora)"
+
+msgid "plugins.generic.jatsExport.pubType.description"
+msgstr "Exported to JATS XML as article-type."
+
+msgid "plugins.generic.jatsExport.pubType.research-article"
+msgstr "Research article"
+
+msgid "plugins.generic.jatsExport.pubType.review-article"
+msgstr "Review article"
+
+msgid "plugins.generic.jatsExport.pubType.brief-report"
+msgstr "Brief report"
+
+msgid "plugins.generic.jatsExport.pubType.editorial"
+msgstr "Editorial"
+
+msgid "plugins.generic.jatsExport.pubType.letter"
+msgstr "Letter to the editor"
+
+msgid "plugins.generic.jatsExport.pubType.book-review"
+msgstr "Book review"
+
+msgid "plugins.generic.jatsExport.pubType.case-report"
+msgstr "Case report"
+
+msgid "plugins.generic.jatsExport.pubType.discussion"
+msgstr "Discussion"
+
+msgid "plugins.generic.jatsExport.pubType.other"
+msgstr "Other"
+
+msgid "plugins.generic.jatsExport.udk"
+msgstr "UDC"
+
+msgid "plugins.generic.jatsExport.udk.description"
+msgstr "E.g. 004.93'1:004.056.5. Several codes: separate with ';' or new lines."
+
+msgid "plugins.generic.jatsExport.edn.description"
+msgstr "eLibrary document number (6 letters/digits, e.g. LUWYEO)."
+
+msgid "plugins.generic.jatsExport.dateReceived"
+msgstr "Date received"
+
+msgid "plugins.generic.jatsExport.dateAccepted"
+msgstr "Date accepted"
+
+msgid "plugins.generic.jatsExport.funding"
+msgstr "Funding"
+
+msgid "plugins.generic.jatsExport.funding.description"
+msgstr "Grants, projects, state assignment — as in the article."
+
+msgid "plugins.generic.jatsExport.acknowledgments"
+msgstr "Acknowledgements"
+
+msgid "plugins.generic.jatsExport.author.spin"
+msgstr "SPIN code (RSCI)"
+
+msgid "plugins.generic.jatsExport.author.scopusId"
+msgstr "Scopus Author ID"
+
+msgid "plugins.generic.jatsExport.author.researcherId"
+msgstr "ResearcherID (Web of Science)"
+
+msgid "plugins.generic.jatsExport.pages.description"
+msgstr "Page range of the article in the issue, first-last with a hyphen, e.g. 112-122. For a one-page article enter one number, e.g. 7."
+
+msgid "plugins.generic.jatsExport.authorPosition"
+msgstr "Author order"
+
+msgid "plugins.generic.jatsExport.authorPosition.option"
+msgstr "Author {$n}"
+
+msgid "plugins.generic.jatsExport.authorPosition.description"
+msgstr "Position in the article's list of authors. Author 1 is the lead author; the others shift automatically."
+
+msgid "plugins.generic.jatsExport.orcid.description"
+msgstr "The author's ORCID iD, e.g. 0000-0003-4018-234X (a https://orcid.org/… link works too)."
+
+msgid "plugins.generic.jatsExport.metafora.delete"
+msgstr "Delete from Metafora"
+
+msgid "plugins.generic.jatsExport.metafora.confirmDelete"
+msgstr "Delete the article from Metafora? The uploaded XML and the publication created from it will be removed. Nothing changes in OJS."
+
+msgid "plugins.generic.jatsExport.metafora.origin.ojs"
+msgstr "sent from OJS {$date}"
+
+msgid "plugins.generic.jatsExport.metafora.origin.manual"
+msgstr "already in Metafora — entered by hand"
+
+msgid "plugins.generic.jatsExport.metafora.origin.file"
+msgstr "already in Metafora — uploaded as a file"
+
+msgid "plugins.generic.jatsExport.metafora.disabled.alreadySent"
+msgstr "Already sent. Use Resend to upload it again."
+
+msgid "plugins.generic.jatsExport.metafora.disabled.notSent"
+msgstr "Not sent to Metafora yet."
+
+msgid "plugins.generic.jatsExport.metafora.disabled.notProcessed"
+msgstr "Metafora hasn't processed the file yet — click Refresh status."
+
+msgid "plugins.generic.jatsExport.metafora.disabled.alreadySigned"
+msgstr "The publication is already signed."
+
+msgid "plugins.generic.jatsExport.metafora.disabled.notSigned"
+msgstr "The publication is not signed."
+
+msgid "plugins.generic.jatsExport.metafora.disabled.signed"
+msgstr "The publication is signed — unsign it first."
+
+msgid "plugins.generic.jatsExport.metafora.disabled.notFromOjs"
+msgstr "Entered into Metafora outside OJS — only the editors can delete or replace it there."
+
+msgid "plugins.generic.jatsExport.column.issue"
+msgstr "Issue"
+
+msgid "plugins.generic.jatsExport.filter.search"
+msgstr "Search by title or ID"
+
+msgid "plugins.generic.jatsExport.filter.all"
+msgstr "All"
+
+msgid "plugins.generic.jatsExport.filter.issue"
+msgstr "Issue"
+
+msgid "plugins.generic.jatsExport.filter.year"
+msgstr "Year"
+
+msgid "plugins.generic.jatsExport.filter.noIssue"
+msgstr "No issue"
+
+msgid "plugins.generic.jatsExport.filter.noResults"
+msgstr "No articles match the filter."
+
+msgid "plugins.generic.jatsExport.filter.pages"
+msgstr "pp. {$pages}"

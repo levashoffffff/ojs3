@@ -1,0 +1,82 @@
+/**
+ * @file styles/typography.less
+ * IPII Theme — typography (Inter throughout)
+ */
+
+body {
+	font-family: @font-sans;
+	font-weight: 400;
+	font-size: @font-base;
+	color: @dark-grey;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+	font-family: @font-sans;
+	font-weight: 700;
+	line-height: 1.25;
+	color: @dark-grey;
+	letter-spacing: -0.02em;
+}
+
+a {
+	color: @primary-link;
+	text-decoration: none;
+	transition: color @transition-fast;
+
+	&:hover, &:focus {
+		color: @primary;
+	}
+}
+
+p {
+	line-height: 1.75;
+}
+
+.page-content {
+	p, li {
+		font-size: @font-base;
+		font-weight: 400;
+		line-height: 1.8;
+	}
+}
+
+.headerSize(@h_count) when (@h_count < 7) {
+	h@{h_count} {
+		font-size: (@page-header-size - (@page-header-size / 10 * @h_count) + @page-header-size / 10);
+	}
+	.headerSize(@h_count + 1);
+}
+.headerSize(1);
+
+.hidden { display: none; }
+
+.cmp_back_link {
+	margin-top: @space-5;
+	margin-bottom: @space-5;
+}
+
+blockquote {
+	border-left: 3px solid @accent;
+	padding-left: @space-5;
+	margin-left: 0;
+	color: @mid-grey;
+	font-style: italic;
+}
+
+code, pre {
+	font-size: 0.875em;
+	background: @light-grey;
+	border: 1px solid @faded-grey;
+	border-radius: @radius-sm;
+	padding: 0.15em 0.4em;
+	font-family: 'Fira Code', 'Cascadia Code', monospace;
+}
+
+pre {
+	padding: @space-4;
+	overflow-x: auto;
+}

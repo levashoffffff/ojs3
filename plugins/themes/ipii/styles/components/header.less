@@ -1,0 +1,662 @@
+/**
+ * @file styles/components/header.less
+ * IPII Theme — unified horizontal navbar
+ */
+
+// ============================================================
+// STICKY BODY LAYOUT (footer pushes to bottom)
+// ============================================================
+.ipii-body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+// ============================================================
+// HEADER WRAPPER
+// ============================================================
+.ipii-header {
+	background: @white;
+	border-bottom: 1px solid @faded-grey;
+	box-shadow: @shadow-xs;
+	position: sticky;
+	top: 0;
+	z-index: 1000;
+
+	.container {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+}
+
+// ============================================================
+// NAVBAR
+// ============================================================
+.ipii-navbar {
+	padding: 7px 0;
+	min-height: 64px;
+	gap: 0;
+}
+
+// ============================================================
+// BRAND / LOGO
+// ============================================================
+.ipii-brand {
+	display: flex;
+	align-items: center;
+	margin-right: @space-6;
+	padding: 0;
+	flex: 0 1 auto;
+	min-width: 0;
+	max-width: 26%;
+
+	img {
+		max-height: 40px;
+		width: auto;
+		flex-shrink: 0;
+	}
+}
+
+.ipii-brand-text {
+	font-family: @font-sans;
+	font-size: @font-md;
+	font-weight: 800;
+	color: @primary;
+	letter-spacing: -0.02em;
+	line-height: 1.25;
+	white-space: normal;
+	word-break: break-word;
+
+	&:hover { color: @primary; }
+}
+
+// ============================================================
+// PRIMARY NAV LIST (horizontal, centered)
+// ============================================================
+
+// Three-zone layout: nav centered independent of how wide the brand/
+// right-side content are, using a grid instead of absolute positioning —
+// absolute centering ignored the actual width of .ipii-nav-right, so on
+// medium viewports (or once the submit CTA was added) the centered nav
+// could overlap it.
+@media (min-width: 992px) {
+	.ipii-navbar .navbar-collapse {
+		// Bootstrap's own .navbar-expand-lg .navbar-collapse rule sets
+		// `display: flex !important`, which was silently beating this
+		// without a matching !important — the grid below likely never
+		// actually applied.
+		display: grid !important;
+		grid-template-columns: 1fr auto 1fr;
+		align-items: center;
+		column-gap: @space-4;
+	}
+
+	#primaryNav {
+		grid-column: 1;
+		justify-self: center;
+	}
+
+	.ipii-nav-right {
+		grid-column: 3;
+		justify-self: end;
+		margin-left: 0;
+	}
+}
+
+.ipii-nav-list {
+	flex-direction: row !important;
+	align-items: center;
+	flex-wrap: nowrap;
+	gap: 40px;
+
+	.nav-item {
+		position: relative;
+	}
+
+	.nav-link {
+		font-size: @font-sm;
+		font-weight: 600;
+		color: @mid-grey;
+		padding: 0 @space-4;
+		height: 64px;
+		display: flex;
+		align-items: center;
+		white-space: nowrap;
+		letter-spacing: 0;
+		border-bottom: 3px solid transparent;
+		border-top: 3px solid transparent;
+		transition: color @transition-fast, border-color @transition-fast;
+
+		&:hover, &:focus {
+			color: @primary;
+			background: transparent;
+			border-bottom-color: @primary;
+		}
+
+		&.active {
+			color: @primary;
+			border-bottom-color: @primary;
+		}
+	}
+
+	// Dropdown caret
+	.dropdown-toggle::after {
+		margin-left: 0.3em;
+		opacity: 0.5;
+	}
+
+	// Dropdown panel
+	.dropdown-menu {
+		top: calc(100% + 0px);
+		border-top: 2px solid @primary;
+		border-radius: 0 0 @radius-md @radius-md;
+		box-shadow: @shadow-md;
+		min-width: 200px;
+		padding: @space-2;
+		margin-top: 0;
+		border-left: 1px solid @faded-grey;
+		border-right: 1px solid @faded-grey;
+		border-bottom: 1px solid @faded-grey;
+		background: @white;
+		animation: ipii-fadeIn 0.15s ease;
+
+		.dropdown-item {
+			font-size: @font-sm;
+			font-weight: 500;
+			color: @dark-grey !important;
+			border-radius: @radius-sm;
+			padding: @space-2 @space-3;
+			transition: background @transition-fast, color @transition-fast;
+
+			&:hover, &:focus {
+				background: @primary-light;
+				color: @primary !important;
+			}
+		}
+	}
+}
+
+// ============================================================
+// RIGHT SIDE — user nav + language
+// ============================================================
+.ipii-nav-right {
+	flex-shrink: 0;
+
+	.navbar-nav {
+		flex-direction: row;
+		align-items: center;
+		gap: 0;
+
+		.nav-link {
+			font-size: @font-xs;
+			font-weight: 500;
+			color: @mid-grey;
+			padding: @space-1 @space-2;
+			height: 64px;
+			display: flex;
+			align-items: center;
+			border-bottom: 3px solid transparent;
+			border-top: 3px solid transparent;
+			white-space: nowrap;
+			transition: color @transition-fast;
+
+			&:hover, &:focus {
+				color: @primary;
+				background: transparent;
+			}
+		}
+
+		// User dropdown items — always dark text
+		.dropdown-menu {
+			right: 0;
+			left: auto;
+			border-top: 2px solid @accent;
+			border-radius: 0 0 @radius-md @radius-md;
+			box-shadow: @shadow-md;
+			padding: @space-2;
+			background: @white;
+			border-left: 1px solid @faded-grey;
+			border-right: 1px solid @faded-grey;
+			border-bottom: 1px solid @faded-grey;
+
+			.dropdown-item {
+				font-size: @font-sm;
+				font-weight: 500;
+				color: @dark-grey !important;
+				border-radius: @radius-sm;
+				padding: @space-2 @space-3;
+				white-space: nowrap;
+
+				&:hover, &:focus {
+					background: @primary-light;
+					color: @primary !important;
+				}
+			}
+		}
+	}
+
+	// Language switcher
+	.language-toggle {
+		.dropdown-toggle {
+			font-size: @font-xs;
+			font-weight: 500;
+			color: @mid-grey;
+			background: transparent;
+			border: 1px solid @faded-grey;
+			border-radius: @radius-sm;
+			padding: @space-1 @space-3;
+			transition: all @transition-fast;
+
+			&:hover, &:focus {
+				border-color: @primary;
+				color: @primary;
+			}
+		}
+
+		.dropdown-menu {
+			right: 0;
+			left: auto;
+			min-width: 140px;
+			border-top: 2px solid @accent;
+			box-shadow: @shadow-md;
+			padding: @space-2;
+			background: @white;
+
+			.dropdown-item {
+				font-size: @font-xs;
+				font-weight: 500;
+				color: @dark-grey !important;
+				border-radius: @radius-sm;
+				padding: @space-2 @space-3;
+
+				&:hover, &:focus {
+					background: @primary-light;
+					color: @primary !important;
+				}
+			}
+		}
+	}
+}
+
+// ============================================================
+// SUBMIT ARTICLE CTA (in navbar)
+// ============================================================
+.ipii-submit-cta {
+	display: flex;
+	align-items: center;
+	flex-shrink: 0;
+	height: 34px;
+	padding: 0 @space-4;
+	background: fade(@primary, 10%);
+	color: @primary;
+	font-size: @font-xs;
+	font-weight: 600;
+	border-radius: 20px;
+	white-space: nowrap;
+	transition: background @transition-fast, color @transition-fast, transform @transition-fast;
+
+	&:hover, &:focus {
+		background: fade(@primary, 20%);
+		color: @primary;
+		transform: translateY(-1px);
+		outline: none;
+	}
+}
+
+// ============================================================
+// SEARCH TOGGLE BUTTON (in navbar)
+// ============================================================
+.ipii-search-toggle {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 34px;
+	height: 34px;
+	padding: 0;
+	background: transparent;
+	border: none;
+	border-radius: 50%;
+	color: @mid-grey;
+	cursor: pointer;
+	flex-shrink: 0;
+	transition: color @transition-fast, background @transition-fast;
+
+	svg { display: block; flex-shrink: 0; }
+
+	.ipii-search-toggle-label { display: none; }
+
+	&:hover, &:focus {
+		background: @light-grey;
+		color: @primary;
+		outline: none;
+		box-shadow: none;
+	}
+
+	&[aria-expanded="true"] {
+		color: @primary;
+		background: @primary-light;
+	}
+}
+
+// ============================================================
+// FULL-SCREEN SEARCH MODAL
+// ============================================================
+.ipii-search-modal {
+	position: fixed;
+	inset: 0;
+	z-index: 2000;
+	background: rgba(15, 23, 42, 0.92);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0;
+	visibility: hidden;
+	transition: opacity @transition, visibility @transition;
+	backdrop-filter: blur(4px);
+	-webkit-backdrop-filter: blur(4px);
+
+	&.is-open {
+		opacity: 1;
+		visibility: visible;
+	}
+}
+
+.ipii-search-modal__close {
+	position: absolute;
+	top: 1.5rem;
+	right: 1.5rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 44px;
+	height: 44px;
+	padding: 0;
+	background: rgba(255, 255, 255, 0.1);
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	border-radius: @radius-sm;
+	color: rgba(255, 255, 255, 0.7);
+	cursor: pointer;
+	transition: background @transition-fast, color @transition-fast, border-color @transition-fast;
+
+	&:hover, &:focus {
+		background: rgba(255, 255, 255, 0.18);
+		border-color: rgba(255, 255, 255, 0.5);
+		color: @white;
+		outline: none;
+	}
+}
+
+.ipii-search-modal__body {
+	width: 100%;
+	max-width: 680px;
+	padding: 0 @space-6;
+	transform: translateY(-16px);
+	transition: transform @transition;
+
+	.ipii-search-modal.is-open & {
+		transform: translateY(0);
+	}
+}
+
+.ipii-search-modal__hint {
+	font-family: @font-sans;
+	font-size: @font-xs;
+	font-weight: 600;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	color: rgba(255, 255, 255, 0.45);
+	margin: 0 0 @space-4;
+}
+
+.ipii-search-modal__field {
+	display: flex;
+	align-items: center;
+	background: @white;
+	border-radius: @radius-md;
+	overflow: hidden;
+	box-shadow: @shadow-lg;
+}
+
+.ipii-search-modal__input {
+	flex: 1;
+	height: 58px;
+	padding: 0 @space-5;
+	border: none;
+	font-size: @font-md;
+	font-family: @font-sans;
+	color: @dark-grey;
+	background: transparent;
+	outline: none;
+	-webkit-appearance: none;
+	appearance: none;
+
+	&::placeholder { color: @mid-grey; }
+}
+
+.ipii-search-modal__submit {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 58px;
+	height: 58px;
+	padding: 0;
+	background: @primary;
+	border: none;
+	color: @white;
+	cursor: pointer;
+	flex-shrink: 0;
+	transition: background @transition-fast;
+
+	&:hover, &:focus {
+		background: darken(@primary, 8%);
+		outline: none;
+	}
+}
+
+body.ipii-search-open { overflow: hidden; }
+
+@media (max-width: 575px) {
+	.ipii-search-modal__input  { font-size: @font-base; height: 52px; }
+	.ipii-search-modal__submit { width: 52px; height: 52px; }
+}
+
+// ============================================================
+// MOBILE TOGGLER
+// ============================================================
+.ipii-toggler {
+	border: 1px solid @faded-grey;
+	border-radius: @radius-sm;
+	padding: @space-2 @space-2;
+	background: transparent;
+	cursor: pointer;
+	transition: border-color @transition-fast;
+
+	&:hover, &:focus {
+		border-color: @primary;
+		outline: none;
+		box-shadow: none;
+	}
+
+	.ipii-toggler-icon {
+		display: flex;
+		flex-direction: column;
+		gap: 4px;
+		width: 20px;
+
+		span {
+			display: block;
+			width: 100%;
+			height: 2px;
+			background: @dark-grey;
+			border-radius: 2px;
+			transition: all @transition-fast;
+		}
+	}
+}
+
+// ============================================================
+// MOBILE STYLES
+// ============================================================
+@media (max-width: 991px) {
+
+	.ipii-header {
+		position: sticky;
+		top: 0;
+	}
+
+	.ipii-navbar {
+		flex-wrap: wrap;
+		min-height: 56px;
+	}
+
+	.ipii-brand {
+		margin-right: auto;
+		max-width: 70%;
+		padding: @space-3;
+	}
+
+	.ipii-brand-text {
+		font-size: @font-sm;
+	}
+
+	// Collapsed nav — vertical on mobile
+	#ipiiMainNav {
+		padding: @space-3 0;
+		border-top: 1px solid @faded-grey;
+		width: 100%;
+
+		.ipii-nav-list {
+			flex-direction: column !important;
+			align-items: flex-start;
+			width: 100%;
+			gap: 0;
+
+			.nav-item { width: 100%; }
+
+			.nav-link {
+				height: auto;
+				padding: @space-2 @space-2;
+				border-bottom-color: transparent !important;
+				border-top: none;
+				width: 100%;
+
+				&:hover {
+					background: @light-grey;
+					border-radius: @radius-sm;
+				}
+			}
+
+			.dropdown-menu {
+				position: static;
+				box-shadow: none;
+				border: none;
+				border-radius: @radius-sm;
+				background: @light-grey;
+				padding: @space-1 @space-2;
+				margin: 0 0 @space-1;
+
+				.dropdown-item {
+					color: @dark-grey !important;
+					// Bootstrap's .dropdown-item defaults to white-space:
+					// nowrap, which pushes long Russian menu item labels
+					// (e.g. "Распространение материальных экземпляров...")
+					// past the edge of the screen on mobile instead of
+					// wrapping onto a second line.
+					white-space: normal;
+					overflow-wrap: break-word;
+				}
+			}
+		}
+
+		.ipii-nav-right {
+			width: 100%;
+			flex-direction: column;
+			align-items: stretch;
+			gap: 0;
+			padding-top: @space-3;
+			border-top: 1px solid @faded-grey;
+			margin-top: @space-1;
+
+			.ipii-submit-cta {
+				width: 100%;
+				height: auto;
+				justify-content: center;
+				padding: @space-3;
+				margin-bottom: @space-2;
+			}
+
+			// Search — full-width row with a visible label, matching the
+			// primary nav links above instead of a lone floating icon.
+			.ipii-search-toggle {
+				width: 100%;
+				height: auto;
+				justify-content: flex-start;
+				gap: @space-3;
+				padding: @space-2;
+				border-radius: @radius-sm;
+
+				.ipii-search-toggle-label {
+					display: inline;
+					font-size: @font-sm;
+					font-weight: 600;
+					color: @mid-grey;
+				}
+
+				&:hover, &:focus {
+					background: @light-grey;
+
+					.ipii-search-toggle-label { color: @primary; }
+				}
+			}
+
+			.navbar-nav {
+				flex-direction: row;
+				flex-wrap: wrap;
+				width: 100%;
+
+				.nav-item { width: 100%; }
+
+				.nav-link {
+					height: auto;
+					width: 100%;
+					padding: @space-2;
+					border-radius: @radius-sm;
+
+					&:hover { background: @light-grey; }
+				}
+
+				.dropdown-menu {
+					position: static;
+					width: 100%;
+					box-shadow: none;
+					border: none;
+					border-top: none;
+					border-radius: @radius-sm;
+					background: @light-grey;
+					padding: @space-1 @space-2;
+					margin: 0 0 @space-1;
+
+					.dropdown-item {
+						color: @dark-grey !important;
+					}
+				}
+			}
+
+			// Language switcher — its own row, dropdown expands inline like
+			// the other menus instead of floating over the page.
+			.language-toggle {
+				margin-top: @space-2;
+
+				.dropdown-menu {
+					position: static;
+					width: 100%;
+					box-shadow: none;
+					border: none;
+					border-top: none;
+					background: @light-grey;
+					margin: @space-1 0 0;
+				}
+			}
+		}
+	}
+}

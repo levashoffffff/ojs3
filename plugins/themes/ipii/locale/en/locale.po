@@ -1,0 +1,102 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-04-23T00:00:00+00:00\n"
+"PO-Revision-Date: 2026-04-23T00:00:00+00:00\n"
+"Language: en\n"
+
+msgid "plugins.themes.ipii.name"
+msgstr "IPII Theme"
+
+msgid "plugins.themes.ipii.description"
+msgstr "A clean, elegant theme for scientific journals with light tones and smooth animations."
+
+msgid "plugins.themes.ipii.option.colour.label"
+msgstr "Primary Colour"
+
+msgid "plugins.themes.ipii.option.colour.description"
+msgstr "Select the primary brand colour for your journal."
+
+msgid "plugins.themes.ipii.nav.toggle"
+msgstr "Toggle Navigation"
+
+msgid "plugins.themes.ipii.nav.submitArticle"
+msgstr "Submit Article"
+
+msgid "plugins.themes.ipii.language.toggle"
+msgstr "Change the language. The current language is:"
+
+msgid "plugins.themes.ipii.currentIssuePublished"
+msgstr "Published {$date}"
+
+msgid "plugins.themes.ipii.issueDescription"
+msgstr "Issue Description"
+
+msgid "plugins.themes.ipii.issuePubId"
+msgstr "{$pubIdType}: {$pubId}"
+
+msgid "plugins.themes.ipii.more"
+msgstr "{$text}…"
+
+msgid "plugins.themes.ipii.article.authorBio"
+msgstr "About the Author"
+
+msgid "plugins.themes.ipii.article.udk"
+msgstr "UDC:"
+
+msgid "plugins.themes.ipii.article.supplementaryFiles"
+msgstr "Supplementary Files"
+
+msgid "plugins.themes.ipii.register.haveAccount"
+msgstr "Already have an account?"
+
+msgid "plugins.themes.ipii.register.loginHere"
+msgstr "Login here"
+
+msgid "plugins.themes.ipii.register.noAccount"
+msgstr "No account?"
+
+msgid "plugins.themes.ipii.register.registerHere"
+msgstr "Register here"
+
+msgid "plugins.themes.ipii.search.resultsFor"
+msgstr "Search Results for <em>{$query}</em>"
+
+msgid "plugins.themes.ipii.search.params"
+msgstr "Search Parameters"
+
+msgid "plugins.themes.ipii.footer.poweredBy"
+msgstr "Powered by Open Journal Systems"
+
+msgid "plugins.themes.ipii.contact.mailingAddress"
+msgstr "Mailing Address"
+
+msgid "plugins.themes.ipii.displayStats.downloads"
+msgstr "Download Statistics"
+
+msgid "plugins.themes.ipii.displayStats.noStats"
+msgstr "Statistics are not yet available."
+
+msgid "plugins.themes.ipii.footer.journalDesc"
+msgstr "International peer-reviewed scientific and theoretical journal"
+
+msgid "plugins.themes.ipii.footer.contacts"
+msgstr "Contacts"
+
+msgid "plugins.themes.ipii.footer.editor"
+msgstr "Editor-in-Chief"
+
+msgid "plugins.themes.ipii.footer.editorial"
+msgstr "Editorial"
+
+msgid "plugins.themes.ipii.archive.firstPage"
+msgstr "First"
+
+msgid "plugins.themes.ipii.archive.lastPage"
+msgstr "Last"

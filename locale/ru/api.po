@@ -1,0 +1,365 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-27T09:47:20-07:00\n"
+"PO-Revision-Date: 2020-12-12 08:51+0000\n"
+"Last-Translator: Weblate Admin <alec@smecher.bc.ca>\n"
+"Language-Team: Russian <http://translate.pkp.sfu.ca/projects/pkp-lib/api/ru/>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "api.400.errorUploadingImage"
+msgstr "При загрузке этого изображения произошла ошибка."
+
+msgid "api.422.routeRequestUnableToProcess"
+msgstr "Не удалось обработать запрос API."
+
+msgid "api.417.routeResponseIsNull"
+msgstr "Не удалось получить ожидаемый ответ."
+
+msgid "api.400.invalidAuthorFriendlyParameter"
+msgstr "Неверный параметр для автора."
+
+msgid "api.400.routeNotDefined"
+msgstr "Маршрут API не указан."
+
+msgid "api.400.paramNotSupported"
+msgstr "Параметр {$param} не поддерживается."
+
+msgid "api.400.propReadOnly"
+msgstr "Свойство {$prop} не может быть изменено."
+
+msgid "api.400.invalidApiToken"
+msgstr "Не удалось подтвердить токен API. Это может указывать на ошибку в токене API или на то, что срок действия токена API истек."
+
+msgid "api.400.tokenCouldNotBeDecoded"
+msgstr "Не удалось декодировать apiToken из-за следующей ошибки: {$error}"
+
+msgid "api.400.requireEmailSubjectBody"
+msgstr "Вы должны указать тему и текст письма."
+
+msgid "api.files.400.notAllowedCreatedAt"
+msgstr "Невозможно изменить время создания этого файла."
+
+msgid "api.dois.403.prefixRequired"
+msgstr "Для генерации DOI требуется префикс DOI."
+
+msgid "api.403.unauthorized"
+msgstr "У вас нет прав на доступ к запрошенному ресурсу."
+
+msgid "api.404.resourceNotFound"
+msgstr "Запрошенный ресурс не найден."
+
+msgid "api.404.endpointNotFound"
+msgstr "Запрошенный URL не распознан."
+
+msgid "api.500.apiSecretKeyMissing"
+msgstr "Токен API не может быть использован для доступа к этому сайту, так как администратор сайта не настроил секретный ключ."
+
+msgid "api.announcements.404.announcementNotFound"
+msgstr "Запрошенное вами объявление не найдено."
+
+msgid "api.institutions.404.institutionNotFound"
+msgstr "Запрошенное вами учреждение не найдено."
+
+msgid "api.contexts.400.localesNotSupported"
+msgstr "Следующие локали не поддерживаются: {$locales}."
+
+msgid "api.dois.403.editItemOutOfContext"
+msgstr "Вы не можете редактировать DOI элемента, который не находится в этом контексте."
+
+msgid "api.dois.403.editItemDoiCantBeAssigned"
+msgstr "Этому элементу нельзя назначить DOI."
+
+msgid "api.dois.403.pubTypeNotRecognized"
+msgstr "Тип публикации не распознан."
+
+msgid "api.dois.404.contextNotFound"
+msgstr "Эта конечная точка недоступна из общесайтового пространства имен и должна запрашиваться для конкретного контекста."
+
+msgid "api.dois.404.doiNotFound"
+msgstr "Запрошенный вами DOI не найден."
+
+msgid "api.dois.404.pubObjectNotFound"
+msgstr "Запрошенный вами объект публикации не найден."
+
+msgid "api.dois.404.submissionNotFound"
+msgstr "Запрошенная вами подача не найден."
+
+msgid "api.dois.400.noUnpublishedItems"
+msgstr "Неопубликованные элементы не могут быть экспортированы/депонированы. Пожалуйста, снимите выбор с неопубликованных элементов и повторите попытку."
+
+msgid "api.dois.400.creationFailed"
+msgstr "Произошла ошибка, и объект DOI не может быть создан."
+
+msgid "api.dois.400.xmlExportFailed"
+msgstr "Произошла ошибка проверки XML, и XML не может быть экспортирован."
+
+msgid "api.dois.400.markRegisteredFailed"
+msgstr "Произошла ошибка, и некоторые из отправленных элементов не были отмечены как зарегистрированные."
+
+msgid "api.dois.400.depositFailed"
+msgstr "Некоторые элементы не были успешно депонированы. Пожалуйста, проверьте отдельные элементы на наличие конкретных сообщений об ошибках."
+
+msgid "api.dois.404.noPubObjectIncluded"
+msgstr "В запрос не было включено ни одного действительного объекта публикации."
+
+msgid "api.dois.400.invalidPubObjectIncluded"
+msgstr "В запрос был включен один или несколько недопустимых объектов публикации."
+
+msgid "api.dois.400.invalidPluginType"
+msgstr "Текущий настроенный плагин должен быть плагином агентства регистрации."
+
+msgid "api.decisions.403.alreadyPublished"
+msgstr "Вы не можете зафиксировать решение или рекомендовать решение для этой подачи, так как она уже опубликована."
+
+msgid "api.emails.400.missingBody"
+msgstr "Вы должны включить письмо для отправки."
+
+msgid "api.emails.400.missingSubject"
+msgstr "Вы должны указать тему письма."
+
+msgid "api.emails.400.missingUserGroups"
+msgstr "Вы должны указать роли пользователей, которые должны получить это письмо."
+
+msgid "api.emails.403.notAllowedUserGroup"
+msgstr "Вам не разрешено отправлять письмо пользователям одной или нескольких выбранных ролей."
+
+msgid "api.emailTemplates.400.invalidAlternateTo"
+msgstr "Это не шаблон письма по умолчанию для известного письма."
+
+msgid "api.emailTemplates.400.invalidContext"
+msgstr "Это недействительный контекст."
+
+msgid "api.emailTemplates.404.templateNotFound"
+msgstr "Запрошенный вами шаблон письма не найден."
+
+msgid "api.emailLogs.400.unrecognisedAuthorEmailEventType"
+msgstr "Вы указали неверный \"eventType\", {$eventType}, для писем авторов."
+
+msgid "api.files.400.noUpload"
+msgstr "В запросе не найден файл для загрузки."
+
+msgid "api.files.400.uploadFailed"
+msgstr "Не удалось загрузить один или несколько файлов."
+
+msgid "api.files.400.fileSize"
+msgstr "Файлы размером более {$maxSize} не могут быть загружены."
+
+msgid "api.files.400.config"
+msgstr "Не удалось загрузить файл из-за ошибки конфигурации сервера. Пожалуйста, свяжитесь с администратором системы."
+
+msgid "api.highlights.400.noOrderData"
+msgstr "Не удалось сохранить порядок выделенных материалов, так как информация о порядке не найдена."
+
+msgid "api.highlights.400.orderHighlightNotFound"
+msgstr "Не удалось сохранить порядок выделенных материалов, так как один или несколько выделенных материалов не найдены."
+
+msgid "api.highlights.404.highlightNotFound"
+msgstr "Запрошенный вами выделенный материал не найден."
+
+msgid "api.orcid.403.orcidNotEnabled"
+msgstr "Вы не можете выполнить эту операцию, если функциональность ORCID отключена."
+
+msgid "api.orcid.403.cannotUpdateAuthorOrcid"
+msgstr "Назначение ORCID iD автора через конечные точки \"Редактировать/Добавить автора\" не разрешено. Чтобы запросить у автора обновление его ORCID iD, пожалуйста, используйте конечную точку \"orcid/requestAuthorVerification/{authorId}\"."
+
+msgid "api.orcid.404.authorNotFound"
+msgstr "Запрошенный автор не найден"
+
+msgid "api.orcid.403.editWithoutPermission"
+msgstr "Вы не можете вносить изменения в информацию об авторах в подачах, к которым вы не назначены."
+
+msgid "api.orcid.404.contextRequired"
+msgstr "Эта конечная точка недоступна из общесайтового пространства имен и должна запрашиваться для конкретного контекста."
+
+msgid "api.publication.403.alreadyPublished"
+msgstr "Публикация, которую вы хотите опубликовать, уже опубликована."
+
+msgid "api.publication.403.alreadyUnpublished"
+msgstr "Публикация, которую вы хотите отменить, не опубликована."
+
+msgid "api.publication.403.cantEditPublished"
+msgstr "Вы не можете редактировать эту публикацию, так как она уже опубликована."
+
+msgid "api.publication.403.cantEditStatus"
+msgstr "Вы не можете изменять статус напрямую через API. Вместо этого используйте конечные точки /publish и /unpublish."
+
+msgid "api.publication.403.cantDeletePublished"
+msgstr "Вы должны отменить публикацию этой публикации, прежде чем сможете ее удалить."
+
+msgid "api.publicFiles.400.extensionNotSupported"
+msgstr "Вы можете загружать только следующие типы файлов: {$fileTypes}."
+
+msgid "api.publicFiles.400.invalidImage"
+msgstr "Загруженное вами изображение недействительно."
+
+msgid "api.publicFiles.400.mimeTypeNotMatched"
+msgstr "Загруженный вами файл не соответствует расширению файла. Это может произойти, когда файл был переименован в несовместимый тип, например, изменение photo.png на photo.jpg."
+
+msgid "api.publicFiles.403.unauthorized"
+msgstr "Вам не разрешено загружать файлы."
+
+msgid "api.publicFiles.413.noDirSpace"
+msgstr "У вас недостаточно места в вашем пользовательском каталоге. Размер загружаемого файла составляет {$fileUploadSize}КБ, а у вас осталось {$dirSizeLeft}КБ."
+
+msgid "api.publicFiles.500.badFilesDir"
+msgstr "Каталог общедоступных файлов не найден, или в него нельзя сохранить файлы. Пожалуйста, свяжитесь с вашим администратором для решения этой проблемы."
+
+msgid "api.stats.400.wrongDateFormat"
+msgstr "Дата должна быть в формате ГГГГ-ММ-ДД."
+
+msgid "api.stats.400.wrongDateRange"
+msgstr "Дата начала не может быть позже даты окончания."
+
+msgid "api.stats.400.earlyDateRange"
+msgstr "Дата начала не может быть ранее 2001-01-01."
+
+msgid "api.stats.400.lateDateRange"
+msgstr "Дата окончания не может быть позже вчерашнего дня."
+
+msgid "api.stats.400.wrongTimelineInterval"
+msgstr "Ваш запрос недействителен. TimelineInterval должен быть `day` или `month`."
+
+msgid "api.stats.400.invalidOrderDirection"
+msgstr "Ваш запрос недействителен. OrderDirection должен быть `desc` или `asc`."
+
+msgid "api.stats.400.invalidTimelineInterval"
+msgstr "Ваш запрос недействителен. TimelineInterval должен быть `day` или `month`."
+
+msgid "api.submissionFiles.400.assocTypeAndIdRequired"
+msgstr "Вы не можете изменить ассоциацию файла без передачи assocType и assocId."
+
+msgid "api.submissionFiles.400.badDependentFileAssocType"
+msgstr "Вы не можете связать файл с этого этапа подачи с другим файлом подачи."
+
+msgid "api.submissionFiles.400.badNoteAssocType"
+msgstr "Вы не можете связать файл с этого этапа подачи с заметкой обсуждения."
+
+msgid "api.submissionFiles.400.badReviewAssignmentAssocType"
+msgstr "Вы не можете связать файл с этого этапа подачи с назначением на рецензирование."
+
+msgid "api.submissionFiles.400.badReviewRoundAssocType"
+msgstr "Вы не можете связать файл с этого этапа подачи с раундом рецензирования."
+
+msgid "api.submissionFiles.400.missingReviewRoundAssocType"
+msgstr "Вы должны указать раунд рецензирования при запросе файлов на этапе рецензирования."
+
+msgid "api.submissionFiles.400.noFileStageId"
+msgstr "Вы должны указать этап файла."
+
+msgid "api.submissionFiles.400.invalidFileStage"
+msgstr "Указанный вами этап файла недействителен."
+
+msgid "api.submissionsFiles.400.noParams"
+msgstr "В запросе на редактирование этого файла не найдено изменений."
+
+msgid "api.submissionFiles.400.reviewRoundIdRequired"
+msgstr "Вы должны указать идентификатор раунда рецензирования при перемещении файла на этот этап."
+
+msgid "api.submissionFiles.400.reviewRoundSubmissionNotMatch"
+msgstr "Указанный вами раунд рецензирования не является частью этой подачи."
+
+msgid "api.submissionFiles.403.unauthorizedFileStageId"
+msgstr "Вам не разрешен доступ к этим файлам."
+
+msgid "api.submissionFiles.403.unauthorizedFileStageIdWrite"
+msgstr "Вам не разрешено добавлять и редактировать эти файлы."
+
+msgid "api.submissionFiles.403.unauthorizedReviewRound"
+msgstr "Вам не разрешен доступ к файлам в этом раунде рецензирования."
+
+msgid "api.submissions.400.missingRequired"
+msgstr "Ваш запрос не может быть выполнен, так как в нем отсутствует обязательная информация."
+
+msgid "api.submissions.400.invalidIssueIdentifiers"
+msgstr "Запрошенный том, номер или год недействительны."
+
+msgid "api.submissions.400.invalidSubmitAs"
+msgstr "Вам не разрешено подавать материал в этой роли пользователя."
+
+msgid "api.submission.403.cantChangeSubmissionLanguage"
+msgstr "Вы не можете изменить язык этой подачи, так как она уже имеет более одной версии публикации или опубликованную публикацию."
+
+msgid "api.submissions.403.csrfTokenFailure"
+msgstr "Ваш запрос был отклонен. Это может быть связано с истечением срока действия вашего входа. Попробуйте перезагрузить страницу и повторить попытку."
+
+msgid "api.submissions.403.deleteSubmissionOutOfContext"
+msgstr "Вы не можете удалить подачу, которая не назначена этому контексту."
+
+msgid "api.submissions.403.requestedOthersUnpublishedSubmissions"
+msgstr "Вы можете просматривать только неопубликованные подачи, к которым вы были назначены."
+
+msgid "api.submissions.403.unauthorizedDeleteSubmission"
+msgstr "У вас нет прав на удаление этой подачи."
+
+msgid "api.submissions.403.userCantEdit"
+msgstr "Вам не разрешено редактировать эту публикацию."
+
+msgid "api.submissions.404.siteWideEndpoint"
+msgstr "Эта конечная точка недоступна из контекста. К ней необходимо обращаться из общесайтового пространства имен."
+
+msgid "api.themes.404.themeUnavailable"
+msgstr "Активная тема, {$themePluginPath}, не включена и, возможно, не установлена."
+
+msgid "api.vocabs.400.localeNotSupported"
+msgstr "Локаль {$locale} не поддерживается."
+
+msgid "api.mailables.404.mailableNotFound"
+msgstr "Запрошенное вами письмо не найдено."
+
+msgid "api.jobs.404.failedJobNotFound"
+msgstr "Проваленная задача не найдена в списке проваленных."
+
+msgid "api.jobs.406.failedJobPayloadMissing"
+msgstr "В проваленной задаче отсутствует полезная нагрузка для повторной отправки."
+
+msgid "api.jobs.406.failedJobEmpty"
+msgstr "В списке не найдено проваленных задач."
+
+msgid "api.jobs.400.failedJobRedispatchedFailed"
+msgstr "Не удалось повторно отправить проваленную задачу."
+
+msgid "api.jobs.200.failedJobRedispatchedSucceed"
+msgstr "Проваленная задача успешно повторно отправлена."
+
+msgid "api.jobs.200.allFailedJobRedispatchedSucceed"
+msgstr "Все проваленные задачи, доступные для повторной отправки с действительной полезной нагрузкой, были успешно повторно поставлены в очередь."
+
+msgid "api.jobs.400.failedJobDeleteFailed"
+msgstr "Не удалось удалить проваленную задачу из списка проваленных."
+
+msgid "api.jobs.200.failedJobDeleteSucceed"
+msgstr "Проваленная задача успешно удалена из списка проваленных."
+
+msgid "api.reviews.assignments.invalidSubmission"
+msgstr "Подача для этого назначения на рецензирование не найдена."
+
+msgid "api.reviews.assignments.invalidReviewer"
+msgstr "Рецензент для этого назначения не найден"
+
+msgid "api.review.assignments.invalidInvitationResponse"
+msgstr "Допустимы только значения 'accept' (принять) и 'decline' (отклонить)"
+
+msgid "api.submission.400.sectionDoesNotExist"
+msgstr "Указанный раздел не существует."
+
+msgid "api.submission.400.missingQueryParam"
+msgstr "В запросе отсутствует обязательный параметр запроса `ids`. Пожалуйста, укажите `ids` подач, которые вы хотите удалить."
+
+msgid "api.submission.400.invalidId"
+msgstr "Указан неверный ID: \"{$id}\"."
+
+msgid "api.publications.403.noEnabledIdentifiers"
+msgstr "Форма идентификаторов публикации недоступна, так как нет включенных идентификаторов."
+
+msgid "api.rors.404.rorNotFound"
+msgstr "Запрошенный вами ROR не найден."
+
+msgid "api.409.resourceActionConflict"
+msgstr "Не удалось выполнить предполагаемое действие над ресурсом."

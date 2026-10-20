@@ -1,0 +1,297 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-09-28T00:00:00+00:00\n"
+"PO-Revision-Date: 2026-09-28T00:00:00+00:00\n"
+"Language: ru\n"
+
+msgid "plugins.generic.jatsExport.displayName"
+msgstr "Экспорт JATS XML"
+
+msgid "plugins.generic.jatsExport.description"
+msgstr "Позволяет выбрать любое количество опубликованных статей и скачать их JATS XML одним txt-файлом или набором xml-файлов."
+
+msgid "plugins.generic.jatsExport.manage"
+msgstr "Экспорт JATS XML"
+
+msgid "plugins.generic.jatsExport.intro"
+msgstr "Отметьте статьи или выберите все. «Скачать TXT» — все статьи одним текстовым файлом, «Скачать XML» — одна статья файлом .xml, несколько — ZIP-архивом. Кнопки «Метафора» отправляют статьи (JATS XML + PDF-гранка) в ИС «Метафора» РЦНИ и показывают их статус там."
+
+msgid "plugins.generic.jatsExport.selectAll"
+msgstr "Выбрать все"
+
+msgid "plugins.generic.jatsExport.selectedCount"
+msgstr "Выбрано"
+
+msgid "plugins.generic.jatsExport.column.title"
+msgstr "Название"
+
+msgid "plugins.generic.jatsExport.exportTxt"
+msgstr "Скачать TXT"
+
+msgid "plugins.generic.jatsExport.exportXml"
+msgstr "Скачать XML"
+
+msgid "plugins.generic.jatsExport.export"
+msgstr "Экспортировать"
+
+msgid "plugins.generic.jatsExport.noArticles"
+msgstr "Опубликованных статей пока нет."
+
+msgid "plugins.generic.jatsExport.citationsEn"
+msgstr "Список литературы (English / References)"
+
+msgid "plugins.generic.jatsExport.citationsEn.description"
+msgstr "Английская версия списка литературы (References), по одному источнику на строку. Нумерацию «1.», «2.» можно оставить — при выгрузке в JATS XML она убирается, а разорванные строки склеиваются."
+
+msgid "plugins.generic.jatsExport.city"
+msgstr "Город"
+
+msgid "plugins.generic.jatsExport.city.description"
+msgstr "Город места работы автора на каждом языке (например, Москва / Moscow). Используется в JATS XML для «Метафоры»."
+
+msgid "plugins.generic.jatsExport.column.metafora"
+msgstr "Метафора"
+
+msgid "plugins.generic.jatsExport.metafora.settings"
+msgstr "Метафора (РЦНИ)"
+
+msgid "plugins.generic.jatsExport.metafora.apiKey"
+msgstr "API-ключ"
+
+msgid "plugins.generic.jatsExport.metafora.keyStored"
+msgstr "ключ сохранён ({$hint}) — введите новый, чтобы заменить"
+
+msgid "plugins.generic.jatsExport.metafora.keyPlaceholder"
+msgstr "вставьте ключ из раздела «API-ключи» в Метафоре"
+
+msgid "plugins.generic.jatsExport.metafora.saveAndTest"
+msgstr "Сохранить и проверить"
+
+msgid "plugins.generic.jatsExport.metafora.removeKey"
+msgstr "Удалить ключ"
+
+msgid "plugins.generic.jatsExport.metafora.confirmRemoveKey"
+msgstr "Удалить API-ключ Метафоры из OJS?"
+
+msgid "plugins.generic.jatsExport.metafora.keySaved"
+msgstr "API-ключ сохранён."
+
+msgid "plugins.generic.jatsExport.metafora.keyRemoved"
+msgstr "API-ключ удалён."
+
+msgid "plugins.generic.jatsExport.metafora.connectionOk"
+msgstr "Связь с Метафорой есть, ключ принят."
+
+msgid "plugins.generic.jatsExport.metafora.connectionFailed"
+msgstr "Метафора не приняла ключ."
+
+msgid "plugins.generic.jatsExport.metafora.noKey"
+msgstr "Сначала сохраните API-ключ Метафоры (блок вверху страницы)."
+
+msgid "plugins.generic.jatsExport.metafora.nothingSelected"
+msgstr "Не выбрано ни одной статьи."
+
+msgid "plugins.generic.jatsExport.metafora.refreshed"
+msgstr "Статусы обновлены."
+
+msgid "plugins.generic.jatsExport.metafora.selected"
+msgstr "Метафора, выбранные:"
+
+msgid "plugins.generic.jatsExport.metafora.send"
+msgstr "Отправить"
+
+msgid "plugins.generic.jatsExport.metafora.refresh"
+msgstr "Обновить статус"
+
+msgid "plugins.generic.jatsExport.metafora.sign"
+msgstr "Подписать"
+
+msgid "plugins.generic.jatsExport.metafora.unsign"
+msgstr "Снять подпись"
+
+msgid "plugins.generic.jatsExport.metafora.resend"
+msgstr "Переотправить"
+
+msgid "plugins.generic.jatsExport.metafora.confirmSend"
+msgstr "Отправить статью в Метафору? Будет создана запись в ИС «Метафора»."
+
+msgid "plugins.generic.jatsExport.metafora.confirmSendSelected"
+msgstr "Отправить все выбранные статьи в Метафору?"
+
+msgid "plugins.generic.jatsExport.metafora.confirmSign"
+msgstr "Подписать публикацию в Метафоре? После подписания изменения невозможны без снятия подписи."
+
+msgid "plugins.generic.jatsExport.metafora.confirmUnsign"
+msgstr "Снять подпись с публикации в Метафоре?"
+
+msgid "plugins.generic.jatsExport.metafora.confirmResend"
+msgstr "Удалить файл статьи в Метафоре и загрузить заново с текущими данными?"
+
+msgid "plugins.generic.jatsExport.metafora.status.none"
+msgstr "не отправлена"
+
+msgid "plugins.generic.jatsExport.metafora.status.rejected"
+msgstr "отклонена"
+
+msgid "plugins.generic.jatsExport.metafora.status.uploaded"
+msgstr "загружена, ждёт обработки"
+
+msgid "plugins.generic.jatsExport.metafora.status.processing"
+msgstr "обрабатывается"
+
+msgid "plugins.generic.jatsExport.metafora.status.processed"
+msgstr "обработана"
+
+msgid "plugins.generic.jatsExport.metafora.status.failed"
+msgstr "ошибка обработки"
+
+msgid "plugins.generic.jatsExport.metafora.status.signed"
+msgstr "подписана {$date}"
+
+msgid "plugins.generic.jatsExport.pubType"
+msgstr "Тип публикации (для Метафоры)"
+
+msgid "plugins.generic.jatsExport.pubType.description"
+msgstr "Попадает в JATS XML как article-type."
+
+msgid "plugins.generic.jatsExport.pubType.research-article"
+msgstr "Научная статья"
+
+msgid "plugins.generic.jatsExport.pubType.review-article"
+msgstr "Обзорная статья"
+
+msgid "plugins.generic.jatsExport.pubType.brief-report"
+msgstr "Краткое сообщение"
+
+msgid "plugins.generic.jatsExport.pubType.editorial"
+msgstr "Редакционная статья"
+
+msgid "plugins.generic.jatsExport.pubType.letter"
+msgstr "Письмо в редакцию"
+
+msgid "plugins.generic.jatsExport.pubType.book-review"
+msgstr "Рецензия"
+
+msgid "plugins.generic.jatsExport.pubType.case-report"
+msgstr "Описание случая"
+
+msgid "plugins.generic.jatsExport.pubType.discussion"
+msgstr "Дискуссия"
+
+msgid "plugins.generic.jatsExport.pubType.other"
+msgstr "Другое"
+
+msgid "plugins.generic.jatsExport.udk"
+msgstr "УДК"
+
+msgid "plugins.generic.jatsExport.udk.description"
+msgstr "Например 004.93'1:004.056.5. Несколько кодов — через «;» или с новой строки."
+
+msgid "plugins.generic.jatsExport.edn.description"
+msgstr "Идентификатор eLibrary (6 букв/цифр, например LUWYEO)."
+
+msgid "plugins.generic.jatsExport.dateReceived"
+msgstr "Дата поступления в редакцию"
+
+msgid "plugins.generic.jatsExport.dateAccepted"
+msgstr "Дата принятия к публикации"
+
+msgid "plugins.generic.jatsExport.funding"
+msgstr "Сведения о финансировании"
+
+msgid "plugins.generic.jatsExport.funding.description"
+msgstr "Гранты, проекты, госзадание — как в тексте статьи."
+
+msgid "plugins.generic.jatsExport.acknowledgments"
+msgstr "Благодарности"
+
+msgid "plugins.generic.jatsExport.author.spin"
+msgstr "SPIN-код (РИНЦ)"
+
+msgid "plugins.generic.jatsExport.author.scopusId"
+msgstr "Scopus Author ID"
+
+msgid "plugins.generic.jatsExport.author.researcherId"
+msgstr "ResearcherID (Web of Science)"
+
+msgid "plugins.generic.jatsExport.pages.description"
+msgstr "Диапазон страниц статьи в выпуске через дефис: первая-последняя, например 112-122. Если статья на одной странице — один номер, например 7."
+
+msgid "plugins.generic.jatsExport.authorPosition"
+msgstr "Порядок автора"
+
+msgid "plugins.generic.jatsExport.authorPosition.option"
+msgstr "Автор {$n}"
+
+msgid "plugins.generic.jatsExport.authorPosition.description"
+msgstr "Место автора в списке авторов статьи. Автор 1 — основной (ведущий) автор. Остальные авторы сдвинутся автоматически."
+
+msgid "plugins.generic.jatsExport.orcid.description"
+msgstr "Идентификатор автора в ORCID, например 0000-0003-4018-234X (можно вставить и ссылку https://orcid.org/…)."
+
+msgid "plugins.generic.jatsExport.metafora.delete"
+msgstr "Удалить из Метафоры"
+
+msgid "plugins.generic.jatsExport.metafora.confirmDelete"
+msgstr "Удалить статью из ИС «Метафора»? Будут удалены загруженный XML и созданная из него публикация. В OJS статья не изменится."
+
+msgid "plugins.generic.jatsExport.metafora.origin.ojs"
+msgstr "отправлена из OJS {$date}"
+
+msgid "plugins.generic.jatsExport.metafora.origin.manual"
+msgstr "уже была в Метафоре — внесена вручную"
+
+msgid "plugins.generic.jatsExport.metafora.origin.file"
+msgstr "уже была в Метафоре — загружена файлом"
+
+msgid "plugins.generic.jatsExport.metafora.disabled.alreadySent"
+msgstr "Статья уже отправлена. Чтобы загрузить заново — «Переотправить»."
+
+msgid "plugins.generic.jatsExport.metafora.disabled.notSent"
+msgstr "Статья ещё не отправлена в Метафору."
+
+msgid "plugins.generic.jatsExport.metafora.disabled.notProcessed"
+msgstr "Метафора ещё не обработала файл — нажмите «Обновить статус»."
+
+msgid "plugins.generic.jatsExport.metafora.disabled.alreadySigned"
+msgstr "Публикация уже подписана."
+
+msgid "plugins.generic.jatsExport.metafora.disabled.notSigned"
+msgstr "Публикация не подписана."
+
+msgid "plugins.generic.jatsExport.metafora.disabled.signed"
+msgstr "Публикация подписана — сначала снимите подпись."
+
+msgid "plugins.generic.jatsExport.metafora.disabled.notFromOjs"
+msgstr "Статья внесена в Метафору не из OJS — удалить или заменить её может только редакция в Метафоре."
+
+msgid "plugins.generic.jatsExport.column.issue"
+msgstr "Выпуск"
+
+msgid "plugins.generic.jatsExport.filter.search"
+msgstr "Поиск по названию или ID"
+
+msgid "plugins.generic.jatsExport.filter.all"
+msgstr "Все"
+
+msgid "plugins.generic.jatsExport.filter.issue"
+msgstr "Выпуск"
+
+msgid "plugins.generic.jatsExport.filter.year"
+msgstr "Год"
+
+msgid "plugins.generic.jatsExport.filter.noIssue"
+msgstr "Без выпуска"
+
+msgid "plugins.generic.jatsExport.filter.noResults"
+msgstr "Нет статей по выбранному фильтру."
+
+msgid "plugins.generic.jatsExport.filter.pages"
+msgstr "с. {$pages}"

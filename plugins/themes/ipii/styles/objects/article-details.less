@@ -1,0 +1,310 @@
+/**
+ * @file styles/objects/article-details.less
+ * IPII Theme — article detail page
+ */
+
+// ============================================================
+// PAGE WRAPPER
+// ============================================================
+.page-article {
+	padding-top: 2.25rem;
+	padding-bottom: @space-14;
+}
+
+// ============================================================
+// HEADER BLOCK
+// ============================================================
+.ipii-article-header {
+	padding-bottom: @space-8;
+	margin-bottom: @space-8;
+	border-bottom: 1px solid @faded-grey;
+	animation: ipii-fadeInUp 0.45s ease both;
+}
+
+// Breadcrumb
+.ipii-breadcrumb {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: @space-1;
+	font-size: @font-xs;
+	color: @mid-grey;
+	margin-bottom: 1.1rem;
+
+	a {
+		color: @primary-link;
+		&:hover { color: @primary; }
+	}
+
+	.ipii-breadcrumb-sep {
+		color: @faded-grey;
+	}
+}
+
+// Title
+.ipii-article-title {
+	font-size: @font-2xl;
+	font-weight: 800;
+	line-height: 1.22;
+	color: @dark-grey;
+	letter-spacing: -0.025em;
+	margin: 0 0 1.4rem;
+
+	@media (max-width: 575px) { font-size: @font-xl; }
+}
+
+// ============================================================
+// AUTHORS
+// ============================================================
+.ipii-authors-inline {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	row-gap: 0.25rem;
+	column-gap: 0;
+	font-size: @font-sm;
+	margin-bottom: @space-2;
+}
+
+.ipii-author-chip {
+	display: inline-flex;
+	align-items: baseline;
+	gap: @space-1;
+}
+
+.ipii-author-link {
+	color: @primary-link;
+	font-weight: 500;
+	text-decoration: none;
+
+	&:hover { text-decoration: underline; color: @primary; }
+
+	sup.author-symbol {
+		font-size: 0.65em;
+		font-weight: 700;
+		margin-left: 1px;
+	}
+	sup.hidden { display: none; }
+}
+
+.ipii-author-name { font-weight: 500; color: @dark-grey; }
+
+.ipii-author-sep { color: @mid-grey; }
+
+.ipii-orcid-badge {
+	display: inline-flex;
+	align-items: center;
+	margin-left: 3px;
+	vertical-align: middle;
+
+	img, svg { width: 15px; height: 15px; }
+}
+
+// Affiliation cards
+.ipii-affiliations-wrap {
+	display: flex;
+	flex-wrap: wrap;
+	gap: @space-2;
+	margin-bottom: @space-4;
+}
+
+.ipii-affil-card {
+	background: @light-grey;
+	border: 1px solid @faded-grey;
+	border-radius: @radius-sm;
+	padding: @space-2 @space-4;
+	font-size: @font-xs;
+	display: flex;
+	flex-direction: column;
+	gap: @space-1;
+
+	&.hideAuthor { display: none; }
+}
+
+.ipii-affil-name {
+	font-weight: 600;
+	color: @dark-grey;
+	font-size: @font-xs;
+}
+
+.ipii-affil-org {
+	color: @mid-grey;
+}
+
+.ipii-affil-orcid {
+	display: inline-flex;
+	align-items: center;
+	gap: @space-1;
+	color: @primary-link;
+	font-size: @font-2xs;
+	margin-top: 2px;
+
+	img, svg { width: 13px; height: 13px; }
+}
+
+// ============================================================
+// META LINE
+// ============================================================
+.ipii-article-meta {
+	display: flex;
+	flex-wrap: wrap;
+	gap: @space-2 @space-5;
+	font-size: @font-xs;
+	color: @mid-grey;
+	margin-bottom: @space-5;
+}
+
+.ipii-meta-item {
+	display: inline-flex;
+	align-items: center;
+	gap: @space-1;
+
+	a { color: @primary-link; &:hover { color: @primary; } }
+}
+
+// ============================================================
+// GALLEY BUTTONS
+// ============================================================
+.ipii-article-galleys {
+	display: flex;
+	flex-wrap: wrap;
+	gap: @space-2;
+}
+
+// ============================================================
+// SIDEBAR
+// ============================================================
+.ipii-article-sidebar {
+	position: sticky;
+	top: 90px;
+	display: flex;
+	flex-direction: column;
+	gap: @space-4;
+
+	@media (max-width: 991px) { position: static; }
+}
+
+.ipii-sidebar-card {
+	background: @white;
+	border: 1px solid @faded-grey;
+	border-radius: @radius-md;
+	padding: @space-5 1.4rem;
+	box-shadow: @shadow-xs;
+}
+
+.ipii-sidebar-label {
+	font-size: @font-2xs;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	color: @mid-grey;
+	margin: 0 0 0.8rem;
+}
+
+// Keywords
+.ipii-kw-list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: @space-2;
+}
+
+.ipii-kw-pill {
+	display: inline-block;
+	background: @primary-light;
+	color: @primary-text;
+	border-radius: 20px;
+	padding: 0.2em 0.75em;
+	font-size: @font-2xs;
+	font-weight: 500;
+	line-height: 1.6;
+}
+
+// Cover image
+.ipii-sidebar-cover {
+	padding: 0;
+	overflow: hidden;
+	border-radius: @radius-md;
+
+	img {
+		width: 100%;
+		height: auto;
+		display: block;
+		border-radius: @radius-md;
+	}
+}
+
+// ============================================================
+// MAIN COLUMN
+// ============================================================
+.ipii-article-main {
+	display: flex;
+	flex-direction: column;
+	gap: @space-8;
+	animation: ipii-fadeInUp 0.5s ease 0.1s both;
+}
+
+// Abstract
+.ipii-abstract-block {
+	background: @light-grey;
+	border-left: 4px solid @primary;
+	border-radius: 0 @radius-md @radius-md 0;
+	padding: @space-6 @space-7;
+}
+
+.ipii-abstract-label {
+	font-size: @font-2xs;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	color: @mid-grey;
+	margin: 0 0 @space-4;
+}
+
+.ipii-abstract-text {
+	font-size: @font-sm;
+	line-height: 1.82;
+	color: @dark-grey;
+	margin: 0;
+}
+
+// Generic sections
+.ipii-content-section {
+	border-top: 1px solid @faded-grey;
+	padding-top: @space-7;
+}
+
+.ipii-section-heading {
+	font-size: @font-md;
+	font-weight: 700;
+	color: @dark-grey;
+	margin: 0 0 1.1rem;
+}
+
+// References
+.ipii-refs-list { font-size: @font-sm; line-height: 1.7; }
+
+.ipii-ref-item {
+	padding: @space-1 0;
+	color: @mid-grey;
+	text-align: justify;
+}
+
+.ipii-ref-raw {
+	color: @mid-grey;
+	font-size: @font-sm;
+	line-height: 1.7;
+}
+
+// License
+.ipii-license-block {
+	font-size: @font-xs;
+	color: @mid-grey;
+
+	a { color: @primary-link; }
+}
+
+// Stats
+.ipii-stats-block {
+	.usageStatsGraph { width: 100%; max-height: 200px; }
+	.usageStatsUnavailable { font-size: @font-xs; color: @mid-grey; margin-top: 0.5rem; }
+}

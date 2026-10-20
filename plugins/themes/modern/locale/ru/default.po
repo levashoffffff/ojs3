@@ -1,0 +1,143 @@
+# Jonas Raoni Soares da Silva <weblate@raoni.org>, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-27T09:54:39-07:00\n"
+"PO-Revision-Date: 2022-07-02 14:31+0000\n"
+"Last-Translator: Jonas Raoni Soares da Silva <weblate@raoni.org>\n"
+"Language-Team: Russian <http://translate.pkp.sfu.ca/projects/ojs/default/ru/>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "section.default.title"
+msgstr "Статьи"
+
+msgid "section.default.abbrev"
+msgstr "СТ"
+
+msgid "section.default.policy"
+msgstr "Политика раздела по умолчанию"
+
+msgid "default.genres.article"
+msgstr "Текст статьи"
+
+msgid "default.contextSettings.authorGuidelines"
+msgstr ""
+"<p>Авторы приглашаются к подаче материалов в этот журнал. Все поданные материалы будут оценены редактором на предмет соответствия целям и охвату журнала. Те материалы, которые будут признаны подходящими, будут направлены на рецензирование перед принятием решения о принятии или отклонении.</p>"
+"<p>Перед подачей материала авторы обязаны получить разрешение на публикацию любых материалов, включённых в подачу, таких как фотографии, документы и наборы данных. Все авторы, указанные в подаче, должны дать согласие на указание их в качестве авторов. Там, где это необходимо, исследование должно быть одобрено соответствующим этическим комитетом в соответствии с правовыми требованиями страны проведения исследования.</p>"
+"<p>Редактор может отклонить поданный материал без рецензирования, если он не соответствует минимальным стандартам качества. Перед подачей убедитесь, что дизайн исследования и аргументация правильно структурированы и сформулированы. Название должно быть кратким, а аннотация — самодостаточной. Это повысит вероятность того, что рецензенты согласятся рецензировать статью. Когда вы убедитесь, что ваша подача соответствует этому стандарту, следуйте приведённому ниже контрольному списку для подготовки вашего материала.</p>"
+
+msgid "default.contextSettings.checklist"
+msgstr ""
+"<p>Все поданные материалы должны соответствовать следующим требованиям.</p>"
+"<ul>"
+"<li>Эта подача соответствует требованиям, изложенным в <a href=\"{$submissionGuidelinesUrl}\">Руководстве для авторов</a>.</li>"
+"<li>Этот материал не был опубликован ранее и не находится на рассмотрении в другом журнале.</li>"
+"<li>Все ссылки проверены на точность и полноту.</li>"
+"<li>Все таблицы и рисунки пронумерованы и подписаны.</li>"
+"<li>Получено разрешение на публикацию всех фотографий, наборов данных и других материалов, предоставленных с этой подачей.</li>"
+"</ul>"
+
+msgid "default.contextSettings.privacyStatement"
+msgstr "<p>Имена и адреса электронной почты, указанные на сайте этого журнала, будут использоваться исключительно для заявленных целей этого журнала и не будут предоставлены для каких-либо других целей или каким-либо третьим сторонам.</p>"
+
+msgid "default.contextSettings.openAccessPolicy"
+msgstr "Этот журнал обеспечивает немедленный открытый доступ к своему содержанию, исходя из принципа, что свободное предоставление исследований общественности способствует более широкому глобальному обмену знаниями."
+
+msgid "default.contextSettings.forReaders"
+msgstr "Мы призываем читателей подписаться на сервис уведомлений о публикациях этого журнала. Используйте ссылку <a href=\"{$indexUrl}/{$contextPath}/user/register\">Регистрация</a> в верхней части домашней страницы журнала. Эта регистрация позволит читателю получать содержание нового выпуска журнала по электронной почте. Этот список также позволяет журналу подтверждать определённый уровень поддержки или читательской аудитории. См. <a href=\"{$indexUrl}/{$contextPath}/about/submissions#privacyStatement\">Политику конфиденциальности</a> журнала, которая гарантирует читателям, что их имя и адрес электронной почты не будут использоваться для других целей."
+
+msgid "default.contextSettings.forAuthors"
+msgstr "Заинтересованы в подаче материала в этот журнал? Рекомендуем вам ознакомиться со страницей <a href=\"{$indexUrl}/{$contextPath}/about\">О журнале</a>, где указаны политики разделов, а также <a href=\"{$indexUrl}/{$contextPath}/about/submissions#authorGuidelines\">Руководством для авторов</a>. Авторам необходимо <a href=\"{$indexUrl}/{$contextPath}/user/register\">зарегистрироваться</a> в журнале перед подачей материала или, если они уже зарегистрированы, просто <a href=\"{$indexUrl}/index/login\">войти</a> и начать пятиэтапный процесс."
+
+msgid "default.contextSettings.forLibrarians"
+msgstr ""
+"Мы рекомендуем библиотекарям включать этот журнал в электронные журнальные фонды своих библиотек. Кроме того, стоит отметить, что издательская система с открытым исходным кодом этого журнала подходит для размещения библиотеками для использования их преподавателями с журналами, в редактировании которых они участвуют (см. <a href=\"https://pkp.sfu.ca/ojs\">Open Journal Systems</a>)."
+
+msgid "default.contextSettings.lockssLicense"
+msgstr ""
+"Этот журнал использует систему LOCKSS для создания распределённой архивной системы среди участвующих библиотек и позволяет этим библиотекам создавать постоянные архивы журнала для целей сохранения и восстановления. <a href=\"https://www.lockss.org\">Подробнее...</a>"
+
+msgid "default.contextSettings.clockssLicense"
+msgstr ""
+"Этот журнал использует систему CLOCKSS для создания распределённой архивной системы среди участвующих библиотек и позволяет этим библиотекам создавать постоянные архивы журнала для целей сохранения и восстановления. <a href=\"https://clockss.org\">Подробнее...</a>"
+
+msgid "default.groups.name.manager"
+msgstr "Менеджер журнала"
+
+msgid "default.groups.plural.manager"
+msgstr "Менеджеры журнала"
+
+msgid "default.groups.abbrev.manager"
+msgstr "МЖ"
+
+msgid "default.groups.name.editor"
+msgstr "Редактор журнала"
+
+msgid "default.groups.plural.editor"
+msgstr "Редакторы журнала"
+
+msgid "default.groups.abbrev.editor"
+msgstr "РЖ"
+
+msgid "default.groups.name.guestEditor"
+msgstr "Приглашённый редактор"
+
+msgid "default.groups.plural.guestEditor"
+msgstr "Приглашённые редакторы"
+
+msgid "default.groups.abbrev.guestEditor"
+msgstr "ПР"
+
+msgid "default.groups.name.sectionEditor"
+msgstr "Раздельный редактор"
+
+msgid "default.groups.plural.sectionEditor"
+msgstr "Раздельные редакторы"
+
+msgid "default.groups.abbrev.sectionEditor"
+msgstr "РР"
+
+msgid "default.groups.name.subscriptionManager"
+msgstr "Менеджер подписок"
+
+msgid "default.groups.plural.subscriptionManager"
+msgstr "Менеджеры подписок"
+
+msgid "default.groups.abbrev.subscriptionManager"
+msgstr "МП"
+
+msgid "default.genres.researchInstrument"
+msgstr "Инструмент исследования"
+
+msgid "default.genres.researchMaterials"
+msgstr "Материалы исследования"
+
+msgid "default.genres.researchResults"
+msgstr "Результаты исследования"
+
+msgid "default.genres.transcripts"
+msgstr "Расшифровки"
+
+msgid "default.genres.dataAnalysis"
+msgstr "Анализ данных"
+
+msgid "default.genres.dataSet"
+msgstr "Набор данных"
+
+msgid "default.genres.sourceTexts"
+msgstr "Исходные тексты"
+
+msgid "default.groups.name.externalReviewer"
+msgstr "Рецензент"
+
+msgid "default.groups.plural.externalReviewer"
+msgstr "Рецензенты"
+
+msgid "default.groups.abbrev.externalReviewer"
+msgstr "Р"

@@ -1,0 +1,80 @@
+/**
+ * @file styles/pages/settings.less
+ *
+ * Copyright (c) 2014-2021 Simon Fraser University
+ * Copyright (c) 2003-2021 John Willinsky
+ * Distributed under the GNU GPL v3. For full terms see the file docs/COPYING.
+ *
+ * @brief Styles for the settings pages
+ *
+ */
+
+.pkp_settings_navigation > div {
+	width: 50%;
+	float: left;
+	padding-right: 1rem;
+}
+
+// 4th child because of extra <script> tags...
+.pkp_settings_navigation > div:nth-child(4) {
+	padding-left: 1rem;
+	padding-right: 0;
+}
+
+//
+// Hacky workarounds for targetting specific things that aren't that well
+// marked up, or otherwise cause complications
+//
+
+// Reduce prominence of plugin description
+#pluginsTabs .pkp_controllers_grid tbody:not(.empty) .gridRow:not(.category) td:nth-child(2) {
+	font-size: @font-sml;
+	line-height: @line-sml;
+	color: @text-light;
+	color: @text-light-rgba;
+}
+
+// Settings > Workflow > Publication > Review Form Item > Form Items
+#ReviewFormElementsGridContainer tbody:not(.empty) td:first-child p {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+#userDetailsReadOnly {
+	background-color: #EBEDEE;
+	padding: 1rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+// Manage Issues > Future/Back issues grids — give the issue title column
+// most of the row's width, since the date/count columns only ever hold a
+// few short characters.
+#futureIssuesGridContainer .pkp_controllers_grid table,
+#backIssuesGridContainer .pkp_controllers_grid table {
+	table-layout: fixed;
+
+	th:first-child,
+	td:first-child {
+		width: 60%;
+	}
+}
+
+// Settings > Masthead & Contact — text/select/textarea fields normally come
+// in several widths (small/normal/large, set per-field in the PHP form
+// classes) which reads as visually inconsistent when they're all stacked in
+// the same column. Give them all the same width here instead.
+#masthead,
+#contact {
+	.pkpFormField--text__input,
+	.pkpFormField--select__input,
+	.pkpFormField--textarea__input {
+		width: 100%;
+	}
+
+	// Mailing address is set to `size: small` in PKPContactForm, which caps
+	// it at max-width: 20em — override that so it fills the column too.
+	.pkpFormField--small .pkpFormField--textarea__input {
+		max-width: 100%;
+	}
+}

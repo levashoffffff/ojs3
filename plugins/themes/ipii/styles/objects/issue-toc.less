@@ -1,0 +1,29 @@
+/**
+ * @file styles/objects/issue-toc.less
+ * IPII Theme — issue table of contents
+ */
+
+.issue-toc {
+	animation: ipii-fadeInUp 0.45s ease both;
+}
+
+.issue-toc-section {
+	margin-bottom: @space-2;
+
+	&:last-child { margin-bottom: 0; }
+}
+
+.issue-toc-section-title {
+	font-size: @font-2xs;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.12em;
+	color: @primary;
+	padding-bottom: @space-2;
+	border-bottom: 2px solid @primary;
+	margin: @space-9 0 0;
+}
+
+.issue-toc-section:first-child .issue-toc-section-title {
+	margin-top: 0;
+}

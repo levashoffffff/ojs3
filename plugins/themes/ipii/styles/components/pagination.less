@@ -1,0 +1,40 @@
+/**
+ * @file styles/components/pagination.less
+ */
+
+.pagination {
+	gap: @space-1;
+	margin-top: @space-8;
+
+	.page-item {
+
+		.page-link {
+			font-family: @font-sans;
+			font-size: @font-sm;
+			font-weight: 500;
+			color: @primary-text;
+			border: 1px solid @faded-grey;
+			border-radius: @radius-sm !important;
+			padding: @space-2 @space-3;
+			transition: all @transition-fast;
+			background: @white;
+
+			&:hover {
+				background: @primary-light;
+				border-color: @primary;
+				color: @primary;
+			}
+		}
+
+		&.active .page-link {
+			background: @primary;
+			border-color: @primary;
+			color: @white;
+		}
+
+		&.disabled .page-link {
+			opacity: 0.4;
+			pointer-events: none;
+		}
+	}
+}

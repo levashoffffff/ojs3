@@ -1,0 +1,302 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-27T09:54:39-07:00\n"
+"PO-Revision-Date: 2022-07-02 13:31+0000\n"
+"Last-Translator: Jonas Raoni Soares da Silva weblate@raoni.org\n"
+"Language-Team: Russian http://translate.pkp.sfu.ca/projects/ojs/author/ru/\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "author.submit"
+msgstr "Новая подача"
+
+msgid "author.track"
+msgstr "Активные подачи"
+
+msgid "author.submit.submitArticle"
+msgstr "Подать статью"
+
+msgid "author.submit.stepsToSubmit"
+msgstr "Пять шагов для подачи"
+
+msgid "author.submit.startHereTitle"
+msgstr "Начать новую подачу"
+
+msgid "author.submit.startHereLink"
+msgstr "<a href="{$submitUrl}" class="action">Нажмите здесь</a>, чтобы перейти к первому шагу пятиэтапного процесса подачи."
+
+msgid "author.submit.step1"
+msgstr "Шаг 1. Начало подачи"
+
+msgid "author.submit.step2"
+msgstr "Шаг 2. Загрузка подачи"
+
+msgid "author.submit.step3"
+msgstr "Шаг 3. Ввод метаданных подачи"
+
+msgid "author.submit.step4"
+msgstr "Шаг 4. Загрузка дополнительных файлов"
+
+msgid "author.submit.step4a"
+msgstr "Шаг 4a. Добавление дополнительного файла"
+
+msgid "author.submit.step5"
+msgstr "Шаг 5. Подтверждение подачи"
+
+msgid "author.submit.start"
+msgstr "Начать"
+
+msgid "author.submit.upload"
+msgstr "Загрузить подачу"
+
+msgid "author.submit.metadata"
+msgstr "Ввести метаданные"
+
+msgid "author.submit.supplementaryFiles"
+msgstr "Загрузить дополнительные файлы"
+
+msgid "author.submit.nextSteps"
+msgstr "Следующие шаги"
+
+msgid "author.submit.notAccepting"
+msgstr "Этот журнал в настоящее время не принимает материалы."
+
+msgid "author.submit.requestWaiver"
+msgstr "Запросить освобождение от платы"
+
+msgid "author.submit.qualifyForWaiver"
+msgstr "Пожалуйста, рассмотрите возможность освобождения от платы за подачу статьи"
+
+msgid "author.submit.addReasonsForWaiver"
+msgstr "Пожалуйста, используйте поле для комментариев ниже, чтобы указать причины, по которым плата должна быть отменена."
+
+msgid "author.submit.mustEnterWaiverReason"
+msgstr "Если вы подаете заявку на освобождение от платы, вы должны указать причину в соответствующем поле."
+
+msgid "author.submissions.queuedReviewSubsequent"
+msgstr "На рецензировании, раунд {$round}"
+
+msgid "author.submissions.queuedReviewRevisions"
+msgstr "На рецензировании: требуется доработка"
+
+msgid "author.submissions.queuedEditingCopyedit"
+msgstr "На редактировании: запрошена вычитка"
+
+msgid "author.submissions.queuedEditingProofread"
+msgstr "На редактировании: запрошена корректура"
+
+msgid "author.submissions.uploadCopyeditedVersion"
+msgstr "Загрузить вычитанную версию"
+
+msgid "author.submissions.proofreadingCorrections"
+msgstr "Корректорские правки"
+
+msgid "author.submissions.confirmDelete"
+msgstr "Вы уверены, что хотите удалить эту незавершенную подачу?"
+
+msgid "author.submissions.viewStatus"
+msgstr "Посмотреть статус"
+
+msgid "author.submissions.noSubmissions"
+msgstr "Нет подач."
+
+msgid "author.submit.journalSection"
+msgstr "Раздел журнала"
+
+#, fuzzy
+msgid "author.submit.journalSectionDescription"
+msgstr "Подачи должны осуществляться в один из разделов журнала."
+
+msgid "author.submit.verifyChecklist"
+msgstr "Перед продолжением вы должны убедиться, что все пункты контрольного списка подачи выполнены."
+
+msgid "author.submit.copyrightNoticeAgreeRequired"
+msgstr "Перед продолжением вы должны согласиться с условиями уведомления об авторских правах."
+
+msgid "submission.submit.coverNote"
+msgstr "Комментарии для редактора"
+
+msgid "author.submit.comments"
+msgstr "Введите текст (необязательно)"
+
+msgid "author.submit.form.localeRequired"
+msgstr "Пожалуйста, выберите язык подачи."
+
+msgid "author.submit.reorderInstructions"
+msgstr "Измените порядок авторов в том порядке, в котором они будут указаны в публикации."
+
+msgid "author.submit.reorder"
+msgstr "Изменить порядок имени автора"
+
+msgid "author.submit.selectPrincipalContact"
+msgstr "Основной контакт для редакционной переписки."
+
+msgid "author.submit.addAuthor"
+msgstr "Добавить автора"
+
+msgid "author.submit.deleteAuthor"
+msgstr "Удалить автора"
+
+msgid "author.submit.submissionIndexingDescription"
+msgstr "Укажите термины для индексации подачи; разделяйте термины точкой с запятой (термин1; термин2; термин3)."
+
+msgid "author.submit.coverageInstructions"
+msgstr "Относится к географическому местоположению, хронологическому или историческому охвату и/или характеристикам исследовательской выборки."
+
+msgid "author.submit.languageInstructions"
+msgstr ""
+"Английский=en; Французский=fr; Испанский=es. <a href="https://www.loc.gov/standards/"
+"iso639-2/php/code_list.php" target="_blank">Дополнительные коды</a>."
+
+msgid "author.submit.form.authorRequired"
+msgstr "Требуется как минимум один автор."
+
+msgid "author.submit.form.authorRequiredFields"
+msgstr "Требуется указать имя, фамилию и адрес электронной почты каждого автора."
+
+msgid "author.submit.form.titleRequired"
+msgstr "Пожалуйста, введите название вашей статьи."
+
+msgid "author.submit.form.abstractRequired"
+msgstr "Пожалуйста, введите аннотацию вашей статьи."
+
+msgid "author.submit.form.wordCountAlert"
+msgstr "Вы превысили максимальное количество слов для аннотаций в этой рубрике."
+
+msgid "author.submit.submissionFile"
+msgstr "Файл подачи"
+
+msgid "author.submit.uploadSubmissionFile"
+msgstr "Загрузить файл подачи"
+
+msgid "author.submit.replaceSubmissionFile"
+msgstr "Заменить файл подачи"
+
+msgid "author.submit.noSubmissionFile"
+msgstr "Файл подачи не загружен."
+
+msgid "author.submit.noSubmissionConfirm"
+msgstr "Вы уверены, что хотите продолжить без загрузки файла подачи?"
+
+msgid "author.submit.supplementaryFilesInstructions"
+msgstr "Этот необязательный шаг позволяет добавлять дополнительные файлы к подаче. Файлы могут быть в любом формате и могут включать (a) исследовательские инструменты, (b) наборы данных, соответствующие условиям этической экспертизы исследования, (c) источники, которые иначе были бы недоступны читателям, (d) рисунки и таблицы, которые невозможно интегрировать в сам текст, или другие материалы, дополняющие вклад работы."
+
+msgid "author.submit.supplementaryFiles.saveToUpload"
+msgstr "Нажмите «Сохранить», чтобы загрузить файл (после чего можно загрузить дополнительные файлы)."
+
+msgid "author.submit.forgottenSubmitSuppFile"
+msgstr "Вы уверены, что хотите продолжить без загрузки выбранного вами дополнительного файла?"
+
+msgid "author.submit.noSupplementaryFiles"
+msgstr "К этой подаче не добавлено дополнительных файлов."
+
+msgid "author.submit.backToSupplementaryFiles"
+msgstr "Вернуться к дополнительным файлам"
+
+msgid "author.submit.confirmDeleteSuppFile"
+msgstr "Вы уверены, что хотите удалить этот дополнительный файл?"
+
+msgid "author.submit.uploadSuppFile"
+msgstr "Загрузить дополнительный файл"
+
+msgid "author.submit.addSupplementaryFile"
+msgstr "Добавить дополнительный файл"
+
+msgid "author.submit.editSupplementaryFile"
+msgstr "Редактировать дополнительный файл"
+
+msgid "author.submit.supplementaryFileData"
+msgstr "Метаданные дополнительного файла"
+
+msgid "author.submit.supplementaryFileDataDescription"
+msgstr "Для индексации этого дополнительного материала укажите следующие метаданные для загруженного дополнительного файла."
+
+msgid "author.submit.supplementaryFileUpload"
+msgstr "Дополнительный файл"
+
+msgid "author.submit.suppFile.createrOrOwner"
+msgstr "Создатель (или владелец) файла"
+
+msgid "author.submit.suppFile.researchInstrument"
+msgstr "Исследовательский инструмент"
+
+msgid "author.submit.suppFile.researchMaterials"
+msgstr "Исследовательские материалы"
+
+msgid "author.submit.suppFile.researchResults"
+msgstr "Результаты исследования"
+
+msgid "author.submit.suppFile.transcripts"
+msgstr "Транскрипты"
+
+msgid "author.submit.suppFile.dataAnalysis"
+msgstr "Анализ данных"
+
+msgid "author.submit.suppFile.dataSet"
+msgstr "Набор данных"
+
+msgid "author.submit.suppFile.sourceText"
+msgstr "Исходный текст"
+
+msgid "author.submit.suppFile.briefDescription"
+msgstr "Краткое описание"
+
+msgid "author.submit.suppFile.availableToPeers"
+msgstr "Предоставить файл рецензентам (без метаданных), так как это не нарушит анонимность рецензирования."
+
+msgid "author.submit.suppFile.publisherDescription"
+msgstr "Использовать только для официально опубликованных материалов."
+
+msgid "author.submit.suppFile.dateDescription"
+msgstr "Дата сбора данных или создания инструмента."
+
+msgid "author.submit.suppFile.sourceDescription"
+msgstr "Название исследования или другой источник происхождения."
+
+msgid "author.submit.suppFile.specifyOtherType"
+msgstr "Указать другой тип"
+
+msgid "author.submit.suppFile.noFile"
+msgstr "Файл не загружен."
+
+msgid "author.submit.suppFile.form.titleRequired"
+msgstr "Пожалуйста, введите название этого дополнительного файла."
+
+msgid "author.submit.suppFile.form.subjectRequired"
+msgstr "Пожалуйста, введите тему."
+
+msgid "author.submit.suppFile.form.descriptionRequired"
+msgstr "Пожалуйста, введите описание."
+
+msgid "author.suppFile.suppFilePublicIdentificationExists"
+msgstr "Общедоступный идентификатор дополнительного файла уже существует."
+
+msgid "author.suppFile.publicSuppFileIdentifier"
+msgstr "Общедоступный идентификатор дополнительного файла"
+
+msgid "author.submit.filesSummary"
+msgstr "Сводка файлов"
+
+msgid "author.submit.finishSubmission"
+msgstr "Завершить подачу"
+
+msgid "author.submit.submissionComplete"
+msgstr "Подача завершена. Спасибо за ваш интерес к публикации в {$journalTitle}."
+
+msgid "author.article.uploadAuthorVersion"
+msgstr "Загрузить авторскую версию"
+
+msgid "author.article.copyeditedFile"
+msgstr "Вычитанный файл"
+
+msgid "author.article.authorRevisedFile"
+msgstr "Авторский файл"
+
+msgid "author.submit.authorSubmitLoginMessage"
+msgstr "Для подачи материалов в этот журнал требуется учетная запись пользователя. Это позволяет нашим редакторам отслеживать ваши подачи и связываться с вами при изменении статуса вашей подачи или если от вас потребуется дополнительная информация."

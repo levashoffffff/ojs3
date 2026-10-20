@@ -1,0 +1,24 @@
+/**
+ * @file styles/rtl.less
+ * IPII Theme — right-to-left language support
+ */
+
+.ipii-header-top-inner {
+	flex-direction: row-reverse;
+}
+
+.ipii-nav-inner {
+	flex-direction: row-reverse;
+}
+
+blockquote {
+	border-left: none;
+	border-right: 4px solid @accent;
+	padding-left: 0;
+	padding-right: @space-5;
+}
+
+.ipii-article-meta,
+.ipii-article-authors {
+	direction: rtl;
+}

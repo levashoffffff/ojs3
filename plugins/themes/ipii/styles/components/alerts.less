@@ -1,0 +1,16 @@
+/**
+ * @file styles/components/alerts.less
+ */
+
+.alert {
+	border-radius: @radius-md;
+	border: none;
+	font-size: @font-sm;
+	padding: @space-4 @space-5;
+	margin-top: 10px;
+
+	&.alert-info    { background: @primary-light; color: @primary-text; }
+	&.alert-success { background: #ECFDF5; color: #065F46; }
+	&.alert-warning { background: #FFFBEB; color: #92400E; }
+	&.alert-danger  { background: #FEF2F2; color: @warning; }
+}

@@ -1,0 +1,40 @@
+/**
+ * @file styles/components/dropdowns.less
+ * IPII Theme — dropdowns (always dark text)
+ */
+
+.dropdown-menu {
+	border: 1px solid @faded-grey;
+	border-top: 2px solid @primary;
+	border-radius: 0 0 @radius-md @radius-md;
+	box-shadow: @shadow-md;
+	padding: @space-2;
+	background: @white;
+	animation: ipii-fadeIn 0.15s ease;
+	margin-top: 0;
+
+	.dropdown-item {
+		font-size: @font-sm;
+		font-weight: 500;
+		color: @dark-grey !important;
+		border-radius: @radius-sm;
+		padding: @space-2 @space-3;
+		background: transparent;
+		transition: background @transition-fast, color @transition-fast;
+
+		&:hover, &:focus {
+			background: @primary-light;
+			color: @primary !important;
+		}
+
+		&.active {
+			background: @primary;
+			color: @white !important;
+		}
+	}
+
+	.dropdown-divider {
+		border-color: @faded-grey;
+		margin: @space-1 @space-2;
+	}
+}

@@ -1,0 +1,87 @@
+/**
+ * @file styles/objects/issue-summary.less
+ * IPII Theme — issue tile card
+ */
+
+.ipii-issue-card {
+	display: block;
+	text-decoration: none;
+	border-radius: @radius-md;
+	overflow: hidden;
+	background: @white;
+	border: 1px solid @faded-grey;
+	box-shadow: @shadow-xs;
+	transition: transform @transition, box-shadow @transition, border-color @transition;
+	animation: ipii-fadeInUp 0.4s ease both;
+
+	&:hover {
+		transform: translateY(-6px);
+		box-shadow: @shadow-lg;
+		border-color: @primary-light;
+		text-decoration: none;
+	}
+}
+
+// Cover image area — fixed aspect ratio portrait
+.ipii-issue-card-cover {
+	position: relative;
+	width: 100%;
+	aspect-ratio: 3 / 4;
+	overflow: hidden;
+	background: @light-grey;
+
+	img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		object-position: center;
+		display: block;
+		transition: transform @transition-slow;
+	}
+
+	.ipii-issue-card:hover & img {
+		transform: scale(1.04);
+	}
+}
+
+// Placeholder when no cover image
+.ipii-issue-card-placeholder {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: linear-gradient(135deg, @primary 0%, lighten(@primary, 15%) 100%);
+
+	span {
+		font-size: @font-xl;
+		font-weight: 800;
+		color: rgba(255,255,255,0.9);
+		text-align: center;
+		padding: 0 @space-4;
+		line-height: 1.3;
+	}
+}
+
+// Text body
+.ipii-issue-card-body {
+	padding: @space-4 @space-4 @space-4;
+}
+
+.ipii-issue-card-series {
+	font-size: @font-base;
+	font-weight: 700;
+	color: @dark-grey;
+	line-height: 1.3;
+	margin-bottom: @space-1;
+	transition: color @transition-fast;
+
+	.ipii-issue-card:hover & {
+		color: @primary-link;
+	}
+}
+
+.ipii-issue-card-date {
+	font-size: @font-2xs;
+	color: @mid-grey;
+}

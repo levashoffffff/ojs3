@@ -1,0 +1,1032 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-27T09:47:20-07:00\n"
+"PO-Revision-Date: 2023-04-28 14:09+0000\n"
+"Last-Translator: \n"
+"Language-Team: Russian\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: \n"
+
+msgid "admin.systemInfo.settingName"
+msgstr "Название настройки"
+
+msgid "admin.systemInfo.settingValue"
+msgstr "Значение настройки"
+
+msgid "admin.adminFunctions"
+msgstr "Административные функции"
+
+msgid "admin.deleteCache"
+msgstr "Удалить кэши"
+
+msgid "admin.deleteCache.description"
+msgstr ""
+"Удалить файлы кэша из системы. Это следует делать только в средах разработки."
+
+msgid "admin.clearDataCache"
+msgstr "Удалить кэши данных"
+
+msgid "admin.clearTemplateCache"
+msgstr "Удалить кэш шаблонов"
+
+msgid "admin.configFileUpdatedInstructions"
+msgstr ""
+"Ваш конфигурационный файл был успешно обновлен. Обратите внимание: если ваш сайт "
+"перестанет функционировать корректно, вам может потребоваться вручную исправить "
+"конфигурацию, отредактировав <tt>config.inc.php</tt> напрямую."
+
+msgid "admin.confirmClearTemplateCache"
+msgstr "Вы уверены, что хотите очистить кэш скомпилированных шаблонов?"
+
+msgid "admin.confirmExpireSessions"
+msgstr ""
+"Вы уверены, что хотите завершить все пользовательские сессии? Все пользователи, "
+"которые в данный момент вошли в систему, будут вынуждены войти снова (включая вас)."
+
+msgid "admin.contentsOfConfigFile"
+msgstr "Содержимое конфигурационного файла"
+
+msgid "admin.contexts.confirmDelete"
+msgstr ""
+"Вы уверены, что хотите безвозвратно удалить {$contextName} и все его содержимое?"
+
+msgid "admin.currentVersion"
+msgstr "Текущая версия"
+
+msgid "admin.dateInstalled"
+msgstr "Дата установки"
+
+msgid "admin.displayConfigFileInstructions"
+msgstr ""
+"Содержимое вашей обновленной конфигурации отображено ниже. Чтобы применить изменения "
+"конфигурации, вы должны открыть <tt>config.inc.php</tt> в подходящем текстовом редакторе "
+"и заменить его содержимое содержимым текстового поля ниже."
+
+msgid "admin.displayNewSystemConfig"
+msgstr "Показать новую конфигурацию"
+
+msgid "admin.expireSessions"
+msgstr "Завершить сессии пользователей"
+
+msgid "admin.expireSessions.description"
+msgstr ""
+"Все пользователи будут немедленно выведены из приложения, включая вас, и должны будут "
+"войти снова."
+
+msgid "admin.languages.cantDisable"
+msgstr ""
+"Эта локаль является основным языком сайта. Вы не можете отключить ее, пока не выберете "
+"другую основную локаль."
+
+msgid "admin.languages.confirmSitePrimaryLocaleChange"
+msgstr ""
+"Вы уверены, что хотите изменить основную локаль сайта? Имена пользователей, обязательные "
+"для основной локали сайта, будут скопированы из существующей основной локали там, где "
+"они отсутствуют."
+
+msgid "admin.languages.confirmReload"
+msgstr ""
+"Вы уверены, что хотите перезагрузить эту локаль? Это удалит все существующие данные, "
+"специфичные для локали, такие как настраиваемые шаблоны электронных писем."
+
+msgid "admin.languages.installedLocales"
+msgstr "Установленные локали"
+
+msgid "admin.languages.installLanguages"
+msgstr "Управление локалями"
+
+msgid "admin.languages.availableLocales"
+msgstr "Доступные локали"
+
+msgid "admin.languages.installLocale"
+msgstr "Установить локаль"
+
+msgid "admin.languages.installLocales"
+msgstr "Установить"
+
+msgid "admin.languages.installNewLocales"
+msgstr "Установить новые локали"
+
+msgid "admin.languages.languageSettings"
+msgstr "Языковые настройки"
+
+msgid "admin.languages.noLocalesAvailable"
+msgstr "Нет дополнительных локалей для установки."
+
+msgid "admin.languages.reload"
+msgstr "Перезагрузить локаль"
+
+msgid "admin.languages.uninstall"
+msgstr "Удалить локаль"
+
+msgid "admin.phpInfo"
+msgstr "Расширенная информация PHP"
+
+msgid "admin.scheduledTask"
+msgstr "Плановая задача"
+
+msgid "admin.scheduledTask.startTime"
+msgstr "Обработка задачи запущена."
+
+msgid "admin.scheduledTask.stopTime"
+msgstr "Обработка задачи остановлена."
+
+msgid "admin.scheduledTask.noLog"
+msgstr "Задача не создала записей в журнале."
+
+msgid "admin.scheduledTask.depositDois"
+msgstr "Депонировать DOI в настроенном агентстве регистрации"
+
+msgid "admin.scheduledTask.downloadLog"
+msgstr ""
+"Ваша установка {$softwareName} автоматически выполнила и завершила эту задачу, и вы "
+"можете скачать файл журнала здесь: {$url}"
+
+msgid "admin.scheduledTask.editorialReminder"
+msgstr "Отправить каждому редактору электронное письмо с напоминанием о текущих задачах"
+
+msgid "admin.scheduledTask.editorialReminder.logStart"
+msgstr "Определение редакторов для напоминания в контексте {$contextId}"
+
+msgid "admin.scheduledTask.editorialReminder.logEnd"
+msgstr ""
+"Отправлено {$count} задач для отправки редакционных напоминаний по электронной почте "
+"пользователям {$userIds} в контексте {$contextId}"
+
+msgid "admin.scheduledTask.confirmClearLogs"
+msgstr "Вы уверены, что хотите удалить все журналы выполнения плановых задач?"
+
+msgid "admin.scheduledTask.clearLogs"
+msgstr "Очистить журналы плановых задач"
+
+msgid "admin.scheduledTask.clearLogs.description"
+msgstr "Удалить все журналы выполненных процессов плановых задач."
+
+msgid "admin.scheduledTask.clearLogs.delete"
+msgstr "Удалить журналы задач"
+
+msgid "admin.scheduledTask.publishSubmissions"
+msgstr "Опубликовать подачи, запланированные к публикации"
+
+msgid "admin.scheduledTask.reviewReminder"
+msgstr "Напоминание о рецензировании"
+
+msgid "admin.scheduledTask.statisticsReport"
+msgstr "Уведомление с редакционным отчетом"
+
+msgid "admin.scheduledTask.subscriptionExpiryReminder"
+msgstr "Напоминание об истечении срока подписки"
+
+msgid "admin.scheduledTask.removeUnvalidatedExpiredUsers"
+msgstr "Удалить неподтвержденных пользователей с истекшим сроком действия"
+
+msgid "admin.scheduledTask.removeFailedJobs"
+msgstr "Удалить значительно более старые проваленные задачи из списка проваленных задач."
+
+msgid "admin.scheduledTask.processQueueJobs"
+msgstr "Обработать ожидающие задачи в очереди"
+
+msgid "admin.scheduledTask.updateGeoDB"
+msgstr "Обновить облегченную базу данных городов DB-IP"
+
+msgid "admin.scheduledTask.updateGeoDB.fileRename.error"
+msgstr ""
+"Не удалось переименовать файл облегченной базы данных городов DB-IP {$sourceFilename} в "
+"{$targetFilename}."
+
+msgid "admin.scheduledTask.UpdateRorRegistryDataset"
+msgstr "Обновить кэш набора данных реестра ROR"
+
+msgid "admin.scheduledTask.usageStatsLoader"
+msgstr "Задача загрузчика файлов статистики использования"
+
+msgid "admin.scheduledTask.usageStatsLoader.processingPathNotEmpty"
+msgstr ""
+"Каталог {$directory} не пуст. Это может указывать на ранее неудачный процесс или на "
+"одновременно выполняющийся процесс. Этот файл будет автоматически обработан повторно."
+
+msgid "admin.job.processLogFile.openFileFailed"
+msgstr "Не удалось открыть файл {$file}, и он был отклонен."
+
+msgid "admin.scheduledTask.usageStatsLoader.veryOldLogFile"
+msgstr ""
+"Файл {$file} имеет старый формат файла журнала, который не может быть обработан, и "
+"поэтому будет перемещен обратно в промежуточный каталог."
+
+msgid "admin.scheduledTask.usageStatsLoader.monthExists"
+msgstr ""
+"Файл журнала {$file} пропущен, так как статистика за этот месяц уже была рассчитана. "
+"Чтобы пересчитать статистику за предыдущий месяц, вы должны восстановить все файлы "
+"журналов за этот месяц и использовать инструмент CLI для повторной обработки статистики."
+
+msgid "admin.job.processLogFile.wrongLoglineFormat"
+msgstr ""
+"Строка {$lineNumber} в файле журнала {$file} имеет неправильный формат и будет "
+"пропущена."
+
+msgid "admin.job.processLogFile.invalidLogEntry"
+msgstr ""
+"Недействительная запись журнала в строке {$lineNumber} файла {$file}: {$error}"
+
+msgid "admin.job.processLogFile.invalidLogEntry.time"
+msgstr "Время не является действительной датой."
+
+msgid "admin.job.processLogFile.invalidLogEntry.contextId"
+msgstr "Идентификатор контекста не является целым числом."
+
+msgid "admin.job.processLogFile.invalidLogEntry.submissionId"
+msgstr "Идентификатор подачи не является целым числом."
+
+msgid "admin.job.processLogFile.invalidLogEntry.representationId"
+msgstr "Идентификатор представления не является целым числом."
+
+msgid "admin.job.processLogFile.invalidLogEntry.assocType"
+msgstr "Тип ассоциации не поддерживается."
+
+msgid "admin.job.processLogFile.invalidLogEntry.fileType"
+msgstr "Тип файла не поддерживается."
+
+msgid "admin.job.processLogFile.invalidLogEntry.country"
+msgstr "Код страны не является строкой из двух букв."
+
+msgid "admin.job.processLogFile.invalidLogEntry.region"
+msgstr "Регион не является строкой длиной до трех буквенно-цифровых символов."
+
+msgid "admin.job.processLogFile.invalidLogEntry.institutionIds"
+msgstr "Идентификаторы учреждений не являются массивом."
+
+msgid "admin.job.processLogFile.insertError"
+msgstr ""
+"Произошла ошибка при обработке файла журнала {$file} в строке {$lineNumber}: {$msg}"
+
+msgid "admin.scheduledTask.usageStatsLoader.jobDispatched"
+msgstr ""
+"Фоновые задачи, которые будут обрабатывать файлы журналов и сохранять данные "
+"статистики, были отправлены."
+
+msgid "admin.server.apacheVersion"
+msgstr "Версия Apache"
+
+msgid "admin.server.dbDriver"
+msgstr "Драйвер базы данных"
+
+msgid "admin.server.dbVersion"
+msgstr "Версия сервера базы данных"
+
+msgid "admin.serverInformation"
+msgstr "Информация о сервере"
+
+msgid "admin.server.phpVersion"
+msgstr "Версия PHP"
+
+msgid "admin.server.platform"
+msgstr "Платформа ОС"
+
+msgid "admin.settings"
+msgstr "Настройки"
+
+msgid "admin.settings.about"
+msgstr "О сайте"
+
+msgid "admin.settings.enableBulkEmails.label"
+msgstr "Массовые письма"
+
+msgid "admin.settings.contactEmail"
+msgstr "Электронная почта основного контактного лица"
+
+msgid "admin.settings.contactName"
+msgstr "Имя основного контактного лица"
+
+msgid "admin.settings.introduction"
+msgstr "Введение"
+
+msgid "admin.settings.minPasswordLength"
+msgstr "Минимальная длина пароля (символов)"
+
+msgid "admin.settings.sharedReviewerStatistics"
+msgstr "Статистика рецензентов"
+
+msgid "admin.settings.sharedReviewerStatistics.description"
+msgstr "В многоконтекстной установке статистика рецензентов, такая как количество отправленных рецензий, может отображаться либо индивидуально для каждого контекста, либо суммироваться вместе."
+
+msgid "admin.settings.sharedReviewerStatistics.disable"
+msgstr "Отключить агрегированную статистику рецензентов"
+
+msgid "admin.settings.restrictBulkEmails"
+msgstr "Ограничить массовые письма"
+
+msgid "admin.settings.disableBulkEmailRoles.label"
+msgstr "Отключить роли"
+
+msgid "admin.settings.disableBulkEmailRoles.adminOnly"
+msgstr "Только администратор может изменять этот параметр."
+
+msgid "admin.settings.siteLanguage"
+msgstr "Язык сайта"
+
+msgid "admin.settings.siteStyleSheetInvalid"
+msgstr "Неверный формат таблицы стилей сайта. Допустимый формат: .css."
+
+msgid "admin.settings.siteStyleSheet"
+msgstr "Таблица стилей сайта"
+
+msgid "admin.settings.siteLogo"
+msgstr "Логотип сайта"
+
+msgid "admin.settings.siteTitle"
+msgstr "Название сайта"
+
+msgid "admin.settings.siteTheme"
+msgstr "Тема сайта"
+
+msgid "admin.siteAdmin"
+msgstr "Администрирование сайта"
+
+msgid "admin.siteManagement"
+msgstr "Управление сайтом"
+
+msgid "admin.siteSettings"
+msgstr "Настройки сайта"
+
+msgid "admin.siteSetup"
+msgstr "Настройка сайта"
+
+msgid "admin.systemConfigFileReadError"
+msgstr ""
+"Конфигурационный файл <tt>config.inc.php</tt> не существует, не доступен для чтения "
+"или недействителен."
+
+msgid "admin.systemInformation"
+msgstr "Информация о системе"
+
+msgid "admin.systemInformation.description"
+msgstr ""
+"Просмотр информации о версии и настройках конфигурации приложения и сервера."
+
+msgid "admin.systemInformation.view"
+msgstr "Просмотреть информацию о системе"
+
+msgid "admin.versionBuild"
+msgstr "Сборка"
+
+msgid "admin.version.checkForUpdates"
+msgstr "Проверить наличие обновлений"
+
+msgid "admin.version.downloadPackage"
+msgstr "Загрузить"
+
+msgid "admin.version.downloadPatch"
+msgstr "Загрузить патч"
+
+msgid "admin.versionHistory"
+msgstr "История версий"
+
+msgid "admin.version.latest"
+msgstr "Последняя версия"
+
+msgid "admin.versionMajor"
+msgstr "Основная"
+
+msgid "admin.versionMinor"
+msgstr "Младшая"
+
+msgid "admin.version.moreInfo"
+msgstr "Дополнительная информация"
+
+msgid "admin.versionRevision"
+msgstr "Ревизия"
+
+msgid "admin.version.updateAvailable"
+msgstr "Доступна обновленная версия"
+
+msgid "admin.version.upToDate"
+msgstr "Ваша система обновлена"
+
+msgid "admin.version"
+msgstr "Версия"
+
+msgid "admin.fileLoader.wrongBasePathLocation"
+msgstr "Базовый путь {$path} должен находиться внутри каталога общедоступных файлов."
+
+msgid "admin.fileLoader.pathNotAccessible"
+msgstr "Папка {$path} не является каталогом или недоступна для чтения."
+
+msgid "admin.fileLoader.moveFileFailed"
+msgstr ""
+"Не удалось переместить файл {$filename} из {$currentFilePath} в {$destinationPath}"
+
+msgid "admin.fileLoader.fileProcessed"
+msgstr "Файл {$filename} был обработан и заархивирован."
+
+msgid "admin.fileLoader.fileDispatched"
+msgstr "Файл {$filename} был перемещен в папку отправки."
+
+msgid "admin.fileLoader.emailSubject"
+msgstr "Загрузчик файлов"
+
+msgid "admin.error.gzDecompressFile.gzopen"
+msgstr ""
+"Не удалось распаковать файл. Исходный gz-файл {$filePath} не удалось открыть с помощью gzopen."
+
+msgid "admin.error.gzDecompressFile.fopen"
+msgstr ""
+"Не удалось распаковать файл. Не удалось открыть целевой файл {$filePath} с помощью fopen."
+
+msgid "admin.error.gzDecompressFile.gzread"
+msgstr ""
+"Не удалось распаковать файл. Исходный gz-файл {$file} не удалось прочитать с помощью gzread."
+
+msgid "admin.error.gzDecompressFile.fwrite"
+msgstr ""
+"Не удалось распаковать файл. Не удалось выполнить запись в целевой файл {$filePath} с помощью fwrite."
+
+msgid "admin.error.gzDecompressFile.fclose"
+msgstr ""
+"Не удалось распаковать файл. Не удалось закрыть открытый целевой файл {$filePath} с помощью fclose."
+
+msgid "admin.error.gzDecompressFile.gzclose"
+msgstr ""
+"Не удалось распаковать файл. Не удалось закрыть открытый исходный gz-файл {$filePath} с помощью gzclose."
+
+msgid "admin.error.gzDecompressFile.unlink"
+msgstr ""
+"Не удалось распаковать файл. Не удалось удалить распакованный исходный gz-файл {$filePath} с помощью unlink."
+
+msgid "admin.error.gzCompressFile.gzopen"
+msgstr ""
+"Не удалось сжать файл. Не удалось открыть целевой gz-файл {$filePath} с помощью gzopen."
+
+msgid "admin.error.gzCompressFile.fopen"
+msgstr ""
+"Не удалось сжать файл. Не удалось открыть исходный файл {$filePath} с помощью fopen."
+
+msgid "admin.error.gzCompressFile.fread"
+msgstr ""
+"Не удалось сжать файл. Не удалось прочитать исходный файл {$filePath} с помощью fread."
+
+msgid "admin.error.gzCompressFile.gzwrite"
+msgstr ""
+"Не удалось сжать файл. Не удалось выполнить запись в целевой gz-файл {$filePath} с помощью gzwrite."
+
+msgid "admin.error.gzCompressFile.fclose"
+msgstr ""
+"Не удалось сжать файл. Не удалось закрыть открытый исходный файл {$filePath} с помощью fclose."
+
+msgid "admin.error.gzCompressFile.gzclose"
+msgstr ""
+"Не удалось сжать файл. Не удалось закрыть открытый целевой gz-файл {$filePath} с помощью gzclose."
+
+msgid "admin.error.gzCompressFile.unlink"
+msgstr ""
+"Не удалось сжать файл. Не удалось удалить сжатый исходный файл {$filePath} с помощью unlink."
+
+msgid "admin.languages.noLocalesToDownload"
+msgstr "Нет доступных для загрузки локалей."
+
+msgid "admin.cli.tool.usage.title"
+msgstr "Использование:"
+
+msgid "admin.cli.tool.usage.parameters"
+msgstr "команда [аргументы]"
+
+msgid "admin.cli.tool.available.commands"
+msgstr "Доступные команды для пространства имен `{$namespace}`:"
+
+msgid "admin.cli.tool.jobs.maintenance.message"
+msgstr ""
+"Невозможно запустить задачи очереди, так как включен режим обслуживания приложения."
+
+msgid "admin.cli.tool.jobs.sandbox.message"
+msgstr ""
+"Невозможно запустить задачи очереди, так как включен режим песочницы приложения."
+
+msgid "admin.cli.tool.jobs.available.options.list.description"
+msgstr ""
+"Вывести список всех задач в очереди. Если вы хотите разбить результаты на страницы, используйте параметры --page= и --perPage=. Передайте флаг --failed для вывода списка проваленных задач."
+
+msgid "admin.cli.tool.jobs.available.options.purge.description"
+msgstr ""
+"Удалить конкретную задачу из очереди по ее ID. Если вы хотите удалить все, передайте параметр --all. Если вы хотите удалить все из конкретной очереди, передайте параметр --queue="
+
+msgid "admin.cli.tool.jobs.available.options.test.description"
+msgstr ""
+"Добавить тестовую задачу в тестовую очередь. Используйте необязательный параметр --only= и передайте 'failed' или 'success' для отправки проваливающейся или успешной задачи."
+
+msgid "admin.cli.tool.jobs.available.options.work.description"
+msgstr ""
+"Запустить бесконечный демон-воркер, который будет продолжать обрабатывать задачи. Используйте флаг --help для просмотра доступных параметров, связанных с этой командой."
+
+msgid "admin.cli.tool.jobs.available.options.failed.description"
+msgstr ""
+"Вывести список всех проваленных задач. Установите параметр --queue=ИМЯ_ОЧЕРЕДИ и --connection=ИМЯ_СОЕДИНЕНИЯ для фильтрации списка. Также передайте параметр/флаг --redispatch и --clear для повторной отправки обратно в очередь или очистки всех/конкретных проваленных задач."
+
+msgid "admin.cli.tool.jobs.available.options.restart.description"
+msgstr "Перезапустить демонов-воркеров очереди после выполнения их текущей задачи."
+
+msgid "admin.cli.tool.jobs.available.options.restart.confirm"
+msgstr "Воркеры корректно завершат работу после завершения выполнения текущей задачи."
+
+msgid "admin.cli.tool.jobs.available.options.run.description"
+msgstr ""
+"Отправить доступные задачи в очередь. Чтобы отправить задачу в конкретную очередь, передайте параметр --queue=ИМЯ_ОЧЕРЕДИ. Используйте --test для запуска тестовой задачи и --once для остановки после одной задачи."
+
+msgid "admin.cli.tool.jobs.available.options.run.completed.description"
+msgstr "Завершено выполнение {$jobCount} задач в очереди с именем {$queueName}."
+
+msgid "admin.cli.tool.jobs.available.options.run.empty.description"
+msgstr "Нет доступных задач для выполнения в очереди с именем {$queueName}."
+
+msgid "admin.cli.tool.jobs.available.options.total.description"
+msgstr ""
+"Отобразить общее количество задач в очереди. Передайте флаг --failed для просмотра общего количества проваленных задач."
+
+msgid "admin.cli.tool.jobs.available.options.help.description"
+msgstr "Отобразить использование команды Jobs"
+
+msgid "admin.cli.tool.jobs.available.options.usage.description"
+msgstr "Отобразить параметры использования Jobs"
+
+msgid "admin.cli.tool.jobs.empty.option"
+msgstr "Параметр не может быть пустым! Проверьте метод использования."
+
+msgid "admin.cli.tool.jobs.queued.jobs.failed.title"
+msgstr "Проваленные задачи в очереди"
+
+msgid "admin.cli.tool.jobs.queued.jobs.title"
+msgstr "Задачи в очереди"
+
+msgid "admin.cli.tool.jobs.queued.jobs.fields.id"
+msgstr "ID"
+
+msgid "admin.cli.tool.jobs.queued.jobs.fields.queue"
+msgstr "Очередь"
+
+msgid "admin.cli.tool.jobs.queued.jobs.fields.connection"
+msgstr "Соединение"
+
+msgid "admin.cli.tool.jobs.queued.jobs.fields.job.display.name"
+msgstr "Отображаемое имя задачи"
+
+msgid "admin.cli.tool.jobs.queued.jobs.fields.attempts"
+msgstr "Попытки"
+
+msgid "admin.cli.tool.jobs.queued.jobs.fields.reserved.at"
+msgstr "Зарезервировано в"
+
+msgid "admin.cli.tool.jobs.queued.jobs.fields.available.at"
+msgstr "Доступно с"
+
+msgid "admin.cli.tool.jobs.queued.jobs.fields.created.at"
+msgstr "Создано в"
+
+msgid "admin.cli.tool.jobs.queued.jobs.fields.failed.at"
+msgstr "Провалено в"
+
+msgid "admin.cli.tool.jobs.queued.jobs.fields.exception"
+msgstr "Сообщение об исключении"
+
+msgid "admin.cli.tool.jobs.pagination"
+msgstr "Пагинация"
+
+msgid "admin.cli.tool.jobs.pagination.current"
+msgstr "Текущая"
+
+msgid "admin.cli.tool.jobs.pagination.previous"
+msgstr "Предыдущая"
+
+msgid "admin.cli.tool.jobs.pagination.next"
+msgstr "Следующая"
+
+msgid "admin.cli.tool.jobs.purge.without.id"
+msgstr ""
+"Вы должны передать хотя бы ID задачи, '--all' или '--queue=' для использования этой команды"
+
+msgid "admin.cli.tool.jobs.test.job.failed.dispatch.message"
+msgstr ""
+"Отправлена тестовая задача, которая обречена на провал в очереди с именем {$queueName}"
+
+msgid "admin.cli.tool.jobs.test.job.success.dispatch.message"
+msgstr ""
+"Отправлена тестовая задача, которая обречена на успех в очереди с именем {$queueName}"
+
+msgid "admin.cli.tool.jobs.test.invalid.option"
+msgstr ""
+"Неверный параметр тестовой задачи. Он может принимать только 'failed' или 'success' для опции '--only='."
+
+msgid "admin.cli.tool.jobs.purge.invalid.id"
+msgstr "Неверный ID задачи"
+
+msgid "admin.cli.tool.jobs.purge.successful"
+msgstr "Задача удалена!"
+
+msgid "admin.cli.tool.jobs.purge.impossible.to.purge.empty"
+msgstr "Задачи для удаления не найдены."
+
+msgid "admin.cli.tool.jobs.purge.impossible.to.purge.all"
+msgstr "Не удалось удалить все задачи."
+
+msgid "admin.cli.tool.jobs.purge.successful.all"
+msgstr "Все задачи удалены!"
+
+msgid "admin.cli.tool.jobs.failed.clear.successful"
+msgstr "{$jobsCount} проваленных задач успешно удалены из списка проваленных."
+
+msgid "admin.cli.tool.jobs.failed.redispatch.successful"
+msgstr "{$jobsCount} задач успешно повторно отправлены обратно в очередь."
+
+msgid "admin.cli.tool.jobs.total.failed.jobs"
+msgstr "У нас {$total} проваленных задач"
+
+msgid "admin.cli.tool.jobs.total.jobs"
+msgstr "У нас {$total} задач в очереди"
+
+msgid "admin.cli.tool.jobs.option.doesnt.exists"
+msgstr "Параметр {$option} не существует."
+
+msgid "admin.cli.tool.jobs.mean.those"
+msgstr "Вы имели в виду одно из следующих?"
+
+msgid "admin.jobs.totalCount"
+msgstr "Всего в очереди <strong>{$total}</strong> задач(а)"
+
+msgid "admin.jobs.failed.totalCount"
+msgstr "Всего проваленных задач: <strong>{$total}</strong>."
+
+msgid "admin.jobs.viewQueuedJobs"
+msgstr "Просмотреть задачи в очереди"
+
+msgid "navigation.tools.jobs"
+msgstr "Задачи"
+
+msgid "navigation.tools.jobs.failed"
+msgstr "Проваленные задачи"
+
+msgid "navigation.tools.jobs.failed.details"
+msgstr "Детали проваленной задачи"
+
+msgid "navigation.tools.jobs.description"
+msgstr "Просмотр всех задач в очереди в системе и отслеживание неудачных попыток."
+
+msgid "navigation.tools.jobs.view"
+msgstr "Просмотр задач"
+
+msgid "navigation.tools.jobs.failed.view"
+msgstr "Просмотр проваленных задач"
+
+msgid "navigation.tools.job.failed.details.view"
+msgstr "Просмотр деталей проваленной задачи:{$id}"
+
+msgid "admin.job.failed.list.attribute"
+msgstr "Атрибут"
+
+msgid "admin.job.failed.list.attribute.value"
+msgstr "Значение атрибута"
+
+msgid "admin.jobs.list.id"
+msgstr "ID"
+
+msgid "admin.jobs.list.displayName"
+msgstr "Задача"
+
+msgid "admin.jobs.list.queue"
+msgstr "Очередь"
+
+msgid "admin.jobs.list.connection"
+msgstr "Соединение"
+
+msgid "admin.jobs.list.attempts"
+msgstr "Попытки"
+
+msgid "admin.jobs.list.createdAt"
+msgstr "Создано"
+
+msgid "admin.jobs.list.failedAt"
+msgstr "Провалено"
+
+msgid "admin.jobs.list.payload"
+msgstr "Полезная нагрузка"
+
+msgid "admin.jobs.list.exception"
+msgstr "Исключение"
+
+msgid "admin.jobs.list.actions"
+msgstr "Действия"
+
+msgid "admin.jobs.failedAt"
+msgstr "Создано {$failedAt}"
+
+msgid "admin.jobs.createdAt"
+msgstr "Создано {$createdAt}"
+
+msgid "admin.jobs.failed.action.redispatch"
+msgstr "Попробовать снова"
+
+msgid "admin.jobs.failed.action.redispatch.all"
+msgstr "Повторно поставить в очередь все проваленные задачи"
+
+msgid "admin.job.compileMetrics.returnToStaging.error"
+msgstr ""
+"Задача по загрузке данных статистики использования из файла {$file} провалена, и файл не удалось переместить из {$archivedFilePath} в {$stagingPath}."
+
+msgid "admin.job.archiveLogFile.error"
+msgstr ""
+"Не удалось переместить файл {$file} из {$dispatchFilePath} в {$archivedFilePath}."
+
+msgid "admin.job.processLogFile.fileNotFound"
+msgstr ""
+"Файл {$file} не существует."
+
+msgid "admin.job.compileMetrics.error"
+msgstr ""
+"Задача по загрузке данных статистики использования из файла {$file} провалена. Файл был перемещен в промежуточный каталог."
+
+msgid "admin.settings.statistics.collection"
+msgstr "Сбор данных"
+
+msgid "admin.settings.statistics.collection.description"
+msgstr "Настройте, какой вид статистики использования должен собираться."
+
+msgid "admin.settings.statistics.storage"
+msgstr "Хранение данных"
+
+msgid "admin.settings.statistics.storage.description"
+msgstr "Настройте, какая статистика использования должна храниться на сервере."
+
+msgid "admin.settings.statistics.sushi"
+msgstr "Протокол SUSHI"
+
+msgid "admin.settings.statistics.sushi.description"
+msgstr ""
+"Настройте протокол <a href=\"https://www.projectcounter.org/counter-sushi/\">COUNTER 5 SUSHI</a>, "
+"отраслевой формат распространения статистики использования."
+
+msgid "admin.settings.statistics.keepDaily"
+msgstr "Месячная или ежедневная статистика"
+
+msgid "admin.settings.statistics.keepDaily.description"
+msgstr ""
+"Отслеживать ли ежедневную или ежемесячную статистику использования. Отслеживание ежедневной "
+"статистики может значительно увеличить размер вашей базы данных."
+
+msgid "admin.settings.statistics.keepDaily.keep"
+msgstr "Отслеживать ежедневную и ежемесячную статистику"
+
+msgid "admin.settings.statistics.keepDaily.discard"
+msgstr "Отслеживать только ежемесячную статистику"
+
+msgid "admin.settings.statistics.compressStatsLogs.label"
+msgstr "Сжимать журналы"
+
+msgid "admin.settings.statistics.compressStatsLogs.description"
+msgstr ""
+"Статистика генерируется из файлов журналов доступа, которые перемещаются в "
+"<code>{$path}</code> после обработки. Должны ли файлы журналов сжиматься в файлы "
+"<code>.gz</code> после обработки? Сжатие файлов журналов может сэкономить дисковое "
+"пространство на сервере."
+
+msgid "admin.settings.statistics.compressStatsLogs.default"
+msgstr "Оставить файлы журналов на месте"
+
+msgid "admin.settings.statistics.compressStatsLogs.compress"
+msgstr "Сжать файлы журналов"
+
+msgid "admin.settings.statistics.publicSushiApi.private"
+msgstr ""
+"Ограничить доступ к API статистики COUNTER SUSHI только для менеджеров и администраторов"
+
+msgid "admin.settings.statistics.sushiPlatform"
+msgstr "Платформа"
+
+msgid "admin.settings.statistics.sushiPlatform.description"
+msgstr ""
+"Согласно протоколу COUNTER SUSHI, каждый статистический отчет должен идентифицировать "
+"«платформу», предоставляющую статистику. По умолчанию журнал будет назначен платформой "
+"для всей статистики. Однако, если все журналы на этом сайте публикуются, принадлежат или "
+"управляются одним и тем же провайдером, вы можете назначить платформой сам сайт."
+
+msgid "admin.settings.statistics.sushiPlatform.sushiPlatformID"
+msgstr "ID платформы"
+
+msgid "admin.settings.statistics.sushiPlatform.sushiPlatformID.description"
+msgstr ""
+"Как идентифицировать эту платформу в отчетах COUNTER SUSHI. ID платформы должен "
+"содержать 17 символов или менее и может включать буквы (a–z, A–Z), цифры (0–9), "
+"знаки подчеркивания (_), точки (.) и косую черту (/). ID платформы используется в "
+"нескольких столбцах и должен быть как можно короче, оставаясь при этом узнаваемым. "
+"ID платформы обычно основан на названии издателя или платформы, доменном имени или "
+"общеизвестной уникальной аббревиатуре."
+
+msgid "admin.settings.statistics.sushiPlatform.sushiPlatformID.required"
+msgstr ""
+"ID платформы обязателен, если сайт будет идентифицирован как платформа SUSHI."
+
+msgid "admin.cli.tool.jobs.work.options.title"
+msgstr "параметры команды work"
+
+msgid "admin.cli.tool.jobs.work.options.usage"
+msgstr "использование : [--options1 --options2= ...]"
+
+msgid "admin.cli.tool.jobs.work.options.description"
+msgstr "Доступные параметры для команды work"
+
+msgid "admin.cli.tool.jobs.work.option.connection.description"
+msgstr "Имя соединения очереди для работы[по умолчанию : '{$default}']"
+
+msgid "admin.cli.tool.jobs.work.option.queue.description"
+msgstr "Имя очереди для работы[по умолчанию : '{$default}']"
+
+msgid "admin.cli.tool.jobs.work.option.name.description"
+msgstr "Имя воркера[по умолчанию : '{$default}']"
+
+msgid "admin.cli.tool.jobs.work.option.backoff.description"
+msgstr ""
+"Количество секунд ожидания перед повторной попыткой задачи, в которой возникло "
+"неперехваченное исключение[по умолчанию : '{$default}']"
+
+msgid "admin.cli.tool.jobs.work.option.memory.description"
+msgstr "Лимит памяти в мегабайтах[по умолчанию : '{$default}']"
+
+msgid "admin.cli.tool.jobs.work.option.timeout.description"
+msgstr "Количество секунд, в течение которых может выполняться дочерний процесс[по умолчанию : '{$default}']"
+
+msgid "admin.cli.tool.jobs.work.option.sleep.description"
+msgstr ""
+"Количество секунд ожидания, когда нет доступных задач[по умолчанию : '{$default}']"
+
+msgid "admin.cli.tool.jobs.work.option.tries.description"
+msgstr ""
+"Количество попыток выполнения задачи перед ее регистрацией как проваленной[по умолчанию : "
+"'{$default}']"
+
+msgid "admin.cli.tool.jobs.work.option.force.description"
+msgstr "Принудительно запустить воркер даже в режиме обслуживания[по умолчанию : {$default}]"
+
+msgid "admin.cli.tool.jobs.work.option.stopWhenEmpty.description"
+msgstr "Остановить, когда очередь станет пустой[по умолчанию : {$default}]"
+
+msgid "admin.cli.tool.jobs.work.option.maxJobs.description"
+msgstr "Количество задач для обработки перед остановкой[по умолчанию : '{$default}']"
+
+msgid "admin.cli.tool.jobs.work.option.maxTime.description"
+msgstr ""
+"Максимальное количество секунд, которое должен работать воркер[по умолчанию : '{$default}']"
+
+msgid "admin.cli.tool.jobs.work.option.rest.description"
+msgstr "Количество секунд отдыха между задачами[по умолчанию : '{$default}']"
+
+msgid "admin.cli.tool.jobs.work.option.test.description"
+msgstr "Запустить демона-воркера для тестовой очереди"
+
+msgid "admin.scheduledTask.removeExpiredInvitations"
+msgstr "Отправить задачу для автоматического удаления истекших приглашений"
+
+msgid "admin.settings.statistics.sushiPlatform.isSiteSushiPlatform"
+msgstr "Использовать сайт как платформу для всех журналов."
+
+msgid "admin.cli.tool.appKey.options.usage.description"
+msgstr "Отобразить параметры использования AppKey"
+
+msgid "admin.cli.tool.appKey.options.validate.description"
+msgstr "Проверить текущий ключ приложения, если он найден в конфигурационном файле"
+
+msgid "admin.cli.tool.appKey.options.configure.description"
+msgstr "Добавить переменную конфигурации app_key в файл config.inc.php."
+
+msgid "admin.cli.tool.appKey.options.generate.description"
+msgstr "Сгенерировать новый ключ приложения и заменить его в конфигурационном файле. Передайте флаг --show для только просмотра и --force для перезаписи существующего валидного ключа приложения."
+
+msgid "admin.cli.tool.appKey.mean.those"
+msgstr "Вы имели в виду одно из следующих?"
+
+msgid "admin.cli.tool.appKey.show"
+msgstr "Сгенерированный ключ приложения: {$appKey}"
+
+msgid "admin.cli.tool.appKey.error.missingKeyVariable"
+msgstr "В секции `general` конфигурационного файла не определена переменная с именем `app_key`. Пожалуйста, обновите секцию general конфигурационного файла и добавьте строку `app_key = ` или выполните команду `php lib/pkp/tools/appKey.php configure`, чтобы установить её."
+
+msgid "admin.cli.tool.appKey.error.alreadyKeyVariableExists"
+msgstr "Переменная `app_key` уже существует в секции `general` конфигурационного файла. Выполните команду `php lib/pkp/tools/appKey.php generate`, чтобы установить новый ключ приложения."
+
+msgid "admin.cli.tool.appKey.error.missingAppKey"
+msgstr "В конфигурационном файле не установлен ключ приложения."
+
+msgid "admin.cli.tool.appKey.error.InvalidAppKey"
+msgstr "Установлен неверный ключ приложения, неподдерживаемый шифр или неверная длина ключа. Поддерживаемые шифры: {$ciphers}."
+
+msgid "admin.cli.tool.appKey.warning.replaceValidKey"
+msgstr "В конфигурационном файле уже установлен валидный ключ приложения. Чтобы перезаписать, передайте флаг --force с командой."
+
+msgid "admin.cli.tool.appKey.success.writtenToConfig"
+msgstr "Ключ приложения успешно установлен в конфигурационном файле."
+
+msgid "admin.cli.tool.appKeyVariable.success.writtenToConfig"
+msgstr "Переменная ключа приложения успешно установлена в конфигурационном файле. Выполните команду `php lib/pkp/tools/appKey.php generate`, чтобы установить новый ключ приложения."
+
+msgid "admin.cli.tool.appKeyVariable.error.writtenToConfig"
+msgstr "Не удалось установить переменную `app_key` в конфигурационном файле. Пожалуйста, обновите секцию general конфигурационного файла и добавьте строку `app_key = `."
+
+msgid "admin.cli.tool.appKey.success.valid"
+msgstr "В конфигурационном файле установлен валидный ключ приложения"
+
+msgid "admin.cli.tool.scheduler.options.run.description"
+msgstr "Запустить планировщик."
+
+msgid "admin.cli.tool.scheduler.options.list.description"
+msgstr "Вывести список всех плановых задач."
+
+msgid "admin.cli.tool.scheduler.options.work.description"
+msgstr "Запустить воркер планировщика."
+
+msgid "admin.cli.tool.scheduler.options.test.description"
+msgstr "Запустить конкретную плановую задачу из списка или используйте --name для запуска определенной. Установите флаг --no-scroll для просмотра полного списка без прокрутки."
+
+msgid "admin.cli.tool.scheduler.options.usage.description"
+msgstr "Отобразить параметры использования Scheduler."
+
+msgid "admin.cli.tool.scheduler.maintenance.message"
+msgstr "Невозможно запустить плановые задачи, так как включен режим обслуживания приложения."
+
+msgid "admin.cli.tool.scheduler.mean.those"
+msgstr "Вы имели в виду одно из следующих?"
+
+msgid "admin.cli.tool.schedule.sandbox.message"
+msgstr "Невозможно запустить плановые задачи, так как включен режим песочницы приложения."
+
+msgid "admin.cli.tool.scheduler.options.work.running.info"
+msgstr "Выполнение плановых задач каждую минуту."
+
+msgid "admin.cli.tool.scheduler.tasks.empty"
+msgstr "Не зарегистрировано ни одной плановой задачи."
+
+msgid "admin.cli.tool.scheduler.tasks.notFound"
+msgstr "Не найдено подходящей плановой задачи."
+
+msgid "admin.cli.tool.scheduler.run.prompt"
+msgstr "Какую команду вы хотите выполнить?"
+
+msgid "admin.siteManagement.description"
+msgstr ""
+"Добавляйте, редактируйте или удаляйте журналы на этом сайте и управляйте "
+"общесайтовыми настройками."
+
+msgid "admin.hostedContexts"
+msgstr "Журналы на хостинге"
+
+msgid "admin.contexts.create"
+msgstr "Создать журнал"
+
+msgid "admin.journals.enableJournalInstructions"
+msgstr "Включить этот журнал для публичного отображения на сайте"
+
+msgid "admin.contexts.contextDescription"
+msgstr "Описание журнала"
+
+msgid "admin.locale.maybeIncomplete"
+msgstr "Отмеченные локали могут быть неполными."
+
+msgid "admin.settings.enableBulkEmails.description"
+msgstr ""
+"Выберите размещенные журналы, которым должно быть разрешено отправлять массовые "
+"электронные письма. Когда эта функция включена, управляющий журнала сможет "
+"отправить электронное письмо всем пользователям, зарегистрированным в их "
+"журнале.
+
+msgid "admin.settings.statistics.geo.description"
+msgstr ""
+"Выберите тип географической статистики использования, которую могут собирать "
+"журналы на этом сайте. Более детальная географическая статистика может "
+"значительно увеличить размер вашей базы данных и, в редких случаях, может "
+"нарушить анонимность ваших посетителей. Каждый журнал может настраивать этот "
+"параметр по-разному, но журнал никогда не сможет собирать более детальные "
+"записи, чем настроено здесь. Например, если сайт поддерживает только страну и "
+"регион, журнал может выбрать страну и регион или только страну. Журнал не "
+"сможет отслеживать страну, регион и город."
+
+msgid "admin.settings.statistics.institutions.description"
+msgstr ""
+"Включите статистику по учреждениям, если вы хотите, чтобы журналы на этом "
+"сайте могли собирать статистику использования по учреждениям. Журналам нужно "
+"будет добавить учреждение и его диапазоны IP-адресов, чтобы использовать эту "
+"функцию. Включение статистики по учреждениям может значительно увеличить "
+"размер вашей базы данных."
+
+msgid "admin.settings.statistics.sushi.public.description"
+msgstr ""
+"Сделать ли конечные точки API SUSHI общедоступными для всех журналов на этом "
+"сайте. Если вы включите общедоступный API, каждый журнал может переопределить "
+"этот параметр, чтобы сделать свою статистику приватной. Однако, если вы "
+"отключите общедоступный API, журналы не смогут сделать свой собственный API "
+"публичным."
+
+msgid "admin.languages.installNewLocalesInstructions"
+msgstr ""
+"Выберите любые дополнительные локали для установки поддержки в этой системе. "
+"Локали должны быть установлены, прежде чем они смогут использоваться "
+"размещенными журналами. Обратитесь к документации OJS за информацией о "
+"добавлении поддержки новых языков."

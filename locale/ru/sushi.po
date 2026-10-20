@@ -1,0 +1,69 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-01T09:54:38-07:00\n"
+"PO-Revision-Date: 2021-12-01T09:54:38-07:00\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "sushi.status.description"
+msgstr "Отчеты об использовании COUNTER для {$contextName}."
+
+msgid "sushi.exception.1"
+msgstr ""
+"Запрошенная дата ({$beginDate} или {$endDate}) приходится на середину месяца; "
+"однако учитываются только полные месяцы."
+
+msgid "sushi.exception.2"
+msgstr ""
+"Запрошенный ID элемента ({$itemId}) не является числом. Этот параметр ожидает "
+"ID заявки."
+
+msgid "sushi.exception.3"
+msgstr ""
+"Параметр item_id содержит более одного значения, однако принимается только одно. "
+"Следующие значения не учитываются: item_id={$itemIdValues}"
+
+msgid "sushi.exception.1030.missing"
+msgstr "Отсутствует {$params}."
+
+msgid "sushi.exception.1030.invalid"
+msgstr "Недопустимый {$params}."
+
+msgid "sushi.exception.3020.dateFormat"
+msgstr "Неверный формат begin_date или end_date."
+
+msgid "sushi.exception.3020.dateRange"
+msgstr "Неверный диапазон дат."
+
+msgid "sushi.exception.3030"
+msgstr ""
+"Нет данных об использовании за запрошенные даты. Запрос был на период с {$beginDate} по "
+"{$endDate}."
+
+msgid "sushi.exception.3031"
+msgstr ""
+"Запрос был на период с {$beginDate} по {$endDate}; однако данные об использовании доступны только "
+"до {$lastDate}."
+
+msgid "sushi.exception.3032"
+msgstr ""
+"Запрос был на период с {$beginDate} по {$endDate}; однако данные об использовании доступны только "
+"с {$earliestDate}."
+
+msgid "sushi.exception.3050"
+msgstr ""
+"Запрос содержал параметры ({$params}), которые не распознаются в "
+"контексте обслуживаемого отчета."
+
+msgid "sushi.exception.3060"
+msgstr "Следующие значения фильтров не поддерживаются: {$filterValues}"
+
+msgid "sushi.exception.3062"
+msgstr "Следующие значения атрибутов не поддерживаются: {$attributeValues}"

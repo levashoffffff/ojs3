@@ -1,0 +1,65 @@
+/**
+ * @file styles/objects/announcement-summary.less
+ * IPII Theme — announcement card
+ */
+
+.announcement-summary {
+	background: @white;
+	border: 1px solid @faded-grey;
+	border-radius: @radius-md;
+	padding: @space-6;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	transition: transform @transition, box-shadow @transition;
+	animation: ipii-fadeInUp 0.45s ease both;
+
+	&:hover {
+		transform: translateY(-4px);
+		box-shadow: @shadow-md;
+	}
+
+	h2, h3, h4 {
+		font-size: @font-base;
+		font-weight: 700;
+		color: @dark-grey;
+		margin: 0 0 @space-2;
+		line-height: 1.35;
+
+		a {
+			color: inherit;
+			text-decoration: none;
+			&:hover { color: @primary-link; }
+		}
+	}
+
+	.announcement-summary-date {
+		font-size: @font-2xs;
+		font-weight: 600;
+		color: @accent-dark;
+		text-transform: uppercase;
+		letter-spacing: 0.05em;
+		margin-bottom: @space-3;
+	}
+
+	.announcement-summary-description {
+		font-size: @font-sm;
+		color: @mid-grey;
+		line-height: 1.65;
+		flex: 1;
+
+		.announcement-summary-more {
+			margin: @space-3 0 0;
+
+			.btn {
+				font-size: @font-xs;
+				font-weight: 600;
+				color: @primary-link;
+				padding: 0;
+				background: none;
+				border: none;
+				&:hover { color: @accent-dark; text-decoration: underline; }
+			}
+		}
+	}
+}

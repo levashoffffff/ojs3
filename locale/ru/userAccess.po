@@ -1,0 +1,8 @@
+msgid "userAccess.tableHeader.startDate"
+msgstr "Дата начала"
+
+msgid "userAccess.tableHeader.name"
+msgstr "Имя"
+
+msgid "userAccess.search"
+msgstr "Введите имя пользователя, роль (например, редактор журнала) или аффилиацию"

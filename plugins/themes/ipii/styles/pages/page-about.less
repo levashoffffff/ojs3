@@ -1,0 +1,168 @@
+/**
+ * @file styles/pages/page-about.less
+ * IPII Theme — about the journal page
+ */
+
+.page-about,
+// Custom navigation menu item pages (e.g. "Цели и сфера") reuse the same
+// header/title/body classes as the built-in about/contact/privacy pages,
+// so give the container the same top spacing.
+.page-custom {
+	padding-top: @space-10;
+}
+
+// ── Page header ───────────────────────────────────────────────
+.ipii-about-header {
+	padding-bottom: @space-6;
+	margin-bottom: @space-9;
+	border-bottom: 2px solid @faded-grey;
+}
+
+.ipii-about-title {
+	font-size: @font-2xl;
+	font-weight: 800;
+	color: @dark-grey;
+	letter-spacing: -0.03em;
+	margin: 0;
+}
+
+// ── Body column ───────────────────────────────────────────────
+.ipii-about-body {
+	width: 100%;
+}
+
+// ── Submissions sections ──────────────────────────────────────
+.page-submissions {
+	padding-top: @space-10;
+}
+
+.ipii-submissions-alert {
+	margin-bottom: @space-8;
+	font-size: @font-sm;
+}
+
+.ipii-submissions-section {
+	padding-top: @space-8;
+	margin-top: @space-8;
+	border-top: 1px solid @faded-grey;
+
+	&:first-of-type {
+		border-top: none;
+		margin-top: 0;
+		padding-top: 0;
+	}
+
+	> h2 {
+		font-size: @font-lg;
+		font-weight: 800;
+		color: @dark-grey;
+		letter-spacing: -0.02em;
+		margin: 0 0 @space-4;
+		padding-bottom: @space-2;
+		border-bottom: 2px solid @faded-grey;
+	}
+}
+
+// ── Prose content (user-entered HTML) ────────────────────────
+.ipii-about-content {
+
+	// Paragraphs
+	p {
+		font-size: @font-sm;
+		line-height: 1.88;
+		color: @dark-grey;
+		margin: 0 0 @space-4;
+	}
+
+	// Bold labels (e.g. "Название издания:")
+	strong, b {
+		font-weight: 700;
+		color: @dark-grey;
+	}
+
+	// Headings inside content
+	h2 {
+		font-size: @font-lg;
+		font-weight: 800;
+		color: @dark-grey;
+		letter-spacing: -0.02em;
+		margin: @space-9 0 @space-3;
+		padding-bottom: @space-2;
+		border-bottom: 2px solid @faded-grey;
+	}
+
+	h3 {
+		font-size: @font-md;
+		font-weight: 700;
+		color: @dark-grey;
+		margin: @space-8 0 @space-2;
+	}
+
+	h4 {
+		font-size: @font-base;
+		font-weight: 700;
+		text-transform: uppercase;
+		letter-spacing: 0.05em;
+		color: @mid-grey;
+		margin: @space-6 0 @space-2;
+	}
+
+	// Links
+	a {
+		color: @primary-link;
+		text-decoration: none;
+		&:hover {
+			color: @primary;
+			text-decoration: underline;
+		}
+	}
+
+	// Lists
+	ul, ol {
+		font-size: @font-sm;
+		line-height: 1.8;
+		color: @dark-grey;
+		margin: 0 0 @space-4 @space-5;
+		padding: 0;
+
+		li { margin-bottom: 0.3rem; }
+	}
+
+	// Horizontal rules
+	hr {
+		border: none;
+		border-top: 1px solid @faded-grey;
+		margin: @space-8 0;
+	}
+
+	// Tables
+	table {
+		width: 100%;
+		border-collapse: collapse;
+		font-size: @font-sm;
+		margin-bottom: @space-6;
+
+		th {
+			font-weight: 700;
+			color: @dark-grey;
+			background: @light-grey;
+			padding: @space-2 @space-4;
+			border: 1px solid @faded-grey;
+			text-align: left;
+		}
+
+		td {
+			padding: @space-2 @space-4;
+			border: 1px solid @faded-grey;
+			color: @dark-grey;
+			vertical-align: top;
+		}
+
+		tr:nth-child(even) td {
+			background: @light-grey;
+		}
+	}
+
+	// Remove top margin from very first element
+	> *:first-child { margin-top: 0; }
+}

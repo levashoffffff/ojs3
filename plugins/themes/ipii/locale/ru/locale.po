@@ -1,0 +1,102 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-04-23T00:00:00+00:00\n"
+"PO-Revision-Date: 2026-04-23T00:00:00+00:00\n"
+"Language: ru\n"
+
+msgid "plugins.themes.ipii.name"
+msgstr "Тема IPII"
+
+msgid "plugins.themes.ipii.description"
+msgstr "Чистая, элегантная тема для научных журналов со светлыми тонами и плавными анимациями."
+
+msgid "plugins.themes.ipii.option.colour.label"
+msgstr "Основной цвет"
+
+msgid "plugins.themes.ipii.option.colour.description"
+msgstr "Выберите основной цвет бренда вашего журнала."
+
+msgid "plugins.themes.ipii.nav.toggle"
+msgstr "Переключить навигацию"
+
+msgid "plugins.themes.ipii.nav.submitArticle"
+msgstr "Опубликовать статью"
+
+msgid "plugins.themes.ipii.language.toggle"
+msgstr "Изменить язык. Текущий язык:"
+
+msgid "plugins.themes.ipii.currentIssuePublished"
+msgstr "Опубликовано {$date}"
+
+msgid "plugins.themes.ipii.issueDescription"
+msgstr "Описание выпуска"
+
+msgid "plugins.themes.ipii.issuePubId"
+msgstr "{$pubIdType}: {$pubId}"
+
+msgid "plugins.themes.ipii.more"
+msgstr "{$text}…"
+
+msgid "plugins.themes.ipii.article.authorBio"
+msgstr "Об авторе"
+
+msgid "plugins.themes.ipii.article.udk"
+msgstr "УДК:"
+
+msgid "plugins.themes.ipii.article.supplementaryFiles"
+msgstr "Дополнительные файлы"
+
+msgid "plugins.themes.ipii.register.haveAccount"
+msgstr "Уже есть аккаунт?"
+
+msgid "plugins.themes.ipii.register.loginHere"
+msgstr "Войти"
+
+msgid "plugins.themes.ipii.register.noAccount"
+msgstr "Нет аккаунта?"
+
+msgid "plugins.themes.ipii.register.registerHere"
+msgstr "Зарегистрироваться"
+
+msgid "plugins.themes.ipii.search.resultsFor"
+msgstr "Результаты поиска по запросу <em>{$query}</em>"
+
+msgid "plugins.themes.ipii.search.params"
+msgstr "Параметры поиска"
+
+msgid "plugins.themes.ipii.footer.poweredBy"
+msgstr "Работает на Open Journal Systems"
+
+msgid "plugins.themes.ipii.contact.mailingAddress"
+msgstr "Почтовый адрес"
+
+msgid "plugins.themes.ipii.displayStats.downloads"
+msgstr "Статистика загрузок"
+
+msgid "plugins.themes.ipii.displayStats.noStats"
+msgstr "Статистика пока недоступна."
+
+msgid "plugins.themes.ipii.footer.journalDesc"
+msgstr "Международный рецензируемый научно-теоретический журнал"
+
+msgid "plugins.themes.ipii.footer.contacts"
+msgstr "Контакты"
+
+msgid "plugins.themes.ipii.footer.editor"
+msgstr "Главный редактор"
+
+msgid "plugins.themes.ipii.footer.editorial"
+msgstr "Редакция"
+
+msgid "plugins.themes.ipii.archive.firstPage"
+msgstr "Первая"
+
+msgid "plugins.themes.ipii.archive.lastPage"
+msgstr "Последняя"

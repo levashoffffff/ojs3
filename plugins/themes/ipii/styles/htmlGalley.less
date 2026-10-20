@@ -1,0 +1,62 @@
+/**
+ * @file styles/htmlGalley.less
+ * IPII Theme — HTML galley reading styles
+ */
+
+body {
+	font-family: @font-sans;
+	font-size: @font-md;
+	line-height: 1.8;
+	color: @dark-grey;
+	background: @white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: @font-serif;
+	color: @primary;
+	margin-top: @space-7;
+	margin-bottom: @space-3;
+}
+
+a {
+	color: @primary-link;
+	transition: color @transition-fast;
+
+	&:hover { color: @accent; }
+}
+
+p {
+	margin-bottom: @space-5;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	border-radius: @radius-sm;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-bottom: @space-6;
+	font-size: @font-sm;
+
+	th, td {
+		padding: @space-2 @space-4;
+		border: 1px solid @faded-grey;
+	}
+
+	th {
+		background: @primary;
+		color: @white;
+		font-family: @font-sans;
+		font-weight: 600;
+		font-size: @font-xs;
+		text-transform: uppercase;
+		letter-spacing: 0.04em;
+	}
+
+	tr:nth-child(even) td {
+		background: @light-grey;
+	}
+}

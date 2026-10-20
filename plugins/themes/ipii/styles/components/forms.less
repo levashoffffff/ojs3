@@ -1,0 +1,55 @@
+/**
+ * @file styles/components/forms.less
+ */
+
+.form-control,
+.form-select {
+	border: 1px solid @faded-grey;
+	border-radius: @radius-sm;
+	font-family: @font-sans;
+	font-size: @font-sm;
+	color: @dark-grey;
+	background: @white;
+	padding: @space-2 @space-4;
+	transition: border-color @transition-fast, box-shadow @transition-fast;
+
+	&:focus {
+		border-color: @primary;
+		box-shadow: 0 0 0 3px rgba(30, 58, 95, 0.12);
+		outline: none;
+	}
+
+	&::placeholder {
+		color: @mid-grey;
+		opacity: 0.7;
+	}
+}
+
+.form-label {
+	font-family: @font-sans;
+	font-weight: 600;
+	font-size: @font-sm;
+	color: @dark-grey;
+	margin-bottom: @space-2;
+}
+
+.form-check-input:checked {
+	background-color: @primary;
+	border-color: @primary;
+	background-image: @check-image-url;
+}
+
+.form-check-input:focus {
+	box-shadow: 0 0 0 3px rgba(30, 58, 95, 0.18);
+}
+
+fieldset legend {
+	font-family: @font-serif;
+	font-size: @font-md;
+	font-weight: 600;
+	color: @primary;
+	padding-bottom: @space-2;
+	border-bottom: 2px solid @faded-grey;
+	margin-bottom: @space-5;
+	width: 100%;
+}

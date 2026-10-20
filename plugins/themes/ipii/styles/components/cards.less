@@ -1,0 +1,56 @@
+/**
+ * @file styles/components/cards.less
+ * IPII Theme — card component
+ */
+
+.card {
+	border: 1px solid @faded-grey;
+	border-radius: @radius-md;
+	background: @white;
+	box-shadow: @shadow-sm;
+	transition: transform @transition, box-shadow @transition;
+
+	&:hover {
+		transform: translateY(-4px);
+		box-shadow: @shadow-md;
+	}
+
+	.card-header {
+		background: @light-grey;
+		border-bottom: 1px solid @faded-grey;
+		font-family: @font-sans;
+		font-weight: 600;
+		font-size: @font-xs;
+		text-transform: uppercase;
+		letter-spacing: 0.06em;
+		color: @mid-grey;
+		padding: @space-3 @space-5;
+		border-radius: @radius-md @radius-md 0 0;
+	}
+
+	.card-body {
+		padding: @space-6;
+	}
+
+	.card-title {
+		font-family: @font-serif;
+		font-size: @font-md;
+		font-weight: 600;
+		color: @dark-grey;
+		margin-bottom: @space-2;
+	}
+
+	.card-text {
+		font-size: @font-sm;
+		color: @mid-grey;
+		line-height: 1.65;
+	}
+
+	.card-footer {
+		background: transparent;
+		border-top: 1px solid @faded-grey;
+		padding: @space-3 @space-5;
+		font-size: @font-2xs;
+		color: @mid-grey;
+	}
+}

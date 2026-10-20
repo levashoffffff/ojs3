@@ -1,0 +1,99 @@
+/**
+ * @file styles/components/buttons.less
+ * IPII Theme — button styles
+ */
+
+.btn {
+	font-family: @font-sans;
+	font-weight: 600;
+	font-size: @font-sm;
+	letter-spacing: 0.03em;
+	border-radius: @radius-sm;
+	padding: @space-2 1.4rem;
+	transition: background @transition-fast, color @transition-fast,
+	            border-color @transition-fast, box-shadow @transition-fast,
+	            transform @transition-fast;
+
+	&:active {
+		transform: translateY(1px);
+	}
+}
+
+.btn-primary {
+	background: @primary;
+	border-color: @primary;
+	color: @white;
+
+	&:hover, &:focus {
+		background: lighten(@primary, 8%);
+		border-color: lighten(@primary, 8%);
+		color: @white;
+		box-shadow: 0 4px 14px rgba(30, 58, 95, 0.35);
+	}
+}
+
+.btn-secondary {
+	background: transparent;
+	border: 2px solid @primary;
+	color: @primary;
+
+	&:hover, &:focus {
+		background: @primary;
+		color: @white;
+		box-shadow: 0 4px 14px rgba(30, 58, 95, 0.25);
+	}
+}
+
+.btn-outline-primary {
+	border-color: @primary;
+	color: @primary;
+
+	&:hover, &:focus {
+		background: @primary;
+		border-color: @primary;
+		color: @white;
+	}
+}
+
+// Accent CTA button
+.btn-accent {
+	background: @accent;
+	border-color: @accent;
+	color: @white;
+
+	&:hover, &:focus {
+		background: @accent-dark;
+		border-color: @accent-dark;
+		color: @white;
+		box-shadow: 0 4px 14px rgba(212, 168, 67, 0.35);
+	}
+}
+
+// Small pill variant
+.btn-sm {
+	font-size: @font-2xs;
+	padding: @space-1 @space-4;
+	border-radius: 20px;
+}
+
+// Download / galley button
+.galley-link,
+.btn-galley {
+	display: inline-flex;
+	align-items: center;
+	gap: @space-2;
+	background: @primary-light;
+	border: 1px solid @faded-grey;
+	color: @primary-text;
+	font-size: @font-xs;
+	font-weight: 600;
+	padding: @space-2 @space-4;
+	border-radius: @radius-sm;
+	transition: all @transition-fast;
+
+	&:hover, &:focus {
+		background: @primary;
+		border-color: @primary;
+		color: @white;
+	}
+}

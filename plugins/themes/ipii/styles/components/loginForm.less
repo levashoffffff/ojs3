@@ -1,0 +1,41 @@
+/**
+ * @file styles/components/loginForm.less
+ */
+
+.login_form,
+#loginModal {
+
+	.form-group,
+	.pkp_form_group {
+		margin-bottom: @space-5;
+	}
+
+	.remember_password {
+		font-size: @font-xs;
+		color: @mid-grey;
+	}
+
+	.separator {
+		text-align: center;
+		color: @mid-grey;
+		font-size: @font-xs;
+		margin: @space-4 0;
+		position: relative;
+
+		&::before {
+			content: '';
+			position: absolute;
+			top: 50%;
+			left: 0;
+			right: 0;
+			height: 1px;
+			background: @faded-grey;
+		}
+
+		span {
+			position: relative;
+			background: @white;
+			padding: 0 @space-3;
+		}
+	}
+}

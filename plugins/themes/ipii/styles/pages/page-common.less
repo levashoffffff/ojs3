@@ -1,0 +1,80 @@
+/**
+ * @file styles/pages/page-common.less
+ * IPII Theme — shared page layout + sticky footer support
+ */
+
+// Main content grows to fill space between header and footer
+.pkp_structure_main,
+.container.page-content,
+div[role="main"],
+.pkp_page_index {
+	flex: 1;
+}
+
+.pkp_structure_main {
+	padding-top: @space-9;
+	padding-bottom: @space-12;
+	min-height: 40vh;
+}
+
+// Page-level title
+.page_title {
+	font-family: @font-sans;
+	font-size: @font-2xl;
+	font-weight: 800;
+	color: @dark-grey;
+	letter-spacing: -0.03em;
+	margin-bottom: @space-1;
+	animation: ipii-fadeInUp 0.35s ease both;
+}
+
+// Sub-header bar
+.pkp_page_header {
+	background: @light-grey;
+	border-bottom: 1px solid @faded-grey;
+	padding: @space-5 0;
+	margin-bottom: @space-8;
+
+	.page_title {
+		font-size: @font-xl;
+		margin-bottom: 0;
+	}
+}
+
+// Section labels
+.pkp_helpers_label {
+	font-size: @font-2xs;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.07em;
+	color: @mid-grey;
+}
+
+// Notifications
+.pkp_notification {
+	border-radius: @radius-md;
+	padding: @space-4 @space-5;
+	margin-bottom: @space-4;
+	font-size: @font-sm;
+	border: none;
+
+	&.notifySuccess { background: #ECFDF5; color: #065F46; }
+	&.notifyError   { background: #FEF2F2; color: @warning; }
+	&.notifyWarning { background: #FFFBEB; color: #92400E; }
+	&.notifyInfo    { background: @primary-light; color: @primary-text; }
+}
+
+// Section headings
+.section_title,
+.pkp_helpers_title {
+	font-family: @font-sans;
+	color: @dark-grey;
+	font-size: @font-md;
+	font-weight: 700;
+	letter-spacing: -0.02em;
+	padding-bottom: @space-2;
+	border-bottom: 2px solid @faded-grey;
+	margin-bottom: @space-5;
+}
+
+.long-text p { line-height: 1.8; }

@@ -1,0 +1,304 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-27T09:47:20-07:00\n"
+"PO-Revision-Date: 2025-09-10 10:54+0000\n"
+"Last-Translator: \n"
+"Language-Team: Russian\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: \n"
+
+msgid "default.groups.name.siteAdmin"
+msgstr "Администратор сайта"
+
+msgid "default.groups.plural.siteAdmin"
+msgstr "Администраторы сайта"
+
+msgid "default.groups.name.productionEditor"
+msgstr "Редактор производства"
+
+msgid "default.groups.plural.productionEditor"
+msgstr "Редакторы производства"
+
+msgid "default.groups.abbrev.productionEditor"
+msgstr "РедПроизв"
+
+msgid "default.groups.name.copyeditor"
+msgstr "Редактор вычитки"
+
+msgid "default.groups.plural.copyeditor"
+msgstr "Редакторы вычитки"
+
+msgid "default.groups.abbrev.copyeditor"
+msgstr "ВЧ"
+
+msgid "default.groups.name.proofreader"
+msgstr "Корректор"
+
+msgid "default.groups.plural.proofreader"
+msgstr "Корректоры"
+
+msgid "default.groups.abbrev.proofreader"
+msgstr "Кор"
+
+msgid "default.groups.name.designer"
+msgstr "Дизайнер"
+
+msgid "default.groups.plural.designer"
+msgstr "Дизайнеры"
+
+msgid "default.groups.abbrev.designer"
+msgstr "Диз"
+
+msgid "default.groups.name.internalReviewer"
+msgstr "Внутренний рецензент"
+
+msgid "default.groups.plural.internalReviewer"
+msgstr "Внутренние рецензенты"
+
+msgid "default.groups.abbrev.internalReviewer"
+msgstr "ВР"
+
+msgid "default.groups.name.marketing"
+msgstr "Координатор маркетинга и продаж"
+
+msgid "default.groups.plural.marketing"
+msgstr "Координаторы маркетинга и продаж"
+
+msgid "default.groups.abbrev.marketing"
+msgstr "МП"
+
+msgid "default.groups.name.funding"
+msgstr "Координатор финансирования"
+
+msgid "default.groups.plural.funding"
+msgstr "Координаторы финансирования"
+
+msgid "default.groups.abbrev.funding"
+msgstr "КФ"
+
+msgid "default.groups.name.indexer"
+msgstr "Индексатор"
+
+msgid "default.groups.plural.indexer"
+msgstr "Индексаторы"
+
+msgid "default.groups.abbrev.indexer"
+msgstr "ИНД"
+
+msgid "default.groups.name.layoutEditor"
+msgstr "Редактор верстки"
+
+msgid "default.groups.plural.layoutEditor"
+msgstr "Редакторы верстки"
+
+msgid "default.groups.abbrev.layoutEditor"
+msgstr "РВ"
+
+msgid "default.groups.name.author"
+msgstr "Автор"
+
+msgid "default.groups.plural.author"
+msgstr "Авторы"
+
+msgid "default.groups.abbrev.author"
+msgstr "АВ"
+
+msgid "default.groups.name.translator"
+msgstr "Переводчик"
+
+msgid "default.groups.plural.translator"
+msgstr "Переводчики"
+
+msgid "default.groups.abbrev.translator"
+msgstr "Пер"
+
+msgid "default.groups.name.reader"
+msgstr "Читатель"
+
+msgid "default.groups.plural.reader"
+msgstr "Читатели"
+
+msgid "default.groups.abbrev.reader"
+msgstr "Чит"
+
+msgid "default.groups.name.manager"
+msgstr "Менеджер журнала"
+
+msgid "default.groups.name.editor"
+msgstr "Редактор журнала"
+
+msgid "default.groups.name.guestEditor"
+msgstr "Приглашённый редактор"
+
+msgid "default.groups.name.sectionEditor"
+msgstr "Редактор раздела"
+
+msgid "default.groups.name.externalReviewer"
+msgstr "Рецензент"
+
+msgid "default.groups.name.subscriptionManager"
+msgstr "Менеджер подписок"
+
+msgid "default.groups.name.editorialBoardMember"
+msgstr "Член редакционной коллегии"
+
+msgid "default.groups.plural.editorialBoardMember"
+msgstr "Члены редакционной коллегии"
+
+msgid "default.groups.abbrev.editorialBoardMember"
+msgstr "ЧРК"
+
+msgid "default.contextSettings.authorGuidelines"
+msgstr "<p>Авторы приглашаются к подаче материалов в данный журнал. Все материалы будут оценены редактором на предмет соответствия целям и охвату журнала. Материалы, признанные подходящими, будут направлены на рецензирование для определения возможности их принятия или отклонения.</p>"
+
+msgid "default.contextSettings.privacyStatement"
+msgstr "<p>Имена и адреса электронной почты, введённые на сайте данного журнала, будут использоваться исключительно в целях, заявленных журналом, и не будут переданы третьим лицам и использованы в иных целях.</p>"
+
+msgid "default.contextSettings.forReaders"
+msgstr ""
+"Мы рекомендуем читателям подписаться на службу уведомлений о публикациях "
+"данного журнала. Используйте ссылку <a href=\"{$indexUrl}/{$contextPath}/"
+"user/register\">Регистрация</a> в верхней части главной страницы журнала. "
+"После регистрации читатель будет получать по электронной почте содержание "
+"каждого нового выпуска журнала. Этот список также позволяет журналу "
+"подтвердить определённый уровень поддержки или читательской аудитории. "
+"См. <a href=\"{$indexUrl}/{$contextPath}/about/submissions#privacyStatement"
+"\">Заявление о конфиденциальности</a> журнала, которое гарантирует, что имя "
+"и адрес электронной почты читателя не будут использованы в иных целях."
+
+msgid "default.contextSettings.forAuthors"
+msgstr ""
+"Заинтересованы в подаче материала в этот журнал? Рекомендуем ознакомиться "
+"со страницей <a href=\"{$indexUrl}/{$contextPath}/about\">О журнале</a>, "
+"где изложена политика разделов журнала, а также с <a href=\"{$indexUrl}/"
+"{$contextPath}/about/submissions#authorGuidelines\">Руководством для "
+"авторов</a>. Авторам необходимо <a href=\"{$indexUrl}/{$contextPath}/user/"
+"register\">зарегистрироваться</a> в журнале перед подачей материала, либо, "
+"если регистрация уже пройдена, просто <a href=\"{$indexUrl}/index/login"
+"\">войти</a> и начать процесс подачи, состоящий из пяти шагов."
+
+msgid "default.contextSettings.forLibrarians"
+msgstr ""
+"Мы рекомендуем библиотекарям-исследователям включить этот журнал в список "
+"электронных периодических изданий своей библиотеки. Также стоит отметить, "
+"что издательская система с открытым исходным кодом, на основе которой "
+"работает этот журнал, подходит библиотекам для размещения у себя в "
+"интересах сотрудников, участвующих в редактировании журналов (см. <a href="
+"\"https://pkp.sfu.ca/ojs\">Open Journal Systems</a>)."
+
+msgid "default.genres.article"
+msgstr "Текст статьи"
+
+msgid "default.genres.researchInstrument"
+msgstr "Исследовательский инструмент"
+
+msgid "default.genres.researchMaterials"
+msgstr "Исследовательские материалы"
+
+msgid "default.genres.researchResults"
+msgstr "Результаты исследования"
+
+msgid "default.genres.transcripts"
+msgstr "Транскрипты"
+
+msgid "default.genres.dataAnalysis"
+msgstr "Анализ данных"
+
+msgid "default.genres.dataSet"
+msgstr "Набор данных"
+
+msgid "default.genres.sourceTexts"
+msgstr "Исходные тексты"
+
+msgid "default.genres.other"
+msgstr "Другое"
+
+msgid "default.genres.multimedia"
+msgstr "Мультимедиа"
+
+msgid "default.genres.image"
+msgstr "Изображение"
+
+msgid "default.genres.styleSheet"
+msgstr "Таблица стилей HTML"
+
+msgid "default.contextSettings.checklist"
+msgstr ""
+"<p>Все представленные материалы должны соответствовать следующим требованиям.</p>"
+"<ul>"
+"<li>Материал соответствует требованиям, изложенным в <a href=\"{$submissionGuidelinesUrl}\">Руководстве для авторов</a>.</li>"
+"<li>Материал ранее не был опубликован и не находится на рассмотрении в другом журнале.</li>"
+"<li>Все ссылки проверены на точность и полноту.</li>"
+"<li>Все таблицы и рисунки пронумерованы и подписаны.</li>"
+"<li>Получено разрешение на публикацию всех фотографий, наборов данных и других материалов, прилагаемых к рукописи.</li>"
+"</ul>"
+
+msgid "default.contextSettings.emailSignature"
+msgstr ""
+"<br><br>—<br><p>Это автоматическое сообщение от <a href="
+"\"{$contextUrl}\">{$contextName}</a>.</p>"
+
+msgid "default.submission.step.beforeYouBegin"
+msgstr ""
+"<p>Благодарим вас за подачу материала в {$contextName}. Вам будет предложено "
+"загрузить файлы, указать соавторов и предоставить информацию, такую как название "
+"и аннотация.</p><p>Пожалуйста, ознакомьтесь с нашими <a href=\"{$submissionGuidelinesUrl}\" "
+"target=\"_blank\">Рекомендациям по подаче статьи</a>, если вы еще этого не сделали. "
+"При заполнении форм предоставляйте как можно больше деталей, чтобы помочь нашим "
+"редакторам оценить вашу работу.</p><p>Как только вы начнете, вы сможете сохранить "
+"свою подачу и вернуться к ней позже. У вас будет возможность просмотреть и исправить "
+"любую информацию перед отправкой.</p>"
+
+msgid "default.submission.step.uploadFiles"
+msgstr ""
+"<p>Загрузите текст статьи в формате docx. Статья должна соответствовать "
+"<a href=\"{$submissionGuidelinesUrl}\" target=\"_blank\">требованиям журнала</a>. "
+"Также загрузите пакет сопроводительных документов: сопроводительное письмо от вашей "
+"организации, рецензия сторонней организации с печатью и указанием учёной степени рецензента, "
+"файл со сведениями об авторе(-ах) (ФИО, научные степени и звания, место работы и должность, "
+"адрес(-а) проживания и организации, телефон, факс, адрес электронной почты и др.), "
+"результат проверки на плагиат. Укажите тип данных материалов при загрузке.</p>"
+
+msgid "default.submission.step.contributors"
+msgstr ""
+"<p>Добавьте сведения обо всех участниках этой подачи. Добавленным здесь участникам "
+"будет отправлено электронное письмо с подтверждением подачи, а также копия всех "
+"редакционных решений, принятых в отношении этой подачи.</p><p>Если с участником "
+"нельзя связаться по электронной почте (например, из-за анонимности или отсутствия "
+"адреса), не указывайте вымышленный адрес. Вы можете добавить информацию об этом "
+"участнике в сообщении редактору на одном из следующих шагов процесса подачи.</p>"
+
+msgid "default.submission.step.details"
+msgstr ""
+"<p>Укажите следующие сведения, чтобы помочь нам управлять вашей подачей в нашей "
+"системе.</p>"
+
+msgid "default.submission.step.forTheEditors"
+msgstr ""
+"<p>Укажите следующие сведения, чтобы помочь нашей редакционной команде управлять "
+"вашей подачей.</p><p>При вводе метаданных указывайте те сведения, которые, по вашему "
+"мнению, будут наиболее полезны для лица, управляющего вашей подачей. Эту информацию "
+"можно изменить до публикации.</p>"
+
+msgid "default.submission.step.review"
+msgstr ""
+"<p>Проверьте введенную информацию перед завершением подачи. Вы можете изменить любые "
+"сведения, отображаемые здесь, нажав кнопку редактирования в верхней части каждого "
+"раздела.</p><p>После завершения подачи член нашей редакционной команды будет назначен "
+"для ее рассмотрения. Пожалуйста, убедитесь, что введенные здесь данные максимально "
+"точны.</p>"
+
+msgid "default.submission.step.reviewerSuggestions"
+msgstr "<p>При подаче у вас есть возможность предложить несколько потенциальных рецензентов. "
+"Это может помочь оптимизировать процесс рецензирования и предоставить ценные замечания "
+"для редакционной команды. Пожалуйста, выбирайте рецензентов, которые являются экспертами "
+"в вашей области и не имеют конфликта интересов с вашей работой. Эта функция направлена "
+"на улучшение процесса рецензирования и поддержку более эффективного взаимодействия как "
+"для авторов, так и для редакционной команды.</p>"
+

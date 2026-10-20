@@ -1,0 +1,173 @@
+/**
+ * @file styles/components/footer.less
+ * IPII Theme — sticky footer
+ */
+
+// Push footer to bottom via flex on .ipii-body
+.ipii-footer {
+	margin-top: auto;
+	background: @white;
+}
+
+// Sidebar widgets (only shown when OJS has sidebar content)
+.ipii-footer-sidebar {
+	padding: @space-9 0;
+
+	&:empty { display: none; }
+
+	.pkp_block {
+		margin-bottom: @space-6;
+
+		.title {
+			font-size: @font-2xs;
+			font-weight: 700;
+			text-transform: uppercase;
+			letter-spacing: 0.08em;
+			color: @mid-grey;
+			margin-bottom: @space-3;
+		}
+
+		ul {
+			list-style: none;
+			padding: 0;
+			margin: 0;
+
+			li {
+				border-bottom: 1px solid @faded-grey;
+				&:last-child { border-bottom: none; }
+
+				a {
+					display: block;
+					padding: @space-2 0;
+					font-size: @font-sm;
+					color: @dark-grey;
+					transition: color @transition-fast, padding-left @transition-fast;
+
+					&:hover { color: @primary; padding-left: 4px; }
+				}
+			}
+		}
+	}
+}
+
+// Main footer bar
+.ipii-footer-main {
+	background: @primary;
+	padding: @space-10 0 @space-9;
+
+	.ipii-footer-text {
+		color: rgba(255, 255, 255, 0.72);
+		font-size: @font-sm;
+		line-height: 1.6;
+
+		a { color: #fff; &:hover { color: @accent; } }
+	}
+
+	// Journal identity column
+	.ipii-footer-identity {
+
+		// Thin accent line above name
+		&::before {
+			content: '';
+			display: block;
+			width: 36px;
+			height: 3px;
+			background: @accent;
+			border-radius: 2px;
+			margin-bottom: @space-4;
+		}
+
+		.ipii-footer-journal-name {
+			font-family: @font-sans;
+			font-size: @font-lg;
+			font-weight: 800;
+			color: #ffffff;
+			letter-spacing: -0.03em;
+			line-height: 1.1;
+			margin-bottom: @space-2;
+		}
+
+		.ipii-footer-journal-desc {
+			font-size: @font-xs;
+			color: rgba(255, 255, 255, 0.6);
+			line-height: 1.55;
+			margin-bottom: 1.1rem;
+			max-width: 340px;
+		}
+
+		.ipii-footer-issn {
+			display: inline-block;
+			font-size: @font-2xs;
+			font-weight: 600;
+			color: rgba(255, 255, 255, 0.5);
+			letter-spacing: 0.06em;
+			text-transform: uppercase;
+			line-height: 2;
+		}
+	}
+
+	// Contacts columns
+	.ipii-footer-contacts {
+		padding-top: @space-1;
+		border-left: 1px solid rgba(255, 255, 255, 0.1);
+		padding-left: @space-8;
+
+		.ipii-footer-contacts-title {
+			font-size: @font-2xs;
+			font-weight: 700;
+			text-transform: uppercase;
+			letter-spacing: 0.14em;
+			color: @accent;
+			margin-bottom: @space-4;
+		}
+
+		.ipii-footer-contact-row {
+			font-size: @font-xs;
+			color: rgba(255, 255, 255, 0.72);
+			line-height: 1.7;
+			margin-bottom: @space-1;
+
+			a {
+				color: rgba(255, 255, 255, 0.55);
+				text-decoration: none;
+				transition: color @transition-fast;
+				&:hover { color: @accent; }
+			}
+		}
+
+		.ipii-footer-contact-editor {
+			color: #ffffff;
+			font-weight: 600;
+			font-size: @font-sm;
+			white-space: nowrap;
+		}
+	}
+}
+
+// Bottom copyright strip
+.ipii-footer-bottom {
+	background: #0a2040;
+	padding: @space-3 0;
+	text-align: center;
+	border-top: 1px solid rgba(255, 255, 255, 0.07);
+
+	.ipii-footer-copy {
+		margin: 0;
+		font-size: @font-2xs;
+		color: rgba(255, 255, 255, 0.35);
+		font-weight: 400;
+		letter-spacing: 0.02em;
+	}
+}
+
+@media (max-width: 767px) {
+	.ipii-footer-main {
+		padding: @space-8 0 @space-7;
+
+		.ipii-footer-contacts {
+			margin-top: @space-8;
+			padding-top: @space-6;
+			border-top: 1px solid rgba(255, 255, 255, 0.1);
+		}
+	}
+}

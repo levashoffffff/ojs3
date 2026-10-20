@@ -1,0 +1,30 @@
+/**
+ * @file styles/pages/page-issue.less
+ * IPII Theme — single issue page
+ */
+
+.page-issue {
+	padding-top: @space-10;
+}
+
+// Pub ID row (DOI etc.)
+.ipii-issue-pubid {
+	font-size: @font-xs;
+	color: @mid-grey;
+	margin-bottom: @space-2;
+	word-break: break-all;
+
+	a { color: @primary-link; }
+}
+
+// TOC border separator — same as homepage
+.page-issue .ipii-toc-wrapper {
+	margin-top: @space-4;
+	padding-top: @space-9;
+	/* border-top: 2px solid @faded-grey; */
+}
+
+// Empty state
+.ipii-issue-empty {
+	padding: @space-10 0;
+}
