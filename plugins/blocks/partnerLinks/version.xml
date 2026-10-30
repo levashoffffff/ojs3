@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE version SYSTEM "../../../lib/pkp/dtd/pluginVersion.dtd">
+
+<!--
+  * version.xml
+  *
+  * Plugin version information.
+  *
+  * Паспорт плагина. По нему OJS регистрирует плагин в таблице versions
+  * и понимает, нужно ли его обновлять.
+  -->
+<version>
+	<!-- Системное имя плагина (совпадает с именем папки) -->
+	<application>partnerLinks</application>
+	<!-- Тип: плагин-блок боковой панели -->
+	<type>plugins.blocks</type>
+	<!-- Версия плагина: основная.доп.исправление.сборка -->
+	<release>1.0.0.0</release>
+	<!-- Дата выпуска версии -->
+	<date>2026-10-30</date>
+	<!-- 1 = «ленивая загрузка»: OJS загружает плагин только тогда, когда он включён -->
+	<lazy-load>1</lazy-load>
+	<!-- Имя главного класса плагина -->
+	<class>PartnerLinksBlockPlugin</class>
+</version>

@@ -1,0 +1,47 @@
+# Файл переводов — английские тексты плагина.
+# Ключи (msgid) те же, что в locale/ru/locale.po, меняется только текст (msgstr).
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-10-30T00:00:00+00:00\n"
+"PO-Revision-Date: 2026-10-30T00:00:00+00:00\n"
+"Language: en\n"
+
+msgid "plugins.block.partnerLinks.displayName"
+msgstr "Partners & Useful Links Block"
+
+msgid "plugins.block.partnerLinks.description"
+msgstr "Shows a sidebar block with links (and logos) to partners and indexing services. The list is edited in the plugin settings."
+
+msgid "plugins.block.partnerLinks.title"
+msgstr "Partners & Indexing"
+
+msgid "plugins.block.partnerLinks.settings.description"
+msgstr "Fill in the rows in the order the links should appear. Empty rows are skipped. To remove a link, clear all fields of its row."
+
+msgid "plugins.block.partnerLinks.settings.blockTitle"
+msgstr "Block title (defaults to \"Partners & Indexing\")"
+
+msgid "plugins.block.partnerLinks.settings.linkTitle"
+msgstr "Title"
+
+msgid "plugins.block.partnerLinks.settings.linkUrl"
+msgstr "Link URL"
+
+msgid "plugins.block.partnerLinks.settings.linkLogo"
+msgstr "Logo (image URL)"
+
+msgid "plugins.block.partnerLinks.settings.hint"
+msgstr "You can upload a logo with the File Library plugin and paste its link here. Only http:// and https:// addresses are allowed."
+
+msgid "plugins.block.partnerLinks.error.titleRequired"
+msgstr "Every filled-in row needs a title."
+
+msgid "plugins.block.partnerLinks.error.invalidUrl"
+msgstr "Link and logo addresses must start with http:// or https://."

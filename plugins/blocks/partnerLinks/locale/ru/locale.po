@@ -1,0 +1,51 @@
+# Файл переводов (формат gettext .po) — русские тексты плагина.
+# msgid  — ключ, по которому код ищет текст: __('ключ') в PHP или {translate key="ключ"} в шаблонах.
+# msgstr — сам текст, который увидит пользователь.
+# Английские тексты с теми же ключами лежат в locale/en/locale.po;
+# OJS выбирает файл по языку, выбранному на сайте.
+# Первый блок (msgid "") — служебный заголовок файла: кодировка, язык и т. п.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-10-30T00:00:00+00:00\n"
+"PO-Revision-Date: 2026-10-30T00:00:00+00:00\n"
+"Language: ru\n"
+
+msgid "plugins.block.partnerLinks.displayName"
+msgstr "Блок «Партнёры и полезные ссылки»"
+
+msgid "plugins.block.partnerLinks.description"
+msgstr "Выводит на сайте журнала блок со ссылками на партнёров и наукометрические базы (с логотипами). Список ссылок настраивается в параметрах плагина."
+
+msgid "plugins.block.partnerLinks.title"
+msgstr "Партнёры и индексация"
+
+msgid "plugins.block.partnerLinks.settings.description"
+msgstr "Заполните строки по порядку, в котором ссылки должны идти в блоке. Пустые строки не выводятся. Чтобы удалить ссылку, очистите все поля строки."
+
+msgid "plugins.block.partnerLinks.settings.blockTitle"
+msgstr "Заголовок блока (если пусто — «Партнёры и индексация»)"
+
+msgid "plugins.block.partnerLinks.settings.linkTitle"
+msgstr "Название"
+
+msgid "plugins.block.partnerLinks.settings.linkUrl"
+msgstr "Адрес ссылки"
+
+msgid "plugins.block.partnerLinks.settings.linkLogo"
+msgstr "Логотип (адрес картинки)"
+
+msgid "plugins.block.partnerLinks.settings.hint"
+msgstr "Логотип можно загрузить через плагин «Библиотека файлов» и вставить сюда скопированную ссылку. Допускаются только адреса http:// и https://."
+
+msgid "plugins.block.partnerLinks.error.titleRequired"
+msgstr "У каждой заполненной строки должно быть название."
+
+msgid "plugins.block.partnerLinks.error.invalidUrl"
+msgstr "Адрес ссылки и логотипа должен начинаться с http:// или https://."
